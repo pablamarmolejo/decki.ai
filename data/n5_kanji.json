@@ -1,0 +1,762 @@
+[
+  {
+    "kanji": "一",
+    "kana": "いち",
+    "meaning": "one",
+    "kun": "ひと-つ",
+    "on": "イチ, イツ",
+    "example": "一つつまらないものですが。 (It's a small gift.)"
+  },
+  {
+    "kanji": "二",
+    "kana": "に",
+    "meaning": "two",
+    "kun": "ふた-つ",
+    "on": "ニ, ジ",
+    "example": "二人の学生がいます。 (There are two students.)"
+  },
+  {
+    "kanji": "三",
+    "kana": "さん",
+    "meaning": "three",
+    "kun": "みっ-つ",
+    "on": "サン",
+    "example": "三時に会いましょう。 (Let's meet at three o'clock.)"
+  },
+  {
+    "kanji": "四",
+    "kana": "し / よん",
+    "meaning": "four",
+    "kun": "よっ-つ",
+    "on": "シ",
+    "example": "四月は春です。 (April is spring.)"
+  },
+  {
+    "kanji": "五",
+    "kana": "ご",
+    "meaning": "five",
+    "kun": "いつ-つ",
+    "on": "ゴ",
+    "example": "りんごを五つ買いました。 (I bought five apples.)"
+  },
+  {
+    "kanji": "六",
+    "kana": "ろく",
+    "meaning": "six",
+    "kun": "むっ-つ",
+    "on": "ロク",
+    "example": "六人家族です。 (There are six people in my family.)"
+  },
+  {
+    "kanji": "七",
+    "kana": "しち / なな",
+    "meaning": "seven",
+    "kun": "なな-つ",
+    "on": "シチ",
+    "example": "七時に起きます。 (I wake up at seven.)"
+  },
+  {
+    "kanji": "八",
+    "kana": "はち",
+    "meaning": "eight",
+    "kun": "やっ-つ",
+    "on": "ハチ",
+    "example": "八つのパンがあります。 (There are eight pieces of bread.)"
+  },
+  {
+    "kanji": "九",
+    "kana": "きゅう",
+    "meaning": "nine",
+    "kun": "ここの-つ",
+    "on": "キュウ, ク",
+    "example": "九月の天気はいいです。 (The weather in September is good.)"
+  },
+  {
+    "kanji": "十",
+    "kana": "じゅう",
+    "meaning": "ten",
+    "kun": "とお",
+    "on": "ジュウ",
+    "example": "十円を拾いました。 (I found ten yen.)"
+  },
+  {
+    "kanji": "百",
+    "kana": "ひゃく",
+    "meaning": "hundred",
+    "kun": "-",
+    "on": "ヒャク",
+    "example": "これは三百円です。 (This is 300 yen.)"
+  },
+  {
+    "kanji": "千",
+    "kana": "せん",
+    "meaning": "thousand",
+    "kun": "ち",
+    "on": "セン",
+    "example": "千円貸してください。 (Please lend me 1,000 yen.)"
+  },
+  {
+    "kanji": "万",
+    "kana": "まん",
+    "meaning": "ten thousand",
+    "kun": "-",
+    "on": "マン, バン",
+    "example": "一万円札を持っています。 (I have a 10,000 yen bill.)"
+  },
+  {
+    "kanji": "円",
+    "kana": "えん",
+    "meaning": "yen, circle, round",
+    "kun": "まる-い",
+    "on": "エン",
+    "example": "日本の通貨は円です。 (Japan's currency is the yen.)"
+  },
+  {
+    "kanji": "日",
+    "kana": "ひ / にち",
+    "meaning": "day, sun, Japan ひ,",
+    "kun": "-び",
+    "on": "ニチ, ジ",
+    "example": "日曜日に公園へ行きます。 (I go to the park on Sunday.)"
+  },
+  {
+    "kanji": "月",
+    "kana": "つき",
+    "meaning": "month, moon",
+    "kun": "つき",
+    "on": "ゲツ, ガツ",
+    "example": "月がとてもきれいです。 (The moon is very beautiful.)"
+  },
+  {
+    "kanji": "火",
+    "kana": "ひ",
+    "meaning": "fire",
+    "kun": "ひ",
+    "on": "カ",
+    "example": "火曜日にテストがあります。 (There is a test on Tuesday.)"
+  },
+  {
+    "kanji": "水",
+    "kana": "みず",
+    "meaning": "water",
+    "kun": "みず",
+    "on": "スイ",
+    "example": "水を飲みたいです。 (I want to drink water.)"
+  },
+  {
+    "kanji": "木",
+    "kana": "き",
+    "meaning": "tree, wood",
+    "kun": "き",
+    "on": "モク",
+    "example": "木の下で休みましょう。 (Let's rest under the tree.)"
+  },
+  {
+    "kanji": "金",
+    "kana": "かね",
+    "meaning": "money, gold",
+    "kun": "かね",
+    "on": "キン, コン",
+    "example": "金曜日までに宿題を出します。 (I will submit the homework by Friday.)"
+  },
+  {
+    "kanji": "土",
+    "kana": "つち",
+    "meaning": "soil, earth, ground",
+    "kun": "つち",
+    "on": "ド, ト",
+    "example": "土曜日は休みです。 (Saturday is a holiday.)"
+  },
+  {
+    "kanji": "山",
+    "kana": "やま",
+    "meaning": "mountain",
+    "kun": "やま",
+    "on": "サン",
+    "example": "富士山は高いです。 (Mt. Fuji is high.)"
+  },
+  {
+    "kanji": "川",
+    "kana": "かわ",
+    "meaning": "river",
+    "kun": "かわ",
+    "on": "セン",
+    "example": "川で泳ぎます。 (I swim in the river.)"
+  },
+  {
+    "kanji": "田",
+    "kana": "た",
+    "meaning": "rice field",
+    "kun": "た",
+    "on": "デン",
+    "example": "日本の田舎には田んぼが多い。 (There are many rice fields in the Japanese countryside.)"
+  },
+  {
+    "kanji": "人",
+    "kana": "ひと",
+    "meaning": "person",
+    "kun": "ひと",
+    "on": "ジン, ニン",
+    "example": "あの人は誰ですか。 (Who is that person?)"
+  },
+  {
+    "kanji": "子",
+    "kana": "こ",
+    "meaning": "child",
+    "kun": "こ",
+    "on": "シ, ス",
+    "example": "子供が遊んでいます。 (Children are playing.)"
+  },
+  {
+    "kanji": "女",
+    "kana": "おんな",
+    "meaning": "woman, female",
+    "kun": "おんな",
+    "on": "ジョ",
+    "example": "彼女はきれいな女の人です。 (She is a beautiful woman.)"
+  },
+  {
+    "kanji": "男",
+    "kana": "おとこ",
+    "meaning": "man, male",
+    "kun": "おとこ",
+    "on": "ダン, ナン",
+    "example": "男の子が走っています。 (A boy is running.)"
+  },
+  {
+    "kanji": "先",
+    "kana": "さき",
+    "meaning": "previous, ahead, past",
+    "kun": "さき",
+    "on": "セン",
+    "example": "お先に失礼します。 (Excuse me for leaving first.)"
+  },
+  {
+    "kanji": "生",
+    "kana": "なま / せい",
+    "meaning": "life, birth, student い-きる,",
+    "kun": "う-まれる",
+    "on": "セイ, ショウ",
+    "example": "先生は優しいです。 (The teacher is kind.)"
+  },
+  {
+    "kanji": "学",
+    "kana": "がく",
+    "meaning": "study, learning",
+    "kun": "まな-ぶ",
+    "on": "ガク",
+    "example": "学校へ行きます。 (I go to school.)"
+  },
+  {
+    "kanji": "校",
+    "kana": "こう",
+    "meaning": "school, exam",
+    "kun": "-",
+    "on": "コウ",
+    "example": "中学校はどこですか。 (Where is the junior high school?)"
+  },
+  {
+    "kanji": "名",
+    "kana": "な",
+    "meaning": "name, reputation",
+    "kun": "な",
+    "on": "メイ, ミョウ",
+    "example": "お名前は何ですか。 (What is your name?)"
+  },
+  {
+    "kanji": "本",
+    "kana": "ほん",
+    "meaning": "book, source, origin",
+    "kun": "もと",
+    "on": "ホン",
+    "example": "本を三冊読みました。 (I read three books.)"
+  },
+  {
+    "kanji": "中",
+    "kana": "なか",
+    "meaning": "middle, inside, center",
+    "kun": "なか",
+    "on": "チュウ",
+    "example": "かばんの中に財布があります。 (There is a wallet inside the bag.)"
+  },
+  {
+    "kanji": "外",
+    "kana": "そと",
+    "meaning": "outside, foreign そと,",
+    "kun": "ほか",
+    "on": "ガイ",
+    "example": "外は寒いです。 (It is cold outside.)"
+  },
+  {
+    "kanji": "前",
+    "kana": "まえ",
+    "meaning": "before, front",
+    "kun": "まえ",
+    "on": "ゼン",
+    "example": "駅の前で待ちます。 (I'll wait in front of the station.)"
+  },
+  {
+    "kanji": "後",
+    "kana": "あと / うしろ",
+    "meaning": "after, behind, back のち, あと,",
+    "kun": "うしろ",
+    "on": "ゴ, コウ",
+    "example": "三時間後に行きます。 (I'll go in three hours.)"
+  },
+  {
+    "kanji": "上",
+    "kana": "うえ",
+    "meaning": "up, above, top うえ,",
+    "kun": "あ-がる",
+    "on": "ジョウ",
+    "example": "机の上に本があります。 (There is a book on the desk.)"
+  },
+  {
+    "kanji": "下",
+    "kana": "した",
+    "meaning": "down, below, under した,",
+    "kun": "さ-がる",
+    "on": "カ, ゲ",
+    "example": "地下鉄で行きましょう。 (Let's go by subway.)"
+  },
+  {
+    "kanji": "左",
+    "kana": "ひだり",
+    "meaning": "left",
+    "kun": "ひだり",
+    "on": "サ",
+    "example": "左に曲がってください。 (Please turn left.)"
+  },
+  {
+    "kanji": "右",
+    "kana": "みぎ",
+    "meaning": "right",
+    "kun": "みぎ",
+    "on": "ウ, ユウ",
+    "example": "右の手を上げてください。 (Please raise your right hand.)"
+  },
+  {
+    "kanji": "大",
+    "kana": "おお",
+    "meaning": "big, large",
+    "kun": "おお-きい",
+    "on": "ダイ, タイ",
+    "example": "大きい犬がいます。 (There is a big dog.)"
+  },
+  {
+    "kanji": "中",
+    "kana": "ちゅう",
+    "meaning": "middle, medium",
+    "kun": "なか",
+    "on": "チュウ",
+    "example": "田中さんは先生です。 (Mr. Tanaka is a teacher.)"
+  },
+  {
+    "kanji": "小",
+    "kana": "ちい",
+    "meaning": "small, little",
+    "kun": "ちい-さい",
+    "on": "ショウ",
+    "example": "小さい猫が鳴いています。 (A small cat is meowing.)"
+  },
+  {
+    "kanji": "長",
+    "kana": "なが",
+    "meaning": "long, leader",
+    "kun": "なが-い",
+    "on": "チョウ",
+    "example": "社長に会います。 (I will meet the company president.)"
+  },
+  {
+    "kanji": "短",
+    "kana": "みじか",
+    "meaning": "short",
+    "kun": "みじか-い",
+    "on": "タン",
+    "example": "夏休みは短いです。 (Summer vacation is short.)"
+  },
+  {
+    "kanji": "高",
+    "kana": "たか",
+    "meaning": "high, tall, expensive",
+    "kun": "たか-い",
+    "on": "コウ",
+    "example": "高校生になりました。 (I became a high school student.)"
+  },
+  {
+    "kanji": "安",
+    "kana": "やす",
+    "meaning": "cheap, peaceful, quiet",
+    "kun": "やす-い",
+    "on": "アン",
+    "example": "このパンは安いです。 (This bread is cheap.)"
+  },
+  {
+    "kanji": "新",
+    "kana": "あたら",
+    "meaning": "new",
+    "kun": "あたら-しい",
+    "on": "シン",
+    "example": "新しい靴を買いました。 (I bought new shoes.)"
+  },
+  {
+    "kanji": "古",
+    "kana": "ふる",
+    "meaning": "old",
+    "kun": "ふる-い",
+    "on": "コ",
+    "example": "これは古いカメラです。 (This is an old camera.)"
+  },
+  {
+    "kanji": "多",
+    "kana": "おお",
+    "meaning": "many, much",
+    "kun": "おお-い",
+    "on": "タ",
+    "example": "人が多いですね。 (There are a lot of people, aren't there?)"
+  },
+  {
+    "kanji": "少",
+    "kana": "すこ",
+    "meaning": "few, little すく-ない,",
+    "kun": "すこ-し",
+    "on": "ショウ",
+    "example": "少し疲れました。 (I'm a little tired.)"
+  },
+  {
+    "kanji": "早",
+    "kana": "はや",
+    "meaning": "early, fast",
+    "kun": "はや-い",
+    "on": "ソウ",
+    "example": "朝早く起きます。 (I wake up early in the morning.)"
+  },
+  {
+    "kanji": "行",
+    "kana": "い",
+    "meaning": "go, act, line い-く,",
+    "kun": "おこな-う",
+    "on": "コウ, ギョウ",
+    "example": "銀行へ行きます。 (I go to the bank.)"
+  },
+  {
+    "kanji": "来",
+    "kana": "く",
+    "meaning": "come, next く-る,",
+    "kun": "きた-る",
+    "on": "ライ",
+    "example": "来週また来ます。 (I will come again next week.)"
+  },
+  {
+    "kanji": "食",
+    "kana": "た",
+    "meaning": "eat, food",
+    "kun": "た-べる",
+    "on": "ショク",
+    "example": "朝ご飯を食べましたか。 (Did you eat breakfast?)"
+  },
+  {
+    "kanji": "飲",
+    "kana": "の",
+    "meaning": "drink",
+    "kun": "の-む",
+    "on": "イン",
+    "example": "飲み物は何がいいですか。 (What would you like to drink?)"
+  },
+  {
+    "kanji": "見",
+    "kana": "み",
+    "meaning": "see, watch, look",
+    "kun": "み-る",
+    "on": "ケン",
+    "example": "映画を見ました。 (I watched a movie.)"
+  },
+  {
+    "kanji": "聞",
+    "kana": "き",
+    "meaning": "hear, listen, ask",
+    "kun": "き-く",
+    "on": "ブン, モン",
+    "example": "音楽を聞きます。 (I listen to music.)"
+  },
+  {
+    "kanji": "書",
+    "kana": "か",
+    "meaning": "write",
+    "kun": "か-く",
+    "on": "ショ",
+    "example": "手紙を書きました。 (I wrote a letter.)"
+  },
+  {
+    "kanji": "読",
+    "kana": "よ",
+    "meaning": "read",
+    "kun": "よ-む",
+    "on": "ドク",
+    "example": "新聞を読みます。 (I read the newspaper.)"
+  },
+  {
+    "kanji": "話",
+    "kana": "はな",
+    "meaning": "speak, talk, story はな-す,",
+    "kun": "はなし",
+    "on": "ワ",
+    "example": "電話で話します。 (I talk on the phone.)"
+  },
+  {
+    "kanji": "買",
+    "kana": "か",
+    "meaning": "buy",
+    "kun": "か-う",
+    "on": "バイ",
+    "example": "買い物をしましょう。 (Let's go shopping.)"
+  },
+  {
+    "kanji": "立",
+    "kana": "た",
+    "meaning": "stand, establish",
+    "kun": "た-つ",
+    "on": "リツ",
+    "example": "立ってください。 (Please stand up.)"
+  },
+  {
+    "kanji": "入",
+    "kana": "はい",
+    "meaning": "enter, insert はい-る,",
+    "kun": "い-れる",
+    "on": "ニュウ",
+    "example": "教室に入ります。 (I enter the classroom.)"
+  },
+  {
+    "kanji": "出",
+    "kana": "で",
+    "meaning": "exit, leave, go out で-る,",
+    "kun": "だ-す",
+    "on": "シュツ",
+    "example": "家を出ます。 (I leave the house.)"
+  },
+  {
+    "kanji": "休",
+    "kana": "やす",
+    "meaning": "rest, holiday, absent",
+    "kun": "やす-む",
+    "on": "キュウ",
+    "example": "今日は休みです。 (Today is a holiday.)"
+  },
+  {
+    "kanji": "時",
+    "kana": "とき",
+    "meaning": "time, hour",
+    "kun": "とき",
+    "on": "ジ",
+    "example": "今、何時ですか。 (What time is it now?)"
+  },
+  {
+    "kanji": "分",
+    "kana": "ふん / ぷん",
+    "meaning": "minute, part, understand",
+    "kun": "わ-かる",
+    "on": "フン, ブン",
+    "example": "五分待ってください。 (Please wait five minutes.)"
+  },
+  {
+    "kanji": "週",
+    "kana": "しゅう",
+    "meaning": "week",
+    "kun": "-",
+    "on": "シュウ",
+    "example": "一週間は七日です。 (One week is seven days.)"
+  },
+  {
+    "kanji": "午",
+    "kana": "ご",
+    "meaning": "noon",
+    "kun": "-",
+    "on": "ゴ",
+    "example": "午前中に掃除をします。 (I do cleaning in the morning.)"
+  },
+  {
+    "kanji": "年",
+    "kana": "とし",
+    "meaning": "year",
+    "kun": "とし",
+    "on": "ネン",
+    "example": "来年は日本に行きます。 (I will go to Japan next year.)"
+  },
+  {
+    "kanji": "今",
+    "kana": "いま",
+    "meaning": "now",
+    "kun": "いま",
+    "on": "コン, キン",
+    "example": "今は忙しいです。 (I am busy now.)"
+  },
+  {
+    "kanji": "何",
+    "kana": "なに / なん",
+    "meaning": "what なに,",
+    "kun": "なん",
+    "on": "",
+    "example": "何を食べますか。 (What will you eat?)"
+  },
+  {
+    "kanji": "北",
+    "kana": "きた",
+    "meaning": "north",
+    "kun": "きた",
+    "on": "ホク",
+    "example": "北海道は北にあります。 (Hokkaido is in the north.)"
+  },
+  {
+    "kanji": "南",
+    "kana": "みなみ",
+    "meaning": "south",
+    "kun": "みなみ",
+    "on": "ナン",
+    "example": "南の方は暖かいです。 (The south is warm.)"
+  },
+  {
+    "kanji": "東",
+    "kana": "ひがし",
+    "meaning": "east",
+    "kun": "ひがし",
+    "on": "トウ",
+    "example": "東京は東にあります。 (Tokyo is in the east.)"
+  },
+  {
+    "kanji": "西",
+    "kana": "にし",
+    "meaning": "west",
+    "kun": "にし",
+    "on": "セイ, サイ",
+    "example": "関西に行きたいです。 (I want to go to Kansai.)"
+  },
+  {
+    "kanji": "国",
+    "kana": "くに",
+    "meaning": "country",
+    "kun": "くに",
+    "on": "コク",
+    "example": "外国へ行きたいです。 (I want to go to a foreign country.)"
+  },
+  {
+    "kanji": "白",
+    "kana": "しろ",
+    "meaning": "white",
+    "kun": "しろ-い",
+    "on": "ハク",
+    "example": "白いシャツを着ています。 (I am wearing a white shirt.)"
+  },
+  {
+    "kanji": "黒",
+    "kana": "くろ",
+    "meaning": "black",
+    "kun": "くろ-い",
+    "on": "コク",
+    "example": "黒い靴を履きます。 (I wear black shoes.)"
+  },
+  {
+    "kanji": "赤",
+    "kana": "あか",
+    "meaning": "red",
+    "kun": "あか-い",
+    "on": "セキ",
+    "example": "赤信号で止まります。 (Stop at the red light.)"
+  },
+  {
+    "kanji": "青",
+    "kana": "あお",
+    "meaning": "blue",
+    "kun": "あお-い",
+    "on": "セイ",
+    "example": "青い空が広いです。 (The blue sky is vast.)"
+  },
+  {
+    "kanji": "天",
+    "kana": "てん",
+    "meaning": "heaven, sky あめ,",
+    "kun": "あま",
+    "on": "テン",
+    "example": "今日は天気がいいです。 (The weather is good today.)"
+  },
+  {
+    "kanji": "気",
+    "kana": "き",
+    "meaning": "spirit, energy, mind",
+    "kun": "-",
+    "on": "キ, ケ",
+    "example": "元気ですか。 (Are you well?)"
+  },
+  {
+    "kanji": "雨",
+    "kana": "あめ",
+    "meaning": "rain",
+    "kun": "あめ",
+    "on": "ウ",
+    "example": "雨が降っています。 (It is raining.)"
+  },
+  {
+    "kanji": "電",
+    "kana": "でん",
+    "meaning": "electricity",
+    "kun": "-",
+    "on": "デン",
+    "example": "電車で会社に行きます。 (I go to the company by train.)"
+  },
+  {
+    "kanji": "車",
+    "kana": "くるま",
+    "meaning": "car, wheel",
+    "kun": "くるま",
+    "on": "シャ",
+    "example": "車を運転します。 (I drive a car.)"
+  },
+  {
+    "kanji": "語",
+    "kana": "ご",
+    "meaning": "language, word",
+    "kun": "かた-る",
+    "on": "ゴ",
+    "example": "日本語を勉強します。 (I study Japanese.)"
+  },
+  {
+    "kanji": "友",
+    "kana": "とも",
+    "meaning": "friend",
+    "kun": "とも",
+    "on": "ユウ",
+    "example": "友達と遊びます。 (I play with friends.)"
+  },
+  {
+    "kanji": "父",
+    "kana": "ちち",
+    "meaning": "father",
+    "kun": "ちち",
+    "on": "フ",
+    "example": "父は医者です。 (My father is a doctor.)"
+  },
+  {
+    "kanji": "母",
+    "kana": "はは",
+    "meaning": "mother",
+    "kun": "はは",
+    "on": "ボ",
+    "example": "母の料理は美味しい。 (My mother's cooking is delicious.)"
+  },
+  {
+    "kanji": "毎",
+    "kana": "まい",
+    "meaning": "every",
+    "kun": "-",
+    "on": "マイ",
+    "example": "毎日日記を書きます。 (I write in a diary every day.)"
+  },
+  {
+    "kanji": "万",
+    "kana": "まん",
+    "meaning": "ten thousand",
+    "kun": "-",
+    "on": "マン",
+    "example": "一万円あります。 (I have 10,000 yen.)"
+  }
+]

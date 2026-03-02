@@ -1,0 +1,418 @@
+[
+  {
+    "kanji": "政",
+    "kana": "せい",
+    "meaning": "politics, government, administration",
+    "kun": "まつりごと",
+    "on": "セイ, ショウ",
+    "example": "日本政の仕組みを勉強しています。"
+  },
+  {
+    "kanji": "治",
+    "kana": "じ",
+    "meaning": "govern, cure, heal, rule",
+    "kun": "なおる, おさめる",
+    "on": "ジ, チ",
+    "example": "この病気はすぐに治ります。"
+  },
+  {
+    "kanji": "経",
+    "kana": "けい",
+    "meaning": "passage of time, longitude, pass through",
+    "kun": "へる",
+    "on": "ケイ, キョウ",
+    "example": "経済学の授業はとても面白いです。"
+  },
+  {
+    "kanji": "済",
+    "kana": "さい",
+    "meaning": "finish, come to an end, settle",
+    "kun": "すむ, すます",
+    "on": "サイ, セイ",
+    "example": "用事が済んだら、連絡してください。"
+  },
+  {
+    "kanji": "法",
+    "kana": "ほう",
+    "meaning": "law, method, principle",
+    "kun": "のり",
+    "on": "ホウ, ハッ",
+    "example": "新しい法律が作られました。"
+  },
+  {
+    "kanji": "律",
+    "kana": "りつ",
+    "meaning": "rhythm, law, regulation",
+    "kun": "---",
+    "on": "リツ, リチ",
+    "example": "法律を守ることは大切です。"
+  },
+  {
+    "kanji": "際",
+    "kana": "さい",
+    "meaning": "occasion, side, edge, time",
+    "kun": "きわ",
+    "on": "サイ",
+    "example": "国際会議に出席しました。"
+  },
+  {
+    "kanji": "関",
+    "kana": "かん",
+    "meaning": "connection, barrier, gateway, relate to",
+    "kun": "せき, かかわる",
+    "on": "カン",
+    "example": "日本の文化に関心があります。"
+  },
+  {
+    "kanji": "係",
+    "kana": "けい",
+    "meaning": "person in charge, connection, duty",
+    "kun": "かかる, かかり",
+    "on": "ケイ",
+    "example": "案内係の人に聞いてください。"
+  },
+  {
+    "kanji": "義",
+    "kana": "ぎ",
+    "meaning": "righteousness, justice, meaning",
+    "kun": "---",
+    "on": "ギ",
+    "example": "この言葉の定義を教えてください。"
+  },
+  {
+    "kanji": "議",
+    "kana": "ぎ",
+    "meaning": "deliberation, consultation, debate",
+    "kun": "---",
+    "on": "ギ",
+    "example": "会議は午後三時に終わります。"
+  },
+  {
+    "kanji": "党",
+    "kana": "とう",
+    "meaning": "party, faction, clique",
+    "kun": "---",
+    "on": "トウ",
+    "example": "自由民主党のニュースを見ました。"
+  },
+  {
+    "kanji": "遊",
+    "kana": "ゆう",
+    "meaning": "play, enjoy, travel",
+    "kun": "あそぶ",
+    "on": "ユウ, ユ",
+    "example": "公園で子供たちが遊んでいます。"
+  },
+  {
+    "kanji": "連",
+    "kana": "れん",
+    "meaning": "take along, lead, join, connect",
+    "kun": "つらなる, つれる",
+    "on": "レン",
+    "example": "来週、友達を連れて行きます。"
+  },
+  {
+    "kanji": "絡",
+    "kana": "らく",
+    "meaning": "entwine, coil around, get caught",
+    "kun": "からむ",
+    "on": "ラク",
+    "example": "詳しいことは、後で連絡します。"
+  },
+  {
+    "kanji": "望",
+    "kana": "ぼう",
+    "meaning": "hope, desire, ambition, expect",
+    "kun": "のぞむ",
+    "on": "ボウ, モウ",
+    "example": "将来の希望は先生になることです。"
+  },
+  {
+    "kanji": "指",
+    "kana": "し",
+    "meaning": "finger, point to, indicate",
+    "kun": "ゆび, さす",
+    "on": "シ",
+    "example": "先生が黒板の文字を指しました。"
+  },
+  {
+    "kanji": "探",
+    "kana": "たん",
+    "meaning": "search, look for, probe",
+    "kun": "さがす, さぐる",
+    "on": "タン",
+    "example": "なくした鍵をずっと探しています。"
+  },
+  {
+    "kanji": "折",
+    "kana": "せつ",
+    "meaning": "fold, break, fracture, bend",
+    "kun": "おる, おれる",
+    "on": "セツ",
+    "example": "強い風で木の枝が折れました。"
+  },
+  {
+    "kanji": "払",
+    "kana": "ふつ",
+    "meaning": "pay, brush off, clear away",
+    "kun": "はらう",
+    "on": "フツ",
+    "example": "レストランで代金を払いました。"
+  },
+  {
+    "kanji": "投",
+    "kana": "とう",
+    "meaning": "throw, discard, abandon",
+    "kun": "なげる",
+    "on": "トウ",
+    "example": "彼はボールを遠くに投げました。"
+  },
+  {
+    "kanji": "打",
+    "kana": "だ",
+    "meaning": "strike, hit, knock",
+    "kun": "うつ",
+    "on": "ダ",
+    "example": "彼は野球でホームランを打ちました。"
+  },
+  {
+    "kanji": "深",
+    "kana": "しん",
+    "meaning": "deep, heighten, intensify",
+    "kun": "ふかい, ふかまる",
+    "on": "シン",
+    "example": "この川はとても深いです。"
+  },
+  {
+    "kanji": "洗",
+    "kana": "せん",
+    "meaning": "wash, inquire into, probe",
+    "kun": "あらる",
+    "on": "セン",
+    "example": "食事の前に手を洗います。"
+  },
+  {
+    "kanji": "流",
+    "kana": "りゅう",
+    "meaning": "current, flow, sink, float",
+    "kun": "ながれる, ながす",
+    "on": "リュウ, ル",
+    "example": "大雨で川の水が流れています。"
+  },
+  {
+    "kanji": "消",
+    "kana": "しょう",
+    "meaning": "extinguish, blow out, turn off",
+    "kun": "きえる, けす",
+    "on": "ショウ",
+    "example": "寝る前に電気を消してください。"
+  },
+  {
+    "kanji": "決",
+    "kana": "けつ",
+    "meaning": "decide, fix, agree upon",
+    "kun": "きめる, きまる",
+    "on": "ケツ",
+    "example": "日本に留学することを決めました。"
+  },
+  {
+    "kanji": "君",
+    "kana": "くん",
+    "meaning": "you, ruler, monarch",
+    "kun": "きみ",
+    "on": "クン",
+    "example": "君の名前は何ですか。"
+  },
+  {
+    "kanji": "局",
+    "kana": "きょく",
+    "meaning": "bureau, board, office, station",
+    "kun": "---",
+    "on": "キョク",
+    "example": "郵便局で切手を買いました。"
+  },
+  {
+    "kanji": "身",
+    "kana": "しん",
+    "meaning": "somebody, person, one's station in life",
+    "kun": "み",
+    "on": "シン",
+    "example": "出身はどちらですか。"
+  },
+  {
+    "kanji": "受",
+    "kana": "じゅ",
+    "meaning": "accept, undergo, receive",
+    "kun": "うける",
+    "on": "ジュ",
+    "example": "大学の試験を受けました。"
+  },
+  {
+    "kanji": "付",
+    "kana": "ふ",
+    "meaning": "adhere, attach, refer to",
+    "kun": "つける, つく",
+    "on": "フ",
+    "example": "手紙に切手を付けました。"
+  },
+  {
+    "kanji": "代",
+    "kana": "だい",
+    "meaning": "substitute, change, convert, period",
+    "kun": "かわる, かえる, よ, しろ",
+    "on": "ダイ, タイ",
+    "example": "父の代わりに買い物に行きました。"
+  },
+  {
+    "kanji": "貸",
+    "kana": "たい",
+    "meaning": "lend",
+    "kun": "かす",
+    "on": "タイ",
+    "example": "図書館で本を貸してもらいました。"
+  },
+  {
+    "kanji": "借",
+    "kana": "しゃく",
+    "meaning": "borrow, rent",
+    "kun": "かりる",
+    "on": "シャク",
+    "example": "友達からお金を借りました。"
+  },
+  {
+    "kanji": "返",
+    "kana": "へん",
+    "meaning": "return, answer, fade",
+    "kun": "かえす, かえる",
+    "on": "ヘン",
+    "example": "借りた本を明日返します。"
+  },
+  {
+    "kanji": "結",
+    "kana": "けっ",
+    "meaning": "tie, bind, join, organize",
+    "kun": "むすぶ, ゆう",
+    "on": "ケツ",
+    "example": "靴のひもを結びます。"
+  },
+  {
+    "kanji": "婚",
+    "kana": "こん",
+    "meaning": "marriage",
+    "kun": "---",
+    "on": "コン",
+    "example": "姉は来月結婚します。"
+  },
+  {
+    "kanji": "紹",
+    "kana": "しょう",
+    "meaning": "introduce, inherit, help",
+    "kun": "---",
+    "on": "ショウ",
+    "example": "新しい友達を紹介します。"
+  },
+  {
+    "kanji": "介",
+    "kana": "かい",
+    "meaning": "jammed in, shellfish, mediate",
+    "kun": "---",
+    "on": "カイ",
+    "example": "自己紹介をしてください。"
+  },
+  {
+    "kanji": "件",
+    "kana": "けん",
+    "meaning": "affair, case, matter, item",
+    "kun": "---",
+    "on": "ケン",
+    "example": "その件については、まだわかりません。"
+  },
+  {
+    "kanji": "伝",
+    "kana": "でん",
+    "meaning": "transmit, report, walk along",
+    "kun": "つたえる, つたわる",
+    "on": "デン",
+    "example": "母にメッセージを伝えてください。"
+  },
+  {
+    "kanji": "任",
+    "kana": "にん",
+    "meaning": "responsibility, duty, term",
+    "kun": "まかせる, まかす",
+    "on": "ニン",
+    "example": "この仕事は私に任せてください。"
+  },
+  {
+    "kanji": "値",
+    "kana": "ち",
+    "meaning": "price, cost, value",
+    "kun": "ね, あたい",
+    "on": "チ",
+    "example": "この鞄の値打ちを調べました。"
+  },
+  {
+    "kanji": "例",
+    "kana": "れい",
+    "meaning": "example, custom, precedent",
+    "kun": "たとえる",
+    "on": "レイ",
+    "example": "例文を読んでください。"
+  },
+  {
+    "kanji": "側",
+    "kana": "そく",
+    "meaning": "side, lean, oppose",
+    "kun": "がわ",
+    "on": "ソク",
+    "example": "駅の東側に住んでいます。"
+  },
+  {
+    "kanji": "供",
+    "kana": "きょう",
+    "meaning": "offer, treat, attendant, accompany",
+    "kun": "そなえる, とも",
+    "on": "キョウ, ク",
+    "example": "子供たちが外で遊んでいます。"
+  },
+  {
+    "kanji": "信",
+    "kana": "しん",
+    "meaning": "faith, truth, trust, message",
+    "kun": "しんじる",
+    "on": "シン",
+    "example": "彼の言うことを信じます。"
+  },
+  {
+    "kanji": "倒",
+    "kana": "とう",
+    "meaning": "overthrow, fall, collapse",
+    "kun": "たおれる, たおす",
+    "on": "トウ",
+    "example": "地震でビルが倒れました。"
+  },
+  {
+    "kanji": "備",
+    "kana": "び",
+    "meaning": "equip, provision, preparation",
+    "kun": "そなえる, そなわる",
+    "on": "ビ",
+    "example": "試験のために準備をします。"
+  },
+  {
+    "kanji": "慣",
+    "kana": "かん",
+    "meaning": "accustomed, get used to, practice",
+    "kun": "なれる, ならす",
+    "on": "カン",
+    "example": "日本の生活に慣れました。"
+  },
+  {
+    "kanji": "険",
+    "kana": "けん",
+    "meaning": "precipitous, inaccessible place, sharp",
+    "kun": "けわしい",
+    "on": "ケン",
+    "example": "山道はとても険しいです。 ... [List continued for all 370 N3"
+  }
+]
