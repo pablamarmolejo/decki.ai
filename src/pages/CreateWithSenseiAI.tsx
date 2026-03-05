@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { generateCustomDeck } from '../services/gemini';
 import { useAppContext } from '../AppContext';
 import type { Deck, Flashcard, Level } from '../types';
+import leftArrow from '../assets/ic_round-keyboard-arrow-left.svg';
 
 interface CreateWithSenseiAIProps {
   onBack: () => void;
@@ -106,76 +107,90 @@ const CreateWithSenseiAI: React.FC<CreateWithSenseiAIProps> = ({ onBack, editing
 
   if (generatedData) {
     return (
-      <div className="review-deck-page">
-        <button className="back-btn" onClick={() => { if (editingDeckId) onBack(); else setGeneratedData(null); }}>
-          ← Back
-        </button>
-        <h2>{editingDeckId ? 'Edit deck' : 'Review your new deck'}</h2>
-        <div className="deck-name-input">
-          <label>Deck name</label>
-          <input 
-            type="text" 
-            value={deckName} 
-            onChange={(e) => setDeckName(e.target.value)} 
-            placeholder="Enter deck name..."
-          />
+      <div className="sensei-ai-view">
+        <div className="sensei-ai-header">
+          <button className="text-link-btn back-btn" onClick={() => { if (editingDeckId) onBack(); else setGeneratedData(null); }}>
+            <img src={leftArrow} alt="" className="link-icon" />
+            Back to decks
+          </button>
         </div>
-        <div className="words-review">
-          <h3>Words ({selectedWords.length})</h3>
-          <div className="word-pills">
-            {selectedWords.map(word => (
-              <div key={word.id} className="word-pill">
-                <span>{word.kanji || word.kana} - {word.meaning}</span>
-                <button className="remove-word" onClick={() => removeWord(word.id)}>×</button>
-              </div>
-            ))}
-          </div>
-          {removedWords.length > 0 && (
-            <button className="undo-btn" onClick={undoRemove}>Undo last removal</button>
-          )}
-        </div>
-        
-        {editingDeckId && (
-          <div className="edit-prompt-link">
-            <p>Want to change words? <button onClick={() => setGeneratedData(null)}>Go back to Sensei prompt</button></p>
-          </div>
-        )}
 
-        <div className="review-actions">
-          {editingDeckId ? (
-            <>
-              <button className="delete-btn" onClick={handleDelete}>Delete deck</button>
-              <button className="primary-btn" onClick={handleCreateOrUpdateDeck}>Save changes</button>
-            </>
-          ) : (
-            <>
-              <button className="secondary-btn" onClick={() => setGeneratedData(null)}>Go back to Sensei</button>
-              <button className="primary-btn" onClick={handleCreateOrUpdateDeck}>Create deck</button>
-            </>
+        <div className="review-deck-page">
+          <h2>{editingDeckId ? 'Edit deck' : 'Review your new deck'}</h2>
+          <div className="deck-name-input">
+            <label>Deck name</label>
+            <input 
+              type="text" 
+              value={deckName} 
+              onChange={(e) => setDeckName(e.target.value)} 
+              placeholder="Enter deck name..."
+            />
+          </div>
+          <div className="words-review">
+            <h3>Words ({selectedWords.length})</h3>
+            <div className="word-pills">
+              {selectedWords.map(word => (
+                <div key={word.id} className="word-pill">
+                  <span>{word.kanji || word.kana} - {word.meaning}</span>
+                  <button className="remove-word" onClick={() => removeWord(word.id)}>×</button>
+                </div>
+              ))}
+            </div>
+            {removedWords.length > 0 && (
+              <button className="undo-btn" onClick={undoRemove}>Undo last removal</button>
+            )}
+          </div>
+          
+          {editingDeckId && (
+            <div className="edit-prompt-link">
+              <p>Want to change words? <button onClick={() => setGeneratedData(null)}>Go back to Sensei prompt</button></p>
+            </div>
           )}
+
+          <div className="review-actions">
+            {editingDeckId ? (
+              <>
+                <button className="delete-btn" onClick={handleDelete}>Delete deck</button>
+                <button className="primary-btn" onClick={handleCreateOrUpdateDeck}>Save changes</button>
+              </>
+            ) : (
+              <>
+                <button className="secondary-btn" onClick={() => setGeneratedData(null)}>Go back to Sensei</button>
+                <button className="primary-btn" onClick={handleCreateOrUpdateDeck}>Create deck</button>
+              </>
+            )}
+          </div>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="create-ai-page">
-      <button className="back-btn" onClick={onBack}>← Back to Study decks</button>
-      <h2>Create with Sensei AI</h2>
-      <div className="prompt-container">
-        <textarea 
-          value={prompt} 
-          onChange={(e) => setPrompt(e.target.value)} 
-          placeholder="Ask Sensei to generate a custom deck for you. E.g., '15 words about food' or 'N4 verbs for traveling'..."
-          disabled={isGenerating}
-        />
-        <button 
-          className="generate-btn" 
-          onClick={handleGenerate} 
-          disabled={isGenerating || !prompt.trim()}
-        >
-          {isGenerating ? 'Sensei is thinking...' : 'Generate deck'}
+    <div className="sensei-ai-view">
+      <div className="sensei-ai-header">
+        <button className="text-link-btn back-btn" onClick={onBack}>
+          <img src={leftArrow} alt="" className="link-icon" />
+          Back to decks
         </button>
+      </div>
+
+      <div className="create-ai-page">
+        <h2>Create with Sensei AI</h2>
+        <div className="prompt-container">
+          <textarea 
+            value={prompt} 
+            onChange={(e) => setPrompt(e.target.value)} 
+            placeholder="Ask Sensei to generate a custom deck for you. E.g., '15 words about food' or 'N4 verbs for traveling'..."
+            disabled={isGenerating}
+          />
+          <button 
+            className="generate-btn" 
+            onClick={handleGenerate} 
+            disabled={isGenerating || !prompt.trim()}
+          >
+            {isGenerating ? 'Sensei is thinking...' : 'Generate deck'}
+          </button>
+        </div>
       </div>
     </div>
   );

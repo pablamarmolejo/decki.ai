@@ -1,0 +1,602 @@
+[
+  {
+    "kanji": "プール",
+    "kana": "プール",
+    "meaning": "swimming pool",
+    "example": "なつにプールでおよぎます。"
+  },
+  {
+    "kanji": "来月",
+    "kana": "らいげつ",
+    "meaning": "next month",
+    "example": "らいげつ、にほんへいきます。"
+  },
+  {
+    "kanji": "来年",
+    "kana": "らいねん",
+    "meaning": "next year",
+    "example": "らいねん、だいがくをそつぎょうします。"
+  },
+  {
+    "kanji": "来週",
+    "kana": "らいしゅう",
+    "meaning": "next week",
+    "example": "らいしゅうの月曜日にテストがあります。"
+  },
+  {
+    "kanji": "ラジオ",
+    "kana": "ラジオ",
+    "meaning": "radio",
+    "example": "まいにち、ラジオをききます。"
+  },
+  {
+    "kanji": "零",
+    "kana": "れい",
+    "meaning": "zero",
+    "example": "しけんでれいてんをとりました。"
+  },
+  {
+    "kanji": "冷蔵庫",
+    "kana": "れいぞうこ",
+    "meaning": "refrigerator",
+    "example": "れいぞうこにたまごがあります。"
+  },
+  {
+    "kanji": "レコード",
+    "kana": "レコード",
+    "meaning": "record",
+    "example": "ふるいレコードをきくのがすきです。"
+  },
+  {
+    "kanji": "練習",
+    "kana": "れんしゅう",
+    "meaning": "practice; practicing",
+    "example": "ピアノをれんしゅうします。"
+  },
+  {
+    "kanji": "レストラン",
+    "kana": "レストラン",
+    "meaning": "restaurant",
+    "example": "あのレストランはおいしいです。"
+  },
+  {
+    "kanji": "六",
+    "kana": "ろく",
+    "meaning": "six; 6",
+    "example": "ろくじにおきます。"
+  },
+  {
+    "kanji": "廊下",
+    "kana": "ろうか",
+    "meaning": "corridor; hallway; passageway",
+    "example": "ろうかをはしらないでください。"
+  },
+  {
+    "kanji": "旅行",
+    "kana": "りょこう",
+    "meaning": "travel; trip; journey",
+    "example": "きょねん、京都へりょこうしました。"
+  },
+  {
+    "kanji": "料理",
+    "kana": "りょうり",
+    "meaning": "cuisine; cooking",
+    "example": "母のりょうりはとてもおいしいです。"
+  },
+  {
+    "kanji": "両親",
+    "kana": "りょうしん",
+    "meaning": "parents; both parents",
+    "example": "りょうしんにてがみをかきます。"
+  },
+  {
+    "kanji": "留学生",
+    "kana": "りゅうがくせい",
+    "meaning": "overseas student; exchange student",
+    "example": "私はアメリカからのりゅうがくせいです。"
+  },
+  {
+    "kanji": "財布",
+    "kana": "さいふ",
+    "meaning": "purse; wallet",
+    "example": "新しいさいふをかいました。"
+  },
+  {
+    "kanji": "魚",
+    "kana": "さかな",
+    "meaning": "fish",
+    "example": "さかなをたべるのがすきです。"
+  },
+  {
+    "kanji": "先",
+    "kana": "さき",
+    "meaning": "previous; prior; first; earlier",
+    "example": "おさきにしつれいします。"
+  },
+  {
+    "kanji": "作文",
+    "kana": "さくぶん",
+    "meaning": "writing; composition",
+    "example": "にほんごでさくぶんをかきました。"
+  },
+  {
+    "kanji": "三",
+    "kana": "さん",
+    "meaning": "three; 3",
+    "example": "りんごを三つください。"
+  },
+  {
+    "kanji": "散歩",
+    "kana": "さんぽ",
+    "meaning": "walk; stroll",
+    "example": "こうえんをさんぽします。"
+  },
+  {
+    "kanji": "再来年",
+    "kana": "さらいねん",
+    "meaning": "year after next",
+    "example": "さらいねん、日本へいきます。"
+  },
+  {
+    "kanji": "砂糖",
+    "kana": "さとう",
+    "meaning": "sugar",
+    "example": "コーヒーにさとうをいれますか。"
+  },
+  {
+    "kanji": "背",
+    "kana": "せ",
+    "meaning": "height; stature; back",
+    "example": "弟はせがたかいです。"
+  },
+  {
+    "kanji": "背広",
+    "kana": "せびろ",
+    "meaning": "business suit",
+    "example": "ちちはせびろをきています。"
+  },
+  {
+    "kanji": "セーター",
+    "kana": "セーター",
+    "meaning": "sweater; jumper",
+    "example": "あかいセーターをきています。"
+  },
+  {
+    "kanji": "生徒",
+    "kana": "せいと",
+    "meaning": "pupil; student",
+    "example": "このクラスには生徒が三十人います。"
+  },
+  {
+    "kanji": "石鹼",
+    "kana": "せっけん",
+    "meaning": "soap",
+    "example": "せっけんで手をあらいます。"
+  },
+  {
+    "kanji": "千",
+    "kana": "せん",
+    "meaning": "1,000; thousand",
+    "example": "千円かしました。"
+  },
+  {
+    "kanji": "先月",
+    "kana": "せんげつ",
+    "meaning": "last month",
+    "example": "せんげつ、本を五さつよみました。"
+  },
+  {
+    "kanji": "先生",
+    "kana": "せんせい",
+    "meaning": "teacher; instructor",
+    "example": "あの先生はやさしいです。"
+  },
+  {
+    "kanji": "先週",
+    "kana": "せんしゅう",
+    "meaning": "last week",
+    "example": "せんしゅう、かぜをひきました。"
+  },
+  {
+    "kanji": "洗濯",
+    "kana": "せんたく",
+    "meaning": "washing; laundry",
+    "example": "あした、せんたくをします。"
+  },
+  {
+    "kanji": "写真",
+    "kana": "しゃしん",
+    "meaning": "photograph; photo",
+    "example": "いっしょにしゃしんをとりましょう。"
+  },
+  {
+    "kanji": "シャツ",
+    "kana": "シャツ",
+    "meaning": "shirt",
+    "example": "白いシャツをかいました。"
+  },
+  {
+    "kanji": "シャワー",
+    "kana": "シャワー",
+    "meaning": "shower",
+    "example": "あびるまえにシャワーをあびます。"
+  },
+  {
+    "kanji": "四",
+    "kana": "し",
+    "meaning": "four; 4",
+    "example": "四時におわります。"
+  },
+  {
+    "kanji": "七",
+    "kana": "しち",
+    "meaning": "seven; 7",
+    "example": "七時にあさごはんをたべます。"
+  },
+  {
+    "kanji": "仕事",
+    "kana": "しごと",
+    "meaning": "work; job; business",
+    "example": "あなたのしごとはなんですか。"
+  },
+  {
+    "kanji": "新聞",
+    "kana": "しんぶん",
+    "meaning": "newspaper",
+    "example": "まいにち、しんぶんをよみます。"
+  },
+  {
+    "kanji": "塩",
+    "kana": "しお",
+    "meaning": "salt",
+    "example": "しおを少しいれてください。"
+  },
+  {
+    "kanji": "白",
+    "kana": "しろ",
+    "meaning": "white; innocence",
+    "example": "しろいねこがいます。"
+  },
+  {
+    "kanji": "下",
+    "kana": "した",
+    "meaning": "below; down; under",
+    "example": "テーブルの下にねこがいます。"
+  },
+  {
+    "kanji": "質問",
+    "kana": "しつもん",
+    "meaning": "question; inquiry",
+    "example": "しつもんがあります。"
+  },
+  {
+    "kanji": "食堂",
+    "kana": "しょくどう",
+    "meaning": "cafeteria; dining room",
+    "example": "しょくどうでごはんをたべます。"
+  },
+  {
+    "kanji": "醬油",
+    "kana": "しょうゆ",
+    "meaning": "soy sauce",
+    "example": "しょうゆをとってください。"
+  },
+  {
+    "kanji": "宿題",
+    "kana": "しゅくだい",
+    "meaning": "homework; assignment",
+    "example": "もうしゅくだいをおわりましたか。"
+  },
+  {
+    "kanji": "そば",
+    "kana": "そば",
+    "meaning": "near; beside",
+    "example": "私のそばにいてください。"
+  },
+  {
+    "kanji": "空",
+    "kana": "そら",
+    "meaning": "sky; the air",
+    "example": "きょうは空があおいです。"
+  },
+  {
+    "kanji": "外",
+    "kana": "そと",
+    "meaning": "outside; exterior",
+    "example": "外はさむいですよ。"
+  },
+  {
+    "kanji": "掃除",
+    "kana": "そうじ",
+    "meaning": "to clean, to sweep",
+    "example": "土曜日にへやをそうじします。"
+  },
+  {
+    "kanji": "水曜日",
+    "kana": "すいようび",
+    "meaning": "Wednesday",
+    "example": "水曜日にテニスをします。"
+  },
+  {
+    "kanji": "スカート",
+    "kana": "スカート",
+    "meaning": "skirt",
+    "example": "ながいスカートをはいています。"
+  },
+  {
+    "kanji": "好き",
+    "kana": "すき",
+    "meaning": "like",
+    "example": "日本のアニメがすきです。"
+  },
+  {
+    "kanji": "少し",
+    "kana": "すこし",
+    "meaning": "a little (bit); few",
+    "example": "にほんごが少しわかります。"
+  },
+  {
+    "kanji": "スポーツ",
+    "kana": "スポーツ",
+    "meaning": "sport; sports",
+    "example": "どんなスポーツがすきですか。"
+  },
+  {
+    "kanji": "スプーン",
+    "kana": "スプーン",
+    "meaning": "spoon",
+    "example": "スプーンでカレーをたべます。"
+  },
+  {
+    "kanji": "スリッパ",
+    "kana": "スリッパ",
+    "meaning": "slipper; slippers",
+    "example": "ここでスリッパをはいてください。"
+  },
+  {
+    "kanji": "ストーブ",
+    "kana": "ストーブ",
+    "meaning": "heater; stove",
+    "example": "ストーブをつけてください。"
+  },
+  {
+    "kanji": "たばこ",
+    "kana": "たばこ",
+    "meaning": "tobacco; cigarette",
+    "example": "たばこをすわないでください。"
+  },
+  {
+    "kanji": "食べ物",
+    "kana": "たべもの",
+    "meaning": "food",
+    "example": "好きな食べ物はなんですか。"
+  },
+  {
+    "kanji": "大変",
+    "kana": "たいへん",
+    "meaning": "very; serious; difficult",
+    "example": "しごとはたいへんですか。"
+  },
+  {
+    "kanji": "大切",
+    "kana": "たいせつ",
+    "meaning": "important; necessary",
+    "example": "これは大切なかぎです。"
+  },
+  {
+    "kanji": "大使館",
+    "kana": "たいしかん",
+    "meaning": "embassy",
+    "example": "日本大使館へいきます。"
+  },
+  {
+    "kanji": "沢山",
+    "kana": "たくさん",
+    "meaning": "many",
+    "example": "本をたくさんかいました。"
+  },
+  {
+    "kanji": "タクシー",
+    "kana": "タクシー",
+    "meaning": "taxi",
+    "example": "タクシーでかえります。"
+  },
+  {
+    "kanji": "卵",
+    "kana": "たまご",
+    "meaning": "eggs; egg",
+    "example": "たまごをたべます。"
+  },
+  {
+    "kanji": "誕生日",
+    "kana": "たんじょうび",
+    "meaning": "birthday",
+    "example": "おたんじょうびおめでとう。"
+  },
+  {
+    "kanji": "縦",
+    "kana": "たて",
+    "meaning": "length, height",
+    "example": "たてのながさをはかります。"
+  },
+  {
+    "kanji": "建物",
+    "kana": "たてもの",
+    "meaning": "building",
+    "example": "あのたてものはなんですか。"
+  },
+  {
+    "kanji": "手",
+    "kana": "て",
+    "meaning": "hand; arm",
+    "example": "石鹼で手をあらいます。"
+  },
+  {
+    "kanji": "テーブル",
+    "kana": "テーブル",
+    "meaning": "table",
+    "example": "テーブルの上に本があります。"
+  },
+  {
+    "kanji": "テープ",
+    "kana": "テープ",
+    "meaning": "tape",
+    "example": "テープではります。"
+  },
+  {
+    "kanji": "テープレコーダー",
+    "kana": "テープレコーダー",
+    "meaning": "tape recorder",
+    "example": "テープレコーダーをかいました。"
+  },
+  {
+    "kanji": "手紙",
+    "kana": "てがみ",
+    "meaning": "Letter (message)",
+    "example": "母にてがみをかきます。"
+  },
+  {
+    "kanji": "天気",
+    "kana": "てんき",
+    "meaning": "weather; the elements",
+    "example": "きょうはいい天気ですね。"
+  },
+  {
+    "kanji": "テレビ",
+    "kana": "テレビ",
+    "meaning": "television; TV",
+    "example": "テレビをみます。"
+  },
+  {
+    "kanji": "テスト",
+    "kana": "テスト",
+    "meaning": "examination; quiz; test",
+    "example": "あしたはテストがあります。"
+  },
+  {
+    "kanji": "戸",
+    "kana": "と",
+    "meaning": "Japanese style door",
+    "example": "戸をあけてください。"
+  },
+  {
+    "kanji": "トイレ",
+    "kana": "トイレ",
+    "meaning": "toilet",
+    "example": "トイレはどこですか。"
+  },
+  {
+    "kanji": "時計",
+    "kana": "とけい",
+    "meaning": "watch; clock",
+    "example": "新しいとけいをかいました。"
+  },
+  {
+    "kanji": "時",
+    "kana": "とき",
+    "meaning": "time; moment",
+    "example": "ひまな時、本をよみます。"
+  },
+  {
+    "kanji": "時々",
+    "kana": "ときどき",
+    "meaning": "sometimes; at times",
+    "example": "ときどき、外でごはんをたべます。"
+  },
+  {
+    "kanji": "所",
+    "kana": "ところ",
+    "meaning": "place",
+    "example": "ここはどんな所ですか。"
+  },
+  {
+    "kanji": "友達",
+    "kana": "ともだち",
+    "meaning": "friend; companion",
+    "example": "ともだちと遊びます。"
+  },
+  {
+    "kanji": "隣",
+    "kana": "となり",
+    "meaning": "next door to",
+    "example": "となりのへやにだれかいます。"
+  },
+  {
+    "kanji": "十日",
+    "kana": "とおか",
+    "meaning": "tenth day of the month",
+    "example": "十日にパーティーがあります。"
+  },
+  {
+    "kanji": "鳥",
+    "kana": "とり",
+    "meaning": "bird",
+    "example": "空をとりがとんでいます。"
+  },
+  {
+    "kanji": "鶏肉",
+    "kana": "とりにく",
+    "meaning": "chicken meat",
+    "example": "とりにくをかいました。"
+  },
+  {
+    "kanji": "年",
+    "kana": "とし",
+    "meaning": "year; age",
+    "example": "としをとりました。"
+  },
+  {
+    "kanji": "図書館",
+    "kana": "としょかん",
+    "meaning": "library",
+    "example": "図書館でべんきょうします。"
+  },
+  {
+    "kanji": "次",
+    "kana": "つぎ",
+    "meaning": "next",
+    "example": "次の駅におります。"
+  },
+  {
+    "kanji": "一日",
+    "kana": "ついたち",
+    "meaning": "first day of the month",
+    "example": "五月一日は金曜日です。"
+  },
+  {
+    "kanji": "机",
+    "kana": "つくえ",
+    "meaning": "desk",
+    "example": "机の上に本があります。"
+  },
+  {
+    "kanji": "上",
+    "kana": "うえ",
+    "meaning": "above; up; top",
+    "example": "本棚の上にカバンがあります。"
+  },
+  {
+    "kanji": "海",
+    "kana": "うみ",
+    "meaning": "sea",
+    "example": "夏休みに海へいきました。"
+  },
+  {
+    "kanji": "後ろ",
+    "kana": "うしろ",
+    "meaning": "back; behind; rear",
+    "example": "後ろにだれかいますか。"
+  },
+  {
+    "kanji": "歌",
+    "kana": "うた",
+    "meaning": "song",
+    "example": "日本の歌をうたいます。"
+  },
+  {
+    "kanji": "上着",
+    "kana": "うわぎ",
+    "meaning": "coat; jacket",
+    "example": "さむいので上着をきます。"
+  }
+]

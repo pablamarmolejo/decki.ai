@@ -1,0 +1,602 @@
+[
+  {
+    "kanji": "飛行機",
+    "kana": "ひこうき",
+    "meaning": "airplane; aircraft",
+    "example": "飛行機で日本へ行きます。"
+  },
+  {
+    "kanji": "暇",
+    "kana": "ひま",
+    "meaning": "free time",
+    "example": "暇な時に本を読みます。"
+  },
+  {
+    "kanji": "昼",
+    "kana": "ひる",
+    "meaning": "noon; midday; daytime; lunch",
+    "example": "昼に友達と会います。"
+  },
+  {
+    "kanji": "昼ご飯",
+    "kana": "ひるごはん",
+    "meaning": "lunch",
+    "example": "一緒に昼ご飯を食べませんか。"
+  },
+  {
+    "kanji": "人",
+    "kana": "ひと",
+    "meaning": "person; human",
+    "example": "あの人は誰ですか。"
+  },
+  {
+    "kanji": "一人",
+    "kana": "ひとり",
+    "meaning": "one person​; alone; single",
+    "example": "一人でデパートへ行きました。"
+  },
+  {
+    "kanji": "一つ",
+    "kana": "ひとつ",
+    "meaning": "one thing; only",
+    "example": "りんごを一つください。"
+  },
+  {
+    "kanji": "ほか",
+    "kana": "ほか",
+    "meaning": "other (place, thing, person); the rest",
+    "example": "ほかの本も見せてください。"
+  },
+  {
+    "kanji": "本",
+    "kana": "ほん",
+    "meaning": "book; volume; script",
+    "example": "この本はとても面白いです。"
+  },
+  {
+    "kanji": "本棚",
+    "kana": "ほんだな",
+    "meaning": "bookshelf; bookcase",
+    "example": "本棚に辞書があります。"
+  },
+  {
+    "kanji": "本当",
+    "kana": "ほんとう",
+    "meaning": "truth; reality; actuality; fact",
+    "example": "それは本当の話ですか。"
+  },
+  {
+    "kanji": "ホテル",
+    "kana": "ほてる",
+    "meaning": "hotel",
+    "example": "駅の近くのホテルに泊まります。"
+  },
+  {
+    "kanji": "百",
+    "kana": "ひゃく",
+    "meaning": "100; hundred",
+    "example": "リンゴが百円です。"
+  },
+  {
+    "kanji": "一",
+    "kana": "いち",
+    "meaning": "one; best; first; foremost",
+    "example": "一から始めましょう。"
+  },
+  {
+    "kanji": "一番",
+    "kana": "いちばん",
+    "meaning": "number one; first; best; most​",
+    "example": "この料理が一番好きです。"
+  },
+  {
+    "kanji": "一日",
+    "kana": "いちにち",
+    "meaning": "one day; all day",
+    "example": "一日は二十四時間です。"
+  },
+  {
+    "kanji": "家",
+    "kana": "いえ",
+    "meaning": "house; residence; family",
+    "example": "私の家は新しいです。"
+  },
+  {
+    "kanji": "池",
+    "kana": "ikeいけ",
+    "meaning": "pond",
+    "example": "池に魚がたくさんいます。"
+  },
+  {
+    "kanji": "いくら",
+    "kana": "いくら",
+    "meaning": "how much?; how many?​",
+    "example": "このカメラはいくらですか。"
+  },
+  {
+    "kanji": "今",
+    "kana": "いま",
+    "meaning": "now; the present time; soon",
+    "example": "今は三時半です。"
+  },
+  {
+    "kanji": "意味",
+    "kana": "いみ",
+    "meaning": "meaning; significance; sense",
+    "example": "この漢字の意味を教えてください。"
+  },
+  {
+    "kanji": "妹",
+    "kana": "imoutoいもうと",
+    "meaning": "younger sister",
+    "example": "妹は高校生です。"
+  },
+  {
+    "kanji": "犬",
+    "kana": "いぬ",
+    "meaning": "dog",
+    "example": "白い犬が走っています。"
+  },
+  {
+    "kanji": "入口",
+    "kana": "いりぐち",
+    "meaning": "entrance; entry; gate",
+    "example": "入口の前に立ってください。"
+  },
+  {
+    "kanji": "色",
+    "kana": "いろ",
+    "meaning": "colour; color",
+    "example": "好きな色は何ですか。"
+  },
+  {
+    "kanji": "色々",
+    "kana": "いろいろ",
+    "meaning": "various",
+    "example": "店に色々な物があります。"
+  },
+  {
+    "kanji": "医者",
+    "kana": "いしゃ",
+    "meaning": "doctor; physician",
+    "example": "将来、医者になりたいです。"
+  },
+  {
+    "kanji": "一緒",
+    "kana": "いっしょ",
+    "meaning": "together; same; identical",
+    "example": "一緒に映画を見に行きましょう。"
+  },
+  {
+    "kanji": "椅子",
+    "kana": "いす",
+    "meaning": "chair",
+    "example": "椅子に座ってください。"
+  },
+  {
+    "kanji": "五日",
+    "kana": "いつか",
+    "meaning": "the fifth day of the month; 5 days",
+    "example": "五日は私の誕生日です。"
+  },
+  {
+    "kanji": "五つ",
+    "kana": "いつつ",
+    "meaning": "five; 5",
+    "example": "卵を五つ買いました。"
+  },
+  {
+    "kanji": "嫌",
+    "kana": "いや",
+    "meaning": "unpleasant; disagreeable",
+    "example": "嫌なことがありました。"
+  },
+  {
+    "kanji": "字引",
+    "kana": "じびき",
+    "meaning": "dictionary",
+    "example": "古い字引を引きます。"
+  },
+  {
+    "kanji": "自動車",
+    "kana": "じどうしゃ",
+    "meaning": "automobile; car",
+    "example": "父は自動車を持っています。"
+  },
+  {
+    "kanji": "時間",
+    "kana": "じかん",
+    "meaning": "time; hour(s)",
+    "example": "勉強する時間がありません。"
+  },
+  {
+    "kanji": "辞書",
+    "kana": "じしょ",
+    "meaning": "dictionary",
+    "example": "この辞書は使いやすいです。"
+  },
+  {
+    "kanji": "自転車",
+    "kana": "じてんしゃ",
+    "meaning": "bicycle",
+    "example": "毎日、自転車で学校へ行きます。"
+  },
+  {
+    "kanji": "上手",
+    "kana": "じょうず",
+    "meaning": "skillful; proficient; good at",
+    "example": "彼女は料理が上手です。"
+  },
+  {
+    "kanji": "授業",
+    "kana": "じゅぎょう",
+    "meaning": "lesson; class work",
+    "example": "日本語の授業は何時ですか。"
+  },
+  {
+    "kanji": "十",
+    "kana": "じゅう",
+    "meaning": "ten; 10",
+    "example": "十円玉をください。"
+  },
+  {
+    "kanji": "かばん",
+    "kana": "かばん",
+    "meaning": "bag; basket​",
+    "example": "黒いかばんを買いました。"
+  },
+  {
+    "kanji": "花瓶",
+    "kana": "かびん",
+    "meaning": "a vase",
+    "example": "花瓶に花を飾ります。"
+  },
+  {
+    "kanji": "角",
+    "kana": "かど",
+    "meaning": "a corner; angle​",
+    "example": "角を右に曲がってください。"
+  },
+  {
+    "kanji": "鍵",
+    "kana": "かぎ",
+    "meaning": "key",
+    "example": "部屋の鍵を忘れました。"
+  },
+  {
+    "kanji": "階段",
+    "kana": "かいだん",
+    "meaning": "stairs; stairway; staircase",
+    "example": "階段を上ります。"
+  },
+  {
+    "kanji": "買い物",
+    "kana": "かいもの",
+    "meaning": "shopping; purchased goods",
+    "example": "午後から買い物に行きます。"
+  },
+  {
+    "kanji": "会社",
+    "kana": "かいしゃ",
+    "meaning": "company; corporation",
+    "example": "私の会社は大きいです。"
+  },
+  {
+    "kanji": "カメラ",
+    "kana": "かめら",
+    "meaning": "camera",
+    "example": "カメラで写真を撮ります。"
+  },
+  {
+    "kanji": "紙",
+    "kana": "かみ",
+    "meaning": "paper",
+    "example": "この紙に名前を書いてください。"
+  },
+  {
+    "kanji": "漢字",
+    "kana": "かんじ",
+    "meaning": "kanji",
+    "example": "漢字は難しいですが、楽しいです。"
+  },
+  {
+    "kanji": "カップ",
+    "kana": "かっぷ",
+    "meaning": "cup",
+    "example": "カップにコーヒーを入れます。"
+  },
+  {
+    "kanji": "体",
+    "kana": "からだ",
+    "meaning": "body",
+    "example": "体が丈夫です。"
+  },
+  {
+    "kanji": "カレー",
+    "kana": "かれー",
+    "meaning": "curry",
+    "example": "カレーは辛いです。"
+  },
+  {
+    "kanji": "カレンダー",
+    "kana": "かれんだー",
+    "meaning": "calendar",
+    "example": "壁にカレンダーがあります。"
+  },
+  {
+    "kanji": "傘",
+    "kana": "かさ",
+    "meaning": "umbrella",
+    "example": "雨が降っているから傘をさします。"
+  },
+  {
+    "kanji": "方",
+    "kana": "かた",
+    "meaning": "way of doing something",
+    "example": "この漢字の読み方を教えてください。"
+  },
+  {
+    "kanji": "家庭",
+    "kana": "かてい",
+    "meaning": "household",
+    "example": "明るい家庭を築きたいです。"
+  },
+  {
+    "kanji": "川",
+    "kana": "かわ",
+    "meaning": "river; stream​",
+    "example": "川で魚を釣ります。"
+  },
+  {
+    "kanji": "火曜日",
+    "kana": "かようび",
+    "meaning": "Tuesday",
+    "example": "火曜日にテストがあります。"
+  },
+  {
+    "kanji": "風",
+    "kana": "かぜ",
+    "meaning": "wind",
+    "example": "今日は強い風が吹いています。"
+  },
+  {
+    "kanji": "風邪",
+    "kana": "かぜ",
+    "meaning": "a cold",
+    "example": "風邪を引いて学校を休みました。"
+  },
+  {
+    "kanji": "家族",
+    "kana": "かぞく",
+    "meaning": "family; members of a family",
+    "example": "私の家族は五人です。"
+  },
+  {
+    "kanji": "警官",
+    "kana": "けいかん",
+    "meaning": "policeman; police officer",
+    "example": "道で警官に会いました。"
+  },
+  {
+    "kanji": "結婚",
+    "kana": "けっこん",
+    "meaning": "marriage",
+    "example": "兄は来月結婚します。"
+  },
+  {
+    "kanji": "結構",
+    "kana": "けっこう",
+    "meaning": "splendid; enough",
+    "example": "いいえ、もう結構です。"
+  },
+  {
+    "kanji": "今朝",
+    "kana": "けさ",
+    "meaning": "this morning",
+    "example": "今朝、コーヒーを飲みました。"
+  },
+  {
+    "kanji": "木",
+    "kana": "き",
+    "meaning": "tree; shrub; wood; timber",
+    "example": "庭に大きな木があります。"
+  },
+  {
+    "kanji": "昨日",
+    "kana": "きのう",
+    "meaning": "yesterday",
+    "example": "昨日は雨でした。"
+  },
+  {
+    "kanji": "金曜日",
+    "kana": "きんようび",
+    "meaning": "Friday",
+    "example": "金曜日の夜に遊びます。"
+  },
+  {
+    "kanji": "切符",
+    "kana": "きっぷ",
+    "meaning": "ticket",
+    "example": "駅で切符を買います。"
+  },
+  {
+    "kanji": "嫌い",
+    "kana": "きらい",
+    "meaning": "hate; dislike",
+    "example": "野菜が嫌いです。"
+  },
+  {
+    "kanji": "キログラム",
+    "kana": "きろぐらむ",
+    "meaning": "kilogram",
+    "example": "五キログラム買いました。"
+  },
+  {
+    "kanji": "キロメートル",
+    "kana": "きろめーとる",
+    "meaning": "kilometer",
+    "example": "家から駅まで一キロメートルです。"
+  },
+  {
+    "kanji": "喫茶店",
+    "kana": "きっさてん",
+    "meaning": "coffee shop; cafe",
+    "example": "喫茶店で休みましょう。"
+  },
+  {
+    "kanji": "北",
+    "kana": "きた",
+    "meaning": "north",
+    "example": "風が北から吹いています。"
+  },
+  {
+    "kanji": "切手",
+    "kana": "きって",
+    "meaning": "stamp (postage)",
+    "example": "封筒に切手を貼ります。"
+  },
+  {
+    "kanji": "こっち",
+    "kana": "こっち",
+    "meaning": "this person or way",
+    "example": "こっちへ来てください。"
+  },
+  {
+    "kanji": "こちら",
+    "kana": "kochira",
+    "meaning": "this way; this direction​",
+    "example": "こちらは母です。"
+  },
+  {
+    "kanji": "子供",
+    "kana": "こども",
+    "meaning": "child",
+    "example": "子供たちが公園で遊んでいます。"
+  },
+  {
+    "kanji": "声",
+    "kana": "こえ",
+    "meaning": "voice",
+    "example": "大きな声で話してください。"
+  },
+  {
+    "kanji": "九日",
+    "kana": "ここのか",
+    "meaning": "ninth day of the month; 9 days",
+    "example": "九日はお祭りです。"
+  },
+  {
+    "kanji": "九つ",
+    "kana": "ここのつ",
+    "meaning": "nine; 9",
+    "example": "リンゴが九つあります。"
+  },
+  {
+    "kanji": "今晩",
+    "kana": "こんばん",
+    "meaning": "tonight; this evening",
+    "example": "今晩、何を食べますか。"
+  },
+  {
+    "kanji": "今月",
+    "kana": "こんげつ",
+    "meaning": "this month",
+    "example": "今月は忙しいです。"
+  },
+  {
+    "kanji": "今週",
+    "kana": "こんしゅう",
+    "meaning": "this week",
+    "example": "今週、海へ行きます。"
+  },
+  {
+    "kanji": "コーヒー",
+    "kana": "こーひー",
+    "meaning": "coffee",
+    "example": "コーヒーを一杯ください。"
+  },
+  {
+    "kanji": "コート",
+    "kana": "こーと",
+    "meaning": "coat",
+    "example": "寒いからコートを着ます。"
+  },
+  {
+    "kanji": "コピー",
+    "kana": "こぴー",
+    "meaning": "copy; photocopy",
+    "example": "書類を五枚コピーしてください。"
+  },
+  {
+    "kanji": "コップ",
+    "kana": "こっぷ",
+    "meaning": "glass (drinking vessel); tumbler​",
+    "example": "コップに水を入れます。"
+  },
+  {
+    "kanji": "言葉",
+    "kana": "ことば",
+    "meaning": "word; words",
+    "example": "優しい言葉をかけました。"
+  },
+  {
+    "kanji": "今年",
+    "kana": "ことし",
+    "meaning": "this year",
+    "example": "今年は日本へ行きたいです。"
+  },
+  {
+    "kanji": "交番",
+    "kana": "こうばん",
+    "meaning": "police box",
+    "example": "交番で道を尋ねました。"
+  },
+  {
+    "kanji": "紅茶",
+    "kana": "こうちゃ",
+    "meaning": "black tea",
+    "example": "紅茶に砂糖を入れます。"
+  },
+  {
+    "kanji": "公園",
+    "kana": "こうえん",
+    "meaning": "park",
+    "example": "公園を散歩しましょう。"
+  },
+  {
+    "kanji": "交差点",
+    "kana": "こうさてん",
+    "meaning": "intersection",
+    "example": "あの交差点を左に曲がってください。"
+  },
+  {
+    "kanji": "口",
+    "kana": "くち",
+    "meaning": "mouth; opening",
+    "example": "口を大きく開けてください。"
+  },
+  {
+    "kanji": "果物",
+    "kana": "くだもの",
+    "meaning": "fruit",
+    "example": "好きな果物は何ですか。"
+  },
+  {
+    "kanji": "曇り",
+    "kana": "くもり",
+    "meaning": "cloudiness; cloudy weather",
+    "example": "今日は曇りです。"
+  },
+  {
+    "kanji": "国",
+    "kana": "くに",
+    "meaning": "country; state; region",
+    "example": "お国はどちらですか。"
+  },
+  {
+    "kanji": "クラス",
+    "kana": "くらす",
+    "meaning": "class",
+    "example": "私のクラスは二十人です。"
+  }
+]

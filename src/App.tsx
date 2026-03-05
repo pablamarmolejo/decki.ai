@@ -46,39 +46,40 @@ const App: React.FC = () => {
     }
   };
 
-  const isFlashcardMode = currentPage === 'FLASHCARDS';
-
-  return (
-    <AppProvider>
-      <>
-        {!isFlashcardMode && <Header />}
-        <div className={isFlashcardMode ? 'flashcard-mode-container' : 'app-container'}>
-          <main className="main-content">
-            {!isFlashcardMode && (
-              <div className="section-selector">
-                <div className="section-nav-pill">
-                  <button
-                    className={`section-btn ${['STUDY_DECKS', 'FLASHCARDS', 'CREATE_WITH_SENSEI_AI'].includes(currentPage) ? 'active' : ''}`}
-                    onClick={() => setCurrentPage('STUDY_DECKS')}
-                  >
-                    Study decks
-                  </button>
-                                  <button
-                                    className={`section-btn ${currentPage === 'MASTERY_PRACTICE' ? 'active' : ''}`}
-                                    onClick={() => setCurrentPage('MASTERY_PRACTICE')}
-                                  >
-                                    Mastery practice
-                                  </button>                </div>
-              </div>
-            )}
-            {renderPage()}
-          </main>
-          {!isFlashcardMode && <Footer />}
-          {toast && <div className="toast-notification">{toast}</div>}
-        </div>
-      </>
-    </AppProvider>
-  );
-};
+    const isMinimalistMode = ['FLASHCARDS', 'CREATE_WITH_SENSEI_AI'].includes(currentPage);
+  
+    return (
+      <AppProvider>
+        <>
+          {!isMinimalistMode && <Header />}
+          <div className={isMinimalistMode ? 'minimalist-mode-container' : 'app-container'}>
+            <main className="main-content">
+              {!isMinimalistMode && (
+                <div className="section-selector">
+                  <div className="section-nav-pill">
+                    <button
+                      className={`section-btn ${['STUDY_DECKS', 'FLASHCARDS', 'CREATE_WITH_SENSEI_AI'].includes(currentPage) ? 'active' : ''}`}
+                      onClick={() => setCurrentPage('STUDY_DECKS')}
+                    >
+                      Study decks
+                    </button>
+                    <button
+                      className={`section-btn ${currentPage === 'MASTERY_PRACTICE' ? 'active' : ''}`}
+                      onClick={() => setCurrentPage('MASTERY_PRACTICE')}
+                    >
+                      Mastery practice
+                    </button>
+                  </div>
+                </div>
+              )}
+              {renderPage()}
+            </main>
+            {!isMinimalistMode && <Footer />}
+            {toast && <div className="toast-notification">{toast}</div>}
+          </div>
+        </>
+      </AppProvider>
+    );
+  };
 
 export default App;

@@ -29,6 +29,8 @@ export interface SentencePractice {
   meaning: string;
   date: string;
   feedback?: string;
+  grammar?: string;
+  improvements?: string;
 }
 
 export interface WordProgress {

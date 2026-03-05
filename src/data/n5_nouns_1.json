@@ -1,0 +1,602 @@
+[
+  {
+    "kanji": "赤",
+    "kana": "あか",
+    "meaning": "red; crimson; scarlet",
+    "example": "彼女は赤いドレスを着ています。"
+  },
+  {
+    "kanji": "秋",
+    "kana": "あき",
+    "meaning": "autumn; fall",
+    "example": "秋は果物が美味しい季節です。"
+  },
+  {
+    "kanji": "雨",
+    "kana": "あめ",
+    "meaning": "rain",
+    "example": "今日は雨が降っています。"
+  },
+  {
+    "kanji": "飴",
+    "kana": "あめ",
+    "meaning": "candy",
+    "example": "子供に飴をあげました。"
+  },
+  {
+    "kanji": "姉",
+    "kana": "あね",
+    "meaning": "older sister; elder sister",
+    "example": "私の姉は銀行で働いています。"
+  },
+  {
+    "kanji": "兄",
+    "kana": "あに",
+    "meaning": "elder brother; older brother",
+    "example": "兄は背が高いです。"
+  },
+  {
+    "kanji": "青",
+    "kana": "あお",
+    "meaning": "blue; azure",
+    "example": "今日の空はとても青いです。"
+  },
+  {
+    "kanji": "アパート",
+    "kana": "あぱーと",
+    "meaning": "apartment",
+    "example": "私は新しいアパートに住んでいます。"
+  },
+  {
+    "kanji": "朝",
+    "kana": "あさ",
+    "meaning": "morning",
+    "example": "毎朝、６時に起きます。"
+  },
+  {
+    "kanji": "朝ご飯",
+    "kana": "あさごはん",
+    "meaning": "breakfast",
+    "example": "朝ご飯にパンを食べました。"
+  },
+  {
+    "kanji": "明後日",
+    "kana": "あさって",
+    "meaning": "day after tomorrow",
+    "example": "明後日は友達と遊びます。"
+  },
+  {
+    "kanji": "足",
+    "kana": "あし",
+    "meaning": "foot; leg; paw; arm",
+    "example": "昨日はたくさん歩いたので、足が痛いです。"
+  },
+  {
+    "kanji": "明日",
+    "kana": "あした",
+    "meaning": "tomorrow",
+    "example": "明日の天気はどうですか。"
+  },
+  {
+    "kanji": "頭",
+    "kana": "あたま",
+    "meaning": "head",
+    "example": "少し頭が痛いです。"
+  },
+  {
+    "kanji": "後",
+    "kana": "あと",
+    "meaning": "behind; after; remainder; left; also",
+    "example": "仕事の後に映画を見に行きます。"
+  },
+  {
+    "kanji": "晩ご飯",
+    "kana": "ばんごはん",
+    "meaning": "dinner; evening meal",
+    "example": "今日の晩ご飯は何ですか。"
+  },
+  {
+    "kanji": "番号",
+    "kana": "ばんごう",
+    "meaning": "number",
+    "example": "あなたの電話番号を教えてください。"
+  },
+  {
+    "kanji": "バス",
+    "kana": "ばす",
+    "meaning": "bus",
+    "example": "駅までバスで行きます。"
+  },
+  {
+    "kanji": "バター",
+    "kana": "ばたー",
+    "meaning": "butter",
+    "example": "パンにバターを塗ります。"
+  },
+  {
+    "kanji": "ベッド",
+    "kana": "べっど",
+    "meaning": "bed",
+    "example": "このベッドはとても柔らかいです。"
+  },
+  {
+    "kanji": "勉強",
+    "kana": "べんきょう",
+    "meaning": "to study",
+    "example": "毎日、日本語を勉強しています。"
+  },
+  {
+    "kanji": "ボールペン",
+    "kana": "ぼーるぺん",
+    "meaning": "ball-point pen",
+    "example": "このボールペンで書いてください。"
+  },
+  {
+    "kanji": "ボタン",
+    "kana": "ぼたん",
+    "meaning": "button",
+    "example": "シャツのボタンが外れました。"
+  },
+  {
+    "kanji": "帽子",
+    "kana": "ぼうし",
+    "meaning": "hat; cap",
+    "example": "青い帽子をかぶっています。"
+  },
+  {
+    "kanji": "文章",
+    "kana": "ぶんしょう",
+    "meaning": "sentence",
+    "example": "この文章を読んでください。"
+  },
+  {
+    "kanji": "豚肉",
+    "kana": "ぶたにく",
+    "meaning": "pork",
+    "example": "豚肉と野菜を炒めます。"
+  },
+  {
+    "kanji": "病院",
+    "kana": "びょういん",
+    "meaning": "hospital",
+    "example": "昨日、病院へ行きました。"
+  },
+  {
+    "kanji": "病気",
+    "kana": "びょうき",
+    "meaning": "illness; disease; sickness",
+    "example": "病気で学校を休みました。"
+  },
+  {
+    "kanji": "茶色",
+    "kana": "ちゃいろ",
+    "meaning": "brown",
+    "example": "私は茶色のカバンを持っています。"
+  },
+  {
+    "kanji": "茶碗",
+    "kana": "ちゃわん",
+    "meaning": "rice bowl; tea cup; teacup",
+    "example": "新しい茶碗を買いました。"
+  },
+  {
+    "kanji": "父",
+    "kana": "ちち",
+    "meaning": "father",
+    "example": "私の父は先生です。"
+  },
+  {
+    "kanji": "地下鉄",
+    "kana": "ちかてつ",
+    "meaning": "subway; underground train",
+    "example": "地下鉄で会社へ行きます。"
+  },
+  {
+    "kanji": "地図",
+    "kana": "ちず",
+    "meaning": "map",
+    "example": "地図で場所を確認します。"
+  },
+  {
+    "kanji": "台所",
+    "kana": "だいどころ",
+    "meaning": "kitchen",
+    "example": "母は台所にいます。"
+  },
+  {
+    "kanji": "大学",
+    "kana": "だいがく",
+    "meaning": "university; college",
+    "example": "兄は大学に通っています。"
+  },
+  {
+    "kanji": "出口",
+    "kana": "でぐち",
+    "meaning": "exit; gateway; way out",
+    "example": "あそこに出口があります。"
+  },
+  {
+    "kanji": "電気",
+    "kana": "でんき",
+    "meaning": "electricity",
+    "example": "電気を消してください。"
+  },
+  {
+    "kanji": "電車",
+    "kana": "でんしゃ",
+    "meaning": "train; electric train",
+    "example": "電車が来ました。"
+  },
+  {
+    "kanji": "電話",
+    "kana": "でんわ",
+    "meaning": "telephone (call / device); phone call",
+    "example": "友達に電話をかけます。"
+  },
+  {
+    "kanji": "デパート",
+    "kana": "でぱーと",
+    "meaning": "department store",
+    "example": "デパートで買い物をします。"
+  },
+  {
+    "kanji": "ドア",
+    "kana": "どあ",
+    "meaning": "door",
+    "example": "ドアを開けてください。"
+  },
+  {
+    "kanji": "どなた",
+    "kana": "どなた",
+    "meaning": "who",
+    "example": "あの方はどなたですか。"
+  },
+  {
+    "kanji": "動物",
+    "kana": "どうぶつ",
+    "meaning": "animal",
+    "example": "私は動物が好きです。"
+  },
+  {
+    "kanji": "土曜日",
+    "kana": "どようび",
+    "meaning": "Saturday",
+    "example": "土曜日は休みです。"
+  },
+  {
+    "kanji": "絵",
+    "kana": "え",
+    "meaning": "picture",
+    "example": "壁に綺麗な絵があります。"
+  },
+  {
+    "kanji": "ええ",
+    "kana": "ええ",
+    "meaning": "yes; that is correct; right",
+    "example": "「お元気ですか。」「ええ、元気です。」"
+  },
+  {
+    "kanji": "映画",
+    "kana": "えいが",
+    "meaning": "movie; film",
+    "example": "週末に映画を見ます。"
+  },
+  {
+    "kanji": "映画館",
+    "kana": "えいがかん",
+    "meaning": "movie theater; cinema",
+    "example": "映画館へ行きます。"
+  },
+  {
+    "kanji": "英語",
+    "kana": "えいご",
+    "meaning": "English language",
+    "example": "英語を勉強しています。"
+  },
+  {
+    "kanji": "駅",
+    "kana": "えき",
+    "meaning": "station",
+    "example": "駅の前で会いましょう。"
+  },
+  {
+    "kanji": "鉛筆",
+    "kana": "えんぴつ",
+    "meaning": "pencil",
+    "example": "鉛筆で名前を書いてください。"
+  },
+  {
+    "kanji": "エレベーター",
+    "kana": "えれべーたー",
+    "meaning": "elevator",
+    "example": "エレベーターで三階へ行きます。"
+  },
+  {
+    "kanji": "フィルム",
+    "kana": "ふぃるむ",
+    "meaning": "film",
+    "example": "カメラのフィルムを替えます。"
+  },
+  {
+    "kanji": "フォーク",
+    "kana": "ふぉーく",
+    "meaning": "fork",
+    "example": "フォークを使って食べます。"
+  },
+  {
+    "kanji": "服",
+    "kana": "ふく",
+    "meaning": "clothes",
+    "example": "新しい服を買いました。"
+  },
+  {
+    "kanji": "二人",
+    "kana": "ふたり",
+    "meaning": "two people; pair; couple",
+    "example": "二人はとても仲が良いです。"
+  },
+  {
+    "kanji": "二つ",
+    "kana": "ふたつ",
+    "meaning": "two; 2",
+    "example": "リンゴを二つください。"
+  },
+  {
+    "kanji": "二日",
+    "kana": "ふつか",
+    "meaning": "the second day of the month / 2 days",
+    "example": "五月二日は私の誕生日です。"
+  },
+  {
+    "kanji": "封筒",
+    "kana": "ふうとう",
+    "meaning": "envelope",
+    "example": "手紙を封筒に入れます。"
+  },
+  {
+    "kanji": "冬",
+    "kana": "ふゆ",
+    "meaning": "winter",
+    "example": "日本の冬は寒いです。"
+  },
+  {
+    "kanji": "外国",
+    "kana": "がいこく",
+    "meaning": "foreign country",
+    "example": "将来、外国へ行きたいです。"
+  },
+  {
+    "kanji": "外国人",
+    "kana": "がいこくじん",
+    "meaning": "foreigner; foreign citizen; non-Japanese",
+    "example": "彼は外国人です。"
+  },
+  {
+    "kanji": "学校",
+    "kana": "がっこう",
+    "meaning": "school",
+    "example": "学校は八時に始まります。"
+  },
+  {
+    "kanji": "学生",
+    "kana": "がくせい",
+    "meaning": "student",
+    "example": "私は大学生です。"
+  },
+  {
+    "kanji": "玄関",
+    "kana": "げんかん",
+    "meaning": "entrance",
+    "example": "玄関で靴を脱ぎます。"
+  },
+  {
+    "kanji": "元気",
+    "kana": "げんき",
+    "meaning": "lively; full of spirit; energetic; healthy",
+    "example": "お父さんはお元気ですか。"
+  },
+  {
+    "kanji": "月曜日",
+    "kana": "げつようび",
+    "meaning": "Monday",
+    "example": "月曜日から金曜日まで働きます。"
+  },
+  {
+    "kanji": "銀行",
+    "kana": "ぎんこう",
+    "meaning": "bank",
+    "example": "銀行でお金を下ろします。"
+  },
+  {
+    "kanji": "ギター",
+    "kana": "ぎたー",
+    "meaning": "guitar",
+    "example": "弟はギターを弾いています。"
+  },
+  {
+    "kanji": "五",
+    "kana": "ご",
+    "meaning": "five; 5",
+    "example": "みかんが五つあります。"
+  },
+  {
+    "kanji": "午後",
+    "kana": "ごご",
+    "meaning": "afternoon; p.m.",
+    "example": "午後は雨が降るでしょう。"
+  },
+  {
+    "kanji": "ご飯",
+    "kana": "ごはん",
+    "meaning": "cooked rice, meal",
+    "example": "温かいご飯を食べましょう。"
+  },
+  {
+    "kanji": "午前",
+    "kana": "ごぜん",
+    "meaning": "morning; a.m.",
+    "example": "午前十時に会いましょう。"
+  },
+  {
+    "kanji": "グラム",
+    "kana": "ぐらむ",
+    "meaning": "gram",
+    "example": "この肉は五百グラムです。"
+  },
+  {
+    "kanji": "牛肉",
+    "kana": "ぎゅうにく",
+    "meaning": "beef",
+    "example": "牛肉が好きです。"
+  },
+  {
+    "kanji": "牛乳",
+    "kana": "ぎゅうにゅう",
+    "meaning": "(cow's) milk",
+    "example": "朝、牛乳を飲みます。"
+  },
+  {
+    "kanji": "歯",
+    "kana": "は",
+    "meaning": "tooth",
+    "example": "毎日、歯を磨きます。"
+  },
+  {
+    "kanji": "八",
+    "kana": "はち",
+    "meaning": "eight: 8",
+    "example": "八時になりました。"
+  },
+  {
+    "kanji": "葉書",
+    "kana": "はがき",
+    "meaning": "postcard",
+    "example": "旅行先から葉書を出しました。"
+  },
+  {
+    "kanji": "母",
+    "kana": "はは",
+    "meaning": "mother",
+    "example": "私の母は料理が上手です。"
+  },
+  {
+    "kanji": "はい",
+    "kana": "はい",
+    "meaning": "yes; that is correct",
+    "example": "はい、分かりました。"
+  },
+  {
+    "kanji": "灰皿",
+    "kana": "はいざら",
+    "meaning": "ashtray",
+    "example": "灰皿はありますか。"
+  },
+  {
+    "kanji": "箱",
+    "kana": "はこ",
+    "meaning": "box; crate",
+    "example": "大きな箱が届きました。"
+  },
+  {
+    "kanji": "半",
+    "kana": "はん",
+    "meaning": "half; semi-; half-past",
+    "example": "今は七時半です。"
+  },
+  {
+    "kanji": "花",
+    "kana": "はな",
+    "meaning": "flower",
+    "example": "綺麗な花が咲いています。"
+  },
+  {
+    "kanji": "鼻",
+    "kana": "はな",
+    "meaning": "nose",
+    "example": "鼻が少し高いです。"
+  },
+  {
+    "kanji": "話",
+    "kana": "はなし",
+    "meaning": "talk; speech; chat; conversation",
+    "example": "先生の話を聞いてください。"
+  },
+  {
+    "kanji": "半分",
+    "kana": "はんぶん",
+    "meaning": "half",
+    "example": "リンゴを半分に切ります。"
+  },
+  {
+    "kanji": "ハンカチ",
+    "kana": "はんかち",
+    "meaning": "handkerchief",
+    "example": "ハンカチで手を拭きます。"
+  },
+  {
+    "kanji": "晴れ",
+    "kana": "はれ",
+    "meaning": "clear weather",
+    "example": "明日は晴れでしょう。"
+  },
+  {
+    "kanji": "春",
+    "kana": "はる",
+    "meaning": "spring; springtime",
+    "example": "春は桜が綺麗です。"
+  },
+  {
+    "kanji": "箸",
+    "kana": "はし",
+    "meaning": "chopsticks",
+    "example": "箸でうどんを食べます。"
+  },
+  {
+    "kanji": "橋",
+    "kana": "はし",
+    "meaning": "bridge",
+    "example": "長い橋を渡ります。"
+  },
+  {
+    "kanji": "二十歳",
+    "kana": "はたち",
+    "meaning": "20 years old; twenty years old",
+    "example": "今年、二十歳になります。"
+  },
+  {
+    "kanji": "二十日",
+    "kana": "はつか",
+    "meaning": "twentieth day of the month / 20 days",
+    "example": "今日は二十日です。"
+  },
+  {
+    "kanji": "辺",
+    "kana": "へん",
+    "meaning": "area",
+    "example": "この辺に銀行はありますか。"
+  },
+  {
+    "kanji": "下手",
+    "kana": "へた",
+    "meaning": "unskillful; poor; awkward",
+    "example": "私は歌が下手です。"
+  },
+  {
+    "kanji": "部屋",
+    "kana": "へや",
+    "meaning": "room",
+    "example": "私の部屋は二階です。"
+  },
+  {
+    "kanji": "左",
+    "kana": "ひだり",
+    "meaning": "left; left hand side",
+    "example": "信号を左に曲がってください。"
+  },
+  {
+    "kanji": "東",
+    "kana": "ひがし",
+    "meaning": "east",
+    "example": "太陽は東から昇ります。"
+  }
+]

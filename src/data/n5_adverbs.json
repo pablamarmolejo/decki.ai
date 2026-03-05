@@ -1,0 +1,212 @@
+[
+  {
+    "kanji": "ちょっと",
+    "kana": "ちょっと",
+    "meaning": "a little; a bit; somewhat",
+    "example": "ちょっと まってください。 (Please wait a little.)"
+  },
+  {
+    "kanji": "丁度",
+    "kana": "ちょうど",
+    "meaning": "exactly; precisely; just",
+    "example": "いま ちょうど ３じです。 (It is exactly 3 o'clock now.)"
+  },
+  {
+    "kanji": "大丈夫",
+    "kana": "だいじょうぶ",
+    "meaning": "OK; okay; alright; problem free",
+    "example": "だいじょうぶですか。 (Are you okay?)"
+  },
+  {
+    "kanji": "だんだん",
+    "kana": "だんだん",
+    "meaning": "gradually; by degrees",
+    "example": "だんだん あつくなります。 (It will gradually get hotter.)"
+  },
+  {
+    "kanji": "どう",
+    "kana": "どう",
+    "meaning": "how; in what way; how about",
+    "example": "にほんの せいかつは どうですか。 (How is life in Japan?)"
+  },
+  {
+    "kanji": "どうも",
+    "kana": "どうも",
+    "meaning": "thank you; thanks; somehow",
+    "example": "どうも ありがとう。 (Thank you very much.)"
+  },
+  {
+    "kanji": "どうして",
+    "kana": "どうして",
+    "meaning": "why; for what reason; how",
+    "example": "どうして がっこうを やすみましたか。 (Why did you miss school?)"
+  },
+  {
+    "kanji": "どうぞ",
+    "kana": "どうぞ",
+    "meaning": "please; kindly; by all means",
+    "example": "どうぞ おはいりください。 (Please come in.)"
+  },
+  {
+    "kanji": "初めて",
+    "kana": "はじめて",
+    "meaning": "for the first time",
+    "example": "ことし はじめて ゆきが ふりました。 (It snowed for the first time this year.)"
+  },
+  {
+    "kanji": "一人",
+    "kana": "ひとり",
+    "meaning": "one person; alone; single",
+    "example": "ひとりで デパートへ いきました。 (I went to the department store alone.)"
+  },
+  {
+    "kanji": "一番",
+    "kana": "いちばん",
+    "meaning": "number one; first; best; most",
+    "example": "くだもののなかで りんごが いちばん すきです。 (Among fruits, I like apples the most.)"
+  },
+  {
+    "kanji": "いかが",
+    "kana": "いかが",
+    "meaning": "how; in what way; how about (polite)",
+    "example": "おちゃは いかがですか。 (How about some tea?)"
+  },
+  {
+    "kanji": "いくら",
+    "kana": "いくら",
+    "meaning": "how much?; how many?",
+    "example": "この かばんは いくらですか。 (How much is this bag?)"
+  },
+  {
+    "kanji": "いくつ",
+    "kana": "いくつ",
+    "meaning": "how many?; how old?",
+    "example": "りんごを いくつ かいましたか。 (How many apples did you buy?)"
+  },
+  {
+    "kanji": "色々",
+    "kana": "いろいろ",
+    "meaning": "various; variety of",
+    "example": "いろいろな ところへ いきたいです。 (I want to go to various places.)"
+  },
+  {
+    "kanji": "一緒に",
+    "kana": "いっしょに",
+    "meaning": "together",
+    "example": "いっしょに ごはんを たべましょう。 (Let's eat together.)"
+  },
+  {
+    "kanji": "いつも",
+    "kana": "いつも",
+    "meaning": "always; usually; habitually",
+    "example": "いつも ６じに おきます。 (I always wake up at 6.)"
+  },
+  {
+    "kanji": "結構",
+    "kana": "けっこう",
+    "meaning": "splendid; nice; enough; no thank you",
+    "example": "もう けっこうです。 (No more, thank you. / That's enough.)"
+  },
+  {
+    "kanji": "まだ",
+    "kana": "まだ",
+    "meaning": "still; not yet",
+    "example": "まだ あめが ふっています。 (It is still raining.)"
+  },
+  {
+    "kanji": "まだ～ていません",
+    "kana": "まだ～ていません",
+    "meaning": "have not yet done ~",
+    "example": "ひるごはんを まだ たべていません。 (I haven't eaten lunch yet.)"
+  },
+  {
+    "kanji": "前に",
+    "kana": "まえに",
+    "meaning": "before; in front of; ago",
+    "example": "ねる まえに 本を よみます。 (I read a book before sleeping.)"
+  },
+  {
+    "kanji": "真っ直ぐ",
+    "kana": "まっすぐ",
+    "meaning": "straight ahead; direct",
+    "example": "この みちを まっすぐ いってください。 (Please go straight down this street.)"
+  },
+  {
+    "kanji": "みんな",
+    "kana": "みんな",
+    "meaning": "all; everyone; everybody",
+    "example": "みなさん、こんにちは。 (Hello, everyone.)"
+  },
+  {
+    "kanji": "もっと",
+    "kana": "もっと",
+    "meaning": "more; longer; further",
+    "example": "もっと ゆっくり はなしてください。 (Please speak more slowly.)"
+  },
+  {
+    "kanji": "もう",
+    "kana": "もう",
+    "meaning": "already; anymore; again; other",
+    "example": "もう しゅくだいを おわりました。 (I have already finished my homework.)"
+  },
+  {
+    "kanji": "何故",
+    "kana": "なぜ",
+    "meaning": "why; how",
+    "example": "なぜ こなかったのですか。 (Why didn't you come?)"
+  },
+  {
+    "kanji": "同じ",
+    "kana": "おなじ",
+    "meaning": "same; identical; similar",
+    "example": "わたしも おなじ ものを ください。 (Please give me the same thing too.)"
+  },
+  {
+    "kanji": "直ぐに",
+    "kana": "すぐに",
+    "meaning": "immediately; right away; instantly",
+    "example": "すぐに いきます。 (I'll go right away.)"
+  },
+  {
+    "kanji": "少し",
+    "kana": "すこし",
+    "meaning": "a little (bit); small quantity; few",
+    "example": "にほんごが すこし わかります。 (I understand a little Japanese.)"
+  },
+  {
+    "kanji": "多分",
+    "kana": "たぶん",
+    "meaning": "perhaps; probably",
+    "example": "あしたは たぶん あめでしょう。 (It will probably rain tomorrow.)"
+  },
+  {
+    "kanji": "大変",
+    "kana": "たいへん",
+    "meaning": "very; greatly; difficult; serious",
+    "example": "しごとは たいへんですか。 (Is your work difficult?)"
+  },
+  {
+    "kanji": "時々",
+    "kana": "ときどき",
+    "meaning": "sometimes; at times",
+    "example": "ときどき としょかんへ いきます。 (I sometimes go to the library.)"
+  },
+  {
+    "kanji": "とても",
+    "kana": "とても",
+    "meaning": "very; awfully; exceedingly",
+    "example": "この ケーキは とても おいしいです。 (This cake is very delicious.)"
+  },
+  {
+    "kanji": "よく",
+    "kana": "よく",
+    "meaning": "often; well; frequently",
+    "example": "よく テレビを みますか。 (Do you watch TV often?)"
+  },
+  {
+    "kanji": "ゆっくり",
+    "kana": "ゆっくり",
+    "meaning": "slowly; unhurriedly; at ease",
+    "example": "ゆっくり やすんでください。 (Please rest well / take it easy.)"
+  }
+]

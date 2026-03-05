@@ -1,0 +1,242 @@
+[
+  {
+    "kanji": "散歩",
+    "kana": "さんぽ",
+    "meaning": "walk; stroll",
+    "example": "公園を散歩します。"
+  },
+  {
+    "kanji": "差す",
+    "kana": "さす",
+    "meaning": "to stretch out hands; to raise an umbrella",
+    "example": "雨が降ってきたので、傘を差します。"
+  },
+  {
+    "kanji": "洗濯",
+    "kana": "せんたく",
+    "meaning": "washing; laundry",
+    "example": "天気がいいので、洗濯をします。"
+  },
+  {
+    "kanji": "仕事",
+    "kana": "しごと",
+    "meaning": "work; job; business",
+    "example": "毎日、８時から仕事をします。"
+  },
+  {
+    "kanji": "閉まる",
+    "kana": "しまる",
+    "meaning": "to close; to be closed",
+    "example": "ドアが閉まります。ご注意ください。"
+  },
+  {
+    "kanji": "閉める",
+    "kana": "しめる",
+    "meaning": "to close; to shut",
+    "example": "窓を閉めてください。"
+  },
+  {
+    "kanji": "締める",
+    "kana": "しめる",
+    "meaning": "to tie; to fasten; to tighten",
+    "example": "ネクタイを締めます。"
+  },
+  {
+    "kanji": "死ぬ",
+    "kana": "しぬ",
+    "meaning": "to die",
+    "example": "私の金魚が死んでしまいました。"
+  },
+  {
+    "kanji": "知る",
+    "kana": "しる",
+    "meaning": "to know",
+    "example": "そのニュースを知っていますか。"
+  },
+  {
+    "kanji": "質問",
+    "kana": "しつもん",
+    "meaning": "question; inquiry",
+    "example": "先生に質問をします。"
+  },
+  {
+    "kanji": "掃除",
+    "kana": "そうじ",
+    "meaning": "to clean; to sweep",
+    "example": "週末に部屋を掃除します。"
+  },
+  {
+    "kanji": "住む",
+    "kana": "すむ",
+    "meaning": "to live in; to reside; to inhabit",
+    "example": "私は東京に住んでいます。"
+  },
+  {
+    "kanji": "吸う",
+    "kana": "すう",
+    "meaning": "to smoke; to suck",
+    "example": "ここではタバコを吸わないでください。"
+  },
+  {
+    "kanji": "座る",
+    "kana": "すわる",
+    "meaning": "to sit",
+    "example": "椅子に座ってください。"
+  },
+  {
+    "kanji": "食べる",
+    "kana": "たべる",
+    "meaning": "to eat",
+    "example": "朝ご飯にパンを食べました。"
+  },
+  {
+    "kanji": "頼む",
+    "kana": "たのむ",
+    "meaning": "to ask; to request",
+    "example": "彼に手伝いを頼みました。"
+  },
+  {
+    "kanji": "立つ",
+    "kana": "たつ",
+    "meaning": "to stand; to stand up",
+    "example": "立ってください。"
+  },
+  {
+    "kanji": "テスト",
+    "kana": "てすと",
+    "meaning": "examination; quiz; test",
+    "example": "明日、日本語のテストがあります。"
+  },
+  {
+    "kanji": "飛ぶ",
+    "kana": "とぶ",
+    "meaning": "to fly; to hop",
+    "example": "鳥が空を飛んでいます。"
+  },
+  {
+    "kanji": "止まる",
+    "kana": "とまる",
+    "meaning": "to stop; to come to a halt",
+    "example": "車が止まりました。"
+  },
+  {
+    "kanji": "取る",
+    "kana": "とる",
+    "meaning": "to take; to pick up; to choose",
+    "example": "辞書を取ってください。"
+  },
+  {
+    "kanji": "撮る",
+    "kana": "とる",
+    "meaning": "to take a photo; to record",
+    "example": "一緒に写真を撮りましょう。"
+  },
+  {
+    "kanji": "疲れる",
+    "kana": "つかれる",
+    "meaning": "to get tired",
+    "example": "今日はたくさん歩いたので疲れました。"
+  },
+  {
+    "kanji": "使う",
+    "kana": "つかう",
+    "meaning": "to use",
+    "example": "このペンを使ってもいいですか。"
+  },
+  {
+    "kanji": "つける",
+    "kana": "つける",
+    "meaning": "to turn on",
+    "example": "暗いので電気をつけます。"
+  },
+  {
+    "kanji": "付ける",
+    "kana": "つける",
+    "meaning": "to attach; to add; to apply",
+    "example": "パンにジャムを付けます。"
+  },
+  {
+    "kanji": "着く",
+    "kana": "つく",
+    "meaning": "to arrive at",
+    "example": "駅に３時に着きます。"
+  },
+  {
+    "kanji": "作る",
+    "kana": "つくる",
+    "meaning": "to make",
+    "example": "晩ご飯を作ります。"
+  },
+  {
+    "kanji": "勤める",
+    "kana": "つとめる",
+    "meaning": "to work for someone",
+    "example": "父は銀行に勤めています。"
+  },
+  {
+    "kanji": "生まれる",
+    "kana": "うまれる",
+    "meaning": "to be born",
+    "example": "私は1995年に生まれました。"
+  },
+  {
+    "kanji": "売る",
+    "kana": "うる",
+    "meaning": "to sell",
+    "example": "この店では野菜を売っています。"
+  },
+  {
+    "kanji": "歌う",
+    "kana": "うたう",
+    "meaning": "to sing",
+    "example": "カラオケで歌を歌います。"
+  },
+  {
+    "kanji": "分かる",
+    "kana": "わかる",
+    "meaning": "to understand; to comprehend; to grasp",
+    "example": "英語が分かりますか。"
+  },
+  {
+    "kanji": "忘れる",
+    "kana": "わすれる",
+    "meaning": "to forget",
+    "example": "宿題を忘れました。"
+  },
+  {
+    "kanji": "渡る",
+    "kana": "わたる",
+    "meaning": "to go across",
+    "example": "橋を渡ります。"
+  },
+  {
+    "kanji": "渡す",
+    "kana": "わたす",
+    "meaning": "to hand over",
+    "example": "友達にプレゼントを渡しました。"
+  },
+  {
+    "kanji": "やる",
+    "kana": "やる",
+    "meaning": "to do",
+    "example": "今から宿題をやります。"
+  },
+  {
+    "kanji": "休む",
+    "kana": "やすむ",
+    "meaning": "to be absent; to rest; to take a day off",
+    "example": "今日は会社を休みます。"
+  },
+  {
+    "kanji": "呼ぶ",
+    "kana": "よぶ",
+    "meaning": "to call out; to invite",
+    "example": "タクシーを呼びましょう。"
+  },
+  {
+    "kanji": "読む",
+    "kana": "よむ",
+    "meaning": "to read; to predict",
+    "example": "毎晩、本を読みます。"
+  }
+]

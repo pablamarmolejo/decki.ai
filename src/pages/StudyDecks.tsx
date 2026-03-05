@@ -25,7 +25,13 @@ const StudyDecks: React.FC<StudyDecksProps> = ({ onNavigateToCreate, onNavigateT
   return (
     <div className="study-decks-page">
       <div className="study-decks-title-row">
-        <h2 className="page-title">Study decks</h2>
+        <div className="page-title-row">
+          <div className="title-section-icon study-decks-icon"></div>
+          <div className="title-content">
+            <h2 className="page-title-text">Study decks</h2>
+            <p className="page-subtitle-text">Review your vocabulary and kanji collections</p>
+          </div>
+        </div>
         <div className="decks-filter">
           <button className={`filter-btn ${filter === 'all' ? 'active' : ''}`} onClick={() => setFilter('all')}>All</button>
           <button className={`filter-btn ${filter === 'default' ? 'active' : ''}`} onClick={() => setFilter('default')}>Default</button>

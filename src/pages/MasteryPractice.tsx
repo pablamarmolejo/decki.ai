@@ -1,16 +1,13 @@
 import React, { useState } from 'react';
 import { useAppContext } from '../AppContext';
-import { getSentenceSuggestions, getSentenceFeedback } from '../services/gemini';
 import type { Flashcard, SentencePractice } from '../types';
+import checkIcon from '../assets/ic_round-check.svg';
+import restoreIcon from '../assets/ic_round-restore.svg';
 
 const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNavigateToStudy }) => {
-  const { decks, wordProgress, addSentence, removeSentence, currentLevel } = useAppContext();
+  const { decks, wordProgress, addSentence, removeSentence } = useAppContext();
   const [selectedWord, setSelectedWord] = useState<Flashcard | null>(null);
   const [sentence, setSentence] = useState('');
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isGettingSuggestions, setIsGettingSuggestions] = useState(false);
-  const [suggestions, setSuggestions] = useState<any | null>(null);
-  const [isFromSuggestion, setIsFromSuggestion] = useState(false);
 
   // Get all learnt words across all decks
   const learntWords = decks.flatMap(deck => deck.cards).filter(card => card.state === 'learnt');
@@ -21,165 +18,132 @@ const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNaviga
   const handleWordSelect = (word: Flashcard) => {
     setSelectedWord(word);
     setSentence('');
-    setSuggestions(null);
-    setIsFromSuggestion(false);
   };
 
-  const handleGetSuggestions = async () => {
-    if (!selectedWord) return;
-    setIsGettingSuggestions(true);
-    try {
-      const data = await getSentenceSuggestions(selectedWord.kanji || selectedWord.kana || '', selectedWord.meaning, currentLevel);
-      setSuggestions(data);
-    } catch (error) {
-      console.error(error);
-      alert('Failed to get suggestions.');
-    } finally {
-      setIsGettingSuggestions(false);
-    }
-  };
-
-  const handleUseSuggestion = (suggestion: any) => {
-    setSentence(suggestion.kanji);
-    setIsFromSuggestion(true);
-  };
-
-  const [currentFeedback, setCurrentFeedback] = useState<any | null>(null);
-
-  const handleSubmit = async () => {
+  const handleSubmit = () => {
     if (!selectedWord || !sentence.trim()) return;
-    setIsSubmitting(true);
-    setCurrentFeedback(null);
-    try {
-      const data = await getSentenceFeedback(sentence, selectedWord.kanji || selectedWord.kana || '', currentLevel, isFromSuggestion);
-      
-      if (!data.isGibberish) {
-        const newSentence: SentencePractice = {
-          sentence: sentence,
-          hiragana: '', // Would be better if Gemini provided this for custom sentences
-          meaning: '', // Would be better if Gemini provided this
-          date: new Date().toLocaleDateString(),
-          feedback: data.feedback
-        };
-        addSentence(selectedWord.id, newSentence);
-        setSentence('');
-      } else {
-        // If gibberish, we show feedback but don't add to history
-        setSuggestions({
-          explanation: data.explanation,
-          suggestions: data.suggestions
-        });
-      }
-      setCurrentFeedback(data);
-    } catch (error) {
-      console.error(error);
-      alert('Failed to submit sentence.');
-    } finally {
-      setIsSubmitting(false);
-    }
+    
+    const newSentence: SentencePractice = {
+      sentence: sentence,
+      hiragana: '', 
+      meaning: '', 
+      date: new Date().toLocaleDateString(),
+    };
+    
+    addSentence(selectedWord.id, newSentence);
+    setSentence('');
   };
 
   const progress = wordProgress.find(p => p.wordId === selectedWord?.id);
 
   return (
-    <div className="mastery-practice-page">
-      <div className="learnt-words-sidebar">
-        <h3>Learnt words ({uniqueLearntWords.length})</h3>
-        {uniqueLearntWords.length === 0 ? (
-          <div className="empty-state">
-            <p>No words learnt yet. Go to Study Decks to start learning!</p>
-            <button onClick={onNavigateToStudy}>Go to Study Decks</button>
-          </div>
-        ) : (
-          <ul className="word-list">
-            {uniqueLearntWords.map(word => {
-              const isUsed = wordProgress.find(p => p.wordId === word.id)?.usedInPractice;
-              return (
-                <li 
-                  key={word.id} 
-                  className={`word-item ${selectedWord?.id === word.id ? 'active' : ''}`}
-                  onClick={() => handleWordSelect(word)}
-                >
-                  <div className="word-main">{word.kanji || word.kana} {isUsed && '✓'}</div>
-                  <div className="word-sub">{word.meaning}</div>
-                </li>
-              );
-            })}
-          </ul>
-        )}
+    <div className="mastery-practice-page-container">
+      <div className="page-title-row">
+        <div className="title-section-icon mastery-icon"></div>
+        <div className="title-content">
+          <h2 className="page-title-text">Mastery practice</h2>
+          <p className="page-subtitle-text">Practice your learnt words by creating sentences</p>
+        </div>
       </div>
 
-      <div className="practice-area">
-        {!selectedWord ? (
-          <div className="empty-practice">
-            <p>Select a word from the list to start practicing!</p>
-          </div>
-        ) : (
-          <div className="writing-section">
-            <div className="selected-word-info">
-              <h2>{selectedWord.kanji} ({selectedWord.kana})</h2>
-              <p>{selectedWord.meaning}</p>
+      <div className="mastery-practice-page">
+        <div className="learnt-words-sidebar">
+          <h3 className="sidebar-title">Learnt words ({uniqueLearntWords.length})</h3>
+          {uniqueLearntWords.length === 0 ? (
+            <div className="empty-state">
+              <p>No words learnt yet. Go to Study Decks to start learning!</p>
+              <button onClick={onNavigateToStudy}>Go to Study Decks</button>
             </div>
-
-            <div className="ai-assist">
-              <button onClick={handleGetSuggestions} disabled={isGettingSuggestions}>
-                {isGettingSuggestions ? 'Loading suggestions...' : 'Sensei AI Assist'}
-              </button>
-              {suggestions && (
-                <div className="suggestions-list">
-                  <p>{suggestions.explanation}</p>
-                  {suggestions.suggestions.map((s: any, i: number) => (
-                    <div key={i} className="suggestion-card" onClick={() => handleUseSuggestion(s)}>
-                      <div className="s-kanji">{s.kanji}</div>
-                      <div className="s-hiragana">{s.hiragana}</div>
-                      <div className="s-meaning">{s.meaning}</div>
+          ) : (
+            <ul className="word-list">
+              {uniqueLearntWords.map(word => {
+                const isUsed = wordProgress.find(p => p.wordId === word.id)?.usedInPractice;
+                return (
+                  <li 
+                    key={word.id} 
+                    className={`word-item ${selectedWord?.id === word.id ? 'active' : ''}`}
+                    onClick={() => handleWordSelect(word)}
+                  >
+                    <div className="word-item-content">
+                      <div className="word-item-meaning">{word.meaning}</div>
+                      <div className="word-item-main-row">
+                        <div className="word-item-main">{word.kanji || word.kana}</div>
+                        <div className="word-item-reading">{word.kana}</div>
+                      </div>
                     </div>
-                  ))}
+                    {isUsed && (
+                      <div className="word-item-used-badge">
+                        <img src={checkIcon} alt="Used" />
+                      </div>
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          )}
+        </div>
+
+        <div className="practice-column">
+          {!selectedWord ? (
+            <div className="practice-area empty">
+              <div className="empty-practice">
+                <p>Select a word from the list to start practicing!</p>
+              </div>
+            </div>
+          ) : (
+            <>
+              <div className="practice-area">
+                <div className="writing-section">
+                  <div className="practice-header-row">
+                    <div className="selected-word-info">
+                      <div className="word-item-meaning">{selectedWord.meaning}</div>
+                      <div className="selected-word-main-row">
+                        <div className="word-item-main">{selectedWord.kanji || selectedWord.kana}</div>
+                        <div className="word-item-reading">{selectedWord.kana}</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="sentence-input">
+                    <div className="field-label">Type your sentence</div>
+                    <textarea 
+                      value={sentence} 
+                      onChange={(e) => setSentence(e.target.value)} 
+                      placeholder="Write a sentence using this word..."
+                    />
+                    <div className="action-row">
+                      <button className="submit-btn" onClick={handleSubmit} disabled={!sentence.trim()}>
+                        Add to history
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {progress && progress.sentences.length > 0 && (
+                <div className="practice-feedback-container">
+                  <div className="section-title">
+                    <img src={restoreIcon} alt="" className="section-icon" />
+                    <span>Sentence history</span>
+                  </div>
+                  <div className="history-list">
+                    {progress.sentences.map((s, i) => (
+                      <div key={i} className="history-item">
+                        <div className="history-header">
+                          <div className="history-text-content">
+                            <div className="h-sentence">{s.sentence}</div>
+                            <div className="h-date">{s.date}</div>
+                          </div>
+                          <button className="remove-s" onClick={() => removeSentence(selectedWord.id, i)}>×</button>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               )}
-            </div>
-
-            <div className="sentence-input">
-              <textarea 
-                value={sentence} 
-                onChange={(e) => {
-                  setSentence(e.target.value);
-                  setIsFromSuggestion(false);
-                }} 
-                placeholder="Write a sentence using this word..."
-              />
-              <button onClick={handleSubmit} disabled={isSubmitting || !sentence.trim()}>
-                {isSubmitting ? 'Submitting...' : 'Submit to Sensei AI'}
-              </button>
-            </div>
-
-            {currentFeedback && (
-              <div className={`feedback-bubble ${currentFeedback.isGibberish ? 'warning' : 'success'}`}>
-                <strong>Sensei AI's Feedback:</strong>
-                <p>{currentFeedback.feedback}</p>
-              </div>
-            )}
-
-            {progress && progress.sentences.length > 0 && (
-              <div className="sentence-history">
-                <h3>Sentence History</h3>
-                {progress.sentences.map((s, i) => (
-                  <div key={i} className="history-item">
-                    <div className="history-header">
-                      <div className="h-sentence">{s.sentence}</div>
-                      <div className="h-date">{s.date}</div>
-                      <button className="remove-s" onClick={() => removeSentence(selectedWord.id, i)}>×</button>
-                    </div>
-                    <details className="h-feedback">
-                      <summary>Sensei's Feedback</summary>
-                      <div className="feedback-content">{s.feedback}</div>
-                    </details>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
+            </>
+          )}
+        </div>
       </div>
     </div>
   );
