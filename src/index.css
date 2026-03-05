@@ -52,6 +52,10 @@ body {
   line-height: 1.5;
 }
 
+input, textarea, button {
+  font-family: inherit;
+}
+
 .app-container {
   display: flex;
   flex-direction: column;
@@ -412,22 +416,20 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   width: 100vw;
   background-color: var(--bg-color);
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
-  overflow: hidden;
+  overflow-y: visible;
   margin: 0;
-  padding: 0;
+  padding: 40px 0 100px 0;
 }
 
 .minimalist-mode-container .main-content {
-  flex: none; /* Prevent growing to allow vertical centering */
   display: flex;
-  align-items: center;
   justify-content: center;
   width: 100%;
 }

@@ -35,7 +35,7 @@ const StudyDecks: React.FC<StudyDecksProps> = ({ onNavigateToCreate, onNavigateT
         <div className="decks-filter">
           <button className={`filter-btn ${filter === 'all' ? 'active' : ''}`} onClick={() => setFilter('all')}>All</button>
           <button className={`filter-btn ${filter === 'default' ? 'active' : ''}`} onClick={() => setFilter('default')}>Default</button>
-          <button className={`filter-btn ${filter === 'custom' ? 'active' : ''}`} onClick={() => setFilter('custom')}>Custom AI</button>
+          <button className={`filter-btn ${filter === 'custom' ? 'active' : ''}`} onClick={() => setFilter('custom')}>Custom Deck</button>
         </div>
       </div>
 
@@ -57,7 +57,7 @@ const StudyDecks: React.FC<StudyDecksProps> = ({ onNavigateToCreate, onNavigateT
               <div key={deck.id} className={cardClassName} onClick={() => onNavigateToDeck(deck.id)}>
                 <div className="deck-header">
                   <div className="deck-label">
-                    {deck.type === 'custom' ? 'CUSTOM AI ✦' : deck.level}
+                    {deck.type === 'custom' ? 'CUSTOM DECK' : deck.level}
                   </div>
                   {deck.type === 'custom' && (
                     <button
@@ -89,10 +89,10 @@ const StudyDecks: React.FC<StudyDecksProps> = ({ onNavigateToCreate, onNavigateT
         </div>
 
         <div className="create-banner">
-          <h3>Let Sensei AI build your deck</h3>
-          <p>Type a theme or a list of words, and the AI will do the rest.</p>
+          <h3>Create your own custom deck</h3>
+          <p>Add your own words and sentences to practice at your own pace.</p>
           <button className="create-btn-white" onClick={onNavigateToCreate}>
-            <span>Create with AI</span>
+            <span>Create custom deck</span>
             <img src={autoAwesomeIcon} alt="" className="create-btn-icon" />
           </button>
         </div>
