@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useAppContext } from '../AppContext';
 import type { Deck, Flashcard, Level } from '../types';
 import leftArrow from '../assets/ic_round-keyboard-arrow-left.svg';
@@ -13,10 +13,12 @@ interface CreateCustomDeckProps {
 }
 
 interface ConfirmAction {
-  type: 'word' | 'deck';
+  type: 'word' | 'deck' | 'unsaved';
   id?: string;
   title: string;
   subheading: string;
+  confirmText?: string;
+  cancelText?: string;
 }
 
 const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeckId, showToast }) => {
@@ -27,6 +29,10 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
   const [isAddingNew, setIsAddingNew] = useState(false);
   const [confirmAction, setConfirmAction] = useState<ConfirmAction | null>(null);
   
+  // Track initial state to detect changes
+  const initialDataRef = useRef<{ name: string, words: Flashcard[] }>({ name: '', words: [] });
+  const [isFirstLoad, setIsFirstLoad] = useState(true);
+
   // State for the card currently being added/edited
   const [cardFormData, setCardFormData] = useState({
     kanji: '',
@@ -41,9 +47,22 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
       if (deckToEdit) {
         setDeckName(deckToEdit.name);
         setSelectedWords(deckToEdit.cards);
+        initialDataRef.current = { name: deckToEdit.name, words: [...deckToEdit.cards] };
       }
+    } else {
+      setDeckName('');
+      setSelectedWords([]);
+      initialDataRef.current = { name: '', words: [] };
     }
+    setIsFirstLoad(false);
   }, [editingDeckId, decks]);
+
+  const hasUnsavedChanges = () => {
+    if (isFirstLoad) return false;
+    const nameChanged = deckName !== initialDataRef.current.name;
+    const wordsChanged = JSON.stringify(selectedWords) !== JSON.stringify(initialDataRef.current.words);
+    return nameChanged || wordsChanged;
+  };
 
   useEffect(() => {
     const container = document.querySelector('.minimalist-mode-container');
@@ -68,7 +87,6 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
     }
 
     if (id) {
-      // Update existing card
       setSelectedWords(prev => prev.map(card => 
         card.id === id 
           ? { ...card, ...cardFormData } 
@@ -77,7 +95,6 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
       setEditingCardId(null);
       showToast('Card updated.');
     } else {
-      // Add new card at the beginning
       const cardToAdd: Flashcard = {
         id: `custom-card-${Date.now()}`,
         ...cardFormData,
@@ -107,7 +124,9 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
       type: 'word',
       id: cardId,
       title: 'Delete word?',
-      subheading: 'Saving your changes will make this action permanent.'
+      subheading: 'Saving your changes will make this action permanent.',
+      confirmText: 'Delete',
+      cancelText: 'Cancel'
     });
   };
 
@@ -115,8 +134,24 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
     setConfirmAction({
       type: 'deck',
       title: 'Delete deck?',
-      subheading: "Are you sure you would like to delete this deck? Deleted decks can't be recovered."
+      subheading: "Are you sure you would like to delete this deck? Deleted decks can't be recovered.",
+      confirmText: 'Delete',
+      cancelText: 'Cancel'
     });
+  };
+
+  const handleBackWithCheck = () => {
+    if (hasUnsavedChanges()) {
+      setConfirmAction({
+        type: 'unsaved',
+        title: 'Leaving without saving?',
+        subheading: 'Some of the changes you have made to this deck have not been saved.',
+        confirmText: 'Save changes',
+        cancelText: 'Leave anyways'
+      });
+    } else {
+      onBack();
+    }
   };
 
   const handleConfirmAction = () => {
@@ -130,10 +165,21 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
         setCardFormData({ kanji: '', kana: '', meaning: '', example: '' });
       }
       showToast('Card removed from list.');
+      setConfirmAction(null);
     } else if (confirmAction.type === 'deck' && editingDeckId) {
       deleteDeck(editingDeckId);
       showToast('Deck deleted.');
       onBack();
+      setConfirmAction(null);
+    } else if (confirmAction.type === 'unsaved') {
+      handleCreateOrUpdateDeck(); // This will also call onBack() on success
+      setConfirmAction(null);
+    }
+  };
+
+  const handleCancelAction = () => {
+    if (confirmAction?.type === 'unsaved') {
+      onBack(); // "Leave anyways"
     }
     setConfirmAction(null);
   };
@@ -187,7 +233,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
     }}>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '16px' }}>
         <div className="input-group">
-          <div className="field-label">Word (kanji)</div>
+          <div className="field-label">Word (kanji) *</div>
           <input 
             type="text" 
             value={cardFormData.kanji} 
@@ -197,7 +243,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
           />
         </div>
         <div className="input-group">
-          <div className="field-label">Word (kana)</div>
+          <div className="field-label">Word (kana) *</div>
           <input 
             type="text" 
             value={cardFormData.kana} 
@@ -208,7 +254,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
         </div>
       </div>
       <div style={{ marginBottom: '16px' }}>
-        <div className="field-label">Meaning</div>
+        <div className="field-label">Meaning *</div>
         <input 
           type="text" 
           value={cardFormData.meaning} 
@@ -295,7 +341,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
             color: '#5856eb',
             lineHeight: '1'
           }}>
-            {editingCardId ? 'Update word' : 'Save word'}
+            {editingCardId ? 'Update word' : 'Add word'}
           </span>
         </button>
       </div>
@@ -305,7 +351,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
   return (
     <div className="sensei-ai-view">
       {confirmAction && (
-        <div className="modal-overlay" onClick={() => setConfirmAction(null)}>
+        <div className="modal-overlay" onClick={handleCancelAction}>
           <div className="confirmation-modal" onClick={(e) => e.stopPropagation()} style={{
             width: '571px',
             minHeight: '193px',
@@ -354,7 +400,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
             <div style={{ display: 'flex', gap: '16px', alignSelf: 'flex-end' }}>
               <button 
                 className="secondary-btn" 
-                onClick={() => setConfirmAction(null)}
+                onClick={handleCancelAction}
                 style={{ 
                   width: '200px', 
                   height: '44px', 
@@ -378,23 +424,23 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
                   color: '#060543',
                   lineHeight: '1'
                 }}>
-                  Cancel
+                  {confirmAction.cancelText}
                 </span>
               </button>
               <button 
-                className="delete-btn" 
+                className="primary-btn" 
                 onClick={handleConfirmAction}
                 style={{ 
                   width: '200px',
-                  height: '43px',
+                  height: '44px',
                   display: 'flex',
                   flexDirection: 'row',
                   justifyContent: 'center',
                   alignItems: 'center',
                   gap: '8px',
-                  padding: '12px 24px',
+                  padding: '13px 24px',
                   borderRadius: '8px',
-                  backgroundColor: '#ffe6e6',
+                  backgroundColor: (confirmAction.type === 'unsaved' ? '#060543' : '#ffe6e6'),
                   border: 'none',
                   cursor: 'pointer'
                 }}
@@ -404,20 +450,22 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
                   fontSize: '16px',
                   fontWeight: 'bold',
                   textAlign: 'center',
-                  color: '#d73d3d',
+                  color: (confirmAction.type === 'unsaved' ? '#fcfcfc' : '#d73d3d'),
                   lineHeight: '1'
                 }}>
-                  Delete
+                  {confirmAction.confirmText}
                 </span>
-                <img 
-                  src={deleteIcon} 
-                  alt="" 
-                  style={{ 
-                    width: '20px', 
-                    height: '20px', 
-                    filter: 'brightness(0) saturate(100%) invert(34%) sepia(86%) saturate(1914%) hue-rotate(336deg) brightness(89%) contrast(91%)' // #d73d3d
-                  }} 
-                />
+                {confirmAction.type !== 'unsaved' && (
+                  <img 
+                    src={deleteIcon} 
+                    alt="" 
+                    style={{ 
+                      width: '20px', 
+                      height: '20px', 
+                      filter: 'brightness(0) saturate(100%) invert(34%) sepia(86%) saturate(1914%) hue-rotate(336deg) brightness(89%) contrast(91%)' // #d73d3d
+                    }} 
+                  />
+                )}
               </button>
             </div>
           </div>
@@ -425,7 +473,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
       )}
 
       <div className="sensei-ai-header">
-        <button className="text-link-btn back-btn" onClick={onBack}>
+        <button className="text-link-btn back-btn" onClick={handleBackWithCheck}>
           <img src={leftArrow} alt="" className="link-icon" />
           Back to decks
         </button>
@@ -592,7 +640,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
             className="primary-btn" 
             onClick={handleCreateOrUpdateDeck} 
             style={{ 
-              width: '233px', 
+              width: '200px', 
               height: '44px', 
               flexGrow: 0, 
               display: 'flex', 
@@ -600,8 +648,8 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
               justifyContent: 'center', 
               alignItems: 'center', 
               gap: '8px', 
-              padding: '13px 48px 12px', 
-              borderRadius: '6px',
+              padding: '13px 24px', 
+              borderRadius: '8px',
               cursor: (!deckName.trim() || selectedWords.length === 0) ? 'not-allowed' : 'pointer',
               backgroundColor: (!deckName.trim() || selectedWords.length === 0) ? '#f4f4f7' : undefined,
               border: 'none'
