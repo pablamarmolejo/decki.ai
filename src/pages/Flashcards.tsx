@@ -6,6 +6,9 @@ import rightArrow from '../assets/ic_round-keyboard-arrow-right.svg';
 import checkIcon from '../assets/ic_round-check.svg';
 import restoreIcon from '../assets/ic_round-restore.svg';
 import refreshIcon from '../assets/ic_round-refresh.svg';
+import schoolIcon from '../assets/ic_round-school.svg';
+import eventsIcon from '../assets/ic_round-emoji-events.svg';
+import confetti from 'canvas-confetti';
 
 interface FlashcardsProps {
   deckId: string;
@@ -108,16 +111,129 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
   const allLearnt = shuffledCards.length > 0 && shuffledCards.every(c => c.state === 'learnt');
   const isKanjiDeck = deck.type === 'default' && deck.name.toLowerCase().includes('kanji');
 
+  React.useEffect(() => {
+    if (allLearnt && !isTransitioning) {
+      confetti({
+        particleCount: 150,
+        spread: 70,
+        origin: { y: 0.6 },
+        colors: ['#ff0000', '#ffd700', '#228b22', '#0000ff', '#ff69b4', '#800080', '#ffa500']
+      });
+    }
+  }, [allLearnt, isTransitioning]);
+
   if (allLearnt && !isTransitioning) {
     return (
-      <div className="congratulations-container">
-        <div className="congratulations-card">
-          <h2>🎉 Congratulations! 🎉</h2>
-          <p>You have mastered all {totalCards} cards in this deck!</p>
-          <div className="congrats-actions">
-            <button className="primary-btn" onClick={onBack}>Go back to Study decks</button>
-            <button className="secondary-btn" onClick={handleReset}>Restart deck</button>
-            <button className="accent-btn" onClick={onNavigateToMastery}>Start practice</button>
+      <div className="flashcards-mode-view">
+        <div className="flashcards-mode-header">
+          <button className="text-link-btn back-btn" onClick={onBack}>
+            <img src={leftArrow} alt="" className="link-icon" />
+            Back to decks
+          </button>
+        </div>
+
+        <div className="flashcards-main-container">
+          <div className="flashcard-item">
+            <div className="card-face" style={{ 
+              justifyContent: 'center', 
+              alignItems: 'center', 
+              gap: '16px', 
+              textAlign: 'center',
+              position: 'relative'
+            }}>
+              <div className="title-section-icon" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#d2edd7' }}>
+                <img 
+                  src={eventsIcon} 
+                  alt="" 
+                  style={{ 
+                    width: '26px', 
+                    height: '26px',
+                    filter: 'brightness(0) saturate(100%) invert(38%) sepia(58%) saturate(541%) hue-rotate(83deg) brightness(93%) contrast(88%)' // #297a39
+                  }} 
+                />
+              </div>
+              <div style={{
+                fontFamily: "'Noto Sans JP', sans-serif",
+                fontSize: '24px',
+                fontWeight: 'bold',
+                color: '#060543',
+                textAlign: 'left'
+              }}>
+                Well done!
+              </div>
+              <div style={{
+                width: '247px',
+                height: '17px',
+                flexGrow: 0,
+                fontFamily: "'Noto Sans JP', sans-serif",
+                fontSize: '14px',
+                fontWeight: '500',
+                color: '#2f2f3b',
+                textAlign: 'center'
+              }}>
+                Great, you have completed this deck!
+              </div>
+              <div style={{ display: 'flex', gap: '16px', marginTop: '16px' }}>
+                <button 
+                  className="secondary-btn" 
+                  onClick={handleReset}
+                  style={{ 
+                    width: '200px', 
+                    height: '44px', 
+                    display: 'flex', 
+                    flexDirection: 'row', 
+                    justifyContent: 'center', 
+                    alignItems: 'center', 
+                    gap: '8px', 
+                    padding: '13px 24px', 
+                    borderRadius: '6px',
+                    backgroundColor: '#f4f4f7',
+                    border: 'none',
+                    cursor: 'pointer'
+                  }}
+                >
+                  <span style={{
+                    fontFamily: "'Noto Sans JP', sans-serif",
+                    fontSize: '16px',
+                    fontWeight: 'bold',
+                    textAlign: 'center',
+                    color: '#060543',
+                    lineHeight: '1'
+                  }}>
+                    Restart deck
+                  </span>
+                </button>
+                <button 
+                  className="primary-btn" 
+                  onClick={onNavigateToMastery}
+                  style={{ 
+                    width: '200px', 
+                    height: '44px', 
+                    display: 'flex', 
+                    flexDirection: 'row', 
+                    justifyContent: 'center', 
+                    alignItems: 'center', 
+                    gap: '8px', 
+                    padding: '13px 24px', 
+                    borderRadius: '8px',
+                    backgroundColor: '#060543',
+                    border: 'none',
+                    cursor: 'pointer'
+                  }}
+                >
+                  <span style={{
+                    fontFamily: "'Noto Sans JP', sans-serif",
+                    fontSize: '16px',
+                    fontWeight: 'bold',
+                    textAlign: 'center',
+                    color: '#fcfcfc',
+                    lineHeight: '1'
+                  }}>
+                    Mastery practice
+                  </span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

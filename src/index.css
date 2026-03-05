@@ -713,13 +713,13 @@ input:checked + .slider:before {
 }
 
 .card-state-badge.learnt {
-  background-color: #ECFDF5;
-  color: #10B981;
+  background-color: #d2edd7;
+  color: #297a39;
 }
 
 .card-state-badge.review {
-  background-color: #FFFBEB;
-  color: #F59E0B;
+  background-color: #fff0c4;
+  color: #be7b10;
 }
 
 .card-word-type {
