@@ -16,6 +16,14 @@ const App: React.FC = () => {
   const [editingDeckId, setEditingDeckId] = useState<string | null>(null);
   const [toast, setToast] = useState<string | null>(null);
 
+  // Scroll to top on page change
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+    // Also reset minimalist container scroll if it exists
+    const container = document.querySelector('.minimalist-mode-container');
+    if (container) container.scrollTop = 0;
+  }, [currentPage]);
+
   const showToast = (message: string) => {
     setToast(message);
     setTimeout(() => setToast(null), 3000);

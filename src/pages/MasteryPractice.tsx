@@ -3,6 +3,7 @@ import { useAppContext } from '../AppContext';
 import type { Flashcard, SentencePractice } from '../types';
 import checkIcon from '../assets/ic_round-check.svg';
 import restoreIcon from '../assets/ic_round-restore.svg';
+import schoolIcon from '../assets/ic_round-school.svg';
 
 const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNavigateToStudy }) => {
   const { decks, wordProgress, addSentence, removeSentence } = useAppContext();
@@ -39,7 +40,15 @@ const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNaviga
   return (
     <div className="mastery-practice-page-container">
       <div className="page-title-row">
-        <div className="title-section-icon mastery-icon"></div>
+        <img 
+          src={schoolIcon} 
+          alt="" 
+          style={{ 
+            width: '32px', 
+            height: '32px',
+            filter: 'brightness(0) saturate(100%) invert(32%) sepia(94%) saturate(4529%) hue-rotate(236deg) brightness(97%) contrast(93%)' // #5856eb
+          }} 
+        />
         <div className="title-content">
           <h2 className="page-title-text">Mastery practice</h2>
           <p className="page-subtitle-text">Practice your learnt words by creating sentences</p>

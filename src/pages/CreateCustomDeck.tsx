@@ -12,12 +12,20 @@ interface CreateCustomDeckProps {
   showToast: (message: string) => void;
 }
 
+interface ConfirmAction {
+  type: 'word' | 'deck';
+  id?: string;
+  title: string;
+  subheading: string;
+}
+
 const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeckId, showToast }) => {
   const { currentLevel, addCustomDeck, updateCustomDeck, deleteDeck, decks } = useAppContext();
   const [deckName, setDeckName] = useState('');
   const [selectedWords, setSelectedWords] = useState<Flashcard[]>([]);
   const [editingCardId, setEditingCardId] = useState<string | null>(null);
   const [isAddingNew, setIsAddingNew] = useState(false);
+  const [confirmAction, setConfirmAction] = useState<ConfirmAction | null>(null);
   
   // State for the card currently being added/edited
   const [cardFormData, setCardFormData] = useState({
@@ -36,6 +44,22 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
       }
     }
   }, [editingDeckId, decks]);
+
+  useEffect(() => {
+    const container = document.querySelector('.minimalist-mode-container');
+    if (confirmAction) {
+      document.body.style.overflow = 'hidden';
+      if (container) (container as HTMLElement).style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+      if (container) (container as HTMLElement).style.overflow = '';
+    }
+    
+    return () => {
+      document.body.style.overflow = '';
+      if (container) (container as HTMLElement).style.overflow = '';
+    };
+  }, [confirmAction]);
 
   const handleSaveCard = (id?: string) => {
     if (!cardFormData.kana.trim() || !cardFormData.meaning.trim()) {
@@ -78,17 +102,56 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
     setIsAddingNew(false);
   };
 
-  const handleRemoveCard = (cardId: string) => {
-    setSelectedWords(prev => prev.filter(w => w.id !== cardId));
+  const confirmDeleteWord = (cardId: string) => {
+    setConfirmAction({
+      type: 'word',
+      id: cardId,
+      title: 'Delete word?',
+      subheading: 'Saving your changes will make this action permanent.'
+    });
+  };
+
+  const confirmDeleteDeck = () => {
+    setConfirmAction({
+      type: 'deck',
+      title: 'Delete deck?',
+      subheading: "Are you sure you would like to delete this deck? Deleted decks can't be recovered."
+    });
+  };
+
+  const handleConfirmAction = () => {
+    if (!confirmAction) return;
+
+    if (confirmAction.type === 'word' && confirmAction.id) {
+      const cardId = confirmAction.id;
+      setSelectedWords(prev => prev.filter(w => w.id !== cardId));
+      if (editingCardId === cardId) {
+        setEditingCardId(null);
+        setCardFormData({ kanji: '', kana: '', meaning: '', example: '' });
+      }
+      showToast('Card removed from list.');
+    } else if (confirmAction.type === 'deck' && editingDeckId) {
+      deleteDeck(editingDeckId);
+      showToast('Deck deleted.');
+      onBack();
+    }
+    setConfirmAction(null);
   };
 
   const handleCreateOrUpdateDeck = () => {
-    if (!deckName.trim()) {
+    const hasName = !!deckName.trim();
+    const hasWords = selectedWords.length > 0;
+
+    if (!hasName && !hasWords) {
+      showToast('Please enter a deck name and add at least one word.');
+      return;
+    }
+    if (!hasName) {
       showToast('Please enter a deck name.');
       return;
     }
-    if (selectedWords.length === 0) {
-      showToast('Please add at least one flashcard.');
+    if (!hasWords) {
+      showToast('Please add at least one word.');
       return;
     }
 
@@ -207,7 +270,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
         </button>
         <button 
           className="primary-btn" 
-          onClick={() => handleSaveCard(id)}
+          onClick={() => handleSaveCard(editingCardId || undefined)}
           style={{ 
             width: '200px', 
             height: '44px', 
@@ -232,7 +295,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
             color: '#5856eb',
             lineHeight: '1'
           }}>
-            {id ? 'Update word' : 'Save word'}
+            {editingCardId ? 'Update word' : 'Save word'}
           </span>
         </button>
       </div>
@@ -241,6 +304,126 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
 
   return (
     <div className="sensei-ai-view">
+      {confirmAction && (
+        <div className="modal-overlay" onClick={() => setConfirmAction(null)}>
+          <div className="confirmation-modal" onClick={(e) => e.stopPropagation()} style={{
+            width: '571px',
+            minHeight: '193px',
+            height: 'auto',
+            flexGrow: 0,
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'space-between',
+            alignItems: 'flex-start',
+            gap: '32px',
+            padding: '32px',
+            borderRadius: '12px',
+            border: 'solid 1px #ededf0',
+            backgroundColor: '#fcfcfc',
+            boxSizing: 'border-box'
+          }}>
+            <div style={{ width: '100%' }}>
+              <div style={{
+                height: '24px',
+                alignSelf: 'stretch',
+                flexGrow: 0,
+                fontFamily: "'Noto Sans JP', sans-serif",
+                fontSize: '20px',
+                fontWeight: 'bold',
+                textAlign: 'left',
+                color: '#060543',
+                lineHeight: 'normal',
+                marginBottom: '8px'
+              }}>
+                {confirmAction.title}
+              </div>
+              <div style={{
+                alignSelf: 'stretch',
+                minHeight: '17px',
+                flexGrow: 0,
+                fontFamily: "'Noto Sans JP', sans-serif",
+                fontSize: '14px',
+                fontWeight: 'normal',
+                textAlign: 'left',
+                color: '#2f2f3b',
+                lineHeight: '1.4'
+              }}>
+                {confirmAction.subheading}
+              </div>
+            </div>
+            <div style={{ display: 'flex', gap: '16px', alignSelf: 'flex-end' }}>
+              <button 
+                className="secondary-btn" 
+                onClick={() => setConfirmAction(null)}
+                style={{ 
+                  width: '200px', 
+                  height: '44px', 
+                  display: 'flex', 
+                  flexDirection: 'row', 
+                  justifyContent: 'center', 
+                  alignItems: 'center', 
+                  gap: '8px', 
+                  padding: '13px 24px', 
+                  borderRadius: '6px',
+                  backgroundColor: '#f4f4f7',
+                  border: 'none',
+                  cursor: 'pointer'
+                }}
+              >
+                <span style={{
+                  fontFamily: "'Noto Sans JP', sans-serif",
+                  fontSize: '16px',
+                  fontWeight: 'bold',
+                  textAlign: 'center',
+                  color: '#060543',
+                  lineHeight: '1'
+                }}>
+                  Cancel
+                </span>
+              </button>
+              <button 
+                className="delete-btn" 
+                onClick={handleConfirmAction}
+                style={{ 
+                  width: '200px',
+                  height: '43px',
+                  display: 'flex',
+                  flexDirection: 'row',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  gap: '8px',
+                  padding: '12px 24px',
+                  borderRadius: '8px',
+                  backgroundColor: '#ffe6e6',
+                  border: 'none',
+                  cursor: 'pointer'
+                }}
+              >
+                <span style={{
+                  fontFamily: "'Noto Sans JP', sans-serif",
+                  fontSize: '16px',
+                  fontWeight: 'bold',
+                  textAlign: 'center',
+                  color: '#d73d3d',
+                  lineHeight: '1'
+                }}>
+                  Delete
+                </span>
+                <img 
+                  src={deleteIcon} 
+                  alt="" 
+                  style={{ 
+                    width: '20px', 
+                    height: '20px', 
+                    filter: 'brightness(0) saturate(100%) invert(34%) sepia(86%) saturate(1914%) hue-rotate(336deg) brightness(89%) contrast(91%)' // #d73d3d
+                  }} 
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       <div className="sensei-ai-header">
         <button className="text-link-btn back-btn" onClick={onBack}>
           <img src={leftArrow} alt="" className="link-icon" />
@@ -353,7 +536,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
                       </div>
                       <div style={{ display: 'flex', gap: '8px' }}>
                         <button className="text-link-btn" onClick={() => startEditing(word)} style={{ color: '#5856EB' }}>Edit</button>
-                        <button className="remove-word" onClick={() => handleRemoveCard(word.id)}>×</button>
+                        <button className="remove-word" onClick={() => confirmDeleteWord(word.id)}>×</button>
                       </div>
                     </div>
                   )}
@@ -367,13 +550,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
           {editingDeckId && (
             <button 
               className="delete-btn" 
-              onClick={() => {
-                if (window.confirm('Are you sure you want to delete this deck?')) {
-                  deleteDeck(editingDeckId);
-                  showToast('Deck deleted.');
-                  onBack();
-                }
-              }} 
+              onClick={confirmDeleteDeck} 
               style={{ 
                 marginRight: 'auto',
                 width: '200px',
@@ -398,7 +575,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
                 color: '#d73d3d',
                 lineHeight: '1'
               }}>
-                Delete
+                Delete deck
               </span>
               <img 
                 src={deleteIcon} 
@@ -414,9 +591,8 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
           <button 
             className="primary-btn" 
             onClick={handleCreateOrUpdateDeck} 
-            disabled={selectedWords.length === 0 || !deckName.trim() || !!editingCardId || isAddingNew}
             style={{ 
-              width: '200px', 
+              width: '233px', 
               height: '44px', 
               flexGrow: 0, 
               display: 'flex', 
@@ -424,9 +600,11 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
               justifyContent: 'center', 
               alignItems: 'center', 
               gap: '8px', 
-              padding: '13px 24px', 
-              borderRadius: '8px',
-              cursor: 'pointer'
+              padding: '13px 48px 12px', 
+              borderRadius: '6px',
+              cursor: (!deckName.trim() || selectedWords.length === 0) ? 'not-allowed' : 'pointer',
+              backgroundColor: (!deckName.trim() || selectedWords.length === 0) ? '#f4f4f7' : undefined,
+              border: 'none'
             }}
           >
             <span style={{
@@ -435,7 +613,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
               fontSize: '16px',
               fontWeight: 'bold',
               textAlign: 'center',
-              color: '#fcfcfc',
+              color: (!deckName.trim() || selectedWords.length === 0) ? '#8f8e96' : '#fcfcfc',
               lineHeight: '1'
             }}>
               {editingDeckId ? 'Save changes' : 'Save deck'}
