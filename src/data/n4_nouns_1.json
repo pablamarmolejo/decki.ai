@@ -1,0 +1,602 @@
+[
+  {
+    "kanji": "アフリカ",
+    "kana": "あふりか",
+    "meaning": "Africa",
+    "example": "彼はアフリカへ行くのが夢です。"
+  },
+  {
+    "kanji": "挨拶",
+    "kana": "あいさつ",
+    "meaning": "to greet; greeting; salutation",
+    "example": "日本人は丁寧にあいさつをします。"
+  },
+  {
+    "kanji": "味",
+    "kana": "あじ",
+    "meaning": "flavor; taste; uniqueness; attractiveness; experience",
+    "example": "この料理はいい味がします。"
+  },
+  {
+    "kanji": "アジア",
+    "kana": "あじあ",
+    "meaning": "Asia",
+    "example": "アジアの経済は成長しています。"
+  },
+  {
+    "kanji": "赤ちゃん",
+    "kana": "あかちゃん",
+    "meaning": "baby; infant",
+    "example": "赤ちゃんがすやすや眠っています。"
+  },
+  {
+    "kanji": "赤ん坊",
+    "kana": "あかんぼう",
+    "meaning": "baby; infant",
+    "example": "赤ん坊が大きな声で泣いています。"
+  },
+  {
+    "kanji": "アクセサリー",
+    "kana": "あくせさりー",
+    "meaning": "accessory; jewelry",
+    "example": "可愛いアクセサリーを買いました。"
+  },
+  {
+    "kanji": "アメリカ",
+    "kana": "あめりか",
+    "meaning": "America; USA",
+    "example": "来月、アメリカへ出張します。"
+  },
+  {
+    "kanji": "アナウンサー",
+    "kana": "あなうんさー",
+    "meaning": "announcer; broadcaster",
+    "example": "彼女はテレビ局のアナウンサーです。"
+  },
+  {
+    "kanji": "案内",
+    "kana": "あんない",
+    "meaning": "to guide; guidance; leading the way",
+    "example": "京都を案内してくれませんか。"
+  },
+  {
+    "kanji": "安心",
+    "kana": "あんしん",
+    "meaning": "peace of mind; relief; reassurance",
+    "example": "テストが終わって安心しました。"
+  },
+  {
+    "kanji": "安全",
+    "kana": "あんぜん",
+    "meaning": "safety; security; hygiene",
+    "example": "ここは夜歩いても安全な場所です。"
+  },
+  {
+    "kanji": "アルバイト",
+    "kana": "あるばいと",
+    "meaning": "part-time job; side job",
+    "example": "コンビニでアルバイトをしています。"
+  },
+  {
+    "kanji": "アルコール",
+    "kana": "あるこーる",
+    "meaning": "alcohol; alcoholic beverage",
+    "example": "私はアルコールに弱いです。"
+  },
+  {
+    "kanji": "遊び",
+    "kana": "あそび",
+    "meaning": "playing; amusement; game",
+    "example": "子供たちは外で遊びに夢中です。"
+  },
+  {
+    "kanji": "倍",
+    "kana": "ばい",
+    "meaning": "double; twice; times; fold",
+    "example": "値段が去年の2倍になりました。"
+  },
+  {
+    "kanji": "番組",
+    "kana": "ばんぐみ",
+    "meaning": "program; show (e.g. TV, radio)",
+    "example": "面白いテレビ番組があります。"
+  },
+  {
+    "kanji": "場所",
+    "kana": "ばしょ",
+    "meaning": "place; location; spot; position",
+    "example": "待ち合わせの場所はどこですか。"
+  },
+  {
+    "kanji": "ベル",
+    "kana": "べる",
+    "meaning": "bell; chime",
+    "example": "玄関のベルが鳴りました。"
+  },
+  {
+    "kanji": "美術館",
+    "kana": "びじゅつかん",
+    "meaning": "art gallery; art museum",
+    "example": "日曜日に美術館へ行きました。"
+  },
+  {
+    "kanji": "ビル",
+    "kana": "びる",
+    "meaning": "building; skyscraper",
+    "example": "駅の前に高いビルが建ちました。"
+  },
+  {
+    "kanji": "貿易",
+    "kana": "ぼうえき",
+    "meaning": "trade; commerce; export and import",
+    "example": "日本は貿易が盛んな国です。"
+  },
+  {
+    "kanji": "部長",
+    "kana": "ぶちょう",
+    "meaning": "manager; head (chief, director) of a section or department",
+    "example": "部長に書類を提出しました。"
+  },
+  {
+    "kanji": "ぶどう",
+    "kana": "ぶどう",
+    "meaning": "grapes",
+    "example": "秋はぶどうが美味しい季節です。"
+  },
+  {
+    "kanji": "文学",
+    "kana": "ぶんがく",
+    "meaning": "literature",
+    "example": "大学で日本文学を勉強しています。"
+  },
+  {
+    "kanji": "文化",
+    "kana": "bunka",
+    "meaning": "culture; civilization",
+    "example": "異国の文化を学ぶのは楽しいです。"
+  },
+  {
+    "kanji": "文法",
+    "kana": "ぶんぽう",
+    "meaning": "grammar",
+    "example": "この文法の使い方は難しいですね。"
+  },
+  {
+    "kanji": "チェック",
+    "kana": "ちぇっく",
+    "meaning": "to check; inspection; checking",
+    "example": "持ち物をチェックしてください。"
+  },
+  {
+    "kanji": "血",
+    "kana": "ち",
+    "meaning": "blood; lineage; descent",
+    "example": "転んで足から血が出ました。"
+  },
+  {
+    "kanji": "力",
+    "kana": "ちから",
+    "meaning": "energy; force; strength; might; power; capability",
+    "example": "重い荷物を運ぶ力があります。"
+  },
+  {
+    "kanji": "地理",
+    "kana": "ちり",
+    "meaning": "geography",
+    "example": "私は世界の地理に詳しいです。"
+  },
+  {
+    "kanji": "中学校",
+    "kana": "ちゅうがっこう",
+    "meaning": "junior high school; middle school",
+    "example": "弟は中学校に通っています。"
+  },
+  {
+    "kanji": "注意",
+    "kana": "ちゅうい",
+    "meaning": "caution; attention; warning; advice",
+    "example": "車に注意して道を渡りましょう。"
+  },
+  {
+    "kanji": "注射",
+    "kana": "ちゅうしゃ",
+    "meaning": "injection; shot",
+    "example": "病院でインフルエンザの注射をしました。"
+  },
+  {
+    "kanji": "駐車場",
+    "kana": "ちゅうしゃじょう",
+    "meaning": "parking lot; parking garage",
+    "example": "この駐車場は無料です。"
+  },
+  {
+    "kanji": "大学生",
+    "kana": "だいがくせい",
+    "meaning": "university student; college student",
+    "example": "兄は大学生で一人暮らしをしています。"
+  },
+  {
+    "kanji": "大体",
+    "kana": "だいたい",
+    "meaning": "roughly; approximately; outline; mostly",
+    "example": "仕事は大体終わりました。"
+  },
+  {
+    "kanji": "暖房",
+    "kana": "だんぼう",
+    "meaning": "heating; indoor heating",
+    "example": "寒いので暖房をつけましょう。"
+  },
+  {
+    "kanji": "男性",
+    "kana": "だんせい",
+    "meaning": "man; male",
+    "example": "その男性は青い帽子をかぶっています。"
+  },
+  {
+    "kanji": "電報",
+    "kana": "でんぽう",
+    "meaning": "telegram",
+    "example": "結婚のお祝いに電報を送りました。"
+  },
+  {
+    "kanji": "電灯",
+    "kana": "でんとう",
+    "meaning": "electric light",
+    "example": "電灯が切れて部屋が暗くなりました。"
+  },
+  {
+    "kanji": "泥棒",
+    "kana": "どろぼう",
+    "meaning": "thief; burglar; robber",
+    "example": "泥棒が窓から逃げました。"
+  },
+  {
+    "kanji": "動物園",
+    "kana": "どうぶつえん",
+    "meaning": "zoo; zoological gardens",
+    "example": "動物園でパンダを見ました。"
+  },
+  {
+    "kanji": "道具",
+    "kana": "どうぐ",
+    "meaning": "tool; instrument; utensil; gear",
+    "example": "料理の道具を揃えました。"
+  },
+  {
+    "kanji": "枝",
+    "kana": "えだ",
+    "meaning": "branch; twig; bough",
+    "example": "木の枝に鳥が止まっています。"
+  },
+  {
+    "kanji": "遠慮",
+    "kana": "えんりょ",
+    "meaning": "reserve; refraining; diffidence; constraint",
+    "example": "遠慮しないでたくさん食べてください。"
+  },
+  {
+    "kanji": "エスカレーター",
+    "kana": "えすかれーたー",
+    "meaning": "escalator",
+    "example": "2階までエスカレーターで行きます。"
+  },
+  {
+    "kanji": "ファックス",
+    "kana": "ふぁっくす",
+    "meaning": "fax; facsimile",
+    "example": "資料をファックスで送ります。"
+  },
+  {
+    "kanji": "不便",
+    "kana": "ふべん",
+    "meaning": "inconvenience; unhandiness",
+    "example": "この辺りは交通が不便です。"
+  },
+  {
+    "kanji": "復習",
+    "kana": "ふくしゅう",
+    "meaning": "review (of learned material); revision",
+    "example": "習ったことを家で復習します。"
+  },
+  {
+    "kanji": "複雑",
+    "kana": "ふくざつ",
+    "meaning": "complexity; complication",
+    "example": "この機械の構造は複雑です。"
+  },
+  {
+    "kanji": "船",
+    "kana": "ふね",
+    "meaning": "ship; boat; vessel",
+    "example": "大きな船が港に入ってきました。"
+  },
+  {
+    "kanji": "布団",
+    "kana": "ふとん",
+    "meaning": "Japanese bedding; futon",
+    "example": "ふかふかの布団で寝るのが好きです。"
+  },
+  {
+    "kanji": "普通",
+    "kana": "ふつう",
+    "meaning": "usually; normal; ordinary; common",
+    "example": "普通、朝食は8時に食べます。"
+  },
+  {
+    "kanji": "ガラス",
+    "kana": "がらす",
+    "meaning": "a glass; pane",
+    "example": "窓のガラスを磨きました。"
+  },
+  {
+    "kanji": "ガソリン",
+    "kana": "がそりん",
+    "meaning": "gasoline; petrol",
+    "example": "ガソリンの値段が上がっています。"
+  },
+  {
+    "kanji": "ガソリンスタンド",
+    "kana": "がそりんすたんど",
+    "meaning": "petrol station; gas station",
+    "example": "角のガソリンスタンドで給油します。"
+  },
+  {
+    "kanji": "ガス",
+    "kana": "がす",
+    "meaning": "gas; petrol",
+    "example": "ガスコンロで火をつけます。"
+  },
+  {
+    "kanji": "原因",
+    "kana": "げんいん",
+    "meaning": "cause; origin; source",
+    "example": "事故の原因を調査しています。"
+  },
+  {
+    "kanji": "下宿",
+    "kana": "げしゅく",
+    "meaning": "lodging; boarding; room and board",
+    "example": "学生時代は叔母の家に下宿していました。"
+  },
+  {
+    "kanji": "技術",
+    "kana": "ぎじゅつ",
+    "meaning": "art; technology; skill; technique",
+    "example": "日本の最新技術はすごいです。"
+  },
+  {
+    "kanji": "ごちそう",
+    "kana": "ごちそう",
+    "meaning": "a feast; treat; banquet",
+    "example": "昨日のパーティーはごちそうでした。"
+  },
+  {
+    "kanji": "ごみ",
+    "kana": "ごみ",
+    "meaning": "rubbish; trash; garbage; dust",
+    "example": "ごみは指定の場所に捨ててください。"
+  },
+  {
+    "kanji": "ご主人",
+    "kana": "ごしゅじん",
+    "meaning": "your husband; her husband; master",
+    "example": "ご主人はお元気ですか。"
+  },
+  {
+    "kanji": "ご存じ",
+    "kana": "ごぞんじ",
+    "meaning": "knowing (honorific)",
+    "example": "そのニュースは既にご存じですか。"
+  },
+  {
+    "kanji": "具合",
+    "kana": "ぐあい",
+    "meaning": "condition; health; state; fitness",
+    "example": "体の具合はいかがですか。"
+  },
+  {
+    "kanji": "葉",
+    "kana": "は",
+    "meaning": "leaves; leaf; foliage",
+    "example": "秋になると木の葉が赤くなります。"
+  },
+  {
+    "kanji": "拝見",
+    "kana": "はいけん",
+    "meaning": "seeing; looking at (humble)",
+    "example": "お手紙を拝見いたしました。"
+  },
+  {
+    "kanji": "歯医者",
+    "kana": "はいしゃ",
+    "meaning": "dentist",
+    "example": "虫歯になったので歯医者に行きます。"
+  },
+  {
+    "kanji": "花見",
+    "kana": "はなみ",
+    "meaning": "cherry blossom viewing; flower viewing",
+    "example": "公園で友達とお花見をしました。"
+  },
+  {
+    "kanji": "ハンドバッグ",
+    "kana": "はんどばっぐ",
+    "meaning": "handbag; purse",
+    "example": "新しいハンドバッグを買いに行きます。"
+  },
+  {
+    "kanji": "反対",
+    "kana": "はんたい",
+    "meaning": "opposition; resistance; reverse; contrast",
+    "example": "彼の意見に反対する人は誰もいません。"
+  },
+  {
+    "kanji": "発音",
+    "kana": "はつおん",
+    "meaning": "pronunciation; articulation",
+    "example": "日本語の発音を毎日練習します。"
+  },
+  {
+    "kanji": "林",
+    "kana": "はやし",
+    "meaning": "woods; forest; copse",
+    "example": "家の裏に小さな林があります。"
+  },
+  {
+    "kanji": "変",
+    "kana": "へん",
+    "meaning": "strange; peculiar; weird; unusual",
+    "example": "何か変な音が聞こえませんか。"
+  },
+  {
+    "kanji": "返事",
+    "kana": "へんじ",
+    "meaning": "reply; answer; response",
+    "example": "メールの返事をすぐに出します。"
+  },
+  {
+    "kanji": "火",
+    "kana": "ひ",
+    "meaning": "fire; flame; blaze",
+    "example": "火の元に気をつけてください。"
+  },
+  {
+    "kanji": "髭",
+    "kana": "ひげ",
+    "meaning": "beard; mustache; whiskers",
+    "example": "父は立派な髭を生やしています。"
+  },
+  {
+    "kanji": "光",
+    "kana": "ひかり",
+    "meaning": "light; ray; beam; glow",
+    "example": "窓から光が差し込んでいます。"
+  },
+  {
+    "kanji": "引き出し",
+    "kana": "ひきだし",
+    "meaning": "drawer; withdrawal",
+    "example": "机の引き出しに鍵があります。"
+  },
+  {
+    "kanji": "飛行場",
+    "kana": "ひこうじょう",
+    "meaning": "airfield; airport",
+    "example": "飛行場で友達を見送りました。"
+  },
+  {
+    "kanji": "昼間",
+    "kana": "ひるま",
+    "meaning": "daytime; during the day",
+    "example": "昼間は仕事で忙しいです。"
+  },
+  {
+    "kanji": "昼休み",
+    "kana": "ひるやすみ",
+    "meaning": "lunch break; noon recess; noon rest period",
+    "example": "昼休みは同僚とお弁当を食べます。"
+  },
+  {
+    "kanji": "久しぶり",
+    "kana": "ひさしぶり",
+    "meaning": "after a long time; first time in a while",
+    "example": "久しぶりに故郷の友人に会いました。"
+  },
+  {
+    "kanji": "翻訳",
+    "kana": "ほんやく",
+    "meaning": "translation; version",
+    "example": "英語の小説を日本語に翻訳します。"
+  },
+  {
+    "kanji": "星",
+    "kana": "ほし",
+    "meaning": "star; celestial body",
+    "example": "今夜は星がとても綺麗です。"
+  },
+  {
+    "kanji": "ほとんど",
+    "kana": "ほとんど",
+    "meaning": "mostly; nearly; almost; practically",
+    "example": "宿題はほとんど終わりました。"
+  },
+  {
+    "kanji": "法律",
+    "kana": "ほうりつ",
+    "meaning": "law; statute",
+    "example": "法律を守ることは大切です。"
+  },
+  {
+    "kanji": "放送",
+    "kana": "ほうそう",
+    "meaning": "to broadcast; broadcasting; programing",
+    "example": "ラジオでニュースが放送されています。"
+  },
+  {
+    "kanji": "一度",
+    "kana": "いちど",
+    "meaning": "once; one time; on one occasion",
+    "example": "一度日本へ行ってみたいです。"
+  },
+  {
+    "kanji": "以外",
+    "kana": "いがい",
+    "meaning": "with the exception of; excepting; excluding",
+    "example": "日曜日以外は働いています。"
+  },
+  {
+    "kanji": "医学",
+    "kana": "いがく",
+    "meaning": "medical science; medicine",
+    "example": "将来は大学で医学を学びたいです。"
+  },
+  {
+    "kanji": "以上",
+    "kana": "いじょう",
+    "meaning": "... and more; ... and upwards; above-mentioned",
+    "example": "1000円以上の買い物で割引されます。"
+  },
+  {
+    "kanji": "以下",
+    "kana": "いか",
+    "meaning": "not exceeding; and below; following",
+    "example": "小学生以下は無料です。"
+  },
+  {
+    "kanji": "意見",
+    "kana": "いけん",
+    "meaning": "opinion; view; comment; suggestion",
+    "example": "あなたの意見を聞かせてください。"
+  },
+  {
+    "kanji": "生き物",
+    "kana": "いきもの",
+    "meaning": "living thing; creature; animal",
+    "example": "海にはたくさんの生き物がいます。"
+  },
+  {
+    "kanji": "以内",
+    "kana": "inai",
+    "meaning": "within; inside; less than",
+    "example": "3日以内に返信してください。"
+  },
+  {
+    "kanji": "田舎",
+    "kana": "いなか",
+    "meaning": "countryside; rural area; hometown",
+    "example": "夏休みは田舎の祖父母の家へ行きます。"
+  },
+  {
+    "kanji": "いっぱい",
+    "kana": "いっぱい",
+    "meaning": "full; whole; one cup of",
+    "example": "お腹がいっぱいになりました。"
+  },
+  {
+    "kanji": "石",
+    "kana": "いし",
+    "meaning": "stone; rock; gem",
+    "example": "河原で綺麗な石を拾いました。"
+  }
+]

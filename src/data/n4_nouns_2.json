@@ -1,0 +1,602 @@
+[
+  {
+    "kanji": "一生懸命",
+    "kana": "いっしょうけんめい",
+    "meaning": "very hard; with utmost effort",
+    "example": "一生懸命勉強して、試験に合格しました。"
+  },
+  {
+    "kanji": "糸",
+    "kana": "いと",
+    "meaning": "thread",
+    "example": "針に糸を通すのは難しいです。"
+  },
+  {
+    "kanji": "ジャム",
+    "kana": "ジャム",
+    "meaning": "jam",
+    "example": "パンにいちごジャムを塗ります。"
+  },
+  {
+    "kanji": "字",
+    "kana": "じ",
+    "meaning": "character",
+    "example": "もっときれいな字を書けるようになりたいです。"
+  },
+  {
+    "kanji": "時代",
+    "kana": "じだい",
+    "meaning": "period; era",
+    "example": "江戸時代について本で読みました。"
+  },
+  {
+    "kanji": "事故",
+    "kana": "じこ",
+    "meaning": "accident",
+    "example": "昨日、家の近くで交通事故がありました。"
+  },
+  {
+    "kanji": "事務所",
+    "kana": "じむしょ",
+    "meaning": "office",
+    "example": "書類を事務所へ届けてください。"
+  },
+  {
+    "kanji": "神社",
+    "kana": "じんじゃ",
+    "meaning": "Shinto shrine",
+    "example": "お正月に近くの神社へお参りに行きました。"
+  },
+  {
+    "kanji": "人口",
+    "kana": "じんこう",
+    "meaning": "population",
+    "example": "東京の人口はとても多いです。"
+  },
+  {
+    "kanji": "人生",
+    "kana": "じんせい",
+    "meaning": "human life",
+    "example": "人生にはいろいろな楽しみがあります。"
+  },
+  {
+    "kanji": "地震",
+    "kana": "じしん",
+    "meaning": "earthquake",
+    "example": "大きな地震で机が揺れました。"
+  },
+  {
+    "kanji": "辞典",
+    "kana": "じてん",
+    "meaning": "dictionary",
+    "example": "わからない言葉を辞典で調べます。"
+  },
+  {
+    "kanji": "自由",
+    "kana": "じゆう",
+    "meaning": "freedom",
+    "example": "大学生になって自由な時間が増えました。"
+  },
+  {
+    "kanji": "女性",
+    "kana": "じょせい",
+    "meaning": "woman; female",
+    "example": "あの店は女性のお客さんに人気があります。"
+  },
+  {
+    "kanji": "準備",
+    "kana": "じゅんび",
+    "meaning": "to prepare; preparation",
+    "example": "明日から旅行なので、準備が大変です。"
+  },
+  {
+    "kanji": "十分",
+    "kana": "じゅうぶん",
+    "meaning": "enough; sufficient; plenty",
+    "example": "時間は十分ありますから、急がなくていいですよ。"
+  },
+  {
+    "kanji": "柔道",
+    "kana": "じゅうどう",
+    "meaning": "judo",
+    "example": "弟は毎週日曜日に柔道を習っています。"
+  },
+  {
+    "kanji": "住所",
+    "kana": "じゅうしょ",
+    "meaning": "address",
+    "example": "ここにあなたの住所を書いてください。"
+  },
+  {
+    "kanji": "カーテン",
+    "kana": "カーテン",
+    "meaning": "curtain",
+    "example": "朝になったのでカーテンを開けましょう。"
+  },
+  {
+    "kanji": "壁",
+    "kana": "かべ",
+    "meaning": "wall",
+    "example": "壁にカレンダーが掛けてあります。"
+  },
+  {
+    "kanji": "課長",
+    "kana": "かちょう",
+    "meaning": "section manager; section chief",
+    "example": "課長に報告書を提出しました。"
+  },
+  {
+    "kanji": "帰り",
+    "kana": "かえり",
+    "meaning": "return; coming back",
+    "example": "仕事の帰りにスーパーへ寄りました。"
+  },
+  {
+    "kanji": "科学",
+    "kana": "かがく",
+    "meaning": "science",
+    "example": "彼は科学の実験が大好きです。"
+  },
+  {
+    "kanji": "鏡",
+    "kana": "かがみ",
+    "meaning": "mirror",
+    "example": "鏡を見てネクタイを直しました。"
+  },
+  {
+    "kanji": "海岸",
+    "kana": "かいがん",
+    "meaning": "coast; beach",
+    "example": "夏休みに海岸で泳ぎました。"
+  },
+  {
+    "kanji": "会議",
+    "kana": "かいぎ",
+    "meaning": "meeting; conference",
+    "example": "午後から大事な会議があります。"
+  },
+  {
+    "kanji": "会議室",
+    "kana": "かいぎしつ",
+    "meaning": "conference room",
+    "example": "会議室の鍵を借りてきてください。"
+  },
+  {
+    "kanji": "会場",
+    "kana": "かいじょう",
+    "meaning": "assembly hall; venue",
+    "example": "結婚式の会場はどこですか。"
+  },
+  {
+    "kanji": "会話",
+    "kana": "かいわ",
+    "meaning": "conversation",
+    "example": "日本語の会話を練習しましょう。"
+  },
+  {
+    "kanji": "火事",
+    "kana": "かじ",
+    "meaning": "fire",
+    "example": "近所で火事があったので、消防車が来ました。"
+  },
+  {
+    "kanji": "格好",
+    "kana": "かっこう",
+    "meaning": "appearance",
+    "example": "パーティーなので、きれいな格好をしています。"
+  },
+  {
+    "kanji": "髪",
+    "kana": "かみ",
+    "meaning": "hair",
+    "example": "昨日、美容院で髪を切りました。"
+  },
+  {
+    "kanji": "家内",
+    "kana": "かない",
+    "meaning": "(my) wife; inside the home",
+    "example": "家内は料理がとても上手です。"
+  },
+  {
+    "kanji": "看護婦",
+    "kana": "かんごふ",
+    "meaning": "female nurse",
+    "example": "病院で看護婦さんに親切にしてもらいました。"
+  },
+  {
+    "kanji": "関係",
+    "kana": "かんけい",
+    "meaning": "relationship",
+    "example": "二人の関係はとても良いです。"
+  },
+  {
+    "kanji": "簡単",
+    "kana": "かんたん",
+    "meaning": "simple; easy",
+    "example": "この料理はとても簡単に作れます。"
+  },
+  {
+    "kanji": "形",
+    "kana": "かたち",
+    "meaning": "shape",
+    "example": "この雲は面白い形をしていますね。"
+  },
+  {
+    "kanji": "代わり",
+    "kana": "かわり",
+    "meaning": "instead; in place",
+    "example": "病気の先生の代わりに、新しい先生が来ました。"
+  },
+  {
+    "kanji": "毛",
+    "kana": "け",
+    "meaning": "hair or fur",
+    "example": "このセーターは羊の毛でできています。"
+  },
+  {
+    "kanji": "ケーキ",
+    "kana": "ケーキ",
+    "meaning": "cake",
+    "example": "誕生日に大きなケーキを食べました。"
+  },
+  {
+    "kanji": "怪我",
+    "kana": "けが",
+    "meaning": "to injure; injury",
+    "example": "転んで足に怪我をしました。"
+  },
+  {
+    "kanji": "計画",
+    "kana": "けいかく",
+    "meaning": "to plan; project",
+    "example": "週末の旅行の計画を立てましょう。"
+  },
+  {
+    "kanji": "経験",
+    "kana": "けいけん",
+    "meaning": "to experience; experience",
+    "example": "日本で生活した経験は忘れません。"
+  },
+  {
+    "kanji": "警察",
+    "kana": "けいさつ",
+    "meaning": "police",
+    "example": "道を間違えたので、警察で聞きました。"
+  },
+  {
+    "kanji": "経済",
+    "kana": "けいざい",
+    "meaning": "finance, economy",
+    "example": "大学で経済について勉強しています。"
+  },
+  {
+    "kanji": "見物",
+    "kana": "けんぶつ",
+    "meaning": "sightseeing; visit",
+    "example": "京都へお寺の見物に行きました。"
+  },
+  {
+    "kanji": "喧嘩",
+    "kana": "けんか",
+    "meaning": "to quarrel; fight",
+    "example": "兄弟で喧嘩をしてしまいました。"
+  },
+  {
+    "kanji": "研究",
+    "kana": "けんきゅう",
+    "meaning": "research",
+    "example": "新しい薬の研究をしています。"
+  },
+  {
+    "kanji": "研究室",
+    "kana": "けんきゅうしつ",
+    "meaning": "laboratory; professor's office",
+    "example": "教授の研究室へ行ってきます。"
+  },
+  {
+    "kanji": "消しゴム",
+    "kana": "けしゴム",
+    "meaning": "eraser",
+    "example": "間違えたので、消しゴムで消しました。"
+  },
+  {
+    "kanji": "景色",
+    "kana": "けしき",
+    "meaning": "scenery",
+    "example": "山の上からの景色は最高でした。"
+  },
+  {
+    "kanji": "気",
+    "kana": "き",
+    "meaning": "spirit; mind; energy",
+    "example": "雨が降りそうなので、気を付けてください。"
+  },
+  {
+    "kanji": "気分",
+    "kana": "きぶん",
+    "meaning": "feeling; mood",
+    "example": "風邪をひいて気分が悪いです。"
+  },
+  {
+    "kanji": "機会",
+    "kana": "きかい",
+    "meaning": "chance; opportunity",
+    "example": "日本へ行く機会があれば、ぜひ富士山に登りたいです。"
+  },
+  {
+    "kanji": "危険",
+    "kana": "きけん",
+    "meaning": "danger",
+    "example": "この川で泳ぐのは危険です。"
+  },
+  {
+    "kanji": "気持ち",
+    "kana": "きもち",
+    "meaning": "feeling",
+    "example": "プレゼントをもらって、うれしい気持ちになりました。"
+  },
+  {
+    "kanji": "着物",
+    "kana": "きもの",
+    "meaning": "kimono; Japanese traditional clothing",
+    "example": "お祭りの日に着物を着ました。"
+  },
+  {
+    "kanji": "近所",
+    "kana": "きんじょ",
+    "meaning": "neighbourhood",
+    "example": "近所に公園があります。"
+  },
+  {
+    "kanji": "絹",
+    "kana": "きぬ",
+    "meaning": "silk",
+    "example": "このスカーフは絹でできています。"
+  },
+  {
+    "kanji": "季節",
+    "kana": "きせつ",
+    "meaning": "season",
+    "example": "日本には四季という四つの季節があります。"
+  },
+  {
+    "kanji": "汽車",
+    "kana": "きしゃ",
+    "meaning": "train (steam)",
+    "example": "昔、人々は汽車で旅をしていました。"
+  },
+  {
+    "kanji": "規則",
+    "kana": "きそく",
+    "meaning": "rule",
+    "example": "学校の規則を守らなければなりません。"
+  },
+  {
+    "kanji": "子",
+    "kana": "こ",
+    "meaning": "child",
+    "example": "公園で子が遊んでいます。"
+  },
+  {
+    "kanji": "心",
+    "kana": "こころ",
+    "meaning": "heart; soul; mind",
+    "example": "彼女は心がとても優しい人です。"
+  },
+  {
+    "kanji": "国際",
+    "kana": "こくさい",
+    "meaning": "international",
+    "example": "来月、国際会議が開かれます。"
+  },
+  {
+    "kanji": "米",
+    "kana": "こめ",
+    "meaning": "rice (grains)",
+    "example": "日本では毎日お米を食べます。"
+  },
+  {
+    "kanji": "今度",
+    "kana": "こんど",
+    "meaning": "this time; next time",
+    "example": "今度の休みはどこへ行きますか。"
+  },
+  {
+    "kanji": "この間",
+    "kana": "このあいだ",
+    "meaning": "the other day; recently",
+    "example": "この間、久しぶりに友達に会いました。"
+  },
+  {
+    "kanji": "このごろ",
+    "kana": "このごろ",
+    "meaning": "these days; nowadays",
+    "example": "このごろは寒い日が多いですね。"
+  },
+  {
+    "kanji": "コンピュータ",
+    "kana": "コンピュータ",
+    "meaning": "computer",
+    "example": "仕事で毎日コンピュータを使います。"
+  },
+  {
+    "kanji": "コンサート",
+    "kana": "コンサート",
+    "meaning": "concert",
+    "example": "昨日、好きな歌手のコンサートへ行きました。"
+  },
+  {
+    "kanji": "今夜",
+    "kana": "こんや",
+    "meaning": "this evening; tonight",
+    "example": "今夜は月がとてもきれいです。"
+  },
+  {
+    "kanji": "故障",
+    "kana": "こしょう",
+    "meaning": "to break-down; out of order",
+    "example": "パソコンが故障して動かなくなりました。"
+  },
+  {
+    "kanji": "答え",
+    "kana": "こたえ",
+    "meaning": "response; answer",
+    "example": "問題の答えを書いてください。"
+  },
+  {
+    "kanji": "小鳥",
+    "kana": "ことり",
+    "meaning": "small bird",
+    "example": "庭で小鳥が鳴いています。"
+  },
+  {
+    "kanji": "校長",
+    "kana": "こうちょう",
+    "meaning": "principal; headmaster",
+    "example": "校長先生が朝礼で話をしました。"
+  },
+  {
+    "kanji": "講堂",
+    "kana": "こうどう",
+    "meaning": "auditorium",
+    "example": "講堂に学生が集まっています。"
+  },
+  {
+    "kanji": "郊外",
+    "kana": "こうがい",
+    "meaning": "suburb; outskirts",
+    "example": "都心を離れて郊外に住んでいます。"
+  },
+  {
+    "kanji": "講義",
+    "kana": "こうぎ",
+    "meaning": "lecture",
+    "example": "大学で歴史の講義を聴きました。"
+  },
+  {
+    "kanji": "工業",
+    "kana": "こうぎょう",
+    "meaning": "industry",
+    "example": "この町は工業が盛んです。"
+  },
+  {
+    "kanji": "工場",
+    "kana": "こうじょう",
+    "meaning": "factory",
+    "example": "自動車の工場で見学をしました。"
+  },
+  {
+    "kanji": "高校",
+    "kana": "こうこう",
+    "meaning": "senior high school",
+    "example": "兄は高校に通っています。"
+  },
+  {
+    "kanji": "高校生",
+    "kana": "こうこうせい",
+    "meaning": "high school student",
+    "example": "あの高校生はテニスが上手です。"
+  },
+  {
+    "kanji": "公務員",
+    "kana": "こうむin",
+    "meaning": "government worker",
+    "example": "私の父は公務員です。"
+  },
+  {
+    "kanji": "高等学校",
+    "kana": "こうとうがっこう",
+    "meaning": "high school (formal)",
+    "example": "ここは私立の高等学校です。"
+  },
+  {
+    "kanji": "交通",
+    "kana": "こうつう",
+    "meaning": "traffic",
+    "example": "この道は交通が激しいです。"
+  },
+  {
+    "kanji": "首",
+    "kana": "くび",
+    "meaning": "neck",
+    "example": "寝違えて首が痛いです。"
+  },
+  {
+    "kanji": "雲",
+    "kana": "くも",
+    "meaning": "cloud",
+    "example": "空に白い雲が浮かんでいます。"
+  },
+  {
+    "kanji": "草",
+    "kana": "くさ",
+    "meaning": "grass",
+    "example": "庭に草がたくさん生えています。"
+  },
+  {
+    "kanji": "空気",
+    "kana": "kuuki",
+    "meaning": "air",
+    "example": "田舎は空気がとてもきれいです。"
+  },
+  {
+    "kanji": "空港",
+    "kana": "くうこう",
+    "meaning": "airport",
+    "example": "友達を迎えに空港へ行きました。"
+  },
+  {
+    "kanji": "客",
+    "kana": "きゃく",
+    "meaning": "guest; customer",
+    "example": "レストランにお客さんが並んでいます。"
+  },
+  {
+    "kanji": "教育",
+    "kana": "きょういく",
+    "meaning": "education",
+    "example": "子供の教育はとても大切です。"
+  },
+  {
+    "kanji": "教会",
+    "kana": "きょうかい",
+    "meaning": "church; congregation",
+    "example": "日曜日は教会へ行きます。"
+  },
+  {
+    "kanji": "興味",
+    "kana": "きょうみ",
+    "meaning": "interest; curiosity",
+    "example": "日本の文化に興味があります。"
+  },
+  {
+    "kanji": "競争",
+    "kana": "きょうそう",
+    "meaning": "competition",
+    "example": "テストの点で友達と競争しました。"
+  },
+  {
+    "kanji": "急行",
+    "kana": "きゅうこう",
+    "meaning": "express train",
+    "example": "急行電車に乗ると早く着きます。"
+  },
+  {
+    "kanji": "漫画",
+    "kana": "まんが",
+    "meaning": "comic; manga",
+    "example": "私は毎週この漫画を読んでいます。"
+  },
+  {
+    "kanji": "真ん中",
+    "kana": "まんなか",
+    "meaning": "middle; centre",
+    "example": "部屋の真ん中にテーブルを置きました。"
+  },
+  {
+    "kanji": "周り",
+    "kana": "まわり",
+    "meaning": "around; surroundings",
+    "example": "池の周りを散歩しました。"
+  }
+]

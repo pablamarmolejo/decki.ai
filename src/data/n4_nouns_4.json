@@ -1,0 +1,380 @@
+[
+  {
+    "kanji": "祖父",
+    "kana": "そふ",
+    "meaning": "grandfather",
+    "example": "私の祖父はとても元気です。"
+  },
+  {
+    "kanji": "ソフト",
+    "kana": "そふと",
+    "meaning": "soft; software",
+    "example": "新しいコンピューターのソフトを買いました。"
+  },
+  {
+    "kanji": "卒業",
+    "kana": "そつぎょう",
+    "meaning": "graduation",
+    "example": "来年、大学を卒業します。"
+  },
+  {
+    "kanji": "相談",
+    "kana": "そうだん",
+    "meaning": "to discuss; consultation",
+    "example": "先生に将来のことを相談しました。"
+  },
+  {
+    "kanji": "水道",
+    "kana": "すいどう",
+    "meaning": "water supply; waterworks",
+    "example": "水道の水を飲んでもいいですか。"
+  },
+  {
+    "kanji": "水泳",
+    "kana": "すいえい",
+    "meaning": "swimming",
+    "example": "私の趣味は水泳です。"
+  },
+  {
+    "kanji": "スクリーン",
+    "kana": "すくりーん",
+    "meaning": "screen",
+    "example": "大きなスクリーンで映画を見ました。"
+  },
+  {
+    "kanji": "隅",
+    "kana": "すみ",
+    "meaning": "corner; nook",
+    "example": "部屋の隅に机があります。"
+  },
+  {
+    "kanji": "砂",
+    "kana": "すな",
+    "meaning": "sand",
+    "example": "靴の中に砂が入ってしまいました。"
+  },
+  {
+    "kanji": "すり",
+    "kana": "すり",
+    "meaning": "pickpocket",
+    "example": "電車の中でぶりに財布を盗まれました。"
+  },
+  {
+    "kanji": "スーツケース",
+    "kana": "すーつけーす",
+    "meaning": "suitcase",
+    "example": "このスーツケースはとても重いです。"
+  },
+  {
+    "kanji": "ステーキ",
+    "kana": "すてーき",
+    "meaning": "steak",
+    "example": "晩ご飯にステーキを食べました。"
+  },
+  {
+    "kanji": "ステレオ",
+    "kana": "すてれお",
+    "meaning": "stereo",
+    "example": "新しいステレオで音楽を聴きます。"
+  },
+  {
+    "kanji": "数学",
+    "kana": "すうがく",
+    "meaning": "mathematics; arithmetic",
+    "example": "数学の試験は難しかったです。"
+  },
+  {
+    "kanji": "スーツ",
+    "kana": "すーつ",
+    "meaning": "suit",
+    "example": "仕事のために新しいスーツを買いました。"
+  },
+  {
+    "kanji": "退院",
+    "kana": "たいいん",
+    "meaning": "leaving hospital; discharge from hospital",
+    "example": "母は明日退院する予定です。"
+  },
+  {
+    "kanji": "台風",
+    "kana": "たいふう",
+    "meaning": "typhoon",
+    "example": "台風が来ているので風が強いです。"
+  },
+  {
+    "kanji": "タイプ",
+    "kana": "たいぷ",
+    "meaning": "type; style",
+    "example": "彼は私の好きなタイプではありません。"
+  },
+  {
+    "kanji": "たいてい",
+    "kana": "たいてい",
+    "meaning": "usually",
+    "example": "日曜日はたいてい家にいます。"
+  },
+  {
+    "kanji": "棚",
+    "kana": "たな",
+    "meaning": "shelves",
+    "example": "本を棚に戻してください。"
+  },
+  {
+    "kanji": "誕生",
+    "kana": "たんじょう",
+    "meaning": "birth",
+    "example": "新しい命の誕生をお祝いしました。"
+  },
+  {
+    "kanji": "楽しみ",
+    "kana": "たのしみ",
+    "meaning": "looking forward to; pleasure",
+    "example": "旅行に行くのが楽しみです。"
+  },
+  {
+    "kanji": "畳",
+    "kana": "たたみ",
+    "meaning": "Japanese straw mat",
+    "example": "この部屋には畳が六枚あります。"
+  },
+  {
+    "kanji": "手袋",
+    "kana": "てぶくろ",
+    "meaning": "glove; mittens",
+    "example": "寒いので手袋をはめます。"
+  },
+  {
+    "kanji": "丁寧",
+    "kana": "ていねい",
+    "meaning": "polite",
+    "example": "あの店員さんはとても丁寧です。"
+  },
+  {
+    "kanji": "テキスト",
+    "kana": "てきすと",
+    "meaning": "text; textbook",
+    "example": "テキストの五十ページを開けてください。"
+  },
+  {
+    "kanji": "適当",
+    "kana": "てきとう",
+    "meaning": "suitable; appropriate",
+    "example": "適当な言葉が見つかりません。"
+  },
+  {
+    "kanji": "点",
+    "kana": "てん",
+    "meaning": "point; dot; score",
+    "example": "テストでいい点を取りました。"
+  },
+  {
+    "kanji": "店員",
+    "kana": "てんいん",
+    "meaning": "employee (of a store); shop assistant; clerk",
+    "example": "店員さんに場所を聞きました。"
+  },
+  {
+    "kanji": "テニス",
+    "kana": "てにす",
+    "meaning": "tennis",
+    "example": "週末は友達とテニスをします。"
+  },
+  {
+    "kanji": "天気予報",
+    "kana": "てんきよほう",
+    "meaning": "weather forecast",
+    "example": "天気予報によると明日は雨です。"
+  },
+  {
+    "kanji": "展覧会",
+    "kana": "てんらんかい",
+    "meaning": "exhibition",
+    "example": "美術館の展覧会に行きました。"
+  },
+  {
+    "kanji": "寺",
+    "kana": "てら",
+    "meaning": "temple",
+    "example": "京都には古い寺がたくさんあります。"
+  },
+  {
+    "kanji": "途中",
+    "kana": "とちゅう",
+    "meaning": "on the way; in the middle of",
+    "example": "学校へ行く途中で雨が降ってきました。"
+  },
+  {
+    "kanji": "特急",
+    "kana": "とっきゅう",
+    "meaning": "limited express (train)",
+    "example": "特急に乗れば一時間で着きます。"
+  },
+  {
+    "kanji": "床屋",
+    "kana": "とこや",
+    "meaning": "barber",
+    "example": "床屋で髪を切ってもらいました。"
+  },
+  {
+    "kanji": "特別",
+    "kana": "とくべつ",
+    "meaning": "special; particular; extraordinary",
+    "example": "今日は特別な日です。"
+  },
+  {
+    "kanji": "遠く",
+    "kana": "とおく",
+    "meaning": "distant; far away",
+    "example": "遠くに山が見えます。"
+  },
+  {
+    "kanji": "都合",
+    "kana": "つぐおう",
+    "meaning": "convenience",
+    "example": "明日は都合が悪いです。"
+  },
+  {
+    "kanji": "月",
+    "kana": "つき",
+    "meaning": "moon",
+    "example": "今夜は月がきれいです。"
+  },
+  {
+    "kanji": "妻",
+    "kana": "つま",
+    "meaning": "(humble) wife",
+    "example": "私の妻は料理が得意です。"
+  },
+  {
+    "kanji": "腕",
+    "kana": "うで",
+    "meaning": "arm",
+    "example": "重い荷物を持って腕が痛いです。"
+  },
+  {
+    "kanji": "受付",
+    "kana": "うけつけ",
+    "meaning": "reception (desk); information desk",
+    "example": "受付で名前を書いてください。"
+  },
+  {
+    "kanji": "生まれ",
+    "kana": "うまれ",
+    "meaning": "birth; origin",
+    "example": "私は東京生まれです。"
+  },
+  {
+    "kanji": "運転手",
+    "kana": "うんてんしゅ",
+    "meaning": "driver; chauffeur",
+    "example": "タクシーの運転手さんに道を教えました。"
+  },
+  {
+    "kanji": "裏",
+    "kana": "うら",
+    "meaning": "reverse side; back",
+    "example": "紙の裏にメモを書きました。"
+  },
+  {
+    "kanji": "売り場",
+    "kana": "うりば",
+    "meaning": "selling area; counter",
+    "example": "靴の売り場はどこですか。"
+  },
+  {
+    "kanji": "嘘",
+    "kana": "うそ",
+    "meaning": "a lie",
+    "example": "嘘をついてはいけません。"
+  },
+  {
+    "kanji": "ワープロ",
+    "kana": "わーぷろ",
+    "meaning": "word processor",
+    "example": "昔はワープロを使っていました。"
+  },
+  {
+    "kanji": "割合",
+    "kana": "わりあい",
+    "meaning": "rate; ratio",
+    "example": "合格者の割合は高いです。"
+  },
+  {
+    "kanji": "忘れ物",
+    "kana": "わすれもの",
+    "meaning": "lost article; forgotten thing",
+    "example": "電車に忘れ物をしました。"
+  },
+  {
+    "kanji": "約束",
+    "kana": "やくそく",
+    "meaning": "promise",
+    "example": "友達と会う約束があります。"
+  },
+  {
+    "kanji": "予習",
+    "kana": "よしゅう",
+    "meaning": "preparation for a lesson",
+    "example": "毎日、漢字の予習をします。"
+  },
+  {
+    "kanji": "予定",
+    "kana": "よてい",
+    "meaning": "plan",
+    "example": "明日の予定を教えてください。"
+  },
+  {
+    "kanji": "用",
+    "kana": "よう",
+    "meaning": "business; task; errand; use",
+    "example": "子供用の自転車を買いました。"
+  },
+  {
+    "kanji": "用意",
+    "kana": "ようい",
+    "meaning": "preparation; getting ready",
+    "example": "夕食の用意ができました。"
+  },
+  {
+    "kanji": "用事",
+    "kana": "ようじ",
+    "meaning": "tasks; things to do; errand",
+    "example": "今日は用事があるので早く帰ります。"
+  },
+  {
+    "kanji": "予約",
+    "kana": "よやく",
+    "meaning": "reservation",
+    "example": "レストランを予約しました。"
+  },
+  {
+    "kanji": "湯",
+    "kana": "ゆ",
+    "meaning": "hot water",
+    "example": "お湯を沸かしてください。"
+  },
+  {
+    "kanji": "指",
+    "kana": "ゆび",
+    "meaning": "finger",
+    "example": "指を怪我してしまいました。"
+  },
+  {
+    "kanji": "指輪",
+    "kana": "ゆびわ",
+    "meaning": "finger ring",
+    "example": "誕生日に指輪をもらいました。"
+  },
+  {
+    "kanji": "夢",
+    "kana": "ゆめ",
+    "meaning": "dream",
+    "example": "昨夜、変な夢を見ました。"
+  },
+  {
+    "kanji": "残念",
+    "kana": "ざんねん",
+    "meaning": "regrettable; unfortunate",
+    "example": "パーティーに行けなくて残念です。"
+  }
+]

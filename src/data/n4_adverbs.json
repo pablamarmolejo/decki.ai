@@ -1,0 +1,272 @@
+[
+  {
+    "kanji": "ああ",
+    "kana": "ああ",
+    "meaning": "ah; yes; that way",
+    "example": "ああ、そうですか。"
+  },
+  {
+    "kanji": "間に",
+    "kana": "あいだに",
+    "meaning": "while; during",
+    "example": "留守の間に泥棒が入った。"
+  },
+  {
+    "kanji": "あまり～ない",
+    "kana": "あまり～ない",
+    "meaning": "not very; not much",
+    "example": "お肉はあまり食べません。"
+  },
+  {
+    "kanji": "後で",
+    "kana": "あとで",
+    "meaning": "after; later",
+    "example": "仕事の後で飲みに行きましょう。"
+  },
+  {
+    "kanji": "びっくり",
+    "kana": "びっくり",
+    "meaning": "to be surprised",
+    "example": "大きな音にびっくりした。"
+  },
+  {
+    "kanji": "大分",
+    "kana": "だいぶ",
+    "meaning": "considerably; greatly; a lot",
+    "example": "風邪は大分よくなりました。"
+  },
+  {
+    "kanji": "できるだけ",
+    "kana": "できるだけ",
+    "meaning": "as much as possible",
+    "example": "できるだけ早く来てください。"
+  },
+  {
+    "kanji": "どんどん",
+    "kana": "どんどん",
+    "meaning": "rapidly; more and more",
+    "example": "日本語がどんどん上手になりますね。"
+  },
+  {
+    "kanji": "普通",
+    "kana": "ふつう",
+    "meaning": "usually; normally",
+    "example": "普通、朝ごはんは食べません。"
+  },
+  {
+    "kanji": "はっきり",
+    "kana": "はっきり",
+    "meaning": "clearly",
+    "example": "富士山がはっきり見えます。"
+  },
+  {
+    "kanji": "非常に",
+    "kana": "ひじょうに",
+    "meaning": "extremely; very",
+    "example": "今日は非常に暑いです。"
+  },
+  {
+    "kanji": "いっぱい",
+    "kana": "いっぱい",
+    "meaning": "full; a lot",
+    "example": "お腹がいっぱいです。"
+  },
+  {
+    "kanji": "十分",
+    "kana": "じゅうぶん",
+    "meaning": "enough; sufficient; plenty",
+    "example": "時間は十分あります。"
+  },
+  {
+    "kanji": "かどうか",
+    "kana": "かどうか",
+    "meaning": "whether or not",
+    "example": "美味しいかどうか分かりません。"
+  },
+  {
+    "kanji": "必ず",
+    "kana": "かならず",
+    "meaning": "always; certainly",
+    "example": "明日は必ず来てください。"
+  },
+  {
+    "kanji": "きっと",
+    "kana": "きっと",
+    "meaning": "surely; most likely",
+    "example": "明日はきっと晴れるでしょう。"
+  },
+  {
+    "kanji": "こう",
+    "kana": "こう",
+    "meaning": "this way; like this",
+    "example": "こうやって作ります。"
+  },
+  {
+    "kanji": "くする",
+    "kana": "くする",
+    "meaning": "to make something (adjective)",
+    "example": "音を小さくしてください。"
+  },
+  {
+    "kanji": "急に",
+    "kana": "きゅうに",
+    "meaning": "quickly; suddenly",
+    "example": "急に雨が降り出しました。"
+  },
+  {
+    "kanji": "までに",
+    "kana": "までに",
+    "meaning": "by (time limit)",
+    "example": "五時までに帰ります。"
+  },
+  {
+    "kanji": "まず",
+    "kana": "まず",
+    "meaning": "first of all",
+    "example": "まず、手を洗ってください。"
+  },
+  {
+    "kanji": "みたいに",
+    "kana": "みたいに",
+    "meaning": "like; similar to",
+    "example": "彼は子供みたいに笑う。"
+  },
+  {
+    "kanji": "もし",
+    "kana": "もし",
+    "meaning": "if; in case",
+    "example": "もし雨が降ったら、行きません。"
+  },
+  {
+    "kanji": "もうすぐ",
+    "kana": "もうすぐ",
+    "meaning": "soon",
+    "example": "もうすぐ春ですね。"
+  },
+  {
+    "kanji": "なかなか～ない",
+    "kana": "なかなか～ない",
+    "meaning": "not easy to; not able to",
+    "example": "バスがなかなか来ません。"
+  },
+  {
+    "kanji": "なるほど",
+    "kana": "なるほど",
+    "meaning": "now I understand; I see",
+    "example": "なるほど、そういうことですね。"
+  },
+  {
+    "kanji": "の中で",
+    "kana": "のなかで",
+    "meaning": "in; among",
+    "example": "果物の中でリンゴが一番好きです。"
+  },
+  {
+    "kanji": "さすが",
+    "kana": "さすが",
+    "meaning": "as expected; even so",
+    "example": "さすがプロの歌手ですね。"
+  },
+  {
+    "kanji": "しっかり",
+    "kana": "しっかり",
+    "meaning": "firmly; steadily",
+    "example": "手すりをしっかり持ってください。"
+  },
+  {
+    "kanji": "そんなに",
+    "kana": "そんなに",
+    "meaning": "so much; like that",
+    "example": "そんなに怒らないでください。"
+  },
+  {
+    "kanji": "それほど",
+    "kana": "それほど",
+    "meaning": "to that extent; not so much",
+    "example": "今日はそれほど暑くない。"
+  },
+  {
+    "kanji": "そろそろ",
+    "kana": "そろそろ",
+    "meaning": "gradually; soon",
+    "example": "そろそろ失礼します。"
+  },
+  {
+    "kanji": "そうだ",
+    "kana": "そうだ",
+    "meaning": "looks like; appears like",
+    "example": "このリンゴは美味しそうです。"
+  },
+  {
+    "kanji": "すっかり",
+    "kana": "すっかり",
+    "meaning": "completely",
+    "example": "約束をすっかり忘れていました。"
+  },
+  {
+    "kanji": "たいてい",
+    "kana": "たいてい",
+    "meaning": "usually; mostly",
+    "example": "日曜日はたいてい家にいます。"
+  },
+  {
+    "kanji": "たまに",
+    "kana": "たまに",
+    "meaning": "occasionally",
+    "example": "たまに映画を見に行きます。"
+  },
+  {
+    "kanji": "特に",
+    "kana": "とくに",
+    "meaning": "particularly; especially",
+    "example": "特にスポーツが好きです。"
+  },
+  {
+    "kanji": "到頭",
+    "kana": "とうとう",
+    "meaning": "finally; after all",
+    "example": "とうとう夏休みが終わった。"
+  },
+  {
+    "kanji": "都合",
+    "kana": "つごう",
+    "meaning": "convenience; circumstances",
+    "example": "明日は都合が悪いです。"
+  },
+  {
+    "kanji": "やっぱり",
+    "kana": "やっぱり",
+    "meaning": "as I thought",
+    "example": "やっぱり彼は来なかった。"
+  },
+  {
+    "kanji": "やっと",
+    "kana": "やっと",
+    "meaning": "at last; barely",
+    "example": "やっと宿題が終わりました。"
+  },
+  {
+    "kanji": "より",
+    "kana": "より",
+    "meaning": "than; more than",
+    "example": "これよりあれの方がいいです。"
+  },
+  {
+    "kanji": "ぜひ",
+    "kana": "ぜひ",
+    "meaning": "by all means; definitely",
+    "example": "ぜひ遊びに来てください。"
+  },
+  {
+    "kanji": "全然",
+    "kana": "ぜんぜん",
+    "meaning": "not at all; entirely",
+    "example": "全然分かりません。"
+  },
+  {
+    "kanji": "全然～ない",
+    "kana": "ぜんぜん～ない",
+    "meaning": "(not) at all",
+    "example": "日本語が全然話せません。"
+  }
+]

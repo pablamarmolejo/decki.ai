@@ -1,0 +1,314 @@
+[
+  {
+    "kanji": "済む",
+    "kana": "すむ",
+    "meaning": "to finish; to end; to be completed",
+    "example": "仕事が早く済みました。"
+  },
+  {
+    "kanji": "進む",
+    "kana": "すすむ",
+    "meaning": "to make progress; to advance; to proceed",
+    "example": "プロジェクトが順調に進んでいます。"
+  },
+  {
+    "kanji": "捨てる",
+    "kana": "すてる",
+    "meaning": "to throw away; to discard; to abandon",
+    "example": "ゴミをここに捨てないでください。"
+  },
+  {
+    "kanji": "退院",
+    "kana": "たいいん",
+    "meaning": "leaving hospital; discharge from hospital",
+    "example": "来週、母が退院します。"
+  },
+  {
+    "kanji": "誕生",
+    "kana": "たんじょう",
+    "meaning": "birth; creation; formation",
+    "example": "新しい命が誕生しました。"
+  },
+  {
+    "kanji": "倒れる",
+    "kana": "たおれる",
+    "meaning": "to fall (over, down); to collapse",
+    "example": "強い風で木が倒れました。"
+  },
+  {
+    "kanji": "足りる",
+    "kana": "たりる",
+    "meaning": "to be sufficient; to be enough",
+    "example": "時間は十分に足りています。"
+  },
+  {
+    "kanji": "足す",
+    "kana": "たす",
+    "meaning": "to add (numbers / something)",
+    "example": "スープに塩を少し足しました。"
+  },
+  {
+    "kanji": "建てる",
+    "kana": "たてる",
+    "meaning": "to build; to construct; to erect",
+    "example": "将来、大きな家を建てたいです。"
+  },
+  {
+    "kanji": "尋ねる",
+    "kana": "たずねる",
+    "meaning": "to ask; to enquire; to search",
+    "example": "道がわからないので、警察官に尋ねました。"
+  },
+  {
+    "kanji": "訪ねる",
+    "kana": "たずねる",
+    "meaning": "to visit; to pay a visit",
+    "example": "週末に友人の家を訪ねました。"
+  },
+  {
+    "kanji": "手伝う",
+    "kana": "てつだう",
+    "meaning": "to help; to assist; to aid",
+    "example": "荷物を運ぶのを手伝ってください。"
+  },
+  {
+    "kanji": "届ける",
+    "kana": "とどける",
+    "meaning": "to send; to deliver; to report",
+    "example": "手紙を届けに行きます。"
+  },
+  {
+    "kanji": "泊まる",
+    "kana": "とまる",
+    "meaning": "to stay at (e.g., a hotel)",
+    "example": "今夜はホテルに泊まります。"
+  },
+  {
+    "kanji": "止める",
+    "kana": "とめる",
+    "meaning": "to stop something; to turn off",
+    "example": "車を止めてください。"
+  },
+  {
+    "kanji": "通る",
+    "kana": "とおる",
+    "meaning": "to go through; to pass",
+    "example": "この道を通って帰りましょう。"
+  },
+  {
+    "kanji": "取り替える",
+    "kana": "とりかえる",
+    "meaning": "to exchange; to swap; to replace",
+    "example": "電池を取り替える必要があります。"
+  },
+  {
+    "kanji": "続ける",
+    "kana": "つづける",
+    "meaning": "to continue; to keep up; to keep on",
+    "example": "日本語の勉強を続けます。"
+  },
+  {
+    "kanji": "続く",
+    "kana": "つづく",
+    "meaning": "to continue; to last; to go on",
+    "example": "雨が三日も続いています。"
+  },
+  {
+    "kanji": "捕まえる",
+    "kana": "つかまえる",
+    "meaning": "to catch; to arrest; to seize",
+    "example": "警察が泥棒を捕まえました。"
+  },
+  {
+    "kanji": "漬ける",
+    "kana": "つける",
+    "meaning": "to soak; to pickle; to steep",
+    "example": "野菜を塩に漬けます。"
+  },
+  {
+    "kanji": "付く",
+    "kana": "つく",
+    "meaning": "to be attached; to be connected",
+    "example": "服に汚れが付いています。"
+  },
+  {
+    "kanji": "連れる",
+    "kana": "つれる",
+    "meaning": "to take (someone) with one",
+    "example": "子供を公園に連れて行きました。"
+  },
+  {
+    "kanji": "釣る",
+    "kana": "つる",
+    "meaning": "to fish; to angle",
+    "example": "川で大きな魚を釣りました。"
+  },
+  {
+    "kanji": "伝える",
+    "kana": "つたえる",
+    "meaning": "to report; to tell; to convey",
+    "example": "彼にメッセージを伝えてください。"
+  },
+  {
+    "kanji": "包む",
+    "kana": "つつむ",
+    "meaning": "to wrap; to pack; to cover",
+    "example": "プレゼントをきれいな紙で包みました。"
+  },
+  {
+    "kanji": "植える",
+    "kana": "うえる",
+    "meaning": "to plant; to grow",
+    "example": "庭に花を植えました。"
+  },
+  {
+    "kanji": "動く",
+    "kana": "うごく",
+    "meaning": "to move; to stir; to shake",
+    "example": "機械が動き始めました。"
+  },
+  {
+    "kanji": "伺う",
+    "kana": "うかがう",
+    "meaning": "to visit; to ask; to hear (humble)",
+    "example": "明日、お宅に伺ってもよろしいですか。"
+  },
+  {
+    "kanji": "受ける",
+    "kana": "うける",
+    "meaning": "to take a lesson or test; to receive",
+    "example": "来月、日本語能力試験を受けます。"
+  },
+  {
+    "kanji": "打つ",
+    "kana": "うつ",
+    "meaning": "to hit; to strike; to knock",
+    "example": "釘をハンマーで打ちます。"
+  },
+  {
+    "kanji": "移る",
+    "kana": "うつる",
+    "meaning": "to move house or transfer; to be infectious",
+    "example": "本社に移ることになりました。"
+  },
+  {
+    "kanji": "写す",
+    "kana": "うつす",
+    "meaning": "to copy; to photograph; to film",
+    "example": "黒板の字をノートに写しました。"
+  },
+  {
+    "kanji": "別れる",
+    "kana": "わかれる",
+    "meaning": "to separate; to part from; to break up",
+    "example": "駅で友達と別れました。"
+  },
+  {
+    "kanji": "沸かす",
+    "kana": "わかす",
+    "meaning": "to boil; to heat (water)",
+    "example": "お湯を沸かしてください。"
+  },
+  {
+    "kanji": "沸く",
+    "kana": "わく",
+    "meaning": "to boil; to get hot (water)",
+    "example": "お風呂が沸きました。"
+  },
+  {
+    "kanji": "笑う",
+    "kana": "わらう",
+    "meaning": "to laugh; to smile",
+    "example": "彼はいつも楽しそうに笑います。"
+  },
+  {
+    "kanji": "割れる",
+    "kana": "われる",
+    "meaning": "to break; to crack; to smash",
+    "example": "コップが割れてしまいました。"
+  },
+  {
+    "kanji": "焼ける",
+    "kana": "やける",
+    "meaning": "to burn; to be roasted; to be grilled",
+    "example": "パンがきれいに焼けました。"
+  },
+  {
+    "kanji": "焼く",
+    "kana": "やく",
+    "meaning": "to bake; to grill; to roast",
+    "example": "魚を焼いています。"
+  },
+  {
+    "kanji": "役に立つ",
+    "kana": "やくにたつ",
+    "meaning": "to be helpful; to be useful",
+    "example": "この辞書はとても役に立ちます。"
+  },
+  {
+    "kanji": "約束",
+    "kana": "やくそく",
+    "meaning": "promise; agreement; appointment",
+    "example": "友達と会う約束があります。"
+  },
+  {
+    "kanji": "止む",
+    "kana": "やむ",
+    "meaning": "to stop (rain, noise, etc.)",
+    "example": "雨がやっと止みました。"
+  },
+  {
+    "kanji": "痩せる",
+    "kana": "やせる",
+    "meaning": "to become thin; to lose weight",
+    "example": "最近、少し痩せましたか。"
+  },
+  {
+    "kanji": "汚れる",
+    "kana": "よごれる",
+    "meaning": "to get dirty; to become soiled",
+    "example": "靴が泥で汚れました。"
+  },
+  {
+    "kanji": "喜ぶ",
+    "kana": "よろこぶ",
+    "meaning": "to be delighted; to be glad",
+    "example": "合格を知って、家族が喜びました。"
+  },
+  {
+    "kanji": "寄る",
+    "kana": "よる",
+    "meaning": "to visit; to drop by; to approach",
+    "example": "帰りにスーパーに寄ります。"
+  },
+  {
+    "kanji": "予習",
+    "kana": "よしゅう",
+    "meaning": "preparation for a lesson",
+    "example": "授業の前に予習をします。"
+  },
+  {
+    "kanji": "予定",
+    "kana": "よてい",
+    "meaning": "plan; schedule; estimate",
+    "example": "今日の予定を教えてください。"
+  },
+  {
+    "kanji": "用意",
+    "kana": "ようい",
+    "meaning": "preparation; arrangements; getting ready",
+    "example": "旅行の用意ができました。"
+  },
+  {
+    "kanji": "予約",
+    "kana": "よやく",
+    "meaning": "reservation; booking; appointment",
+    "example": "レストランを予約しました。"
+  },
+  {
+    "kanji": "揺れる",
+    "kana": "ゆれる",
+    "meaning": "to shake; to sway; to rock",
+    "example": "地震で家が揺れました。"
+  }
+]

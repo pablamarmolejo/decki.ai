@@ -1,0 +1,272 @@
+[
+  {
+    "kanji": "安心",
+    "kana": "あんしん",
+    "meaning": "peace of mind",
+    "example": "テストが終わって安心しました。"
+  },
+  {
+    "kanji": "安全",
+    "kana": "あんぜん",
+    "meaning": "safety; security",
+    "example": "この町は夜歩いても安全です。"
+  },
+  {
+    "kanji": "浅い",
+    "kana": "あさい",
+    "meaning": "shallow",
+    "example": "この川は浅いので、歩いて渡れます。"
+  },
+  {
+    "kanji": "大事",
+    "kana": "だいじ",
+    "meaning": "important; serious; crucial",
+    "example": "これはとても大事な書類です。"
+  },
+  {
+    "kanji": "不便",
+    "kana": "ふべん",
+    "meaning": "inconvenience",
+    "example": "駅から遠いので、少し不便です。"
+  },
+  {
+    "kanji": "深い",
+    "kana": "ふかい",
+    "meaning": "deep",
+    "example": "海が深いので、気をつけてください。"
+  },
+  {
+    "kanji": "複雑",
+    "kana": "ふくざつ",
+    "meaning": "complexity; complication",
+    "example": "このパズルはとても複雑だ。"
+  },
+  {
+    "kanji": "反対",
+    "kana": "はんたい",
+    "meaning": "opposition",
+    "example": "私は彼の意見に反対です。"
+  },
+  {
+    "kanji": "恥ずかしい",
+    "kana": "はずかしい",
+    "meaning": "embarrassed",
+    "example": "間違いをして恥ずかしかった。"
+  },
+  {
+    "kanji": "変",
+    "kana": "へん",
+    "meaning": "strange; peculiar; weird",
+    "example": "変な音が聞こえます。"
+  },
+  {
+    "kanji": "酷い",
+    "kana": "ひどい",
+    "meaning": "terrible; awful",
+    "example": "昨日はひどい雨でした。"
+  },
+  {
+    "kanji": "久しぶり",
+    "kana": "ひさしぶり",
+    "meaning": "after a long time",
+    "example": "久しぶりに友達に会いました。"
+  },
+  {
+    "kanji": "いっぱい",
+    "kana": "いっぱい",
+    "meaning": "full",
+    "example": "お腹がいっぱいです。"
+  },
+  {
+    "kanji": "一生懸命",
+    "kana": "いっしょうけんめい",
+    "meaning": "very hard; with utmost effort",
+    "example": "一生懸命勉強します。"
+  },
+  {
+    "kanji": "自由",
+    "kana": "じゆう",
+    "meaning": "freedom",
+    "example": "大学に入って自由な時間が増えました。"
+  },
+  {
+    "kanji": "十分",
+    "kana": "じゅうぶん",
+    "meaning": "enough; sufficient; plenty",
+    "example": "時間は十分あります。"
+  },
+  {
+    "kanji": "悲しい",
+    "kana": "かなしい",
+    "meaning": "sad",
+    "example": "悲しい映画を見て泣きました。"
+  },
+  {
+    "kanji": "簡単",
+    "kana": "かんたん",
+    "meaning": "simple; easy",
+    "example": "この問題はとても簡単です。"
+  },
+  {
+    "kanji": "硬い",
+    "kana": "かたい",
+    "meaning": "hard",
+    "example": "このパンは少し硬いです。"
+  },
+  {
+    "kanji": "厳しい",
+    "kana": "きびしい",
+    "meaning": "strict",
+    "example": "私の父はとても厳しいです。"
+  },
+  {
+    "kanji": "危険",
+    "kana": "きけん",
+    "meaning": "danger",
+    "example": "ここは危険だから入らないで。"
+  },
+  {
+    "kanji": "細かい",
+    "kana": "こまかい",
+    "meaning": "small, fine",
+    "example": "細かいお金を持っていますか。"
+  },
+  {
+    "kanji": "怖い",
+    "kana": "こわい",
+    "meaning": "frightening",
+    "example": "お化けは怖いです。"
+  },
+  {
+    "kanji": "急",
+    "kana": "きゅう",
+    "meaning": "sudden; abrupt; unexpected",
+    "example": "急に雨が降り出しました。"
+  },
+  {
+    "kanji": "珍しい",
+    "kana": "めずらしい",
+    "meaning": "unusual; rare",
+    "example": "これはとても珍しい鳥です。"
+  },
+  {
+    "kanji": "無理",
+    "kana": "むり",
+    "meaning": "impossible",
+    "example": "一晩で全部覚えるのは無理だ。"
+  },
+  {
+    "kanji": "眠い",
+    "kana": "ねむい",
+    "meaning": "sleepy",
+    "example": "昨夜寝なかったので眠いです。"
+  },
+  {
+    "kanji": "苦い",
+    "kana": "nigai",
+    "meaning": "bitter",
+    "example": "この薬はとても苦いです。"
+  },
+  {
+    "kanji": "可笑しい",
+    "kana": "おかしい",
+    "meaning": "strange or funny",
+    "example": "彼の話はとても可笑しい。"
+  },
+  {
+    "kanji": "寂しい",
+    "kana": "さびしい",
+    "meaning": "lonely",
+    "example": "一人で寂しいです。"
+  },
+  {
+    "kanji": "盛ん",
+    "kana": "さかん",
+    "meaning": "popularity; prosperous",
+    "example": "この町はスポーツが盛んです。"
+  },
+  {
+    "kanji": "親切",
+    "kana": "しんせつ",
+    "meaning": "kindness",
+    "example": "田中さんはとても親切な人です。"
+  },
+  {
+    "kanji": "素晴らしい",
+    "kana": "すばらしい",
+    "meaning": "wonderful",
+    "example": "素晴らしい景色ですね。"
+  },
+  {
+    "kanji": "凄い",
+    "kana": "すごい",
+    "meaning": "terrific",
+    "example": "昨日の試合は凄かったです。"
+  },
+  {
+    "kanji": "正しい",
+    "kana": "tadashii",
+    "meaning": "right; correct",
+    "example": "正しい答えを選んでください。"
+  },
+  {
+    "kanji": "たいてい",
+    "kana": "たいてい",
+    "meaning": "usually",
+    "example": "日曜日はたいてい家にいます。"
+  },
+  {
+    "kanji": "楽しみ",
+    "kana": "たのしみ",
+    "meaning": "looking forward to",
+    "example": "旅行に行くのが楽しみです。"
+  },
+  {
+    "kanji": "丁寧",
+    "kana": "ていねい",
+    "meaning": "polite",
+    "example": "もっと丁寧に話してください。"
+  },
+  {
+    "kanji": "適当",
+    "kana": "てきとう",
+    "meaning": "suitable",
+    "example": "適当な言葉が見つかりません。"
+  },
+  {
+    "kanji": "特別",
+    "kana": "とくべつ",
+    "meaning": "special; particular",
+    "example": "今日は特別な日です。"
+  },
+  {
+    "kanji": "嬉しい",
+    "kana": "うれしい",
+    "meaning": "happy",
+    "example": "プレゼントをもらって嬉しい。"
+  },
+  {
+    "kanji": "美しい",
+    "kana": "うつくしい",
+    "meaning": "beautiful",
+    "example": "富士山は美しい山です。"
+  },
+  {
+    "kanji": "優しい",
+    "kana": "やさしい",
+    "meaning": "kind",
+    "example": "姉はとても優しいです。"
+  },
+  {
+    "kanji": "柔らかい",
+    "kana": "やわらかい",
+    "meaning": "soft",
+    "example": "この肉は柔らかくて美味しい。"
+  },
+  {
+    "kanji": "残念",
+    "kana": "ざんねん",
+    "meaning": "regrettable; unfortunate",
+    "example": "パーティーに行けなくて残念です。"
+  }
+]

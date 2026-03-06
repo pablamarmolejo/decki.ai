@@ -7,13 +7,16 @@ import schoolIcon from '../assets/ic_round-school.svg';
 import autoStoriesIcon from '../assets/ic_round-auto-stories.svg';
 
 const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNavigateToStudy }) => {
-  const { decks, wordProgress, addSentence, removeSentence } = useAppContext();
+  const { decks, wordProgress, addSentence, removeSentence, currentLevel } = useAppContext();
   const [selectedWord, setSelectedWord] = useState<Flashcard | null>(null);
   const [sentence, setSentence] = useState('');
   const [openHistoryIndex, setOpenHistoryIndex] = useState<number | null>(null);
 
-  // Get all learnt words across all decks
-  const learntWords = decks.flatMap(deck => deck.cards).filter(card => card.state === 'learnt');
+  // Get all learnt words for the current level
+  const learntWords = decks
+    .filter(deck => deck.level === currentLevel)
+    .flatMap(deck => deck.cards)
+    .filter(card => card.state === 'learnt');
   
   // Deduplicate words if they appear in multiple decks
   const uniqueLearntWords = Array.from(new Map(learntWords.map(w => [w.kanji || w.kana, w])).values());

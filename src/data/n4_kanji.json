@@ -1,1362 +1,1338 @@
 [
   {
-    "kanji": "不",
-    "kana": "ふ",
-    "meaning": "un-, non-, negative, bad x フ, ブ 不便な所に住んでいます。 (I live in an inconvenient place.)",
-    "kun": "",
-    "on": "",
-    "example": ""
+    "kanji": "会",
+    "kana": "あう",
+    "meaning": "meeting, meet, society",
+    "kun": "あ(う)",
+    "on": "カイ",
+    "example": "駅の前で友だちに会いました。"
   },
   {
-    "kanji": "世",
-    "kana": "よ",
-    "meaning": "world, society, public, age",
-    "kun": "よ",
-    "on": "セイ, セ, ヨ",
-    "example": "世界は広いです。 (The world is wide.)"
-  },
-  {
-    "kanji": "主",
-    "kana": "しゅ",
-    "meaning": "lord, master, main, principal ぬし,",
-    "kun": "おも",
-    "on": "シュ, ス",
-    "example": "この家の主はだれですか。 (Who is the master of this house?)"
-  },
-  {
-    "kanji": "乗",
-    "kana": "のる",
-    "meaning": "ride, power, board, get on の.る ジョウ, ショウ 電車に乗ります。 (I will get on the train.)",
-    "kun": "",
-    "on": "",
-    "example": ""
+    "kanji": "同",
+    "kana": "おなじ",
+    "meaning": "same, agree, equal",
+    "kun": "おな(じ)",
+    "on": "ドウ",
+    "example": "彼と同じ意見を持っています。"
   },
   {
     "kanji": "事",
     "kana": "こと",
-    "meaning": "matter, thing, business, incident",
+    "meaning": "matter, thing, fact, business",
     "kun": "こと",
-    "on": "ジ, ズ",
-    "example": "大事な用事があります。 (I have important business.)"
+    "on": "ジ",
+    "example": "大切な事を忘れないでください。"
   },
   {
-    "kanji": "京",
-    "kana": "きょう",
-    "meaning": "capital",
-    "kun": "みやこ",
-    "on": "キョウ, ケイ, キン",
-    "example": "東京は日本の首都です。 (Tokyo is the capital of Japan.)"
+    "kanji": "自",
+    "kana": "みずから",
+    "meaning": "oneself, self",
+    "kun": "みずか(ら)",
+    "on": "ジ、シ",
+    "example": "自分を信じることが大切です。"
   },
   {
-    "kanji": "仕",
-    "kana": "し",
-    "meaning": "attend, doing, official つか.える シ, ジ 仕事をしています。 (I am working.)",
+    "kanji": "社",
+    "kana": "やしろ",
+    "meaning": "company, firm, office, association, shrine",
+    "kun": "やしろ",
+    "on": "シャ",
+    "example": "父は大きな会社で働いています。"
+  },
+  {
+    "kanji": "発",
+    "kana": "はつ",
+    "meaning": "departure, discharge, start from",
     "kun": "",
-    "on": "",
-    "example": ""
+    "on": "ハツ、ホツ",
+    "example": "明日の朝、九時に出発します。"
   },
   {
-    "kanji": "代",
-    "kana": "だい",
-    "meaning": "substitute, change, period, age か.わる,",
-    "kun": "よ",
-    "on": "ダイ, タイ",
-    "example": "父の代わりに私が行きます。 (I will go instead of my father.)"
-  },
-  {
-    "kanji": "以",
-    "kana": "い",
-    "meaning": "by means of, because, in view of x イ これ以上は食べられません。 (I can't eat any more than this.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "住",
-    "kana": "じゅう",
-    "meaning": "dwell, reside, live, inhabit す.む ジュウ, チュウ 大阪に住んでいます。 (I live in Osaka.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "体",
-    "kana": "たい",
-    "meaning": "body, substance, object, reality",
-    "kun": "からだ",
-    "on": "タイ, テイ",
-    "example": "体が丈夫になりました。 (My body has become strong.)"
-  },
-  {
-    "kanji": "作",
-    "kana": "さく",
-    "meaning": "make, production, prepare, build つく.る サク, サ 晩ご飯を作ります。 (I will make dinner.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "使",
-    "kana": "し",
-    "meaning": "use, send on a mission, messenger つか.う シ ペンを使ってもいいですか。 (May I use a pen?)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "便",
-    "kana": "べん",
-    "meaning": "convenience, letter, excrement たよ.り ベン, ビン ここは交通が便利です。 (The transportation here is convenient.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "借",
-    "kana": "しゃく",
-    "meaning": "borrow, rent か.りる シャク 図書館で本を借ります。 (I borrow books from the library.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "働",
-    "kana": "どう",
-    "meaning": "work, (manual) labor, function はたら.く ドウ 工場で働いています。 (I am working at a factory.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "元",
-    "kana": "げん",
-    "meaning": "beginning, former time, origin",
-    "kun": "もと",
-    "on": "ゲン, ガン",
-    "example": "元気な挨拶をしましょう。 (Let's give a cheerful greeting.)"
-  },
-  {
-    "kanji": "兄",
-    "kana": "きょう",
-    "meaning": "elder brother, big brother",
-    "kun": "あに",
-    "on": "キョウ, ケイ",
-    "example": "兄は大学生です。 (My older brother is a university student.)"
-  },
-  {
-    "kanji": "光",
-    "kana": "こう",
-    "meaning": "ray, light ひか.る コウ 星が光っています。 (The stars are shining.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "写",
-    "kana": "しゃ",
-    "meaning": "copy, be photographed, describe うつ.す シャ, ジャ 写真を撮ってください。 (Please take a photo.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "冬",
-    "kana": "とう",
-    "meaning": "winter",
-    "kun": "ふゆ",
-    "on": "トウ",
-    "example": "冬は雪が降ります。 (It snows in winter.)"
-  },
-  {
-    "kanji": "切",
-    "kana": "せつ",
-    "meaning": "cut, cutoff, be sharp き.る セツ, サイ パンをナイフで切ります。 (I cut the bread with a knife.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "別",
-    "kana": "べつ",
-    "meaning": "separate, branch off, another わか.れる ベツ 別の本を見せてください。 (Please show me another book.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "力",
-    "kana": "りょく",
-    "meaning": "power, strength, strong, strain",
-    "kun": "ちから",
-    "on": "リョク, リキ, リイ",
-    "example": "力を合わせて頑張りましょう。 (Let's work together and do our best.)"
-  },
-  {
-    "kanji": "勉",
-    "kana": "べん",
-    "meaning": "exertion, endeavour, encourage つと.める ベン 毎日勉強します。 (I study every day.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "動",
-    "kana": "どう",
-    "meaning": "move, motion, change, confusion うご.く ドウ 時計が動いていません。 (The clock is not moving.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "区",
-    "kana": "く",
-    "meaning": "ward, district x ク この区には公園が多い。 (There are many parks in this ward.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "医",
-    "kana": "い",
-    "meaning": "doctor, medicine x イ 医者になりたいです。 (I want to become a doctor.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "去",
-    "kana": "きょ",
-    "meaning": "gone, past, quit, leave さ.る キョ, コ 去年、日本へ来ました。 (I came to Japan last year.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "台",
-    "kana": "だい",
-    "meaning": "pedestal, a stand, counter for machines x ダイ, タイ テレビが一台あります。 (There is one television.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "合",
-    "kana": "ごう",
-    "meaning": "fit, suit, join, 10 percent あ.う ゴウ, ガッ 答えが合っています。 (The answer is correct.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "同",
-    "kana": "どう",
-    "meaning": "same, agree, equal おな.じ ドウ 彼と同じ意見です。 (I have the same opinion as him.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "味",
-    "kana": "み",
-    "meaning": "flavor, taste",
-    "kun": "あじ",
-    "on": "ミ",
-    "example": "この料理はいい味がします。 (This dish tastes good.)"
-  },
-  {
-    "kanji": "品",
-    "kana": "ひん",
-    "meaning": "goods, refinement, dignity",
-    "kun": "しな",
-    "on": "ヒン, ホン",
-    "example": "品物が届きました。 (The goods have arrived.)"
-  },
-  {
-    "kanji": "員",
-    "kana": "いん",
-    "meaning": "employee, member, number, official x イン 彼は銀行員です。 (He is a bank employee.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "問",
-    "kana": "もん",
-    "meaning": "question, ask, problem と.う モン この問題は難しいです。 (This problem is difficult.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "図",
-    "kana": "ず",
-    "meaning": "map, drawing, plan, unexpected はか.る ズ, ト 図書館で調べます。 (I will look it up in the library.)",
-    "kun": "",
-    "on": "",
-    "example": ""
+    "kanji": "者",
+    "kana": "もの",
+    "meaning": "someone, person",
+    "kun": "もの",
+    "on": "シャ",
+    "example": "若者が公園に集まっています。"
   },
   {
     "kanji": "地",
     "kana": "ち",
-    "meaning": "ground, earth x チ, ジ 地図を見てください。 (Please look at the map.)",
+    "meaning": "ground, earth",
     "kun": "",
-    "on": "",
-    "example": ""
+    "on": "チ、ジ",
+    "example": "地図を見て場所を確認します。"
   },
   {
-    "kanji": "堂",
-    "kana": "どう",
-    "meaning": "hall, public chamber x ドウ 食堂で昼ご飯を食べます。 (I eat lunch in the cafeteria.)",
-    "kun": "",
-    "on": "",
-    "example": ""
+    "kanji": "業",
+    "kana": "わざ",
+    "meaning": "business, vocation, arts",
+    "kun": "わざ",
+    "on": "ギョウ",
+    "example": "卒業した後は、IT企業に入りたいです。"
+  },
+  {
+    "kanji": "方",
+    "kana": "かた",
+    "meaning": "direction, person, alternative",
+    "kun": "かた",
+    "on": "ホウ",
+    "example": "この漢字の書き方を教えてください。"
+  },
+  {
+    "kanji": "新",
+    "kana": "あたらしい",
+    "meaning": "new, fresh",
+    "kun": "あたら(しい)",
+    "on": "シン",
+    "example": "新しい靴を買いました。"
   },
   {
     "kanji": "場",
-    "kana": "じょう",
+    "kana": "ば",
     "meaning": "location, place",
     "kun": "ば",
-    "on": "ジョウ, チョウ",
-    "example": "運動場は広いです。 (The playground is wide.)"
+    "on": "ジョウ",
+    "example": "テニスの練習をする場所が必要です。"
   },
   {
-    "kanji": "声",
-    "kana": "せい",
-    "meaning": "voice",
-    "kun": "こえ",
-    "on": "セイ, ショウ",
-    "example": "大きな声で話してください。 (Please speak in a loud voice.)"
+    "kanji": "員",
+    "kana": "いん",
+    "meaning": "employee, member, number",
+    "kun": "",
+    "on": "イン",
+    "example": "銀行員になりたいと思っています。"
+  },
+  {
+    "kanji": "立",
+    "kana": "たつ",
+    "meaning": "stand up, rise",
+    "kun": "た(つ)",
+    "on": "リツ",
+    "example": "入り口の前に立ってください。"
+  },
+  {
+    "kanji": "開",
+    "kana": "ひらく",
+    "meaning": "open, unfold, unseal",
+    "kun": "ひら(く)、あ(ける)",
+    "on": "カイ",
+    "example": "窓を開けて、空気を入れ替えましょう。"
+  },
+  {
+    "kanji": "手",
+    "kana": "て",
+    "meaning": "hand",
+    "kun": "て",
+    "on": "シュ",
+    "example": "手を洗ってからご飯を食べます。"
+  },
+  {
+    "kanji": "力",
+    "kana": "ちから",
+    "meaning": "power, strength, strong",
+    "kun": "ちから",
+    "on": "リョク、リキ",
+    "example": "彼はとても力が強いです。"
+  },
+  {
+    "kanji": "問",
+    "kana": "とう",
+    "meaning": "question, ask, problem",
+    "kun": "と(う)",
+    "on": "モン",
+    "example": "試験の問題は難しかったです。"
+  },
+  {
+    "kanji": "代",
+    "kana": "かわり",
+    "meaning": "substitute, change, replace",
+    "kun": "か(わり)",
+    "on": "ダイ",
+    "example": "電気代を払うのを忘れました。"
+  },
+  {
+    "kanji": "明",
+    "kana": "あかるい",
+    "meaning": "bright, light",
+    "kun": "あか(るい)",
+    "on": "メイ、ミョウ",
+    "example": "明日は天気がいいでしょう。"
+  },
+  {
+    "kanji": "動",
+    "kana": "うごく",
+    "meaning": "move, motion, change",
+    "kun": "うご(く)",
+    "on": "ドウ",
+    "example": "動物園でパンダを見ました。"
+  },
+  {
+    "kanji": "京",
+    "kana": "みやこ",
+    "meaning": "capital",
+    "kun": "みやこ",
+    "on": "キョウ、ケイ、キン",
+    "example": "東京はとてもにぎやかな町です。"
+  },
+  {
+    "kanji": "目",
+    "kana": "め",
+    "meaning": "eye, class, look",
+    "kun": "め",
+    "on": "モク、ボク",
+    "example": "目の前にきれいな海が見えます。"
+  },
+  {
+    "kanji": "通",
+    "kana": "とおる",
+    "meaning": "traffic, pass through, commute",
+    "kun": "とお(る)、かよ(う)",
+    "on": "ツウ",
+    "example": "毎日、バスで大学に通っています。"
+  },
+  {
+    "kanji": "言",
+    "kana": "いう",
+    "meaning": "say, word",
+    "kun": "い(う)、こと",
+    "on": "ゲン、ゴン",
+    "example": "先生が言ったことをメモしました。"
+  },
+  {
+    "kanji": "理",
+    "kana": "り",
+    "meaning": "logic, reason, truth",
+    "kun": "",
+    "on": "リ",
+    "example": "料理を作るのが好きです。"
+  },
+  {
+    "kanji": "体",
+    "kana": "からだ",
+    "meaning": "body, substance, object",
+    "kun": "からだ",
+    "on": "タイ",
+    "example": "健康のために体を動かします。"
+  },
+  {
+    "kanji": "田",
+    "kana": "た",
+    "meaning": "rice field, rice paddy",
+    "kun": "た",
+    "on": "デン",
+    "example": "田んぼでお米を作っています。"
+  },
+  {
+    "kanji": "主",
+    "kana": "ぬし",
+    "meaning": "lord, chief, master, main",
+    "kun": "ぬし、おも",
+    "on": "シュ",
+    "example": "今日の夕食の主な材料は肉です。"
+  },
+  {
+    "kanji": "題",
+    "kana": "だい",
+    "meaning": "topic, subject",
+    "kun": "",
+    "on": "ダイ",
+    "example": "宿題を終わらせてから遊びます。"
+  },
+  {
+    "kanji": "意",
+    "kana": "い",
+    "meaning": "idea, mind, heart, thought",
+    "kun": "",
+    "on": "イ",
+    "example": "あなたの意見を聞かせてください。"
+  },
+  {
+    "kanji": "不",
+    "kana": "ふ",
+    "meaning": "negative, non-, bad",
+    "kun": "",
+    "on": "フ、ブ",
+    "example": "交通が不便なところに住んでいます。"
+  },
+  {
+    "kanji": "作",
+    "kana": "つくる",
+    "meaning": "make, production, build",
+    "kun": "つく(る)",
+    "on": "サク、サ",
+    "example": "母がお弁当を作ってくれました。"
+  },
+  {
+    "kanji": "用",
+    "kana": "もちいる",
+    "meaning": "utilize, business, service",
+    "kun": "もち(いる)",
+    "on": "ヨウ",
+    "example": "今日は少し用事があります。"
+  },
+  {
+    "kanji": "度",
+    "kana": "たび",
+    "meaning": "degrees, occurrence, time",
+    "kun": "たび",
+    "on": "ド、タク",
+    "example": "もう一度言ってください。"
+  },
+  {
+    "kanji": "強",
+    "kana": "つよい",
+    "meaning": "strong, powerful",
+    "kun": "つよ(い)",
+    "on": "キョウ、ゴウ",
+    "example": "日本語を一生懸命勉強しています。"
+  },
+  {
+    "kanji": "公",
+    "kana": "こう",
+    "meaning": "public, official, governmental",
+    "kun": "",
+    "on": "コウ",
+    "example": "日曜日に公園へ行きました。"
+  },
+  {
+    "kanji": "持",
+    "kana": "もつ",
+    "meaning": "hold, have",
+    "kun": "も(つ)",
+    "on": "ジ",
+    "example": "重い荷物を持っています。"
+  },
+  {
+    "kanji": "野",
+    "kana": "の",
+    "meaning": "plains, field, rustic",
+    "kun": "の",
+    "on": "ヤ",
+    "example": "毎日、野菜をたくさん食べます。"
+  },
+  {
+    "kanji": "以",
+    "kana": "もって",
+    "meaning": "by means of, because, compared with",
+    "kun": "もっ(て)",
+    "on": "イ",
+    "example": "これ以上は食べられません。"
+  },
+  {
+    "kanji": "思",
+    "kana": "おもう",
+    "meaning": "think",
+    "kun": "おも(う)",
+    "on": "シ",
+    "example": "彼は親切な人だと思います。"
+  },
+  {
+    "kanji": "家",
+    "kana": "いえ",
+    "meaning": "house, home, family",
+    "kun": "いえ、や、うち",
+    "on": "カ",
+    "example": "私の家は学校の近くです。"
+  },
+  {
+    "kanji": "世",
+    "kana": "よ",
+    "meaning": "generation, world, society",
+    "kun": "よ",
+    "on": "セイ、セ",
+    "example": "世界中を旅行したいです。"
+  },
+  {
+    "kanji": "多",
+    "kana": "おおい",
+    "meaning": "many, frequent, much",
+    "kun": "おお(い)",
+    "on": "タ",
+    "example": "この町は人が多いですね。"
+  },
+  {
+    "kanji": "正",
+    "kana": "ただしい",
+    "meaning": "correct, justice, righteous",
+    "kun": "ただ(しい)",
+    "on": "セイ、ショウ",
+    "example": "お正月には家族が集まります。"
+  },
+  {
+    "kanji": "安",
+    "kana": "やすい",
+    "meaning": "safe, peaceful, cheap",
+    "kun": "やす(い)",
+    "on": "アン",
+    "example": "この店は安くておいしいです。"
+  },
+  {
+    "kanji": "院",
+    "kana": "いん",
+    "meaning": "institution, temple, school",
+    "kun": "",
+    "on": "イン",
+    "example": "風邪をひいたので病院へ行きます。"
+  },
+  {
+    "kanji": "心",
+    "kana": "こころ",
+    "meaning": "heart, mind, spirit",
+    "kun": "こころ",
+    "on": "シン",
+    "example": "心配しないでください。"
+  },
+  {
+    "kanji": "界",
+    "kana": "かい",
+    "meaning": "world, boundary",
+    "kun": "",
+    "on": "カイ",
+    "example": "世界にはたくさんの国があります。"
+  },
+  {
+    "kanji": "教",
+    "kana": "おしえる",
+    "meaning": "teach, faith, doctrine",
+    "kun": "おし(える)、おそ(わる)",
+    "on": "キョウ",
+    "example": "教室で日本語を勉強します。"
+  },
+  {
+    "kanji": "文",
+    "kana": "ふみ",
+    "meaning": "sentence, literature, style",
+    "kun": "ふみ",
+    "on": "ブン、モン",
+    "example": "短い文章を書いてください。"
+  },
+  {
+    "kanji": "元",
+    "kana": "もと",
+    "meaning": "beginning, origin, former time",
+    "kun": "もと",
+    "on": "ゲン、ガン",
+    "example": "お元気ですか。"
+  },
+  {
+    "kanji": "重",
+    "kana": "おもい",
+    "meaning": "heavy, important, respect",
+    "kun": "おも(い)、かさ(ねる)",
+    "on": "ジュウ、チョウ",
+    "example": "このかばんはとても重いです。"
+  },
+  {
+    "kanji": "近",
+    "kana": "ちかい",
+    "meaning": "near, early, akin",
+    "kun": "ちか(い)",
+    "on": "キン",
+    "example": "駅の近くに住んでいます。"
+  },
+  {
+    "kanji": "考",
+    "kana": "かんがえる",
+    "meaning": "consider, think over",
+    "kun": "かんが(える)",
+    "on": "コウ",
+    "example": "将来のことを考えます。"
+  },
+  {
+    "kanji": "画",
+    "kana": "かく",
+    "meaning": "brush-stroke, picture",
+    "kun": "かく(する)",
+    "on": "ガ、カク",
+    "example": "映画を見るのが好きです。"
+  },
+  {
+    "kanji": "海",
+    "kana": "うみ",
+    "meaning": "sea, ocean",
+    "kun": "うみ",
+    "on": "カイ",
+    "example": "夏休みに海へ行きました。"
   },
   {
     "kanji": "売",
-    "kana": "ばい",
-    "meaning": "sell う.る バイ パンを売っています。 (They sell bread.)",
-    "kun": "",
-    "on": "",
-    "example": ""
+    "kana": "うる",
+    "meaning": "sell",
+    "kun": "う(る)",
+    "on": "バイ",
+    "example": "売店で飲み物を買いました。"
   },
   {
-    "kanji": "変",
-    "kana": "へん",
-    "meaning": "unusual, change, strange か.わる ヘン 変な音が聞こえます。 (I hear a strange sound.)",
-    "kun": "",
-    "on": "",
-    "example": ""
+    "kanji": "知",
+    "kana": "しる",
+    "meaning": "know, wisdom",
+    "kun": "し(る)",
+    "on": "チ",
+    "example": "彼の名前を知っていますか。"
   },
   {
-    "kanji": "夜",
-    "kana": "や",
-    "meaning": "night, evening よ,",
-    "kun": "よる",
-    "on": "ヤ",
-    "example": "夜は早く寝ます。 (I go to bed early at night.)"
+    "kanji": "道",
+    "kana": "みち",
+    "meaning": "road, street, course",
+    "kun": "みち",
+    "on": "ドウ",
+    "example": "茶道は日本の文化です。"
   },
   {
-    "kanji": "太",
-    "kana": "たい",
-    "meaning": "plump, thick, big around ふと.い タイ, タ 少し太りました。 (I gained a bit of weight.)",
-    "kun": "",
-    "on": "",
-    "example": ""
+    "kanji": "集",
+    "kana": "あつめる",
+    "meaning": "gather, meet",
+    "kun": "あつ(める)",
+    "on": "シュウ",
+    "example": "ゴミはここに集めてください。"
   },
   {
-    "kanji": "好",
-    "kana": "こう",
-    "meaning": "fond, pleasing, like something この.む, す.き コウ お菓子が大好きです。 (I love sweets.)",
-    "kun": "",
-    "on": "",
-    "example": ""
+    "kanji": "別",
+    "kana": "わかれる",
+    "meaning": "separate, branch off, diverge",
+    "kun": "わか(れる)、わ(ける)",
+    "on": "ベツ",
+    "example": "特別なプレゼントをあげました。"
   },
   {
-    "kanji": "姉",
-    "kana": "し",
-    "meaning": "elder sister",
-    "kun": "あね",
+    "kanji": "物",
+    "kana": "もの",
+    "meaning": "thing, object, matter",
+    "kun": "もの",
+    "on": "ブツ、モツ",
+    "example": "買い物に行きましょう。"
+  },
+  {
+    "kanji": "使",
+    "kana": "つかう",
+    "meaning": "use, order, messenger",
+    "kun": "つか(う)",
     "on": "シ",
-    "example": "姉は看護師です。 (My older sister is a nurse.)"
+    "example": "辞書を使ってもいいですか。"
+  },
+  {
+    "kanji": "品",
+    "kana": "しな",
+    "meaning": "goods, refinement, article",
+    "kun": "しな",
+    "on": "ヒン",
+    "example": "デパートには品物がたくさんあります。"
+  },
+  {
+    "kanji": "計",
+    "kana": "はかる",
+    "meaning": "plot, plan, measure",
+    "kun": "はか(る)",
+    "on": "ケイ",
+    "example": "時計を見て時間を計ります。"
+  },
+  {
+    "kanji": "死",
+    "kana": "しぬ",
+    "meaning": "death, die",
+    "kun": "し(ぬ)",
+    "on": "シ",
+    "example": "この木は死んでしまいました。"
+  },
+  {
+    "kanji": "特",
+    "kana": "とく",
+    "meaning": "special",
+    "kun": "",
+    "on": "トク",
+    "example": "特に好きな果物はありません。"
+  },
+  {
+    "kanji": "私",
+    "kana": "わたし",
+    "meaning": "private, I, me",
+    "kun": "わたくし、わたし",
+    "on": "シ",
+    "example": "私の趣味は音楽を聴くことです。"
   },
   {
     "kanji": "始",
-    "kana": "し",
-    "meaning": "commence, begin はじ.める シ 授業が始まります。 (The class is starting.)",
+    "kana": "はじめる",
+    "meaning": "commence, begin",
+    "kun": "はじ(める)",
+    "on": "シ",
+    "example": "授業が始まります。"
+  },
+  {
+    "kanji": "朝",
+    "kana": "あさ",
+    "meaning": "morning",
+    "kun": "あさ",
+    "on": "チョウ",
+    "example": "朝ご飯をしっかり食べましょう。"
+  },
+  {
+    "kanji": "運",
+    "kana": "はこぶ",
+    "meaning": "carry, luck, destiny",
+    "kun": "はこ(ぶ)",
+    "on": "ウン",
+    "example": "運動するのは体にいいです。"
+  },
+  {
+    "kanji": "終",
+    "kana": "おわる",
+    "meaning": "end, finish",
+    "kun": "お(わる)",
+    "on": "シュウ",
+    "example": "仕事が終わりました。"
+  },
+  {
+    "kanji": "台",
+    "kana": "うてな",
+    "meaning": "pedestal, stand, counter",
+    "kun": "うてな",
+    "on": "ダイ、タイ",
+    "example": "台所に新しい冷蔵庫があります。"
+  },
+  {
+    "kanji": "広",
+    "kana": "ひろい",
+    "meaning": "wide, broad, spacious",
+    "kun": "ひろ(い)",
+    "on": "コウ",
+    "example": "広島へ旅行に行きました。"
+  },
+  {
+    "kanji": "住",
+    "kana": "すむ",
+    "meaning": "dwell, reside, live",
+    "kun": "す(む)",
+    "on": "ジュウ、チュウ",
+    "example": "京都に住んでいます。"
+  },
+  {
+    "kanji": "無",
+    "kana": "ない",
+    "meaning": "nothingness, none, nil",
+    "kun": "な(い)",
+    "on": "ム、ブ",
+    "example": "無理をしないで休んでください。"
+  },
+  {
+    "kanji": "真",
+    "kana": "ま",
+    "meaning": "true, reality",
+    "kun": "ま、まこと",
+    "on": "シン",
+    "example": "真ん中に座ってください。"
+  },
+  {
+    "kanji": "有",
+    "kana": "ある",
+    "meaning": "possess, have, exist",
+    "kun": "あ(る)",
+    "on": "ユウ、ウ",
+    "example": "有名なレストランに行きました。"
+  },
+  {
+    "kanji": "口",
+    "kana": "くち",
+    "meaning": "mouth",
+    "kun": "くち",
+    "on": "コウ",
+    "example": "入り口はあちらです。"
+  },
+  {
+    "kanji": "少",
+    "kana": "すくない",
+    "meaning": "few, little",
+    "kun": "すく(ない)、すこ(し)",
+    "on": "ショウ",
+    "example": "少し休憩しましょう。"
+  },
+  {
+    "kanji": "町",
+    "kana": "まち",
+    "meaning": "town, village, block",
+    "kun": "まち",
+    "on": "チョウ",
+    "example": "私の町には古いお寺があります。"
+  },
+  {
+    "kanji": "料",
+    "kana": "りょう",
+    "meaning": "fee, materials",
     "kun": "",
-    "on": "",
-    "example": ""
+    "on": "リョウ",
+    "example": "日本料理を食べたいです。"
+  },
+  {
+    "kanji": "工",
+    "kana": "こう",
+    "meaning": "craft, construction",
+    "kun": "",
+    "on": "コウ、ク、グ",
+    "example": "工場で車を作っています。"
+  },
+  {
+    "kanji": "建",
+    "kana": "たてる",
+    "meaning": "build",
+    "kun": "た(てる)",
+    "on": "ケン、コン",
+    "example": "新しい建物ができました。"
+  },
+  {
+    "kanji": "空",
+    "kana": "そら",
+    "meaning": "empty, sky, void",
+    "kun": "そら、から、あ(く)",
+    "on": "クウ",
+    "example": "空がとても青いです。"
+  },
+  {
+    "kanji": "急",
+    "kana": "いそぐ",
+    "meaning": "hurry, emergency, sudden",
+    "kun": "いそ(ぐ)",
+    "on": "キュウ",
+    "example": "急いで駅へ向かいます。"
+  },
+  {
+    "kanji": "止",
+    "kana": "とまる",
+    "meaning": "stop, halt",
+    "kun": "と(まる)、や(める)",
+    "on": "シ",
+    "example": "止まれの標識を見てください。"
+  },
+  {
+    "kanji": "送",
+    "kana": "おくる",
+    "meaning": "escort, send",
+    "kun": "おく(る)",
+    "on": "ソウ",
+    "example": "母に荷物を送りました。"
+  },
+  {
+    "kanji": "切",
+    "kana": "きる",
+    "meaning": "cut, cutoff, be sharp",
+    "kun": "き(る)",
+    "on": "セツ、サイ",
+    "example": "切手を貼って出しました。"
+  },
+  {
+    "kanji": "転",
+    "kana": "ころがる",
+    "meaning": "revolve, turn around, change",
+    "kun": "ころ(がる)",
+    "on": "テン",
+    "example": "自転車で学校へ行きます。"
+  },
+  {
+    "kanji": "研",
+    "kana": "とぐ",
+    "meaning": "polish, study of, sharpen",
+    "kun": "と(ぐ)",
+    "on": "ケン",
+    "example": "大学で研究をしています。"
+  },
+  {
+    "kanji": "足",
+    "kana": "あし",
+    "meaning": "leg, foot, sufficient",
+    "kun": "あし、た(りる)",
+    "on": "ソク",
+    "example": "昨日、歩きすぎて足が痛いです。"
+  },
+  {
+    "kanji": "究",
+    "kana": "きゅう",
+    "meaning": "research, study",
+    "kun": "",
+    "on": "キュウ",
+    "example": "究極の味を求めています。"
+  },
+  {
+    "kanji": "楽",
+    "kana": "たのしい",
+    "meaning": "music, comfort, ease",
+    "kun": "たの(しい)",
+    "on": "ガク、ラク",
+    "example": "音楽を聴くと楽しくなります。"
+  },
+  {
+    "kanji": "起",
+    "kana": "おきる",
+    "meaning": "wake up, get up, rouse",
+    "kun": "お(きる)、おこ(す)",
+    "on": "キ",
+    "example": "毎朝、六時に起きます。"
+  },
+  {
+    "kanji": "着",
+    "kana": "きる",
+    "meaning": "arrive, wear, counter for suits",
+    "kun": "き(る)、つ(く)",
+    "on": "チャク",
+    "example": "日本に着いたら連絡します。"
+  },
+  {
+    "kanji": "店",
+    "kana": "みせ",
+    "meaning": "store, shop",
+    "kun": "みせ",
+    "on": "テン",
+    "example": "喫茶店でコーヒーを飲みました。"
+  },
+  {
+    "kanji": "病",
+    "kana": "やむ",
+    "meaning": "ill, sick",
+    "kun": "や(む)",
+    "on": "ビョウ",
+    "example": "病気にならないように気をつけます。"
+  },
+  {
+    "kanji": "質",
+    "kana": "たち",
+    "meaning": "substance, quality, matter",
+    "kun": "たち、ただ(す)",
+    "on": "シツ、シチ",
+    "example": "質問があれば聞いてください。"
+  },
+  {
+    "kanji": "待",
+    "kana": "まつ",
+    "meaning": "wait, depend on",
+    "kun": "ま(つ)",
+    "on": "タイ",
+    "example": "交差点で信号が青になるのを待ちます。"
+  },
+  {
+    "kanji": "試",
+    "kana": "ためす",
+    "meaning": "test, try, attempt, experiment",
+    "kun": "こころ(みる)、ため(す)",
+    "on": "シ",
+    "example": "新しい勉強法を試してみます。"
+  },
+  {
+    "kanji": "族",
+    "kana": "ぞく",
+    "meaning": "tribe, family",
+    "kun": "",
+    "on": "ゾク",
+    "example": "家族と一緒にお正月を過ごしました。"
+  },
+  {
+    "kanji": "銀",
+    "kana": "ぎん",
+    "meaning": "silver",
+    "kun": "",
+    "on": "ギン",
+    "example": "銀行でお金をおろしました。"
+  },
+  {
+    "kanji": "早",
+    "kana": "はやい",
+    "meaning": "early, fast",
+    "kun": "はや(い)",
+    "on": "ソウ、サ",
+    "example": "早起きは三文の徳と言われます。"
+  },
+  {
+    "kanji": "映",
+    "kana": "うつる",
+    "meaning": "reflect, reflection, projection",
+    "kun": "うつ(る)、は(える)",
+    "on": "エイ",
+    "example": "映画館で最新のアニメ映画を見ました。"
+  },
+  {
+    "kanji": "親",
+    "kana": "おや",
+    "meaning": "parent, intimacy, relative",
+    "kun": "おや、した(しい)",
+    "on": "シン",
+    "example": "両親に感謝の手紙を書きました。"
+  },
+  {
+    "kanji": "験",
+    "kana": "けん",
+    "meaning": "verification, effect, testing",
+    "kun": "",
+    "on": "ケン",
+    "example": "来週、日本語能力試験を受けます。"
+  },
+  {
+    "kanji": "英",
+    "kana": "えい",
+    "meaning": "England, English, hero",
+    "kun": "",
+    "on": "エイ",
+    "example": "英語を話せるようになりたいです。"
+  },
+  {
+    "kanji": "医",
+    "kana": "い",
+    "meaning": "doctor, medicine",
+    "kun": "",
+    "on": "イ",
+    "example": "医者になるために勉強しています。"
+  },
+  {
+    "kanji": "仕",
+    "kana": "し",
+    "meaning": "attend, doing, official, serve",
+    "kun": "",
+    "on": "シ",
+    "example": "仕事のあとにビールを飲みます。"
+  },
+  {
+    "kanji": "去",
+    "kana": "さる",
+    "meaning": "gone, past, quit, leave",
+    "kun": "さ(る)",
+    "on": "キョ、コ",
+    "example": "去年の夏休みに沖縄へ行きました。"
+  },
+  {
+    "kanji": "味",
+    "kana": "あじ",
+    "meaning": "flavor, taste",
+    "kun": "あじ",
+    "on": "ミ",
+    "example": "このスープはいい味がします。"
+  },
+  {
+    "kanji": "写",
+    "kana": "うつる",
+    "meaning": "copy, be photographed, describe",
+    "kun": "うつ(る)",
+    "on": "シャ",
+    "example": "デジカメで写真を撮りました。"
   },
   {
     "kanji": "字",
     "kana": "じ",
     "meaning": "character, letter, word",
-    "kun": "あざ",
+    "kun": "",
     "on": "ジ",
-    "example": "きれいな字を書きます。 (Writes beautiful characters.)"
+    "example": "もっときれいに字を書いてください。"
   },
   {
-    "kanji": "室",
-    "kana": "しつ",
-    "meaning": "room, apartment, chamber",
-    "kun": "むろ",
-    "on": "シツ",
-    "example": "会議室はどこですか。 (Where is the meeting room?)"
+    "kanji": "答",
+    "kana": "こたえる",
+    "meaning": "solution, answer",
+    "kun": "こた(える)",
+    "on": "トウ",
+    "example": "質問に正しく答えられました。"
   },
   {
-    "kanji": "家",
-    "kana": "か",
-    "meaning": "house, home, family, professional いえ,",
-    "kun": "や",
-    "on": "カ, ケ",
-    "example": "家へ帰ります。 (I am going home.)"
+    "kanji": "夜",
+    "kana": "よる",
+    "meaning": "night, evening",
+    "kun": "よ、よる",
+    "on": "ヤ",
+    "example": "夜遅くまで本を読みました。"
   },
   {
-    "kanji": "寒",
-    "kana": "かん",
-    "meaning": "cold さむ.い カン 今日はとても寒いです。 (It is very cold today.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "屋",
-    "kana": "おく",
-    "meaning": "roof, house, shop, dealer",
-    "kun": "や",
-    "on": "オク",
-    "example": "本屋へ行きます。 (I'm going to the bookstore.)"
-  },
-  {
-    "kanji": "工",
-    "kana": "こう",
-    "meaning": "craft, construction, industry x コウ, ク 工事をしています。 (Construction is underway.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "市",
-    "kana": "し",
-    "meaning": "market, city, town",
-    "kun": "いち",
-    "on": "シ",
-    "example": "この市は人が多いです。 (This city has many people.)"
-  },
-  {
-    "kanji": "帰",
-    "kana": "き",
-    "meaning": "homecoming, arrive at, lead to かえ.る キ もうすぐ帰ります。 (I will return soon.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "広",
-    "kana": "こう",
-    "meaning": "wide, broad, spacious ひろ.い コウ この部屋は広いです。 (This room is spacious.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "店",
-    "kana": "てん",
-    "meaning": "store, shop",
-    "kun": "みせ",
-    "on": "テン",
-    "example": "店が開いています。 (The shop is open.)"
-  },
-  {
-    "kanji": "度",
-    "kana": "ど",
-    "meaning": "degrees, occurrence, time, counter",
-    "kun": "たび",
-    "on": "ド, ト",
-    "example": "もう一度言ってください。 (Please say it once more.)"
-  },
-  {
-    "kanji": "建",
-    "kana": "けん",
-    "meaning": "build た.てる ケン, コン 新しいビルを建てます。 (They are building a new building.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "弟",
-    "kana": "だい",
-    "meaning": "younger brother, faithful service",
-    "kun": "おとうと",
-    "on": "ダイ, デ",
-    "example": "弟は中学生です。 (My younger brother is a middle school student.)"
-  },
-  {
-    "kanji": "強",
-    "kana": "きょう",
-    "meaning": "strong つよ.い キョウ, ゴウ 風が強いです。 (The wind is strong.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "待",
-    "kana": "たい",
-    "meaning": "wait, depend on ま.つ タイ 友達を待っています。 (I am waiting for a friend.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "心",
-    "kana": "しん",
-    "meaning": "heart, mind, spirit, center",
-    "kun": "こころ",
-    "on": "シン",
-    "example": "安心してください。 (Please be at ease.)"
-  },
-  {
-    "kanji": "思",
-    "kana": "し",
-    "meaning": "think おも.う シ 明日、雨が降ると思います。 (I think it will rain tomorrow.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "急",
-    "kana": "きゅう",
-    "meaning": "hurry, emergency, sudden, steep いそ.ぐ キュウ 急いで行きましょう。 (Let's go in a hurry.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "悪",
-    "kana": "あく",
-    "meaning": "bad, vice, rascal, false わる.い アク, オ 悪いことはしないで。 (Don't do bad things.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "意",
-    "kana": "い",
-    "meaning": "idea, mind, heart, taste, thought x イ 意味がわかりません。 (I don't understand the meaning.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "所",
-    "kana": "しょ",
-    "meaning": "place",
-    "kun": "ところ",
-    "on": "ショ",
-    "example": "ここは静かな所です。 (This is a quiet place.)"
-  },
-  {
-    "kanji": "持",
-    "kana": "じ",
-    "meaning": "hold, have も.つ ジ 鞄を持っています。 (I am carrying a bag.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "教",
-    "kana": "きょう",
-    "meaning": "teach, faith, doctrine おし.える キョウ 日本語を教えています。 (I am teaching Japanese.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "文",
-    "kana": "ぶん",
-    "meaning": "sentence, literature, style, art",
-    "kun": "ふみ",
-    "on": "ブン, モン",
-    "example": "作文を書きました。 (I wrote an essay.)"
-  },
-  {
-    "kanji": "料",
-    "kana": "りょう",
-    "meaning": "fee, materials, tax, rate x リョウ 料理を作ります。 (I will cook a meal.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "旅",
-    "kana": "りょ",
-    "meaning": "trip, travel",
-    "kun": "たび",
-    "on": "リョ",
-    "example": "旅行に行きたいです。 (I want to go on a trip.)"
-  },
-  {
-    "kanji": "族",
-    "kana": "ぞく",
-    "meaning": "tribe, family x ゾク 家族は元気です。 (My family is doing well.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "早",
-    "kana": "そう",
-    "meaning": "early, fast はや.い ソウ, サッ 早く起きました。 (I woke up early.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "明",
-    "kana": "めい",
-    "meaning": "bright, light あか.るい メイ, ミョウ 明るい部屋です。 (It's a bright room.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "映",
-    "kana": "えい",
-    "meaning": "reflect, reflection, projection うつ.る エイ 映画を見に行きます。 (I'm going to see a movie.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "昼",
-    "kana": "ちゅう",
-    "meaning": "daytime, noon",
-    "kun": "ひる",
-    "on": "チュウ",
-    "example": "昼休みは一時間です。 (The lunch break is one hour.)"
-  },
-  {
-    "kanji": "暑",
-    "kana": "しょ",
-    "meaning": "hot, sultry, summer heat あつ.い ショ 今日は暑いですね。 (It's hot today, isn't it?)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "暗",
-    "kana": "あん",
-    "meaning": "dark, gloom, darkness くら.い アン 暗い道を歩きます。 (I walk on a dark road.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "曜",
-    "kana": "よう",
-    "meaning": "weekday x ヨウ 今日は何曜日ですか。 (What day of the week is it today?)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "有",
-    "kana": "ゆう",
-    "meaning": "possess, have, exist, happen あ.る ユウ, ウ 有名な歌手です。 (He is a famous singer.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "服",
-    "kana": "ふく",
-    "meaning": "clothing, admit, obey x フク 新しい服を買いました。 (I bought new clothes.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "朝",
-    "kana": "ちょう",
-    "meaning": "morning, dynasty, regime",
-    "kun": "あさ",
-    "on": "チョウ",
-    "example": "朝ご飯を食べました。 (I ate breakfast.)"
-  },
-  {
-    "kanji": "業",
-    "kana": "ぎょう",
-    "meaning": "business, vocation, arts, performance",
-    "kun": "わざ",
-    "on": "ギョウ, ゴウ",
-    "example": "授業を始めます。 (We will begin the lesson.)"
-  },
-  {
-    "kanji": "楽",
-    "kana": "らく",
-    "meaning": "music, comfort, ease たの.しい ラク, ガク 音楽を聞きます。 (I listen to music.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "歌",
-    "kana": "か",
-    "meaning": "song, sing",
-    "kun": "うた",
-    "on": "カ",
-    "example": "歌を歌います。 (I sing a song.)"
-  },
-  {
-    "kanji": "止",
-    "kana": "し",
-    "meaning": "stop, halt と.まる シ 車が止まりました。 (The car stopped.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "正",
-    "kana": "せい",
-    "meaning": "correct, justice, righteous ただ.しい セイ, ショウ 正しい答えを選んで。 (Choose the correct answer.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "歩",
-    "kana": "ほ",
-    "meaning": "walk, counter for steps ある.く ホ, ブ 駅まで歩きます。 (I walk to the station.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "死",
-    "kana": "し",
-    "meaning": "death, die し.ぬ シ 花が死んでしまった。 (The flower died.)",
-    "kun": "",
-    "on": "",
-    "example": ""
+    "kanji": "音",
+    "kana": "おと",
+    "meaning": "sound, noise",
+    "kun": "おと、ね",
+    "on": "オン",
+    "example": "隣の部屋から大きな音がしました。"
   },
   {
     "kanji": "注",
-    "kana": "ちゅう",
-    "meaning": "pour, shed, flow, notes そそ.ぐ チュウ 注意してください。 (Please be careful.)",
+    "kana": "そそぐ",
+    "meaning": "pour, irrigate, flow into, concentrate",
+    "kun": "そそ(ぐ)、さ(す)、つ(ぐ)",
+    "on": "チュウ",
+    "example": "道を渡る時は車に注意しましょう。"
+  },
+  {
+    "kanji": "帰",
+    "kana": "かえる",
+    "meaning": "homecoming, arrive at, result in",
+    "kun": "かえ(る)、かえ(す)",
+    "on": "キ",
+    "example": "午後六時ごろに家に帰ります。"
+  },
+  {
+    "kanji": "古",
+    "kana": "ふるい",
+    "meaning": "old",
+    "kun": "ふる(i)",
+    "on": "コ",
+    "example": "古本屋で珍しい本を見つけました。"
+  },
+  {
+    "kanji": "歌",
+    "kana": "うた",
+    "meaning": "song, sing",
+    "kun": "うた、うた(う)",
+    "on": "カ",
+    "example": "カラオケで日本の歌を歌います。"
+  },
+  {
+    "kanji": "買",
+    "kana": "かう",
+    "meaning": "buy",
+    "kun": "か(う)",
+    "on": "バイ",
+    "example": "スーパーで晩ご飯の材料を買います。"
+  },
+  {
+    "kanji": "悪",
+    "kana": "わるい",
+    "meaning": "bad, evil, wrong",
+    "kun": "わる(い)",
+    "on": "アク",
+    "example": "嘘をつくのは悪いことです。"
+  },
+  {
+    "kanji": "図",
+    "kana": "はかる",
+    "meaning": "map, drawing, plan",
+    "kun": "はか(る)",
+    "on": "ズ、ト",
+    "example": "図書館で静かに勉強します。"
+  },
+  {
+    "kanji": "週",
+    "kana": "しゅう",
+    "meaning": "week",
     "kun": "",
-    "on": "",
-    "example": ""
+    "on": "シュウ",
+    "example": "一週間に三回、ジムへ行きます。"
+  },
+  {
+    "kanji": "室",
+    "kana": "むろ",
+    "meaning": "room, apartment, chamber",
+    "kun": "むろ",
+    "on": "シツ",
+    "example": "会議室の場所を教えてください。"
+  },
+  {
+    "kanji": "歩",
+    "kana": "あるく",
+    "meaning": "walk, counter for steps",
+    "kun": "ある(く)、あゆ(む)",
+    "on": "ホ、ブ",
+    "example": "健康のために毎日一万歩歩きます。"
+  },
+  {
+    "kanji": "風",
+    "kana": "かぜ",
+    "meaning": "wind, air, style, manner",
+    "kun": "かぜ、かざ-",
+    "on": "フウ、フ",
+    "example": "今日は強い風が吹いています。"
+  },
+  {
+    "kanji": "紙",
+    "kana": "かみ",
+    "meaning": "paper",
+    "kun": "かみ",
+    "on": "シ",
+    "example": "紙に名前と住所を書いてください。"
+  },
+  {
+    "kanji": "黒",
+    "kana": "くろ",
+    "meaning": "black",
+    "kun": "くろ",
+    "on": "コク",
+    "example": "黒いペンでサインしてください。"
+  },
+  {
+    "kanji": "花",
+    "kana": "はな",
+    "meaning": "flower",
+    "kun": "はな",
+    "on": "カ、ケ",
+    "example": "庭にきれいな花が咲きました。"
+  },
+  {
+    "kanji": "春",
+    "kana": "はる",
+    "meaning": "spring",
+    "kun": "はる",
+    "on": "シュン",
+    "example": "春になると桜の花が咲きます。"
+  },
+  {
+    "kanji": "赤",
+    "kana": "あかい",
+    "meaning": "red",
+    "kun": "あか(い)",
+    "on": "セキ、シャク",
+    "example": "赤いリンゴを二つ買いました。"
+  },
+  {
+    "kanji": "青",
+    "kana": "あおい",
+    "meaning": "blue",
+    "kun": "あお(い)",
+    "on": "セイ、ショウ",
+    "example": "空が青くてとても気持ちがいいです。"
+  },
+  {
+    "kanji": "館",
+    "kana": "やかた",
+    "meaning": "building, mansion, large building",
+    "kun": "やかた",
+    "on": "カン",
+    "example": "週末は映画館へ行きます。"
+  },
+  {
+    "kanji": "屋",
+    "kana": "や",
+    "meaning": "roof, house, shop, seller",
+    "kun": "や",
+    "on": "オク",
+    "example": "パン屋で焼きたてのパンを買いました。"
+  },
+  {
+    "kanji": "色",
+    "kana": "いろ",
+    "meaning": "color",
+    "kun": "いろ",
+    "on": "ショク、シキ",
+    "example": "あなたの好きな色は何色ですか。"
+  },
+  {
+    "kanji": "走",
+    "kana": "はしる",
+    "meaning": "run",
+    "kun": "はし(る)",
+    "on": "ソウ",
+    "example": "遅刻しそうだったので駅まで走りました。"
+  },
+  {
+    "kanji": "秋",
+    "kana": "あき",
+    "meaning": "autumn, fall",
+    "kun": "あき",
+    "on": "シュウ",
+    "example": "秋は紅葉がとてもきれいです。"
+  },
+  {
+    "kanji": "夏",
+    "kana": "なつ",
+    "meaning": "summer",
+    "kun": "なつ",
+    "on": "カ、ゲ",
+    "example": "夏休みは家族と海へ行きます。"
+  },
+  {
+    "kanji": "習",
+    "kana": "ならう",
+    "meaning": "learn",
+    "kun": "なら(う)",
+    "on": "シュウ",
+    "example": "私はピアノを習っています。"
+  },
+  {
+    "kanji": "駅",
+    "kana": "えき",
+    "meaning": "station",
+    "kun": "",
+    "on": "エキ",
+    "example": "駅のホームで友だちを待ちます。"
   },
   {
     "kanji": "洋",
     "kana": "よう",
-    "meaning": "ocean, western style x ヨウ 洋服を着ています。 (I am wearing Western-style clothes.)",
+    "meaning": "ocean, sea, foreign, Western",
     "kun": "",
-    "on": "",
-    "example": ""
+    "on": "ヨウ",
+    "example": "西洋の文化に興味があります。"
   },
   {
-    "kanji": "洗",
-    "kana": "せん",
-    "meaning": "wash, inquire into, probe あら.う セン 手を洗います。 (I wash my hands.)",
+    "kanji": "旅",
+    "kana": "たび",
+    "meaning": "trip, travel",
+    "kun": "たび",
+    "on": "リョ",
+    "example": "旅行の準備をしましょう。"
+  },
+  {
+    "kanji": "服",
+    "kana": "ふく",
+    "meaning": "clothing, admit, obey",
     "kun": "",
+    "on": "フク",
+    "example": "冬用の温かい服を買いました。"
+  },
+  {
+    "kanji": "夕",
+    "kana": "ゆう",
+    "meaning": "evening",
+    "kun": "ゆう",
     "on": "",
-    "example": ""
+    "example": "夕方の空がオレンジ色で美しいです。"
   },
   {
-    "kanji": "海",
-    "kana": "かい",
-    "meaning": "sea, ocean",
-    "kun": "うみ",
-    "on": "カイ",
-    "example": "海へ泳ぎに行きます。 (I'm going to the sea to swim.)"
+    "kanji": "借",
+    "kana": "かりる",
+    "meaning": "borrow, rent",
+    "kun": "か(りる)",
+    "on": "シャク",
+    "example": "友達からペンを借りました。"
   },
   {
-    "kanji": "漢",
-    "kana": "かん",
-    "meaning": "Sino-, China x カン 漢字を練習します。 (I practice Kanji.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "牛",
-    "kana": "ぎゅう",
-    "meaning": "cow",
-    "kun": "うし",
-    "on": "ギュウ",
-    "example": "牛乳を飲みます。 (I drink milk.)"
-  },
-  {
-    "kanji": "物",
-    "kana": "ぶつ",
-    "meaning": "thing, object, matter",
-    "kun": "もの",
-    "on": "ブツ, モツ",
-    "example": "買い物に行きます。 (I am going shopping.)"
-  },
-  {
-    "kanji": "特",
-    "kana": "とく",
-    "meaning": "special x トク 特にこれが好きです。 (I especially like this.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "犬",
-    "kana": "けん",
-    "meaning": "dog",
-    "kun": "いぬ",
-    "on": "ケン",
-    "example": "犬が吠えています。 (The dog is barking.)"
-  },
-  {
-    "kanji": "理",
-    "kana": "り",
-    "meaning": "logic, arrangement, reason, justice",
-    "kun": "ことわり",
-    "on": "リ",
-    "example": "料理が得意です。 (I am good at cooking.)"
-  },
-  {
-    "kanji": "用",
+    "kanji": "曜",
     "kana": "よう",
-    "meaning": "utilize, business, service, use もち.いる ヨウ 用事があります。 (I have something to do.)",
+    "meaning": "weekday",
     "kun": "",
-    "on": "",
-    "example": ""
+    "on": "ヨウ",
+    "example": "今日は何曜日ですか。"
   },
   {
-    "kanji": "田",
-    "kana": "でん",
-    "meaning": "rice field, rice paddy",
-    "kun": "た",
-    "on": "デン",
-    "example": "田んぼが広がっています。 (Rice fields are spreading out.)"
-  },
-  {
-    "kanji": "町",
-    "kana": "ちょう",
-    "meaning": "town, village, block, street",
-    "kun": "まち",
-    "on": "チョウ",
-    "example": "静かな町です。 (It is a quiet town.)"
-  },
-  {
-    "kanji": "画",
-    "kana": "が",
-    "meaning": "brush-stroke, picture えが.く ガ, カク 計画を立てます。 (I will make a plan.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "界",
-    "kana": "かい",
-    "meaning": "world, boundary x カイ 世界中を旅したい。 (I want to travel the world.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "病",
-    "kana": "びょう",
-    "meaning": "ill, sick や.む ビョウ, ヘイ 病気になりました。 (I became sick.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "発",
-    "kana": "はつ",
-    "meaning": "departure, discharge, publish, emit x ハツ, ホツ 出発の時間です。 (It's time for departure.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "白",
-    "kana": "はく",
-    "meaning": "white",
-    "kun": "しろ",
-    "on": "ハク, ビャク",
-    "example": "白いシャツを着ます。 (I wear a white shirt.)"
-  },
-  {
-    "kanji": "真",
-    "kana": "しん",
-    "meaning": "true, reality, Buddhist sect",
-    "kun": "ま",
-    "on": "シン",
-    "example": "写真が撮れました。 (The photo was taken.)"
-  },
-  {
-    "kanji": "着",
-    "kana": "ちゃく",
-    "meaning": "arrive, wear, counter for suits き.る チャク, ジャク 九時に着きます。 (I will arrive at nine.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "知",
-    "kana": "ち",
-    "meaning": "know, wisdom し.る チ 彼を知っていますか。 (Do you know him?)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "研",
-    "kana": "けん",
-    "meaning": "polish, study of, sharpen と.ぐ ケン 研究をしています。 (I am doing research.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "究",
-    "kana": "きゅう",
-    "meaning": "research, study きわ.める キュウ 究極の選択です。 (It's the ultimate choice.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "私",
-    "kana": "し",
-    "meaning": "private, I, me わたし,",
-    "kun": "わたくし",
-    "on": "シ",
-    "example": "私は学生です。 (I am a student.)"
-  },
-  {
-    "kanji": "秋",
-    "kana": "しゅう",
-    "meaning": "autumn",
-    "kun": "あき",
-    "on": "シュウ",
-    "example": "秋は果物が美味しい。 (Fruit is delicious in autumn.)"
-  },
-  {
-    "kanji": "終",
-    "kana": "しゅう",
-    "meaning": "end, finish お.わる シュウ 映画が終わりました。 (The movie finished.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "習",
-    "kana": "しゅう",
-    "meaning": "learn なら.う シュウ, ジュ 習字を習っています。 (I am learning calligraphy.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "考",
-    "kana": "こう",
-    "meaning": "consider, think, study かんが.える コウ よく考えてください。 (Please think carefully.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "者",
-    "kana": "しゃ",
-    "meaning": "someone, person",
-    "kun": "もの",
-    "on": "シャ",
-    "example": "学者は本を読む。 (A scholar reads books.)"
+    "kanji": "飲",
+    "kana": "のむ",
+    "meaning": "drink",
+    "kun": "の(む)",
+    "on": "イン",
+    "example": "冷たい水を飲みました。"
   },
   {
     "kanji": "肉",
     "kana": "にく",
-    "meaning": "meat x ニク 肉を食べます。 (I eat meat.)",
+    "meaning": "meat",
     "kun": "",
-    "on": "",
-    "example": ""
+    "on": "ニク",
+    "example": "晩ご飯に牛肉を食べました。"
   },
   {
-    "kanji": "自",
-    "kana": "じ",
-    "meaning": "oneself みずか.ら ジ, シ 自分を信じて。 (Believe in yourself.)",
+    "kanji": "貸",
+    "kana": "かす",
+    "meaning": "lend",
+    "kun": "か(す)、かし",
+    "on": "タイ",
+    "example": "本を貸してくれてありがとう。"
+  },
+  {
+    "kanji": "堂",
+    "kana": "どう",
+    "meaning": "public chamber, hall",
     "kun": "",
-    "on": "",
-    "example": ""
+    "on": "ドウ",
+    "example": "お昼休みに食堂へ行きます。"
   },
   {
-    "kanji": "色",
-    "kana": "しょく",
-    "meaning": "color",
-    "kun": "いろ",
-    "on": "ショク, シキ",
-    "example": "色がきれいです。 (The color is beautiful.)"
+    "kanji": "鳥",
+    "kana": "とり",
+    "meaning": "bird, chicken",
+    "kun": "とり",
+    "on": "チョウ",
+    "example": "空を鳥が飛んでいます。"
   },
   {
-    "kanji": "花",
-    "kana": "か",
-    "meaning": "flower",
-    "kun": "はな",
-    "on": "カ",
-    "example": "花が咲いています。 (Flowers are blooming.)"
+    "kanji": "飯",
+    "kana": "めし",
+    "meaning": "meal, rice",
+    "kun": "めし",
+    "on": "ハン",
+    "example": "ご飯を食べる前に手を洗います。"
+  },
+  {
+    "kanji": "勉",
+    "kana": "べん",
+    "meaning": "exertion, endeavor, effort",
+    "kun": "つと(める)",
+    "on": "ベン",
+    "example": "毎日、二時間日本語を勉強します。"
+  },
+  {
+    "kanji": "冬",
+    "kana": "ふゆ",
+    "meaning": "winter",
+    "kun": "ふゆ",
+    "on": "トウ",
+    "example": "冬は雪が降るので寒いです。"
+  },
+  {
+    "kanji": "昼",
+    "kana": "ひる",
+    "meaning": "daytime, noon",
+    "kun": "ひる",
+    "on": "チュウ",
+    "example": "お昼ご飯にラーメンを食べました。"
   },
   {
     "kanji": "茶",
     "kana": "ちゃ",
-    "meaning": "tea x チャ, サ お茶を飲みます。 (I drink tea.)",
+    "meaning": "tea",
     "kun": "",
-    "on": "",
-    "example": ""
+    "on": "チャ、サ",
+    "example": "お茶を一杯いかがですか。"
   },
   {
-    "kanji": "菜",
-    "kana": "さい",
-    "meaning": "vegetable, side dish, greens",
-    "kun": "な",
-    "on": "サイ",
-    "example": "野菜を食べましょう。 (Let's eat vegetables.)"
+    "kanji": "弟",
+    "kana": "おとうと",
+    "meaning": "younger brother",
+    "kun": "おとうと",
+    "on": "テイ、ダイ、デ",
+    "example": "私の弟は高校生です。"
   },
   {
-    "kanji": "親",
-    "kana": "しん",
-    "meaning": "parent, intimacy, relative, familiarity",
-    "kun": "おや",
-    "on": "シン",
-    "example": "親切な人です。 (A kind person.)"
+    "kanji": "牛",
+    "kana": "うし",
+    "meaning": "cow",
+    "kun": "ushi",
+    "on": "ギュウ",
+    "example": "牛乳を飲むと背が伸びます。"
   },
   {
-    "kanji": "言",
-    "kana": "げん",
-    "meaning": "say, word い.う ゲン, ゴン 本当のことを言って。 (Tell the truth.)",
-    "kun": "",
-    "on": "",
-    "example": ""
+    "kanji": "魚",
+    "kana": "さかな",
+    "meaning": "fish",
+    "kun": "うお、さかな",
+    "on": "ギョ",
+    "example": "魚を焼いて食べました。"
   },
   {
-    "kanji": "計",
-    "kana": "けい",
-    "meaning": "plot, plan, scheme, measure はか.る ケイ 時計を見ます。 (I look at the clock.)",
-    "kun": "",
-    "on": "",
-    "example": ""
+    "kanji": "兄",
+    "kana": "あに",
+    "meaning": "elder brother",
+    "kun": "ani",
+    "on": "キョウ、ケイ",
+    "example": "私の兄はとても背が高いです。"
   },
   {
-    "kanji": "記",
-    "kana": "き",
-    "meaning": "scribe, account, narrative しる.す キ 日記を書いています。 (I am writing a diary.)",
-    "kun": "",
-    "on": "",
-    "example": ""
+    "kanji": "犬",
+    "kana": "いぬ",
+    "meaning": "dog",
+    "kun": "いぬ",
+    "on": "ケン",
+    "example": "公園で犬と遊びました。"
   },
   {
-    "kanji": "試",
-    "kana": "し",
-    "meaning": "test, try, attempt, experiment こころ.みる シ 試験があります。 (There is an exam.)",
-    "kun": "",
-    "on": "",
-    "example": ""
+    "kanji": "妹",
+    "kana": "いもうと",
+    "meaning": "younger sister",
+    "kun": "いもうと",
+    "on": "マイ",
+    "example": "妹と一緒に買い物をしました。"
   },
   {
-    "kanji": "説",
-    "kana": "せつ",
-    "meaning": "opinion, theory, explanation, rumor と.く セツ, ゼイ 説明を聞いてください。 (Please listen to the explanation.)",
-    "kun": "",
-    "on": "",
-    "example": ""
+    "kanji": "姉",
+    "kana": "あね",
+    "meaning": "elder sister",
+    "kun": "あね",
+    "on": "シ",
+    "example": "私の姉は大学で働いています。"
   },
   {
-    "kanji": "貸",
-    "kana": "たい",
-    "meaning": "lend か.す タイ お金を貸してください。 (Please lend me some money.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "質",
-    "kana": "しつ",
-    "meaning": "substance, quality, matter, temperament x シツ, シチ, チ 質問があります。 (I have a question.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "赤",
-    "kana": "せき",
-    "meaning": "red",
-    "kun": "あか",
-    "on": "セキ, シャク",
-    "example": "赤いペンはどこですか。 (Where is the red pen?)"
-  },
-  {
-    "kanji": "走",
-    "kana": "そう",
-    "meaning": "run はし.る ソウ 公園を走ります。 (I run in the park.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "起",
-    "kana": "き",
-    "meaning": "wake up, get up, rouse お.きる キ 六時に起きます。 (I get up at six.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "足",
-    "kana": "そく",
-    "meaning": "leg, foot, be sufficient",
-    "kun": "あし",
-    "on": "ソク",
-    "example": "足が痛いです。 (My leg hurts.)"
-  },
-  {
-    "kanji": "転",
-    "kana": "てん",
-    "meaning": "revolve, turn around, change ころ.ぶ テン 自転車で転びました。 (I fell off my bike.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "軽",
-    "kana": "けい",
-    "meaning": "lightly, trifling, unimportant かる.い ケイ 軽い荷物です。 (It's light luggage.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "近",
-    "kana": "きん",
-    "meaning": "near, early, akin, tantamount ちか.い キン 駅に近い家です。 (The house is near the station.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "送",
-    "kana": "そう",
-    "meaning": "escort, send おく.る ソウ 荷物を送ります。 (I will send the luggage.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "通",
-    "kana": "つう",
-    "meaning": "traffic, pass through, commute とお.る ツウ, ツ 会社に通っています。 (I commute to the company.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "進",
-    "kana": "しん",
-    "meaning": "advance, proceed, progress すす.む シン 前に進みましょう。 (Let's move forward.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "運",
-    "kana": "うん",
-    "meaning": "fortune, luck, carry, transport はこ.ぶ ウン 運がいいです。 (I am lucky.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "遠",
-    "kana": "えん",
-    "meaning": "distant, far とお.い エン, オン 遠い国へ行きます。 (I'm going to a distant country.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "都",
-    "kana": "と",
-    "meaning": "metropolis, capital",
-    "kun": "みやこ",
-    "on": "ト, ツ",
-    "example": "京都は古い都です。 (Kyoto is an old capital.)"
-  },
-  {
-    "kanji": "重",
-    "kana": "じゅう",
-    "meaning": "heavy, heap up, pile up おも.い ジュウ, チョウ 重い鞄です。 (It's a heavy bag.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "野",
-    "kana": "や",
-    "meaning": "plains, field, rustic, civilian",
-    "kun": "の",
-    "on": "ヤ",
-    "example": "野球をします。 (I play baseball.)"
-  },
-  {
-    "kanji": "銀",
-    "kana": "ぎん",
-    "meaning": "silver x ギン 銀行へ行きます。 (I'm going to the bank.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "門",
-    "kana": "もん",
-    "meaning": "gate, counter for cannons",
-    "kun": "かど",
-    "on": "モン",
-    "example": "門が開いています。 (The gate is open.)"
-  },
-  {
-    "kanji": "閉",
-    "kana": "へい",
-    "meaning": "closed, shut し.める ヘイ 窓を閉めてください。 (Please close the window.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "間",
+    "kanji": "漢",
     "kana": "かん",
-    "meaning": "interval, space",
-    "kun": "あいだ",
-    "on": "カン, ケン",
-    "example": "一時間待ちました。 (I waited for one hour.)"
-  },
-  {
-    "kanji": "院",
-    "kana": "いん",
-    "meaning": "Inst., institution, temple, mansion x イン 病院に行きます。 (I'm going to the hospital.)",
+    "meaning": "China",
     "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "集",
-    "kana": "しゅう",
-    "meaning": "gather, meet, congregate, swarm あつ.める シュウ 切手を集めています。 (I am collecting stamps.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "難",
-    "kana": "なん",
-    "meaning": "difficult, impossible, trouble むずか.しい ナン 難しい本です。 (It is a difficult book.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "雨",
-    "kana": "う",
-    "meaning": "rain",
-    "kun": "あめ",
-    "on": "ウ",
-    "example": "雨が降っています。 (It is raining.)"
-  },
-  {
-    "kanji": "電",
-    "kana": "でん",
-    "meaning": "electricity x デン 電車で帰ります。 (I go home by train.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "青",
-    "kana": "せい",
-    "meaning": "blue",
-    "kun": "あお",
-    "on": "セイ, ショウ",
-    "example": "青い空が見えます。 (I can see the blue sky.)"
-  },
-  {
-    "kanji": "音",
-    "kana": "おん",
-    "meaning": "sound, noise",
-    "kun": "おと",
-    "on": "オン, イン",
-    "example": "大きな音です。 (It's a loud sound.)"
-  },
-  {
-    "kanji": "頭",
-    "kana": "とう",
-    "meaning": "head, counter for large animals",
-    "kun": "あたま",
-    "on": "トウ, ズ",
-    "example": "頭が痛いです。 (I have a headache.)"
-  },
-  {
-    "kanji": "題",
-    "kana": "だい",
-    "meaning": "topic, subject x ダイ 宿題をします。 (I will do my homework.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "風",
-    "kana": "ふう",
-    "meaning": "wind, air, style, manner",
-    "kun": "かぜ",
-    "on": "フウ, フ",
-    "example": "風邪をひきました。 (I caught a cold.)"
-  },
-  {
-    "kanji": "飯",
-    "kana": "はん",
-    "meaning": "meal, boiled rice",
-    "kun": "めし",
-    "on": "ハン",
-    "example": "晩ご飯の時間です。 (It's dinner time.)"
-  },
-  {
-    "kanji": "飲",
-    "kana": "いん",
-    "meaning": "drink, smoke, take の.む イン 水を飲みます。 (I drink water.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "館",
-    "kana": "かん",
-    "meaning": "building, mansion, large building x カン 図書館で読みます。 (I read at the library.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "首",
-    "kana": "しゅ",
-    "meaning": "neck, counter for songs",
-    "kun": "くび",
-    "on": "シュ",
-    "example": "首が長いです。 (The neck is long.)"
-  },
-  {
-    "kanji": "験",
-    "kana": "けん",
-    "meaning": "verification, effect, testing x ケン, ゲン 経験が必要です。 (Experience is necessary.)",
-    "kun": "",
-    "on": "",
-    "example": ""
-  },
-  {
-    "kanji": "黒",
-    "kana": "こく",
-    "meaning": "black",
-    "kun": "くろ",
-    "on": "コク",
-    "example": "黒い靴を履きます。 (I wear black shoes.)"
+    "on": "カン",
+    "example": "漢字の練習を毎日します。"
   }
 ]

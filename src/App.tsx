@@ -59,7 +59,7 @@ const App: React.FC = () => {
     return (
       <AppProvider>
         <>
-          {!isMinimalistMode && <Header />}
+          {!isMinimalistMode && <Header onNavigateToStudy={() => setCurrentPage('STUDY_DECKS')} />}
           <div className={isMinimalistMode ? 'minimalist-mode-container' : 'app-container'}>
             <main className="main-content">
               {!isMinimalistMode && (

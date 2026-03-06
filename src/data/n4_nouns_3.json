@@ -1,0 +1,602 @@
+[
+  {
+    "kanji": "港",
+    "kana": "みなと",
+    "meaning": "harbour; port",
+    "example": "大きな船が港に泊まっています。"
+  },
+  {
+    "kanji": "味噌",
+    "kana": "みそ",
+    "meaning": "fermented soybean paste",
+    "example": "毎朝、味噌汁を飲みます。"
+  },
+  {
+    "kanji": "都",
+    "kana": "みやこ",
+    "meaning": "capital; metropolis",
+    "example": "京都は古い都です。"
+  },
+  {
+    "kanji": "湖",
+    "kana": "みずうみ",
+    "meaning": "lake",
+    "example": "この湖はとても深いです。"
+  },
+  {
+    "kanji": "木綿",
+    "kana": "もめん",
+    "meaning": "cotton (material)",
+    "example": "木綿のシャツは着心地がいいです。"
+  },
+  {
+    "kanji": "森",
+    "kana": "もり",
+    "meaning": "forest",
+    "example": "森の中に小さな家があります。"
+  },
+  {
+    "kanji": "昔",
+    "kana": "むかし",
+    "meaning": "olden days; former; long ago",
+    "example": "昔、ここはお寺でした。"
+  },
+  {
+    "kanji": "無理",
+    "kana": "むり",
+    "meaning": "impossible; unreasonable",
+    "example": "一日でこれを全部覚えるのは無理です。"
+  },
+  {
+    "kanji": "虫",
+    "kana": "むし",
+    "meaning": "insect; bug",
+    "example": "庭に珍しい虫がいました。"
+  },
+  {
+    "kanji": "息子",
+    "kana": "musuko",
+    "meaning": "son",
+    "example": "私の息子は大学生です。"
+  },
+  {
+    "kanji": "娘",
+    "kana": "むすめ",
+    "meaning": "daughter",
+    "example": "娘はピアノを習っています。"
+  },
+  {
+    "kanji": "生",
+    "kana": "なま",
+    "meaning": "raw; fresh",
+    "example": "生魚が食べられますか。"
+  },
+  {
+    "kanji": "寝坊",
+    "kana": "ねぼう",
+    "meaning": "sleeping in late; oversleeping",
+    "example": "今日は寝坊して、電車に遅れました。"
+  },
+  {
+    "kanji": "値段",
+    "kana": "ねだん",
+    "meaning": "price; cost",
+    "example": "この靴の値段はいくらですか。"
+  },
+  {
+    "kanji": "熱",
+    "kana": "ねつ",
+    "meaning": "fever; heat",
+    "example": "ひどい風邪で熱があります。"
+  },
+  {
+    "kanji": "二階建て",
+    "kana": "にかいだて",
+    "meaning": "two-storied building",
+    "example": "私の家は二階建てです。"
+  },
+  {
+    "kanji": "人形",
+    "kana": "にんぎょう",
+    "meaning": "doll",
+    "example": "妹に可愛い人形をあげました。"
+  },
+  {
+    "kanji": "匂い",
+    "kana": "におい",
+    "meaning": "a smell; scent",
+    "example": "台所からいい匂いがします。"
+  },
+  {
+    "kanji": "喉",
+    "kana": "のど",
+    "meaning": "throat",
+    "example": "歌を歌いすぎて、喉が痛いです。"
+  },
+  {
+    "kanji": "乗り物",
+    "kana": "のりもの",
+    "meaning": "vehicle",
+    "example": "あなたはどんな乗り物が好きですか。"
+  },
+  {
+    "kanji": "入学",
+    "kana": "にゅうがく",
+    "meaning": "entry to school; enrollment",
+    "example": "来月、大学の入学式があります。"
+  },
+  {
+    "kanji": "入院",
+    "kana": "にゅういん",
+    "meaning": "hospitalization",
+    "example": "祖父は病気で入院しています。"
+  },
+  {
+    "kanji": "踊り",
+    "kana": "おどり",
+    "meaning": "a dance",
+    "example": "日本の伝統的な踊りを見ました。"
+  },
+  {
+    "kanji": "お祝い",
+    "kana": "おいわい",
+    "meaning": "congratulation; celebration; gift",
+    "example": "結婚のお祝いを買いました。"
+  },
+  {
+    "kanji": "お嬢さん",
+    "kana": "おじょうさん",
+    "meaning": "(another's) daughter; young lady",
+    "example": "佐藤さんのお嬢さんはお元気ですか。"
+  },
+  {
+    "kanji": "屋上",
+    "kana": "おくじょう",
+    "meaning": "rooftop",
+    "example": "デパートの屋上で休みましょう。"
+  },
+  {
+    "kanji": "贈り物",
+    "kana": "おくりもの",
+    "meaning": "present; gift",
+    "example": "誕生日にたくさんの贈り物をもらいました。"
+  },
+  {
+    "kanji": "お祭り",
+    "kana": "おまつり",
+    "meaning": "festival",
+    "example": "夏休みにお祭りに行きました。"
+  },
+  {
+    "kanji": "お見舞い",
+    "kana": "おみまい",
+    "meaning": "visiting ill people; get-well gift",
+    "example": "友達のお見舞いに病院へ行きました。"
+  },
+  {
+    "kanji": "お土産",
+    "kana": "おみやげ",
+    "meaning": "souvenir",
+    "example": "旅行のお土産にチョコレートを買いました。"
+  },
+  {
+    "kanji": "おもちゃ",
+    "kana": "おもちゃ",
+    "meaning": "toy",
+    "example": "子供がおもちゃで遊んでいます。"
+  },
+  {
+    "kanji": "表",
+    "kana": "おもて",
+    "meaning": "the front; surface",
+    "example": "封筒の表に住所を書いてください。"
+  },
+  {
+    "kanji": "オートバイ",
+    "kana": "おおとばい",
+    "meaning": "motorcycle",
+    "example": "父はオートバイに乗るのが好きです。"
+  },
+  {
+    "kanji": "お礼",
+    "kana": "おれい",
+    "meaning": "thanks; gratitude; reward",
+    "example": "先生にお礼の手紙を書きました。"
+  },
+  {
+    "kanji": "押し入れ",
+    "kana": "おしいれ",
+    "meaning": "closet (Japanese style)",
+    "example": "布団を押し入れに片付けます。"
+  },
+  {
+    "kanji": "お宅",
+    "kana": "おたく",
+    "meaning": "your home; polite house",
+    "example": "明日、お宅に伺ってもいいですか。"
+  },
+  {
+    "kanji": "音",
+    "kana": "おと",
+    "meaning": "sound; noise; note",
+    "example": "隣の部屋から大きな音がしました。"
+  },
+  {
+    "kanji": "お釣り",
+    "kana": "おつり",
+    "meaning": "change (for a purchase)",
+    "example": "レジでお釣りをもらうのを忘れました。"
+  },
+  {
+    "kanji": "夫",
+    "kana": "おっと",
+    "meaning": "husband",
+    "example": "私の夫は銀行で働いています。"
+  },
+  {
+    "kanji": "終わり",
+    "kana": "おわり",
+    "meaning": "the end",
+    "example": "映画の終わりがとても感動的でした。"
+  },
+  {
+    "kanji": "親",
+    "kana": "おや",
+    "meaning": "parents",
+    "example": "親を大切にしなければなりません。"
+  },
+  {
+    "kanji": "泳ぎ方",
+    "kana": "およぎかた",
+    "meaning": "way of swimming",
+    "example": "兄に泳ぎ方を教えてもらいました。"
+  },
+  {
+    "kanji": "パート",
+    "kana": "ぱーと",
+    "meaning": "part time (job)",
+    "example": "母はスーパーでパートをしています。"
+  },
+  {
+    "kanji": "パソコン",
+    "kana": "ぱそこん",
+    "meaning": "personal computer",
+    "example": "新しいパソコンが欲しいです。"
+  },
+  {
+    "kanji": "ピアノ",
+    "kana": "ぴあの",
+    "meaning": "piano",
+    "example": "毎日ピアノを練習しています。"
+  },
+  {
+    "kanji": "プレゼント",
+    "kana": "ぷれぜんと",
+    "meaning": "present; gift",
+    "example": "彼女にプレゼントをあげました。"
+  },
+  {
+    "kanji": "冷房",
+    "kana": "れいぼう",
+    "meaning": "air conditioning",
+    "example": "暑いので冷房をつけてください。"
+  },
+  {
+    "kanji": "レジ",
+    "kana": "れじ",
+    "meaning": "cashier; register",
+    "example": "レジの前に人が並んでいます。"
+  },
+  {
+    "kanji": "歴史",
+    "kana": "れきし",
+    "meaning": "history",
+    "example": "日本の歴史に興味があります。"
+  },
+  {
+    "kanji": "レポート",
+    "kana": "れぽーと",
+    "meaning": "report",
+    "example": "宿題のレポートを提出しました。"
+  },
+  {
+    "kanji": "利用",
+    "kana": "りよう",
+    "meaning": "use; utilization",
+    "example": "図書館をよく利用します。"
+  },
+  {
+    "kanji": "理由",
+    "kana": "りゆう",
+    "meaning": "reason",
+    "example": "遅れた理由を教えてください。"
+  },
+  {
+    "kanji": "留守",
+    "kana": "るす",
+    "meaning": "absence; away from home",
+    "example": "山田さんは今、留守のようです。"
+  },
+  {
+    "kanji": "旅館",
+    "kana": "りょかん",
+    "meaning": "Japanese-style inn",
+    "example": "温泉がある旅館に泊まりたいです。"
+  },
+  {
+    "kanji": "両方",
+    "kana": "りょうほう",
+    "meaning": "both sides; both",
+    "example": "リンゴとバナナ、両方買いました。"
+  },
+  {
+    "kanji": "最後",
+    "kana": "さいご",
+    "meaning": "end; last",
+    "example": "これが最後のチャンスです。"
+  },
+  {
+    "kanji": "最近",
+    "kana": "さいきん",
+    "meaning": "recently; lately",
+    "example": "最近、とても忙しいです。"
+  },
+  {
+    "kanji": "最初",
+    "kana": "さいしょ",
+    "meaning": "beginning; first",
+    "example": "最初に自己紹介をしてください。"
+  },
+  {
+    "kanji": "坂",
+    "kana": "さか",
+    "meaning": "slope; hill",
+    "example": "この坂を登ると公園があります。"
+  },
+  {
+    "kanji": "昨夜",
+    "kana": "さくや",
+    "meaning": "last night",
+    "example": "昨夜はよく眠れましたか。"
+  },
+  {
+    "kanji": "サンダル",
+    "kana": "さんだる",
+    "meaning": "sandal",
+    "example": "夏はサンダルを履きます。"
+  },
+  {
+    "kanji": "サンドイッチ",
+    "kana": "さんどいっち",
+    "meaning": "sandwich",
+    "example": "お昼ご飯にサンドイッチを食べました。"
+  },
+  {
+    "kanji": "産業",
+    "kana": "さんぎょう",
+    "meaning": "industry",
+    "example": "この町は自動車産業で有名です。"
+  },
+  {
+    "kanji": "サラダ",
+    "kana": "さらだ",
+    "meaning": "salad",
+    "example": "毎食、サラダを食べるようにしています。"
+  },
+  {
+    "kanji": "再来月",
+    "kana": "さらいげつ",
+    "meaning": "month after next",
+    "example": "再来月、日本へ行きます。"
+  },
+  {
+    "kanji": "再来週",
+    "kana": "さらいしゅう",
+    "meaning": "week after next",
+    "example": "再来週、試験があります。"
+  },
+  {
+    "kanji": "生物",
+    "kana": "せいぶつ",
+    "meaning": "living thing; creature",
+    "example": "海にはいろいろな生物がいます。"
+  },
+  {
+    "kanji": "政治",
+    "kana": "せいじ",
+    "meaning": "politics",
+    "example": "大学で政治を勉強しています。"
+  },
+  {
+    "kanji": "生活",
+    "kana": "せいかつ",
+    "meaning": "life; living; lifestyle",
+    "example": "日本での生活に慣れました。"
+  },
+  {
+    "kanji": "生命",
+    "kana": "せいめい",
+    "meaning": "life; existence",
+    "example": "生命はとても大切なものです。"
+  },
+  {
+    "kanji": "生産",
+    "kana": "せいさん",
+    "meaning": "production",
+    "example": "お米の生産量が増えました。"
+  },
+  {
+    "kanji": "西洋",
+    "kana": "せいよう",
+    "meaning": "the West; Western countries",
+    "example": "西洋の文化に興味があります。"
+  },
+  {
+    "kanji": "世界",
+    "kana": "せかい",
+    "meaning": "the world",
+    "example": "世界中を旅行してみたいです。"
+  },
+  {
+    "kanji": "席",
+    "kana": "せき",
+    "meaning": "seat",
+    "example": "すみません、この席は空いていますか。"
+  },
+  {
+    "kanji": "線",
+    "kana": "せん",
+    "meaning": "line",
+    "example": "ここに一本の線を引いてください。"
+  },
+  {
+    "kanji": "背中",
+    "kana": "せなか",
+    "meaning": "back (of body)",
+    "example": "重い荷物を持って背中が痛いです。"
+  },
+  {
+    "kanji": "先輩",
+    "kana": "せんぱい",
+    "meaning": "senior; mentor",
+    "example": "先輩に仕事のやり方を教わりました。"
+  },
+  {
+    "kanji": "戦争",
+    "kana": "せんそう",
+    "meaning": "war",
+    "example": "戦争のない平和な世界が望ましいです。"
+  },
+  {
+    "kanji": "説明",
+    "kana": "せつめい",
+    "meaning": "explanation",
+    "example": "使い方の説明をよく読んでください。"
+  },
+  {
+    "kanji": "社長",
+    "kana": "しゃちょう",
+    "meaning": "company president; director",
+    "example": "社長に挨拶をしました。"
+  },
+  {
+    "kanji": "社会",
+    "kana": "しゃかい",
+    "meaning": "society; public",
+    "example": "社会のルールを守らなければなりません。"
+  },
+  {
+    "kanji": "市",
+    "kana": "し",
+    "meaning": "city; municipality",
+    "example": "私の住んでいる市は人口が多いです。"
+  },
+  {
+    "kanji": "試合",
+    "kana": "しあい",
+    "meaning": "match; game",
+    "example": "明日のサッカーの試合を応援します。"
+  },
+  {
+    "kanji": "仕方",
+    "kana": "しかた",
+    "meaning": "way; method",
+    "example": "この機械の使い方が分かりません。"
+  },
+  {
+    "kanji": "試験",
+    "kana": "しけん",
+    "meaning": "examination; test",
+    "example": "来週、日本語の試験があります。"
+  },
+  {
+    "kanji": "島",
+    "kana": "しま",
+    "meaning": "island",
+    "example": "船で小さな島へ行きました。"
+  },
+  {
+    "kanji": "市民",
+    "kana": "しみん",
+    "meaning": "citizen",
+    "example": "多くの市民がその計画に反対しました。"
+  },
+  {
+    "kanji": "品物",
+    "kana": "しなもの",
+    "meaning": "goods; article; thing",
+    "example": "デパートには良い品物がたくさんあります。"
+  },
+  {
+    "kanji": "新聞社",
+    "kana": "しんぶんしゃ",
+    "meaning": "newspaper company",
+    "example": "父は新聞社で働いています。"
+  },
+  {
+    "kanji": "親切",
+    "kana": "しんせつ",
+    "meaning": "kindness",
+    "example": "田中さんの親切に感謝します。"
+  },
+  {
+    "kanji": "失敗",
+    "kana": "しっぱい",
+    "meaning": "failure; mistake",
+    "example": "失敗しても、もう一度頑張ります。"
+  },
+  {
+    "kanji": "下着",
+    "kana": "したぎ",
+    "meaning": "underwear",
+    "example": "旅行のために新しい下着を買いました。"
+  },
+  {
+    "kanji": "食料品",
+    "kana": "しょくりょうひん",
+    "meaning": "food; groceries",
+    "example": "近所のスーパーで食料品を買います。"
+  },
+  {
+    "kanji": "小学校",
+    "kana": "しょうがっこう",
+    "meaning": "elementary school",
+    "example": "私の家の近くに小学校があります。"
+  },
+  {
+    "kanji": "紹介",
+    "kana": "しょうかい",
+    "meaning": "introduction",
+    "example": "友達に良い先生を紹介してもらいました。"
+  },
+  {
+    "kanji": "将来",
+    "kana": "しょうらい",
+    "meaning": "future",
+    "example": "将来、医者になりたいです。"
+  },
+  {
+    "kanji": "小説",
+    "kana": "しょうせつ",
+    "meaning": "novel",
+    "example": "毎晩、寝る前に小説を読みます。"
+  },
+  {
+    "kanji": "趣味",
+    "kana": "しゅみ",
+    "meaning": "hobby; pastime",
+    "example": "私の趣味は写真を撮ることです。"
+  },
+  {
+    "kanji": "習慣",
+    "kana": "しゅうかん",
+    "meaning": "habit; custom",
+    "example": "早起きは良い習慣です。"
+  },
+  {
+    "kanji": "祖母",
+    "kana": "そぼ",
+    "meaning": "grandmother",
+    "example": "私の祖母はとても元気です。"
+  }
+]

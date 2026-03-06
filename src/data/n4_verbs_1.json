@@ -1,0 +1,482 @@
+[
+  {
+    "kanji": "上がる",
+    "kana": "あがる",
+    "meaning": "to rise; to go up; to enter",
+    "example": "階段を上がります。"
+  },
+  {
+    "kanji": "挨拶",
+    "kana": "あいさつ",
+    "meaning": "to greet; greeting",
+    "example": "先生に挨拶をしました。"
+  },
+  {
+    "kanji": "案内",
+    "kana": "あんない",
+    "meaning": "to guide; to show around; guidance",
+    "example": "町を案内してください。"
+  },
+  {
+    "kanji": "安心",
+    "kana": "あんしん",
+    "meaning": "peace of mind; to be relieved",
+    "example": "それを聞いて安心しました。"
+  },
+  {
+    "kanji": "アルバイト",
+    "kana": "あるばいと",
+    "meaning": "part-time job",
+    "example": "コンビニでアルバイトをしています。"
+  },
+  {
+    "kanji": "集まる",
+    "kana": "あつまる",
+    "meaning": "to gather; to collect; to assemble",
+    "example": "駅の前に人がたくさん集まっています。"
+  },
+  {
+    "kanji": "集める",
+    "kana": "あつめる",
+    "meaning": "to collect; to assemble; to gather",
+    "example": "趣味で切手を集めています。"
+  },
+  {
+    "kanji": "謝る",
+    "kana": "あやまる",
+    "meaning": "to apologize",
+    "example": "遅れたことを友達に謝りました。"
+  },
+  {
+    "kanji": "貿易",
+    "kana": "ぼうえき",
+    "meaning": "trade",
+    "example": "日本は色々な国と貿易をしています。"
+  },
+  {
+    "kanji": "チェック",
+    "kana": "ちぇっく",
+    "meaning": "to check",
+    "example": "答えをもう一度チェックしてください。"
+  },
+  {
+    "kanji": "注意",
+    "kana": "ちゅうい",
+    "meaning": "caution; to pay attention; warning",
+    "example": "車に注意して道を渡ります。"
+  },
+  {
+    "kanji": "注射",
+    "kana": "ちゅうしゃ",
+    "meaning": "injection; shot",
+    "example": "病院で注射をしました。"
+  },
+  {
+    "kanji": "暖房",
+    "kana": "だんぼう",
+    "meaning": "heating",
+    "example": "寒いので暖房をつけましょう。"
+  },
+  {
+    "kanji": "遠慮",
+    "kana": "えんりょ",
+    "meaning": "reserve; refraining; restraint",
+    "example": "遠慮しないで食べてください。"
+  },
+  {
+    "kanji": "選ぶ",
+    "kana": "えらぶ",
+    "meaning": "to choose; to select",
+    "example": "好きな色を選んでください。"
+  },
+  {
+    "kanji": "ファックス",
+    "kana": "ふぁっくす",
+    "meaning": "fax",
+    "example": "ファックスで書類を送ります。"
+  },
+  {
+    "kanji": "増える",
+    "kana": "ふえろ",
+    "meaning": "to increase; to multiply",
+    "example": "最近、体重が増えました。"
+  },
+  {
+    "kanji": "復習",
+    "kana": "ふくしゅう",
+    "meaning": "review (of learned material); revision",
+    "example": "家で今日の授業を復習します。"
+  },
+  {
+    "kanji": "踏む",
+    "kana": "ふむ",
+    "meaning": "to step on; to tread on",
+    "example": "電車で足を踏まれました。"
+  },
+  {
+    "kanji": "降り出す",
+    "kana": "ふりだす",
+    "meaning": "to start to rain/snow",
+    "example": "急に雨が降り出しました。"
+  },
+  {
+    "kanji": "太る",
+    "kana": "ふとる",
+    "meaning": "to become fat; to gain weight",
+    "example": "食べすぎて太ってしまいました。"
+  },
+  {
+    "kanji": "原因",
+    "kana": "げんいん",
+    "meaning": "cause; origin; source",
+    "example": "事故の原因を調べています。"
+  },
+  {
+    "kanji": "下宿",
+    "kana": "げしゅく",
+    "meaning": "lodging; boarding house",
+    "example": "大学の近くに下宿しています。"
+  },
+  {
+    "kanji": "ごちそう",
+    "kana": "ごちそう",
+    "meaning": "a feast; treating someone to a meal",
+    "example": "昨日の晩ご飯はごちそうでした。"
+  },
+  {
+    "kanji": "ご覧になる",
+    "kana": "ごらんになる",
+    "meaning": "(respectful) to see; to look at",
+    "example": "その資料はご覧になりましたか。"
+  },
+  {
+    "kanji": "拝見",
+    "kana": "はいけん",
+    "meaning": "(humble) seeing; looking at",
+    "example": "お手紙を拝見しました。"
+  },
+  {
+    "kanji": "運ぶ",
+    "kana": "はこぶ",
+    "meaning": "to carry; to transport",
+    "example": "重い荷物を運びます。"
+  },
+  {
+    "kanji": "花見",
+    "kana": "はなみ",
+    "meaning": "cherry blossom viewing",
+    "example": "週末に公園へ花見に行きます。"
+  },
+  {
+    "kanji": "反対",
+    "kana": "はんたい",
+    "meaning": "opposition; opposite; reverse",
+    "example": "彼の意見に反対です。"
+  },
+  {
+    "kanji": "払う",
+    "kana": "はらう",
+    "meaning": "to pay",
+    "example": "レジでお金を払います。"
+  },
+  {
+    "kanji": "発音",
+    "kana": "はつおん",
+    "meaning": "pronunciation",
+    "example": "日本語の発音は難しいです。"
+  },
+  {
+    "kanji": "返事",
+    "kana": "へんじ",
+    "meaning": "reply; answer; response",
+    "example": "メールの返事を書きます。"
+  },
+  {
+    "kanji": "冷える",
+    "kana": "ひえる",
+    "meaning": "to grow cold; to cool down",
+    "example": "夜になって体が冷えました。"
+  },
+  {
+    "kanji": "光る",
+    "kana": "ひかる",
+    "meaning": "to shine; to glitter",
+    "example": "星が空で光っています。"
+  },
+  {
+    "kanji": "引き出す",
+    "kana": "ひきだす",
+    "meaning": "to withdraw; to pull out",
+    "example": "銀行でお金を引き出します。"
+  },
+  {
+    "kanji": "引っ越す",
+    "kana": "ひっこす",
+    "meaning": "to move house",
+    "example": "来週、東京に引っ越します。"
+  },
+  {
+    "kanji": "開く",
+    "kana": "ひらく",
+    "meaning": "to open; to hold (an event)",
+    "example": "本を50ページ開いてください。"
+  },
+  {
+    "kanji": "拾う",
+    "kana": "ひろう",
+    "meaning": "to pick up; to find",
+    "example": "道に落ちていた財布を拾いました。"
+  },
+  {
+    "kanji": "褒める",
+    "kana": "ほめる",
+    "meaning": "to praise; to commend",
+    "example": "先生にテストを褒められました。"
+  },
+  {
+    "kanji": "翻訳",
+    "kana": "ほんやく",
+    "meaning": "translation",
+    "example": "日本の小説を英語に翻訳します。"
+  },
+  {
+    "kanji": "放送",
+    "kana": "ほうそう",
+    "meaning": "to broadcast; broadcasting",
+    "example": "テレビでニュースを放送しています。"
+  },
+  {
+    "kanji": "いじめる",
+    "kana": "いじめる",
+    "meaning": "to tease; to bully; to mistreat",
+    "example": "弱いものをいじめてはいけません。"
+  },
+  {
+    "kanji": "意見",
+    "kana": "いけん",
+    "meaning": "opinion; view; comment",
+    "example": "自分の意見をはっきり言います。"
+  },
+  {
+    "kanji": "生きる",
+    "kana": "いきる",
+    "meaning": "to live",
+    "example": "100歳まで生きたいです。"
+  },
+  {
+    "kanji": "祈る",
+    "kana": "いのる",
+    "meaning": "to pray",
+    "example": "家族の健康を祈ります。"
+  },
+  {
+    "kanji": "急ぐ",
+    "kana": "いそぐ",
+    "meaning": "to hurry; to rush; to hasten",
+    "example": "遅れそうなので急ぎましょう。"
+  },
+  {
+    "kanji": "頂く",
+    "kana": "いただく",
+    "meaning": "(humble) to receive; to eat/drink",
+    "example": "お土産を頂きました。"
+  },
+  {
+    "kanji": "致す",
+    "kana": "いたす",
+    "meaning": "(humble) to do",
+    "example": "すぐにご連絡いたします。"
+  },
+  {
+    "kanji": "準備",
+    "kana": "じゅんび",
+    "meaning": "to prepare; preparation",
+    "example": "旅行の準備をします。"
+  },
+  {
+    "kanji": "変える",
+    "kana": "かえる",
+    "meaning": "to change; to transform",
+    "example": "髪の色を変えました。"
+  },
+  {
+    "kanji": "会議",
+    "kana": "かいぎ",
+    "meaning": "meeting; conference; assembly",
+    "example": "午後から会議があります。"
+  },
+  {
+    "kanji": "会話",
+    "kana": "かいわ",
+    "meaning": "conversation",
+    "example": "日本語で会話を練習します。"
+  },
+  {
+    "kanji": "構う",
+    "kana": "kamau",
+    "meaning": "to mind; to care; to concern",
+    "example": "私は構いませんよ。"
+  },
+  {
+    "kanji": "噛む",
+    "kana": "かむ",
+    "meaning": "to bite; to chew",
+    "example": "よく噛んで食べてください。"
+  },
+  {
+    "kanji": "考える",
+    "kana": "かんがえる",
+    "meaning": "to think; to consider",
+    "example": "将来のことを考えます。"
+  },
+  {
+    "kanji": "関係",
+    "kana": "かんけい",
+    "meaning": "relationship; connection",
+    "example": "彼との関係は良好です。"
+  },
+  {
+    "kanji": "片付ける",
+    "kana": "かたづける",
+    "meaning": "to tidy up; to put away",
+    "example": "部屋をきれいに片付けます。"
+  },
+  {
+    "kanji": "勝つ",
+    "kana": "かつ",
+    "meaning": "to win",
+    "example": "試合に勝ってうれしいです。"
+  },
+  {
+    "kanji": "乾く",
+    "kana": "かわく",
+    "meaning": "to get dry",
+    "example": "洗濯物がよく乾きました。"
+  },
+  {
+    "kanji": "変わる",
+    "kana": "かわる",
+    "meaning": "to change; to be transformed",
+    "example": "信号が赤に変わりました。"
+  },
+  {
+    "kanji": "通う",
+    "kana": "かよう",
+    "meaning": "to commute; to attend",
+    "example": "毎日大学に通っています。"
+  },
+  {
+    "kanji": "飾る",
+    "kana": "かざる",
+    "meaning": "to decorate; to display",
+    "example": "部屋に花を飾ります。"
+  },
+  {
+    "kanji": "怪我",
+    "kana": "けが",
+    "meaning": "injury; to get injured",
+    "example": "足に怪我をしました。"
+  },
+  {
+    "kanji": "計画",
+    "kana": "けいかく",
+    "meaning": "to plan; plan; project",
+    "example": "夏休みの計画を立てます。"
+  },
+  {
+    "kanji": "経験",
+    "kana": "けいけん",
+    "meaning": "to experience; experience",
+    "example": "いい経験になりました。"
+  },
+  {
+    "kanji": "見物",
+    "kana": "けんぶつ",
+    "meaning": "sightseeing; visit",
+    "example": "京都に見物に行きました。"
+  },
+  {
+    "kanji": "喧嘩",
+    "kana": "けんか",
+    "meaning": "to quarrel; fight",
+    "example": "兄弟で喧嘩をしました。"
+  },
+  {
+    "kanji": "研究",
+    "kana": "けんきゅう",
+    "meaning": "research; study",
+    "example": "大学で歴史を研究しています。"
+  },
+  {
+    "kanji": "聞こえる",
+    "kana": "きこえる",
+    "meaning": "to be heard; to be audible",
+    "example": "隣の部屋から声が聞こえます。"
+  },
+  {
+    "kanji": "決まる",
+    "kana": "きまる",
+    "meaning": "to be decided; to be settled",
+    "example": "出発の時間が決まりました。"
+  },
+  {
+    "kanji": "決める",
+    "kana": "きめる",
+    "meaning": "to decide; to choose",
+    "example": "自分で進路を決めます。"
+  },
+  {
+    "kanji": "込む",
+    "kana": "こむ",
+    "meaning": "to be crowded",
+    "example": "この道はいつも込んでいます。"
+  },
+  {
+    "kanji": "故障",
+    "kana": "こしょう",
+    "meaning": "to break-down; out of order",
+    "example": "パソコンが故障しました。"
+  },
+  {
+    "kanji": "講義",
+    "kana": "こうぎ",
+    "meaning": "lecture",
+    "example": "今日の講義は面白かったです。"
+  },
+  {
+    "kanji": "壊れる",
+    "kana": "こわれる",
+    "meaning": "to be broken",
+    "example": "時計が壊れてしまいました。"
+  },
+  {
+    "kanji": "壊す",
+    "kana": "こわす",
+    "meaning": "to break; to destroy",
+    "example": "おもちゃを壊してしまいました。"
+  },
+  {
+    "kanji": "下さる",
+    "kana": "くださる",
+    "meaning": "(respectful) to give",
+    "example": "先生が本を下さいました。"
+  },
+  {
+    "kanji": "比べる",
+    "kana": "くらべる",
+    "meaning": "to compare",
+    "example": "去年と今年の気温を比べます。"
+  },
+  {
+    "kanji": "暮れる",
+    "kana": "くれる",
+    "meaning": "to get dark; to end",
+    "example": "日が暮れる前に帰りましょう。"
+  },
+  {
+    "kanji": "教育",
+    "kana": "きょういく",
+    "meaning": "education; schooling",
+    "example": "子供の教育は大切です。"
+  }
+]
