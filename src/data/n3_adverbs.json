@@ -1,0 +1,332 @@
+[
+  {
+    "kanji": "あまり",
+    "kana": "あまり",
+    "meaning": "so much… that; not very; remainder",
+    "example": "あまりに嬉しくて、涙が出ました。"
+  },
+  {
+    "kanji": "あまりにも",
+    "kana": "あまりにも",
+    "meaning": "too much; excessively; so much… that",
+    "example": "その問題はあまりにも難しすぎて、誰も解けなかった。"
+  },
+  {
+    "kanji": "別に～ない",
+    "kana": "べつに～ない",
+    "meaning": "not really; not particularly",
+    "example": "別に怒っているわけではありません。"
+  },
+  {
+    "kanji": "どんなに～ても",
+    "kana": "どんなに～ても",
+    "meaning": "no matter how (much)",
+    "example": "どんなに忙しくても、朝食は必ず食べます。"
+  },
+  {
+    "kanji": "どうしても",
+    "kana": "どうしても",
+    "meaning": "no matter what; at any cost; after all",
+    "example": "どうしてもこの仕事が終わらない。"
+  },
+  {
+    "kanji": "再び",
+    "kana": "ふたたび",
+    "meaning": "again; once more; a second time",
+    "example": "彼らは十年後に再び会った。"
+  },
+  {
+    "kanji": "ふと",
+    "kana": "ふと",
+    "meaning": "suddenly; accidentally; unintentionally",
+    "example": "ふと窓の外を見ると、雪が降っていた。"
+  },
+  {
+    "kanji": "一度に",
+    "kana": "いちどに",
+    "meaning": "all at once; simultaneously",
+    "example": "一度にたくさんのことを言われても困ります。"
+  },
+  {
+    "kanji": "意外",
+    "kana": "いがい",
+    "meaning": "unexpected; surprising",
+    "example": "テストの結果は意外に良かった。"
+  },
+  {
+    "kanji": "いくら～ても",
+    "kana": "いくら～ても",
+    "meaning": "no matter how ~",
+    "example": "いくら安くても、必要ないものは買いません。"
+  },
+  {
+    "kanji": "今に",
+    "kana": "いまに",
+    "meaning": "before long; even now; soon",
+    "example": "そんな生活をしていると、今に病気になるよ。"
+  },
+  {
+    "kanji": "今にも",
+    "kana": "いまにも",
+    "meaning": "at any moment; on the verge of",
+    "example": "空が暗くなって、今にも雨が降り出しそうだ。"
+  },
+  {
+    "kanji": "一種",
+    "kana": "いっしゅ",
+    "meaning": "species; kind; variety",
+    "example": "これは一種の病気かもしれません。"
+  },
+  {
+    "kanji": "一層",
+    "kana": "いっそう",
+    "meaning": "much more; all the more; still more",
+    "example": "夜になって、風が一層強くなった。"
+  },
+  {
+    "kanji": "一体",
+    "kana": "いったい",
+    "meaning": "(what) the heck; on earth; in the world",
+    "example": "一体、彼はどこへ行ってしまったのだろう。"
+  },
+  {
+    "kanji": "か何か",
+    "kana": "かなにか",
+    "meaning": "or something",
+    "example": "コーヒーか何か飲みませんか。"
+  },
+  {
+    "kanji": "結局",
+    "kana": "けっきょく",
+    "meaning": "after all; eventually; in the end",
+    "example": "いろいろ迷ったが、結局買わなかった。"
+  },
+  {
+    "kanji": "決して～ない",
+    "kana": "けっして～ない",
+    "meaning": "never; by no means",
+    "example": "あなたのことは決して忘れません。"
+  },
+  {
+    "kanji": "急に",
+    "kana": "きゅうに",
+    "meaning": "swiftly; rapidly; suddenly",
+    "example": "急に雨が降り出した。"
+  },
+  {
+    "kanji": "万一",
+    "kana": "まんいち",
+    "meaning": "emergency; unlikely event​; by some chance",
+    "example": "万一雨が降ったら、試合は中止です。"
+  },
+  {
+    "kanji": "まるで",
+    "kana": "まるで",
+    "meaning": "as if; as though; just like",
+    "example": "今日はまるで春のような暖かさだ。"
+  },
+  {
+    "kanji": "めったに～ない",
+    "kana": "めったに～ない",
+    "meaning": "hardly; rarely; seldom",
+    "example": "この辺りでは、雪はめったに降りません。"
+  },
+  {
+    "kanji": "もしかしたら",
+    "kana": "もしかしたら",
+    "meaning": "perhaps; maybe; by any chance",
+    "example": "もしかしたら、彼は来ないかもしれない。"
+  },
+  {
+    "kanji": "もしも〜たら",
+    "kana": "もしも〜たら",
+    "meaning": "if; in the case; supposing",
+    "example": "もしも一億円あったら、何をしますか。"
+  },
+  {
+    "kanji": "むしろ",
+    "kana": "むしろ",
+    "meaning": "rather; instead; better",
+    "example": "今日は昨日よりむしろ暑い。"
+  },
+  {
+    "kanji": "なかなか",
+    "kana": "なかなか",
+    "meaning": "very; quite; pretty; just not (negative)",
+    "example": "バスがなかなか来なくて困った。"
+  },
+  {
+    "kanji": "なんか / なんて / など",
+    "kana": "なんか / なんて / など",
+    "meaning": "give examples; show modesty; make light of",
+    "example": "料理なんて、簡単ですよ。"
+  },
+  {
+    "kanji": "なるべく",
+    "kana": "なるべく",
+    "meaning": "as much as possible",
+    "example": "なるべく早く返事をしてください。"
+  },
+  {
+    "kanji": "際に",
+    "kana": "さいに",
+    "meaning": "when; at the time of; in the case of",
+    "example": "お帰りの際には、忘れ物に注意してください。"
+  },
+  {
+    "kanji": "最中に",
+    "kana": "さいちゅうに",
+    "meaning": "while; during; in the middle of",
+    "example": "会議の最中に電話が鳴った。"
+  },
+  {
+    "kanji": "さらに",
+    "kana": "さらに",
+    "meaning": "furthermore; again; more and more",
+    "example": "雨はさらに激しくなった。"
+  },
+  {
+    "kanji": "せいぜい",
+    "kana": "せいぜい",
+    "meaning": "at the most; at best; to the utmost",
+    "example": "歩いてもせいぜい十分くらいです。"
+  },
+  {
+    "kanji": "しばらく",
+    "kana": "しばらく",
+    "meaning": "for a moment; for a while; for the time being",
+    "example": "しばらくの間、ここでお待ちください。"
+  },
+  {
+    "kanji": "すでに",
+    "kana": "すでに",
+    "meaning": "already; something has been done",
+    "example": "店に着いたとき、すでに閉まっていた。"
+  },
+  {
+    "kanji": "少しも",
+    "kana": "すこしも",
+    "meaning": "not one bit; not at all (with negative)",
+    "example": "彼の言うことは少しも理解できない。"
+  },
+  {
+    "kanji": "すなわち",
+    "kana": "すなわち",
+    "meaning": "in other words; namely",
+    "example": "日本の首都、すなわち東京。"
+  },
+  {
+    "kanji": "たとたん",
+    "kana": "たとたん",
+    "meaning": "as soon as; just as",
+    "example": "家を出たとたん、雨が降ってきた。"
+  },
+  {
+    "kanji": "たびに",
+    "kana": "たびに",
+    "meaning": "whenever; every time",
+    "example": "この写真を見るたびに、子供の頃を思い出す。"
+  },
+  {
+    "kanji": "確かに",
+    "kana": "たしかに",
+    "meaning": "surely; certainly; definitely",
+    "example": "それは確かに私が言ったことです。"
+  },
+  {
+    "kanji": "多少",
+    "kana": "たしょう",
+    "meaning": "more or less; somewhat; a little",
+    "example": "多少のミスは誰にでもある。"
+  },
+  {
+    "kanji": "たとえ～ても",
+    "kana": "たとえ～ても",
+    "meaning": "even if… is the case",
+    "example": "たとえ反対されても、私は留学します。"
+  },
+  {
+    "kanji": "例えば",
+    "kana": "たとえば",
+    "meaning": "for example; for instance",
+    "example": "例えば、こんな方法はどうでしょうか。"
+  },
+  {
+    "kanji": "と共に",
+    "kana": "とともに",
+    "meaning": "together with; at the same time as",
+    "example": "家族と共に正月を過ごす。"
+  },
+  {
+    "kanji": "途中で/途中に",
+    "kana": "とちゅうで/とちゅうに",
+    "meaning": "on the way; in the middle of",
+    "example": "学校へ行く途中で友達に会った。"
+  },
+  {
+    "kanji": "とおりに",
+    "kana": "とおりに",
+    "meaning": "in the same way as; in the way; as",
+    "example": "説明書の通りに組み立ててください。"
+  },
+  {
+    "kanji": "とても～ない",
+    "kana": "とても～ない",
+    "meaning": "cannot possibly be; hardly",
+    "example": "私にはとても信じられません。"
+  },
+  {
+    "kanji": "つい",
+    "kana": "つい",
+    "meaning": "accidentally; unintentionally; by mistake",
+    "example": "つい、うっかり秘密を話してしまった。"
+  },
+  {
+    "kanji": "ついに",
+    "kana": "ついに",
+    "meaning": "finally; at last; in the end",
+    "example": "ついに、長い間の夢がかなった。"
+  },
+  {
+    "kanji": "ついでに",
+    "kana": "ついでに",
+    "meaning": "while; incidentally; on the way",
+    "example": "買い物に行くついでに、手紙を出してきて。"
+  },
+  {
+    "kanji": "つまり",
+    "kana": "つまり",
+    "meaning": "in other words; in summary; in short",
+    "example": "父の兄、つまり私の伯父です。"
+  },
+  {
+    "kanji": "はもちろん",
+    "kana": "はもちろん",
+    "meaning": "not to mention; not only ... but also",
+    "example": "彼はテニスはもちろん、スキーも上手だ。"
+  },
+  {
+    "kanji": "割に",
+    "kana": "わりに",
+    "meaning": "considering; for ~; despite",
+    "example": "この店は値段のわりに、料理が美味しい。"
+  },
+  {
+    "kanji": "わざと",
+    "kana": "わざと",
+    "meaning": "on purpose; intentionally",
+    "example": "彼はわざと負けてくれた。"
+  },
+  {
+    "kanji": "わざわざ",
+    "kana": "わざわざ",
+    "meaning": "go out of one's way to; go to the trouble of",
+    "example": "わざわざ遠くまで来てくれてありがとう。"
+  },
+  {
+    "kanji": "随分",
+    "kana": "ずいぶん",
+    "meaning": "very; extremely; considerably",
+    "example": "今日は随分寒いですね。"
+  }
+]

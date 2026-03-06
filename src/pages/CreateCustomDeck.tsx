@@ -430,7 +430,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
                 </span>
               </button>
               <button 
-                className="primary-btn modal-primary-btn" 
+                className={`primary-btn ${confirmAction.type === 'unsaved' ? 'modal-primary-btn' : 'modal-delete-btn'}`} 
                 onClick={handleConfirmAction}
                 style={{ 
                   width: '200px',
@@ -611,7 +611,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
         <div className="review-actions" style={{ marginTop: '40px', display: 'flex', gap: '16px', justifyContent: 'flex-end' }}>
           {editingDeckId && (
             <button 
-              className="delete-btn" 
+              className="delete-btn modal-delete-btn" 
               onClick={confirmDeleteDeck} 
               style={{ 
                 marginRight: 'auto',

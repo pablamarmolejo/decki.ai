@@ -1416,6 +1416,15 @@ input:checked + .slider:before {
   transform: translateY(-1px);
 }
 
+.modal-delete-btn {
+  transition: all 0.2s;
+}
+
+.modal-delete-btn:hover {
+  background-color: #FFD9D9 !important;
+  transform: translateY(-1px);
+}
+
 .add-word-btn {
   transition: all 0.2s;
 }

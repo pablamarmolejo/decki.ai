@@ -4,7 +4,6 @@ import type { Level, Deck, FlashcardState, SentencePractice, WordProgress } from
 // Default Decks Data
 import n5Kanji from './data/n5_kanji.json';
 import n4Kanji from './data/n4_kanji.json';
-import n3Kanji from './data/n3_kanji.json';
 import n5Adjectives from './data/n5_adjectives.json';
 import n5Adverbs from './data/n5_adverbs.json';
 import n5Nouns1 from './data/n5_nouns_1.json';
@@ -25,6 +24,27 @@ import n4Nouns4 from './data/n4_nouns_4.json';
 import n4Verbs1 from './data/n4_verbs_1.json';
 import n4Verbs2 from './data/n4_verbs_2.json';
 import n4Verbs3 from './data/n4_verbs_3.json';
+
+// N3 Data
+import n3Kanji1 from './data/n3_kanji_1.json';
+import n3Kanji2 from './data/n3_kanji_2.json';
+import n3Kanji3 from './data/n3_kanji_3.json';
+import n3Kanji4 from './data/n3_kanji_4.json';
+import n3Adjectives from './data/n3_adjectives.json';
+import n3Adverbs from './data/n3_adverbs.json';
+import n3Nouns1 from './data/n3_nouns_1.json';
+import n3Nouns2 from './data/n3_nouns_2.json';
+import n3Verbs from './data/n3_verbs.json';
+
+// N2 Data
+import n2Kanji1 from './data/n2_kanji_1.json';
+import n2Kanji2 from './data/n2_kanji_2.json';
+import n2Kanji3 from './data/n2_kanji_3.json';
+import n2Kanji4 from './data/n2_kanji_4.json';
+import n2Adjectives from './data/n2_adjectives.json';
+import n2Adverbs from './data/n2_adverbs.json';
+import n2Nouns from './data/n2_nouns.json';
+import n2Verbs from './data/n2_verbs.json';
 
 interface AppContextType {
   currentLevel: Level;
@@ -201,11 +221,124 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       },
       // N3 Decks
       {
-        id: 'n3-kanji',
-        name: formatName('kanji'),
+        id: 'n3-kanji-1',
+        name: formatName('kanji', '1'),
         type: 'default',
         level: 'N3',
-        cards: n3Kanji.map((k, i) => ({ ...k, id: `n3-k-${i}`, state: 'to-be-learnt' as FlashcardState })),
+        cards: n3Kanji1.map((k, i) => ({ ...k, id: `n3-k1-${i}`, state: 'to-be-learnt' as FlashcardState })),
+      },
+      {
+        id: 'n3-kanji-2',
+        name: formatName('kanji', '2'),
+        type: 'default',
+        level: 'N3',
+        cards: n3Kanji2.map((k, i) => ({ ...k, id: `n3-k2-${i}`, state: 'to-be-learnt' as FlashcardState })),
+      },
+      {
+        id: 'n3-kanji-3',
+        name: formatName('kanji', '3'),
+        type: 'default',
+        level: 'N3',
+        cards: n3Kanji3.map((k, i) => ({ ...k, id: `n3-k3-${i}`, state: 'to-be-learnt' as FlashcardState })),
+      },
+      {
+        id: 'n3-kanji-4',
+        name: formatName('kanji', '4'),
+        type: 'default',
+        level: 'N3',
+        cards: n3Kanji4.map((k, i) => ({ ...k, id: `n3-k4-${i}`, state: 'to-be-learnt' as FlashcardState })),
+      },
+      {
+        id: 'n3-adjectives',
+        name: formatName('adjectives'),
+        type: 'default',
+        level: 'N3',
+        cards: n3Adjectives.map((k, i) => ({ ...k, id: `n3-adj-${i}`, state: 'to-be-learnt' as FlashcardState })),
+      },
+      {
+        id: 'n3-adverbs',
+        name: formatName('adverbs'),
+        type: 'default',
+        level: 'N3',
+        cards: n3Adverbs.map((k, i) => ({ ...k, id: `n3-adv-${i}`, state: 'to-be-learnt' as FlashcardState })),
+      },
+      {
+        id: 'n3-nouns-1',
+        name: formatName('nouns', '1'),
+        type: 'default',
+        level: 'N3',
+        cards: n3Nouns1.map((k, i) => ({ ...k, id: `n3-n1-${i}`, state: 'to-be-learnt' as FlashcardState })),
+      },
+      {
+        id: 'n3-nouns-2',
+        name: formatName('nouns', '2'),
+        type: 'default',
+        level: 'N3',
+        cards: n3Nouns2.map((k, i) => ({ ...k, id: `n3-n2-${i}`, state: 'to-be-learnt' as FlashcardState })),
+      },
+      {
+        id: 'n3-verbs',
+        name: formatName('verbs'),
+        type: 'default',
+        level: 'N3',
+        cards: n3Verbs.map((k, i) => ({ ...k, id: `n3-v-${i}`, state: 'to-be-learnt' as FlashcardState })),
+      },
+      // N2 Decks
+      {
+        id: 'n2-kanji-1',
+        name: formatName('kanji', '1'),
+        type: 'default',
+        level: 'N2',
+        cards: n2Kanji1.map((k, i) => ({ ...k, id: `n2-k1-${i}`, state: 'to-be-learnt' as FlashcardState })),
+      },
+      {
+        id: 'n2-kanji-2',
+        name: formatName('kanji', '2'),
+        type: 'default',
+        level: 'N2',
+        cards: n2Kanji2.map((k, i) => ({ ...k, id: `n2-k2-${i}`, state: 'to-be-learnt' as FlashcardState })),
+      },
+      {
+        id: 'n2-kanji-3',
+        name: formatName('kanji', '3'),
+        type: 'default',
+        level: 'N2',
+        cards: n2Kanji3.map((k, i) => ({ ...k, id: `n2-k3-${i}`, state: 'to-be-learnt' as FlashcardState })),
+      },
+      {
+        id: 'n2-kanji-4',
+        name: formatName('kanji', '4'),
+        type: 'default',
+        level: 'N2',
+        cards: n2Kanji4.map((k, i) => ({ ...k, id: `n2-k4-${i}`, state: 'to-be-learnt' as FlashcardState })),
+      },
+      {
+        id: 'n2-adjectives',
+        name: formatName('adjectives'),
+        type: 'default',
+        level: 'N2',
+        cards: n2Adjectives.map((k, i) => ({ ...k, id: `n2-adj-${i}`, state: 'to-be-learnt' as FlashcardState })),
+      },
+      {
+        id: 'n2-adverbs',
+        name: formatName('adverbs'),
+        type: 'default',
+        level: 'N2',
+        cards: n2Adverbs.map((k, i) => ({ ...k, id: `n2-adv-${i}`, state: 'to-be-learnt' as FlashcardState })),
+      },
+      {
+        id: 'n2-nouns',
+        name: formatName('nouns'),
+        type: 'default',
+        level: 'N2',
+        cards: n2Nouns.map((k, i) => ({ ...k, id: `n2-n-${i}`, state: 'to-be-learnt' as FlashcardState })),
+      },
+      {
+        id: 'n2-verbs',
+        name: formatName('verbs'),
+        type: 'default',
+        level: 'N2',
+        cards: n2Verbs.map((k, i) => ({ ...k, id: `n2-v-${i}`, state: 'to-be-learnt' as FlashcardState })),
       },
     ];
 

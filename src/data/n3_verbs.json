@@ -1,0 +1,332 @@
+[
+  {
+    "kanji": "明ける",
+    "kana": "あける",
+    "meaning": "to dawn, to become daylight",
+    "example": "夜が明ける前に出発しましょう。"
+  },
+  {
+    "kanji": "暗記",
+    "kana": "あんき",
+    "meaning": "memorization, learning by heart",
+    "example": "新しい単語を暗記するのは大変です。"
+  },
+  {
+    "kanji": "分析",
+    "kana": "ぶんせき",
+    "meaning": "analysis",
+    "example": "データを詳しく分析する必要があります。"
+  },
+  {
+    "kanji": "出会う",
+    "kana": "であう",
+    "meaning": "to meet (by chance), to encounter",
+    "example": "駅で偶然古い友人に、出会った。"
+  },
+  {
+    "kanji": "読書",
+    "kana": "どくしょ",
+    "meaning": "reading",
+    "example": "趣味は読書と映画鑑賞です。"
+  },
+  {
+    "kanji": "努力",
+    "kana": "どりょく",
+    "meaning": "effort, exertion, hard work",
+    "example": "成功のためには毎日の努力が欠かせない。"
+  },
+  {
+    "kanji": "不足",
+    "kana": "ふそく",
+    "meaning": "insufficiency, shortage, lack",
+    "example": "最近、運動不足を感じています。"
+  },
+  {
+    "kanji": "外出",
+    "kana": "がいしゅつ",
+    "meaning": "going out, outing, leaving",
+    "example": "父は今、外出しております。"
+  },
+  {
+    "kanji": "学問",
+    "kana": "がくもん",
+    "meaning": "scholarship, study, learning",
+    "example": "彼は学問に一生を捧げた。"
+  },
+  {
+    "kanji": "学習",
+    "kana": "がくしゅう",
+    "meaning": "study, learning, tutorial",
+    "example": "効率的な学習方法を見つけたい。"
+  },
+  {
+    "kanji": "販売",
+    "kana": "はんばい",
+    "meaning": "sales, selling, marketing",
+    "example": "この商品はネットで販売されています。"
+  },
+  {
+    "kanji": "発明",
+    "kana": "はつめい",
+    "meaning": "invention",
+    "example": "エジソンは電球を発明した。"
+  },
+  {
+    "kanji": "外す",
+    "kana": "はずす",
+    "meaning": "to remove, to undo, to miss",
+    "example": "メガネを外して顔を洗う。"
+  },
+  {
+    "kanji": "一言",
+    "kana": "ひとこと",
+    "meaning": "single word, a few words",
+    "example": "最後に一言お礼を言わせてください。"
+  },
+  {
+    "kanji": "一致",
+    "kana": "いっち",
+    "meaning": "agreement, union, match",
+    "example": "二人の意見が完全に一致した。"
+  },
+  {
+    "kanji": "邪魔",
+    "kana": "じゃま",
+    "meaning": "hindrance, obstacle, nuisance",
+    "example": "仕事の邪魔をしないでください。"
+  },
+  {
+    "kanji": "会合",
+    "kana": "かいごう",
+    "meaning": "meeting, assembly, gathering",
+    "example": "明日の会合は何時からですか？"
+  },
+  {
+    "kanji": "開始",
+    "kana": "かいし",
+    "meaning": "start, commencement, beginning",
+    "example": "まもなく試合を開始します。"
+  },
+  {
+    "kanji": "記念",
+    "kana": "きねん",
+    "meaning": "commemoration, celebration",
+    "example": "結婚十周年の記念に旅行へ行く。"
+  },
+  {
+    "kanji": "気に入る",
+    "kana": "きにいる",
+    "meaning": "to like, to take a liking to",
+    "example": "このデザインがとても気に入りました。"
+  },
+  {
+    "kanji": "記入",
+    "kana": "きにゅう",
+    "meaning": "entry, filling in, filling out",
+    "example": "この書類に氏名を記入してください。"
+  },
+  {
+    "kanji": "記憶",
+    "kana": "きおく",
+    "meaning": "memory, recollection, remembrance",
+    "example": "子供の頃の記憶がほとんどない。"
+  },
+  {
+    "kanji": "期待",
+    "kana": "きたい",
+    "meaning": "expectation, anticipation, hope",
+    "example": "両親の期待に応えたいと思う。"
+  },
+  {
+    "kanji": "転ぶ",
+    "kana": "ころぶ",
+    "meaning": "to fall down, to fall over",
+    "example": "道で転んで膝をすりむいた。"
+  },
+  {
+    "kanji": "訓練",
+    "kana": "くんれん",
+    "meaning": "training, drill, practice",
+    "example": "厳しい訓練を受けてプロになった。"
+  },
+  {
+    "kanji": "協力",
+    "kana": "きょうりょく",
+    "meaning": "cooperation, collaboration",
+    "example": "皆さんの協力が必要です。"
+  },
+  {
+    "kanji": "吸収",
+    "kana": "きゅうしゅう",
+    "meaning": "absorption, suction",
+    "example": "スポンジが水を素早く吸収する。"
+  },
+  {
+    "kanji": "学ぶ",
+    "kana": "まなぶ",
+    "meaning": "to study, to learn, to take lessons",
+    "example": "経験から多くのことを学んだ。"
+  },
+  {
+    "kanji": "満足",
+    "kana": "まんぞく",
+    "meaning": "satisfaction, contentment",
+    "example": "今の生活に満足しています。"
+  },
+  {
+    "kanji": "味方",
+    "kana": "みかた",
+    "meaning": "friend, ally, supporter",
+    "example": "何があっても私はあなたの味方です。"
+  },
+  {
+    "kanji": "入場",
+    "kana": "にゅうじょう",
+    "meaning": "entrance, admission",
+    "example": "会場への入場は無料です。"
+  },
+  {
+    "kanji": "収める",
+    "kana": "おさめる",
+    "meaning": "to supply, to pay, to dedicated",
+    "example": "税金を期限までに収める。"
+  },
+  {
+    "kanji": "連続",
+    "kana": "れんぞく",
+    "meaning": "continuation, succession, series",
+    "example": "三日間連続で雨が降っている。"
+  },
+  {
+    "kanji": "利益",
+    "kana": "りえき",
+    "meaning": "profit, gains, benefit",
+    "example": "このビジネスは大きな利益を生む。"
+  },
+  {
+    "kanji": "留学",
+    "kana": "ryuugaku",
+    "meaning": "studying abroad",
+    "example": "来年から日本へ留学する予定です。"
+  },
+  {
+    "kanji": "左右",
+    "kana": "さゆう",
+    "meaning": "left and right",
+    "example": "道を渡る前に左右を確認する。"
+  },
+  {
+    "kanji": "成長",
+    "kana": "せいちょう",
+    "meaning": "growth, development",
+    "example": "子供の成長はとても早い。"
+  },
+  {
+    "kanji": "刺激",
+    "kana": "しげき",
+    "meaning": "stimulus, impetus, incentive",
+    "example": "彼の言葉は私にとって良い刺激になった。"
+  },
+  {
+    "kanji": "進学",
+    "kana": "しんがく",
+    "meaning": "entering a higher-level school",
+    "example": "高校を卒業して大学へ進学する。"
+  },
+  {
+    "kanji": "使用",
+    "kana": "しよう",
+    "meaning": "use, application, utilization",
+    "example": "ここでは携帯電話の使用は禁止です。"
+  },
+  {
+    "kanji": "証明",
+    "kana": "shoumei",
+    "meaning": "proof, verification, certification",
+    "example": "彼の無実を証明するのは難しい。"
+  },
+  {
+    "kanji": "招待",
+    "kana": "しょうたい",
+    "meaning": "invitation",
+    "example": "誕生日のパーティーに招待された。"
+  },
+  {
+    "kanji": "集中",
+    "kana": "しゅうちゅう",
+    "meaning": "concentration, focusing",
+    "example": "勉強に集中するためにテレビを消した。"
+  },
+  {
+    "kanji": "収穫",
+    "kana": "しゅうかく",
+    "meaning": "harvest, crop, fruits of labor",
+    "example": "今年は米の収穫が多かった。"
+  },
+  {
+    "kanji": "徹夜",
+    "kana": "てつや",
+    "meaning": "staying up all night",
+    "example": "試験勉強のために徹夜した。"
+  },
+  {
+    "kanji": "取れる",
+    "kana": "とれる",
+    "meaning": "to come off, to be removed",
+    "example": "コートのボタンが取れそうだ。"
+  },
+  {
+    "kanji": "取り上げる",
+    "kana": "とりあげる",
+    "meaning": "to pick up",
+    "example": "床に落ちているゴミを取り上げる。"
+  },
+  {
+    "kanji": "通学",
+    "kana": "つうがく",
+    "meaning": "commuting to school",
+    "example": "私は毎日電車で通学している。"
+  },
+  {
+    "kanji": "受け取る",
+    "kana": "うけとる",
+    "meaning": "to receive, to understand",
+    "example": "荷物を無事に受け取りました。"
+  },
+  {
+    "kanji": "運転",
+    "kana": "うんてん",
+    "meaning": "operation, driving",
+    "example": "彼は車の運転がとても上手だ。"
+  },
+  {
+    "kanji": "売れる",
+    "kana": "うれる",
+    "meaning": "to sell (well)",
+    "example": "この本は今、非常によく売れている。"
+  },
+  {
+    "kanji": "分ける",
+    "kana": "わける",
+    "meaning": "to divide, to split, to separate",
+    "example": "お菓子をみんなで分けよう。"
+  },
+  {
+    "kanji": "悪口",
+    "kana": "わるぐち",
+    "meaning": "slander, bad-mouthing, abuse",
+    "example": "人の悪口を言うのは良くない。"
+  },
+  {
+    "kanji": "輸入",
+    "kana": "ゆにゅう",
+    "meaning": "import, introduction",
+    "example": "日本は石油を輸入に頼っている。"
+  },
+  {
+    "kanji": "輸出",
+    "kana": "ゆしゅつ",
+    "meaning": "export, exportation",
+    "example": "日本の車は世界中に輸出されている。"
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "kanji": "明かり",
+    "kana": "あかり",
+    "meaning": "light; illumination; glow; gleam",
+    "example": "窓から部屋に明かりが差し込んでいる。"
+  },
+  {
+    "kanji": "悪魔",
+    "kana": "あくま",
+    "meaning": "devil; demon; fiend; Satan",
+    "example": "彼はまるで悪魔のような恐ろしい顔をした。"
+  },
+  {
+    "kanji": "暗記",
+    "kana": "あんき",
+    "meaning": "memorization; learning by heart",
+    "example": "試験のために新しい単語を暗記する。"
+  },
+  {
+    "kanji": "新た",
+    "kana": "あらた",
+    "meaning": "new; fresh; novel",
+    "example": "新年を新たな気持ちで迎える。"
+  },
+  {
+    "kanji": "集まり",
+    "kana": "あつまり",
+    "meaning": "gathering; meeting; assembly; collection",
+    "example": "明日の夜、家族の集まりがあります。"
+  },
+  {
+    "kanji": "部分",
+    "kana": "ぶぶん",
+    "meaning": "portion; section; part",
+    "example": "この機械の大部分はプラスチックでできている。"
+  },
+  {
+    "kanji": "分",
+    "kana": "ぶん",
+    "meaning": "part; segment; share; ration",
+    "example": "自分自身の分のケーキを食べる。"
+  },
+  {
+    "kanji": "文明",
+    "kana": "ぶんめい",
+    "meaning": "civilization; culture",
+    "example": "エジプト文明について図書館で調べる。"
+  },
+  {
+    "kanji": "分析",
+    "kana": "ぶんせき",
+    "meaning": "analysis",
+    "example": "科学者はデータの分析を始めた。"
+  },
+  {
+    "kanji": "分野",
+    "kana": "ぶんや",
+    "meaning": "field; sphere; realm; branch",
+    "example": "彼女はITの分野で活躍している。"
+  },
+  {
+    "kanji": "父親",
+    "kana": "ちちおや",
+    "meaning": "father",
+    "example": "私の父親は厳格な人です。"
+  },
+  {
+    "kanji": "地平線",
+    "kana": "ちへいせん",
+    "meaning": "horizon (related to land)",
+    "example": "太陽が地平線に沈んでいく。"
+  },
+  {
+    "kanji": "地位",
+    "kana": "ちい",
+    "meaning": "social position; status",
+    "example": "彼は会社で高い地位に就いている。"
+  },
+  {
+    "kanji": "長期",
+    "kana": "ちょうき",
+    "meaning": "long-term",
+    "example": "この問題には長期的な計画が必要だ。"
+  },
+  {
+    "kanji": "中",
+    "kana": "ちゅう",
+    "meaning": "during; while; medium; middle",
+    "example": "彼は今、会議中です。"
+  },
+  {
+    "kanji": "中学",
+    "kana": "ちゅうがく",
+    "meaning": "junior high school; middle school",
+    "example": "弟は今年から中学に通い始めた。"
+  },
+  {
+    "kanji": "昼食",
+    "kana": "ちゅうしょく",
+    "meaning": "lunch; midday meal",
+    "example": "公園で昼食を食べましょう。"
+  },
+  {
+    "kanji": "大部分",
+    "kana": "だいぶぶん",
+    "meaning": "most part; greater part; majority",
+    "example": "宿題の大部分を終わらせた。"
+  },
+  {
+    "kanji": "駄目",
+    "kana": "だめ",
+    "meaning": "no good; cannot",
+    "example": "ここでタバコを吸っては駄目です。"
+  },
+  {
+    "kanji": "男子",
+    "kana": "だんし",
+    "meaning": "youth; young man",
+    "example": "このクラスには男子が十人います。"
+  },
+  {
+    "kanji": "出会い",
+    "kana": "であい",
+    "meaning": "meeting; rendezvous; encounter",
+    "example": "素晴らしい友人との出会いに感謝する。"
+  },
+  {
+    "kanji": "読書",
+    "kana": "どくしょ",
+    "meaning": "reading",
+    "example": "私の趣味は休日に読書をすることだ。"
+  },
+  {
+    "kanji": "努力",
+    "kana": "どりょく",
+    "meaning": "effort; exertion; endeavor; hard work",
+    "example": "夢を叶えるために努力を続ける。"
+  },
+  {
+    "kanji": "円",
+    "kana": "えん",
+    "meaning": "yen; Japanese monetary unit; circle",
+    "example": "このリンゴは一つ百円です。"
+  },
+  {
+    "kanji": "不利",
+    "kana": "ふり",
+    "meaning": "disadvantage; handicap; unfavorable position",
+    "example": "今の状況は私たちにとって不利だ。"
+  },
+  {
+    "kanji": "不足",
+    "kana": "ふそく",
+    "meaning": "insufficiency; shortage; deficiency; lack",
+    "example": "最近、運動不足を感じている。"
+  },
+  {
+    "kanji": "外交",
+    "kana": "がいこう",
+    "meaning": "diplomacy",
+    "example": "政府は隣国との外交関係を改善した。"
+  },
+  {
+    "kanji": "外出",
+    "kana": "がいしゅつ",
+    "meaning": "going out; outing; leaving",
+    "example": "母は今、外出しています。"
+  },
+  {
+    "kanji": "学期",
+    "kana": "がっき",
+    "meaning": "school term; semester",
+    "example": "新しい学期が明日から始まる。"
+  },
+  {
+    "kanji": "学",
+    "kana": "がく",
+    "meaning": "learning; education; study of",
+    "example": "彼は言語学を専門にしている。"
+  },
+  {
+    "kanji": "学問",
+    "kana": "がくもん",
+    "meaning": "scholarship; study; learning",
+    "example": "学問に王道なし。"
+  },
+  {
+    "kanji": "学者",
+    "kana": "がくしゃ",
+    "meaning": "scholar",
+    "example": "有名な学者が大学で講演を行う。"
+  },
+  {
+    "kanji": "学習",
+    "kana": "がくしゅう",
+    "meaning": "study; learning; tutorial",
+    "example": "効率的な学習方法を見つける。"
+  },
+  {
+    "kanji": "議長",
+    "kana": "ぎちょう",
+    "meaning": "chairman; president; moderator",
+    "example": "彼は会議の議長に選ばれた。"
+  },
+  {
+    "kanji": "議会",
+    "kana": "ぎかい",
+    "meaning": "congress; parliament; diet",
+    "example": "新しい法律が議会で可決された。"
+  },
+  {
+    "kanji": "語学",
+    "kana": "ごがく",
+    "meaning": "study of foreign languages; linguistics",
+    "example": "留学して語学力を磨きたい。"
+  },
+  {
+    "kanji": "母親",
+    "kana": "ははおや",
+    "meaning": "mother",
+    "example": "母親はいつも家族のことを心配している。"
+  },
+  {
+    "kanji": "博物館",
+    "kana": "はくぶつかん",
+    "meaning": "museum",
+    "example": "週末に国立博物館へ行った。"
+  },
+  {
+    "kanji": "販売",
+    "kana": "はんばい",
+    "meaning": "sales; selling; marketing",
+    "example": "この商品はオンラインでのみ販売されている。"
+  },
+  {
+    "kanji": "発明",
+    "kana": "はつめい",
+    "meaning": "invention",
+    "example": "エジソンは多くの便利な物を発明した。"
+  },
+  {
+    "kanji": "品",
+    "kana": "ひん",
+    "meaning": "elegance; article",
+    "example": "彼女の話し方には品がある。"
+  },
+  {
+    "kanji": "一言",
+    "kana": "ひとこと",
+    "meaning": "single word; a few words; brief comment",
+    "example": "最後に一言だけ言わせてください。"
+  },
+  {
+    "kanji": "一人一人",
+    "kana": "ひとりひとり",
+    "meaning": "one by one; each; one at a time",
+    "example": "生徒一人一人の意見を聞く。"
+  },
+  {
+    "kanji": "本物",
+    "kana": "ほんもの",
+    "meaning": "genuine article; real thing; real deal",
+    "example": "このダイヤモンドは本物ですか。"
+  },
+  {
+    "kanji": "本人",
+    "kana": "ほんにん",
+    "meaning": "the person in question; themselves",
+    "example": "その書類は本人が署名する必要がある。"
+  },
+  {
+    "kanji": "一致",
+    "kana": "いっち",
+    "meaning": "agreement; union; match; coincidence",
+    "example": "彼らの意見が完全に一致した。"
+  },
+  {
+    "kanji": "一時",
+    "kana": "いちじ",
+    "meaning": "one o'clock; once; for a time",
+    "example": "午後の一時に駅で会いましょう。"
+  },
+  {
+    "kanji": "一家",
+    "kana": "いっか",
+    "meaning": "a family; a household; a home",
+    "example": "田中さん一家は去年引越した。"
+  },
+  {
+    "kanji": "一般",
+    "kana": "いっぱん",
+    "meaning": "general; universal; ordinary; average",
+    "example": "それは一般的に正しいと考えられている。"
+  },
+  {
+    "kanji": "一方",
+    "kana": "いっぽう",
+    "meaning": "one way; the other direction; although",
+    "example": "彼は歌手である一方、俳優でもある。"
+  },
+  {
+    "kanji": "一生",
+    "kana": "いっしょう",
+    "meaning": "whole life; a lifetime; a generation",
+    "example": "この恩は一生忘れません。"
+  },
+  {
+    "kanji": "一種",
+    "kana": "いっしゅ",
+    "meaning": "species; kind; variety",
+    "example": "これは珍しい一種の植物です。"
+  },
+  {
+    "kanji": "一瞬",
+    "kana": "いっしゅん",
+    "meaning": "instant; moment; for an instant",
+    "example": "それは一瞬の出来事だった。"
+  },
+  {
+    "kanji": "一層",
+    "kana": "いっそう",
+    "meaning": "much more; still more; all the more",
+    "example": "夜になると寒さが一層厳しくなった。"
+  },
+  {
+    "kanji": "一体",
+    "kana": "いったい",
+    "meaning": "(what) the heck; (why) in the world",
+    "example": "一体、何が起きたというのですか。"
+  },
+  {
+    "kanji": "邪魔",
+    "kana": "じゃま",
+    "meaning": "hindrance; intrusion; obstacle",
+    "example": "仕事の邪魔をしないでください。"
+  },
+  {
+    "kanji": "化学",
+    "kana": "かがく",
+    "meaning": "chemistry",
+    "example": "大学で化学を専攻しています。"
+  },
+  {
+    "kanji": "会",
+    "kana": "かい",
+    "meaning": "meeting; assembly; party; club",
+    "example": "来週、卒業生の会が開かれます。"
+  },
+  {
+    "kanji": "会員",
+    "kana": "かいいん",
+    "meaning": "member",
+    "example": "このジムの会員になりたいです。"
+  },
+  {
+    "kanji": "海外",
+    "kana": "かいがい",
+    "meaning": "foreign; abroad; overseas",
+    "example": "将来は海外で働きたいと思っている。"
+  },
+  {
+    "kanji": "会合",
+    "kana": "かいごう",
+    "meaning": "meeting; assembly; gathering",
+    "example": "重要な会合に出席しなければならない。"
+  },
+  {
+    "kanji": "会計",
+    "kana": "かいけい",
+    "meaning": "finance; account; bill",
+    "example": "レジでお会計をお願いします。"
+  },
+  {
+    "kanji": "開始",
+    "kana": "かいし",
+    "meaning": "start; commencement; beginning",
+    "example": "試合は予定通り開始された。"
+  },
+  {
+    "kanji": "科目",
+    "kana": "かもく",
+    "meaning": "(school) subject; curriculum; course",
+    "example": "好きな科目は数学と英語です。"
+  },
+  {
+    "kanji": "権利",
+    "kana": "けんり",
+    "meaning": "right; privilege",
+    "example": "誰もが自由に話す権利を持っている。"
+  },
+  {
+    "kanji": "基本",
+    "kana": "きほん",
+    "meaning": "basics; fundamentals; basis",
+    "example": "基本をしっかり身につけることが大切だ。"
+  },
+  {
+    "kanji": "記事",
+    "kana": "きじ",
+    "meaning": "article; news story; report",
+    "example": "今朝の新聞でその記事を読んだ。"
+  },
+  {
+    "kanji": "気味",
+    "kana": "きみ",
+    "meaning": "sensation; feeling; tendency",
+    "example": "少し風邪気味なので、早く寝ます。"
+  },
+  {
+    "kanji": "記念",
+    "kana": "きねん",
+    "meaning": "commemoration; celebration; honoring memory",
+    "example": "旅行の記念に写真を撮った。"
+  },
+  {
+    "kanji": "記入",
+    "kana": "きにゅう",
+    "meaning": "entry; filling in; filling out",
+    "example": "この用紙に氏名と住所を記入してください。"
+  },
+  {
+    "kanji": "記憶",
+    "kana": "きおく",
+    "meaning": "memory; recollection; remembrance",
+    "example": "子供の頃の記憶が蘇った。"
+  },
+  {
+    "kanji": "記者",
+    "kana": "きしゃ",
+    "meaning": "reporter; journalist",
+    "example": "新聞記者がインタビューを求めてきた。"
+  },
+  {
+    "kanji": "期待",
+    "kana": "きたい",
+    "meaning": "expectation; anticipation; hope",
+    "example": "両親の期待に応えたい。"
+  },
+  {
+    "kanji": "国家",
+    "kana": "こっか",
+    "meaning": "state; country; nation",
+    "example": "国家の安全を守ることが重要だ。"
+  },
+  {
+    "kanji": "国会",
+    "kana": "こっかい",
+    "meaning": "National Diet; parliament; congress",
+    "example": "予算案が国会で審議されている。"
+  },
+  {
+    "kanji": "国境",
+    "kana": "こっきょう",
+    "meaning": "national border",
+    "example": "電車で国境を越える。"
+  },
+  {
+    "kanji": "国語",
+    "kana": "こくご",
+    "meaning": "national language",
+    "example": "明日の最初の授業は国語です。"
+  },
+  {
+    "kanji": "国民",
+    "kana": "こくみん",
+    "meaning": "people (of a country); nation; citizen",
+    "example": "国民は政府に説明を求めている。"
+  },
+  {
+    "kanji": "今後",
+    "kana": "こんご",
+    "meaning": "from now on; hereafter",
+    "example": "今後このようなことがないよう注意します。"
+  },
+  {
+    "kanji": "今回",
+    "kana": "こんかい",
+    "meaning": "now; this time; lately",
+    "example": "今回の試験はとても難しかった。"
+  }
+]

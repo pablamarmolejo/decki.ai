@@ -1,0 +1,594 @@
+[
+  {
+    "kanji": "喫",
+    "kana": "きつ",
+    "meaning": "consume, eat, drink, smoke",
+    "kun": "の(む)",
+    "on": "キツ",
+    "example": "駅の近くの喫茶店で友達を待つ。"
+  },
+  {
+    "kanji": "干",
+    "kana": "かん",
+    "meaning": "dry, parch, ebb",
+    "kun": "ほ(す)、ひ(る)",
+    "on": "カン",
+    "example": "天気がいいので洗濯物を干す。"
+  },
+  {
+    "kanji": "虫",
+    "kana": "むし",
+    "meaning": "insect, bug, temper",
+    "kun": "むし",
+    "on": "チュウ、キ",
+    "example": "夏になると庭に虫がたくさん出る。"
+  },
+  {
+    "kanji": "刷",
+    "kana": "さつ",
+    "meaning": "printing, print, brush",
+    "kun": "す(る)、は(く)",
+    "on": "サツ",
+    "example": "資料を百枚印刷してください。"
+  },
+  {
+    "kanji": "湯",
+    "kana": "ゆ",
+    "meaning": "hot water, bath, hot spring",
+    "kun": "ゆ",
+    "on": "トウ",
+    "example": "熱いお湯に浸かって疲れを取る。"
+  },
+  {
+    "kanji": "溶",
+    "kana": "よう",
+    "meaning": "melt, dissolve, thaw",
+    "kun": "と(ける)",
+    "on": "ヨウ",
+    "example": "砂糖を水によく溶かして混ぜる。"
+  },
+  {
+    "kanji": "鉱",
+    "kana": "こう",
+    "meaning": "mineral, ore",
+    "kun": "あらがね",
+    "on": "コウ",
+    "example": "この地域は鉱物資源が豊富だ。"
+  },
+  {
+    "kanji": "涙",
+    "kana": "なみだ",
+    "meaning": "tears, sympathy",
+    "kun": "namida",
+    "on": "ルイ",
+    "example": "映画を見て感動の涙を流した。"
+  },
+  {
+    "kanji": "匹",
+    "kana": "ひき",
+    "meaning": "counter for small animals, match",
+    "kun": "hiki",
+    "on": "ヒツ",
+    "example": "猫を二匹飼っています。"
+  },
+  {
+    "kanji": "孫",
+    "kana": "まご",
+    "meaning": "grandchild, descendants",
+    "kun": "mago",
+    "on": "ソン",
+    "example": "祖父は孫に会うのを楽しみにしている。"
+  },
+  {
+    "kanji": "鋭",
+    "kana": "えい",
+    "meaning": "pointed, sharpness, violent",
+    "kun": "surudo(i)",
+    "on": "エイ",
+    "example": "彼は鋭い観察力を持っている。"
+  },
+  {
+    "kanji": "枝",
+    "kana": "えだ",
+    "meaning": "bough, branch, twig",
+    "kun": "eda",
+    "on": "シ",
+    "example": "桜の枝が風に揺れている。"
+  },
+  {
+    "kanji": "塗",
+    "kana": "と",
+    "meaning": "paint, smear, coating",
+    "kun": "nu(ru)、nu(ri)",
+    "on": "ト",
+    "example": "壁に白いペンキを塗る。"
+  },
+  {
+    "kanji": "軒",
+    "kana": "けん",
+    "meaning": "flats, eaves, counter for houses",
+    "kun": "noki",
+    "on": "ケン",
+    "example": "この通りには店が数軒並んでいる。"
+  },
+  {
+    "kanji": "毒",
+    "kana": "どく",
+    "meaning": "poison, germ, harm",
+    "kun": "",
+    "on": "ドク",
+    "example": "このキノコには毒がある。"
+  },
+  {
+    "kanji": "叫",
+    "kana": "きょう",
+    "meaning": "shout, exclaim, yell",
+    "kun": "sake(bu)",
+    "on": "キョウ",
+    "example": "助けを求めて大声で叫ぶ。"
+  },
+  {
+    "kanji": "拝",
+    "kana": "はい",
+    "meaning": "worship, adore, pray to",
+    "kun": "oga(mu)",
+    "on": "ハイ",
+    "example": "初詣で神社を参拝する。"
+  },
+  {
+    "kanji": "氷",
+    "kana": "こおり",
+    "meaning": "ice, hail, freeze",
+    "kun": "koori、hi",
+    "on": "ヒョウ",
+    "example": "飲み物に氷を入れて冷やす。"
+  },
+  {
+    "kanji": "乾",
+    "kana": "かん",
+    "meaning": "drought, dry, heaven",
+    "kun": "kawa(ku)",
+    "on": "カン",
+    "example": "空気が乾燥しているので火の用心だ。"
+  },
+  {
+    "kanji": "棒",
+    "kana": "ぼう",
+    "meaning": "rod, stick, cane, pole",
+    "kun": "",
+    "on": "ボウ",
+    "example": "木の棒を使って地面に絵を描く。"
+  },
+  {
+    "kanji": "祈",
+    "kana": "き",
+    "meaning": "pray, wish",
+    "kun": "ino(ru)",
+    "on": "キ",
+    "example": "家族の健康を祈っています。"
+  },
+  {
+    "kanji": "拾",
+    "kana": "ひろ",
+    "meaning": "pick up, gather, find",
+    "kun": "hiro(u)",
+    "on": "シュウ",
+    "example": "道に落ちていた財布を拾う。"
+  },
+  {
+    "kanji": "粉",
+    "kana": "こな",
+    "meaning": "flour, powder, dust",
+    "kun": "ko、kona",
+    "on": "フン",
+    "example": "小麦粉を練ってパンを作る。"
+  },
+  {
+    "kanji": "糸",
+    "kana": "いと",
+    "meaning": "thread",
+    "kun": "ito",
+    "on": "シ",
+    "example": "針に糸を通すのは難しい。"
+  },
+  {
+    "kanji": "綿",
+    "kana": "わた",
+    "meaning": "cotton",
+    "kun": "wata",
+    "on": "メン",
+    "example": "綿のシャツは肌触りがいい。"
+  },
+  {
+    "kanji": "汗",
+    "kana": "あせ",
+    "meaning": "sweat, perspire",
+    "kun": "ase",
+    "on": "カン",
+    "example": "運動をしてたくさん汗をかいた。"
+  },
+  {
+    "kanji": "銅",
+    "kana": "どう",
+    "meaning": "copper",
+    "kun": "akagane",
+    "on": "ドウ",
+    "example": "彼は銅メダルを獲得した。"
+  },
+  {
+    "kanji": "湿",
+    "kana": "しつ",
+    "meaning": "damp, wet, moist",
+    "kun": "shime(ru)",
+    "on": "シツ",
+    "example": "日本の夏は湿度がとても高い。"
+  },
+  {
+    "kanji": "瓶",
+    "kana": "びん",
+    "meaning": "bottle, jar, jug",
+    "kun": "kame、hei",
+    "on": "ビン",
+    "example": "空き瓶をリサイクルに出す。"
+  },
+  {
+    "kanji": "咲",
+    "kana": "さき",
+    "meaning": "blossom, bloom",
+    "kun": "sa(ku)",
+    "on": "ショウ",
+    "example": "公園のチューリップがきれいに咲いている。"
+  },
+  {
+    "kanji": "召",
+    "kana": "しょう",
+    "meaning": "call, wear, buy, eat, drink",
+    "kun": "me(su)",
+    "on": "ショウ",
+    "example": "お召し上がりくださいと勧められた。"
+  },
+  {
+    "kanji": "缶",
+    "kana": "かん",
+    "meaning": "tin can, container",
+    "kun": "kama",
+    "on": "カン",
+    "example": "缶コーヒーを買って一息つく。"
+  },
+  {
+    "kanji": "隻",
+    "kana": "せき",
+    "meaning": "vessels, counter for ships",
+    "kun": "",
+    "on": "セキ",
+    "example": "港に大きな船が一隻停まっている。"
+  },
+  {
+    "kanji": "脂",
+    "kana": "あぶら",
+    "meaning": "fat, grease, lard",
+    "kun": "abura",
+    "on": "シ",
+    "example": "脂っこい食べ物は控えなさい。"
+  },
+  {
+    "kanji": "蒸",
+    "kana": "じょう",
+    "meaning": "steam, heat, foment",
+    "kun": "mu(su)",
+    "on": "ジョウ、セイ",
+    "example": "蒸し暑い日が続いている。"
+  },
+  {
+    "kanji": "肌",
+    "kana": "はだ",
+    "meaning": "texture, skin, body",
+    "kun": "hada",
+    "on": "キ",
+    "example": "冬は肌が乾燥しやすい。"
+  },
+  {
+    "kanji": "耕",
+    "kana": "こう",
+    "meaning": "till, plow, cultivate",
+    "kun": "tagaya(su)",
+    "on": "コウ",
+    "example": "トラクターで畑を耕す。"
+  },
+  {
+    "kanji": "鈍",
+    "kana": "どん",
+    "meaning": "dull, slow, foolish, blunt",
+    "kun": "nibu(i)、namaku(ra)",
+    "on": "ドン",
+    "example": "彼は運動神経が少し鈍い。"
+  },
+  {
+    "kanji": "泥",
+    "kana": "どろ",
+    "meaning": "mud, adhere to",
+    "kun": "doro",
+    "on": "デイ",
+    "example": "泥棒に入られないように鍵をかける。"
+  },
+  {
+    "kanji": "隅",
+    "kana": "すみ",
+    "meaning": "corner, nook",
+    "kun": "sumi",
+    "on": "グウ",
+    "example": "部屋の隅に机を置く。"
+  },
+  {
+    "kanji": "灯",
+    "kana": "とう",
+    "meaning": "lamp, light",
+    "kun": "hi、tomo(su)",
+    "on": "トウ",
+    "example": "夜の街に灯りがともる。"
+  },
+  {
+    "kanji": "辛",
+    "kana": "から",
+    "meaning": "spicy, hot, salty",
+    "kun": "kara(i)、tsura(i)",
+    "on": "シン",
+    "example": "辛い料理を食べて汗をかく。"
+  },
+  {
+    "kanji": "磨",
+    "kana": "ま",
+    "meaning": "grind, polish, brush",
+    "kun": "miga(ku)",
+    "on": "マ",
+    "example": "寝る前に必ず歯を磨く。"
+  },
+  {
+    "kanji": "麦",
+    "kana": "むぎ",
+    "meaning": "barley, wheat",
+    "kun": "mugi",
+    "on": "バク",
+    "example": "夏は冷たい麦茶が美味しい。"
+  },
+  {
+    "kanji": "姓",
+    "kana": "せい",
+    "meaning": "surname",
+    "kun": "",
+    "on": "セイ、ショウ",
+    "example": "私の姓は田中です。"
+  },
+  {
+    "kanji": "筒",
+    "kana": "つつ",
+    "meaning": "cylinder, pipe, tube",
+    "kun": "tsutsu",
+    "on": "トウ",
+    "example": "封筒に住所と名前を書く。"
+  },
+  {
+    "kanji": "鼻",
+    "kana": "はな",
+    "meaning": "nose, snout",
+    "kun": "hana",
+    "on": "ビ",
+    "example": "風邪をひいて鼻水が出る。"
+  },
+  {
+    "kanji": "粒",
+    "kana": "つぶ",
+    "meaning": "grains, drop, counter for particles",
+    "kun": "tsubu",
+    "on": "リュウ",
+    "example": "大粒の雨が降り出した。"
+  },
+  {
+    "kanji": "詞",
+    "kana": "し",
+    "meaning": "part of speech, words",
+    "kun": "kotoba",
+    "on": "シ",
+    "example": "歌詞を覚えて歌を歌う。"
+  },
+  {
+    "kanji": "胃",
+    "kana": "い",
+    "meaning": "stomach, crop",
+    "kun": "",
+    "on": "イ",
+    "example": "食べ過ぎて胃が痛い。"
+  },
+  {
+    "kanji": "畳",
+    "kana": "たたみ",
+    "meaning": "tatami mat, fold",
+    "kun": "tatami",
+    "on": "ジョウ、チョウ",
+    "example": "和室には畳が敷いてある。"
+  },
+  {
+    "kanji": "机",
+    "kana": "つくえ",
+    "meaning": "desk, table",
+    "kun": "tsukue",
+    "on": "キ",
+    "example": "机に向かって勉強する。"
+  },
+  {
+    "kanji": "膚",
+    "kana": "ふ",
+    "meaning": "skin, body, texture",
+    "kun": "hada",
+    "on": "フ",
+    "example": "皮膚科に行って薬をもらう。"
+  },
+  {
+    "kanji": "濯",
+    "kana": "たく",
+    "meaning": "laundry, wash, rinse",
+    "kun": "susu(gu)",
+    "on": "タク",
+    "example": "週末にまとめて洗濯をする。"
+  },
+  {
+    "kanji": "塔",
+    "kana": "とう",
+    "meaning": "pagoda, tower, steeple",
+    "kun": "",
+    "on": "トウ",
+    "example": "東京タワーは高い電波塔だ。"
+  },
+  {
+    "kanji": "沸",
+    "kana": "ふつ",
+    "meaning": "seethe, boil, ferment",
+    "kun": "wa(ku)",
+    "on": "フツ",
+    "example": "やかんでお湯を沸かす。"
+  },
+  {
+    "kanji": "灰",
+    "kana": "はい",
+    "meaning": "ashes, cremate",
+    "kun": "hai",
+    "on": "カイ",
+    "example": "タバコの灰を灰皿に捨てる。"
+  },
+  {
+    "kanji": "菓",
+    "kana": "か",
+    "meaning": "candy, cakes, fruit",
+    "kun": "",
+    "on": "カ",
+    "example": "日本のお菓子はお土産に喜ばれる。"
+  },
+  {
+    "kanji": "帽",
+    "kana": "ぼう",
+    "meaning": "cap, headgear",
+    "kun": "ずきん、おお(う)",
+    "on": "ボウ",
+    "example": "夏は帽子をかぶって出かける。"
+  },
+  {
+    "kanji": "枯",
+    "kana": "こ",
+    "meaning": "wither, die, dry up",
+    "kun": "ka(reru)",
+    "on": "コ",
+    "example": "冬になって草木が枯れる。"
+  },
+  {
+    "kanji": "涼",
+    "kana": "りょう",
+    "meaning": "refreshing, nice and cool",
+    "kun": "suzu(shii)",
+    "on": "リョウ",
+    "example": "夕方になると涼しい風が吹く。"
+  },
+  {
+    "kanji": "舟",
+    "kana": "ふね",
+    "meaning": "boat, ship",
+    "kun": "fune",
+    "on": "シュウ",
+    "example": "小舟に乗って川を下る。"
+  },
+  {
+    "kanji": "貝",
+    "kana": "かい",
+    "meaning": "shellfish",
+    "kun": "kai",
+    "on": "バイ",
+    "example": "海岸で貝殻を拾う。"
+  },
+  {
+    "kanji": "符",
+    "kana": "ふ",
+    "meaning": "token, sign, mark",
+    "kun": "",
+    "on": "フ",
+    "example": "駅の改札できっぷ（切符）を買う。"
+  },
+  {
+    "kanji": "憎",
+    "kana": "ぞう",
+    "meaning": "hate, detest, odious",
+    "kun": "niku(mu)",
+    "on": "ゾウ",
+    "example": "彼は憎めない性格をしている。"
+  },
+  {
+    "kanji": "皿",
+    "kana": "さら",
+    "meaning": "dish, plate, a helping",
+    "kun": "sara、zara",
+    "on": "ベイ",
+    "example": "使い終わったお皿を洗う。"
+  },
+  {
+    "kanji": "肯",
+    "kana": "こう",
+    "meaning": "agreement, consent, comply",
+    "kun": "gaenji(ru)",
+    "on": "コウ",
+    "example": "相手の意見に肯定的な返事をする。"
+  },
+  {
+    "kanji": "燥",
+    "kana": "そう",
+    "meaning": "parch, dry up",
+    "kun": "hasha(gu)",
+    "on": "ソウ",
+    "example": "冬は空気が非常に乾燥している。"
+  },
+  {
+    "kanji": "畜",
+    "kana": "ちく",
+    "meaning": "livestock, domestic fowl",
+    "kun": "",
+    "on": "チク",
+    "example": "この農場では家畜を育てている。"
+  },
+  {
+    "kanji": "坊",
+    "kana": "ぼう",
+    "meaning": "boy, priest, monk",
+    "kun": "",
+    "on": "ボウ、ボッ",
+    "example": "彼は小さな頃から坊主頭だ。"
+  },
+  {
+    "kanji": "挟",
+    "kana": "はさ",
+    "meaning": "pinch, between, insert",
+    "kun": "hasa(mu)",
+    "on": "キョウ",
+    "example": "栞を本の間に挟む。"
+  },
+  {
+    "kanji": "曇",
+    "kana": "くも",
+    "meaning": "cloudy weather, cloud up",
+    "kun": "kumo(ru)",
+    "on": "ドン",
+    "example": "今日は一日中曇り空だ。"
+  },
+  {
+    "kanji": "滴",
+    "kana": "てき",
+    "meaning": "drip, drop",
+    "kun": "shizuku、shitata(ru)",
+    "on": "テキ",
+    "example": "コップから水が滴り落ちる。"
+  },
+  {
+    "kanji": "伺",
+    "kana": "し",
+    "meaning": "visit, ask, inquire",
+    "kun": "ukaga(u)",
+    "on": "シ",
+    "example": "明日、事務所に伺います。"
+  }
+]

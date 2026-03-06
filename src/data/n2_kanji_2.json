@@ -1,0 +1,802 @@
+[
+  {
+    "kanji": "将",
+    "kana": "しょう",
+    "meaning": "leader, commander, general, future",
+    "kun": "まさ(に)",
+    "on": "ショウ",
+    "example": "将来の夢について作文を書く。"
+  },
+  {
+    "kanji": "幅",
+    "kana": "はば",
+    "meaning": "width, breadth, hanging scroll",
+    "kun": "はば",
+    "on": "フク",
+    "example": "道幅が狭いので運転に注意してください。"
+  },
+  {
+    "kanji": "般",
+    "kana": "はん",
+    "meaning": "general, universal, sort, kind",
+    "kun": "",
+    "on": "ハン",
+    "example": "一般的に言って、日本人は真面目だ。"
+  },
+  {
+    "kanji": "貿",
+    "kana": "ぼう",
+    "meaning": "trade, exchange",
+    "kun": "",
+    "on": "ボウ",
+    "example": "日本は貿易によって経済を支えている。"
+  },
+  {
+    "kanji": "講",
+    "kana": "こう",
+    "meaning": "lecture, club, association",
+    "kun": "",
+    "on": "コウ",
+    "example": "大学の講義を熱心に聞く。"
+  },
+  {
+    "kanji": "林",
+    "kana": "はやし",
+    "meaning": "grove, forest, copse",
+    "kun": "はやし",
+    "on": "リン",
+    "example": "小林さんは山の近くに住んでいます。"
+  },
+  {
+    "kanji": "装",
+    "kana": "そう",
+    "meaning": "attire, dress, pretend, disguise",
+    "kun": "よそお(う)",
+    "on": "ソウ、ショウ",
+    "example": "装置を正しく操作してください。"
+  },
+  {
+    "kanji": "諸",
+    "kana": "しょ",
+    "meaning": "various, many, several",
+    "kun": "もろ",
+    "on": "ショ",
+    "example": "諸外国との交流を深める。"
+  },
+  {
+    "kanji": "劇",
+    "kana": "げき",
+    "meaning": "drama, play, theater",
+    "kun": "",
+    "on": "ゲキ",
+    "example": "劇的な展開に驚かされた。"
+  },
+  {
+    "kanji": "河",
+    "kana": "かわ",
+    "meaning": "river",
+    "kun": "かわ",
+    "on": "カ",
+    "example": "銀河系には多くの星がある。"
+  },
+  {
+    "kanji": "航",
+    "kana": "こう",
+    "meaning": "navigate, sail, cruise, fly",
+    "kun": "",
+    "on": "kou",
+    "example": "航空便で荷物を送る。"
+  },
+  {
+    "kanji": "鉄",
+    "kana": "てつ",
+    "meaning": "iron, steel",
+    "kun": "くろがね",
+    "on": "テツ",
+    "example": "鉄道の旅は景色を楽しめる。"
+  },
+  {
+    "kanji": "児",
+    "kana": "じ",
+    "meaning": "newborn babe, child, infant",
+    "kun": "ko",
+    "on": "ジ",
+    "example": "児童館で子供たちが遊んでいる。"
+  },
+  {
+    "kanji": "禁",
+    "kana": "きん",
+    "meaning": "prohibition, ban, forbid",
+    "kun": "",
+    "on": "キン",
+    "example": "校内でのスマートフォンの使用は禁止だ。"
+  },
+  {
+    "kanji": "印",
+    "kana": "しるし",
+    "meaning": "stamp, seal, mark, symbol",
+    "kun": "しるし",
+    "on": "イン",
+    "example": "書類に受領印を押す。"
+  },
+  {
+    "kanji": "逆",
+    "kana": "ぎゃく",
+    "meaning": "inverted, reverse, opposite",
+    "kun": "さか(らう)",
+    "on": "ギャク",
+    "example": "逆転勝ちで優勝が決まった。"
+  },
+  {
+    "kanji": "換",
+    "kana": "かん",
+    "meaning": "interchange, change, replace",
+    "kun": "ka(eru)",
+    "on": "カン",
+    "example": "空気を入れ換えるために窓を開ける。"
+  },
+  {
+    "kanji": "久",
+    "kana": "ひさ",
+    "meaning": "long time, old story",
+    "kun": "ひさ(しい)",
+    "on": "キュウ、ク",
+    "example": "久しぶりに実家に帰った。"
+  },
+  {
+    "kanji": "短",
+    "kana": "たん",
+    "meaning": "short, fault, defect",
+    "kun": "mijika(i)",
+    "on": "タン",
+    "example": "短所を直すのは難しい。"
+  },
+  {
+    "kanji": "油",
+    "kana": "あぶら",
+    "meaning": "oil, fat, grease",
+    "kun": "あぶら",
+    "on": "ユ",
+    "example": "石油の価格が上がっている。"
+  },
+  {
+    "kanji": "暴",
+    "kana": "ぼう",
+    "meaning": "outburst, force, violence",
+    "kun": "aba(ku)",
+    "on": "ボウ、バク",
+    "example": "暴力で解決してはいけない。"
+  },
+  {
+    "kanji": "輪",
+    "kana": "わ",
+    "meaning": "wheel, ring, circle, loop",
+    "kun": "わ",
+    "on": "リン",
+    "example": "指輪をプレゼントした。"
+  },
+  {
+    "kanji": "占",
+    "kana": "うらな",
+    "meaning": "fortune-telling, occupy, hold",
+    "kun": "し(める)、うらな(う)",
+    "on": "セン",
+    "example": "この商品は市場の半分を占めている。"
+  },
+  {
+    "kanji": "植",
+    "kana": "しょく",
+    "meaning": "plant, set up",
+    "kun": "u(eru)",
+    "on": "ショク",
+    "example": "植物に毎日水をやる。"
+  },
+  {
+    "kanji": "清",
+    "kana": "せい",
+    "meaning": "pure, purify, cleanse",
+    "kun": "kiyo(i)",
+    "on": "セイ",
+    "example": "清潔なタオルを使う。"
+  },
+  {
+    "kanji": "倍",
+    "kana": "ばい",
+    "meaning": "double, twice, times, fold",
+    "kun": "",
+    "on": "バイ",
+    "example": "去年に比べて売上が二倍になった。"
+  },
+  {
+    "kanji": "均",
+    "kana": "きん",
+    "meaning": "level, average, equal",
+    "kun": "nara(su)",
+    "on": "キン",
+    "example": "均等にケーキを分ける。"
+  },
+  {
+    "kanji": "億",
+    "kana": "おく",
+    "meaning": "hundred million",
+    "kun": "",
+    "on": "オク",
+    "example": "宝くじで一億円当たった。"
+  },
+  {
+    "kanji": "圧",
+    "kana": "あつ",
+    "meaning": "pressure, push, overwhelm",
+    "kun": "o(す)",
+    "on": "アツ",
+    "example": "圧倒的な力の差を感じる。"
+  },
+  {
+    "kanji": "芸",
+    "kana": "げい",
+    "meaning": "technique, art, craft, acting",
+    "kun": "u(eru)、nori、waza",
+    "on": "ゲイ",
+    "example": "伝統芸能を鑑賞する。"
+  },
+  {
+    "kanji": "署",
+    "kana": "しょ",
+    "meaning": "signature, govt office, station",
+    "kun": "",
+    "on": "ショ",
+    "example": "警察署で手続きをする。"
+  },
+  {
+    "kanji": "伸",
+    "kana": "しん",
+    "meaning": "expand, stretch, extend",
+    "kun": "no(biru)",
+    "on": "シン",
+    "example": "背が伸びて服が合わなくなった。"
+  },
+  {
+    "kanji": "停",
+    "kana": "てい",
+    "meaning": "halt, stopping",
+    "kun": "to(meru)",
+    "on": "テイ",
+    "example": "大雪で電車が停電した。"
+  },
+  {
+    "kanji": "爆",
+    "kana": "ばく",
+    "meaning": "bomb, burst open, explosion",
+    "kun": "ha(zeru)",
+    "on": "バク",
+    "example": "爆発音にみんな驚いた。"
+  },
+  {
+    "kanji": "陸",
+    "kana": "りく",
+    "meaning": "land, shore",
+    "kun": "oka",
+    "on": "リク、ロク",
+    "example": "陸上競技の大会に出る。"
+  },
+  {
+    "kanji": "玉",
+    "kana": "たま",
+    "meaning": "jewel, ball, gem",
+    "kun": "tama",
+    "on": "ギョク",
+    "example": "玉ねぎを細かく切る。"
+  },
+  {
+    "kanji": "波",
+    "kana": "なみ",
+    "meaning": "waves, billows, fluctuations",
+    "kun": "nami",
+    "on": "ハ",
+    "example": "今日は波が高くて泳げない。"
+  },
+  {
+    "kanji": "帯",
+    "kana": "たい",
+    "meaning": "sash, belt, zone, region",
+    "kun": "o(biru)",
+    "on": "タイ",
+    "example": "着物の帯をきつく締める。"
+  },
+  {
+    "kanji": "延",
+    "kana": "えん",
+    "meaning": "prolong, stretching, postpone",
+    "kun": "no(biru)",
+    "on": "エン",
+    "example": "試合が延長戦になった。"
+  },
+  {
+    "kanji": "羽",
+    "kana": "はね",
+    "meaning": "feathers, counter for birds",
+    "kun": "は、わ、はね",
+    "on": "ウ",
+    "example": "鳥が羽を広げて飛んでいる。"
+  },
+  {
+    "kanji": "固",
+    "kana": "こ",
+    "meaning": "harden, set, firm",
+    "kun": "kata(meru)",
+    "on": "コ",
+    "example": "固定観念を捨てるべきだ。"
+  },
+  {
+    "kanji": "則",
+    "kana": "そく",
+    "meaning": "rule, law, follow",
+    "kun": "notto(ru)",
+    "on": "ソク",
+    "example": "原則として例外は認められない。"
+  },
+  {
+    "kanji": "乱",
+    "kana": "らん",
+    "meaning": "riot, war, disorder, disturb",
+    "kun": "mida(reru)",
+    "on": "ラン",
+    "example": "生活リズムが乱れている。"
+  },
+  {
+    "kanji": "普",
+    "kana": "ふ",
+    "meaning": "universal, generally, common",
+    "kun": "amane(ku)",
+    "on": "フ",
+    "example": "普通列車の旅を楽しむ。"
+  },
+  {
+    "kanji": "測",
+    "kana": "そく",
+    "meaning": "fathom, plan, measure",
+    "kun": "haka(ru)",
+    "on": "ソク",
+    "example": "距離を正確に測定する。"
+  },
+  {
+    "kanji": "豊",
+    "kana": "ゆたか",
+    "meaning": "bountiful, excellent, rich",
+    "kun": "yuta(ka), toyo",
+    "on": "ホウ、ブ",
+    "example": "豊かな自然を保護する。"
+  },
+  {
+    "kanji": "厚",
+    "kana": "あつい",
+    "meaning": "thick, heavy, rich, kind",
+    "kun": "atsu(i)",
+    "on": "コウ",
+    "example": "冬用の厚いコートを着る。"
+  },
+  {
+    "kanji": "齢",
+    "kana": "れい",
+    "meaning": "age",
+    "kun": "yowai、toshi",
+    "on": "レイ",
+    "example": "年齢を問わず参加できる。"
+  },
+  {
+    "kanji": "囲",
+    "kana": "い",
+    "meaning": "surround, enclosure, preserve",
+    "kun": "kako(mu)",
+    "on": "イ",
+    "example": "周囲の状況を確認する。"
+  },
+  {
+    "kanji": "卒",
+    "kana": "そつ",
+    "meaning": "graduate, soldier, finish",
+    "kun": "so(ssuru)",
+    "on": "ソツ",
+    "example": "大学を卒業して就職する。"
+  },
+  {
+    "kanji": "略",
+    "kana": "りゃく",
+    "meaning": "abbreviation, omission, outline",
+    "kun": "hobo",
+    "on": "リャク",
+    "example": "詳細は省略させていただきます。"
+  },
+  {
+    "kanji": "承",
+    "kana": "しょう",
+    "meaning": "hear, listen, receive, consent",
+    "kun": "uketamawa(ru)",
+    "on": "ショウ",
+    "example": "ご依頼を承りました。"
+  },
+  {
+    "kanji": "順",
+    "kana": "じゅん",
+    "meaning": "obey, order, turn",
+    "kun": "",
+    "on": "ジュン",
+    "example": "名前の順に並んでください。"
+  },
+  {
+    "kanji": "岩",
+    "kana": "いわ",
+    "meaning": "boulder, rock, cliff",
+    "kun": "iwa",
+    "on": "ガン",
+    "example": "大きな岩を登るのは大変だ。"
+  },
+  {
+    "kanji": "練",
+    "kana": "れん",
+    "meaning": "practice, train, drill, polish",
+    "kun": "ne(ru)",
+    "on": "レン",
+    "example": "毎日ピアノを練習する。"
+  },
+  {
+    "kanji": "軽",
+    "kana": "かるい",
+    "meaning": "light, trifling, unimportant",
+    "kun": "karu(i)",
+    "on": "ケイ",
+    "example": "軽い運動から始める。"
+  },
+  {
+    "kanji": "了",
+    "kana": "りょう",
+    "meaning": "complete, finish, understand",
+    "kun": "",
+    "on": "リョウ",
+    "example": "了解しました、すぐにやります。"
+  },
+  {
+    "kanji": "庁",
+    "kana": "ちょう",
+    "meaning": "government office, agency",
+    "kun": "yakusho",
+    "on": "チョウ",
+    "example": "気象庁の予報をチェックする。"
+  },
+  {
+    "kanji": "城",
+    "kana": "しろ",
+    "meaning": "castle",
+    "kun": "しろ",
+    "on": "ジョウ、セイ",
+    "example": "日本の古いお城を観光する。"
+  },
+  {
+    "kanji": "患",
+    "kana": "かん",
+    "meaning": "afflicted, disease, suffer from",
+    "kun": "wazura(u)",
+    "on": "カン",
+    "example": "患者さんのケアに努める。"
+  },
+  {
+    "kanji": "層",
+    "kana": "そう",
+    "meaning": "stratum, social class, layer",
+    "kun": "",
+    "on": "ソウ",
+    "example": "地層を観察して歴史を学ぶ。"
+  },
+  {
+    "kanji": "版",
+    "kana": "はん",
+    "meaning": "printing block, edition, label",
+    "kun": "",
+    "on": "ハン",
+    "example": "最新版のソフトを導入する。"
+  },
+  {
+    "kanji": "令",
+    "kana": "れい",
+    "meaning": "orders, command, decree",
+    "kun": "",
+    "on": "レイ",
+    "example": "命令に背くことはできない。"
+  },
+  {
+    "kanji": "角",
+    "kana": "かど",
+    "meaning": "angle, corner, square, horn",
+    "kun": "kado, tsuno",
+    "on": "カク",
+    "example": "曲がり角で友達に会った。"
+  },
+  {
+    "kanji": "絡",
+    "kana": "らく",
+    "meaning": "entwine, coil around, involve",
+    "kun": "kara(mu)",
+    "on": "ラク",
+    "example": "連絡を待っています。"
+  },
+  {
+    "kanji": "損",
+    "kana": "そん",
+    "meaning": "damage, loss, disadvantage",
+    "kun": "soko(nau)",
+    "on": "ソン",
+    "example": "株で損をしてしまった。"
+  },
+  {
+    "kanji": "募",
+    "kana": "ぼ",
+    "meaning": "recruit, campaign, gather",
+    "kun": "tsuno(ru)",
+    "on": "ボ",
+    "example": "ボランティアを募集する。"
+  },
+  {
+    "kanji": "裏",
+    "kana": "うら",
+    "meaning": "back, reverse, inside, rear",
+    "kun": "ura",
+    "on": "リ",
+    "example": "裏口から入ってください。"
+  },
+  {
+    "kanji": "仏",
+    "kana": "ほとけ",
+    "meaning": "Buddha, the dead, France",
+    "kun": "hotoke",
+    "on": "ブツ",
+    "example": "仏教の教えを学ぶ。"
+  },
+  {
+    "kanji": "績",
+    "kana": "せき",
+    "meaning": "exploits, achievements, results",
+    "kun": "",
+    "on": "セキ",
+    "example": "テストの成績が上がった。"
+  },
+  {
+    "kanji": "築",
+    "kana": "ちく",
+    "meaning": "fabricate, build, construct",
+    "kun": "kizu(ku)",
+    "on": "チク",
+    "example": "信頼関係を築くのは時間がかかる。"
+  },
+  {
+    "kanji": "貨",
+    "kana": "か",
+    "meaning": "freight, goods, property, coin",
+    "kun": "takara",
+    "on": "カ",
+    "example": "貨物列車が通過する。"
+  },
+  {
+    "kanji": "混",
+    "kana": "こん",
+    "meaning": "mix, blend, confuse",
+    "kun": "ma(jiru)",
+    "on": "コン",
+    "example": "道路が混雑している。"
+  },
+  {
+    "kanji": "昇",
+    "kana": "しょう",
+    "meaning": "rise up, ascend",
+    "kun": "nobo(ru)",
+    "on": "ショウ",
+    "example": "課長に昇進しました。"
+  },
+  {
+    "kanji": "池",
+    "kana": "いけ",
+    "meaning": "pond, pool, reservoir",
+    "kun": "ike",
+    "on": "チ",
+    "example": "池の周りを散歩する。"
+  },
+  {
+    "kanji": "血",
+    "kana": "ち",
+    "meaning": "blood",
+    "kun": "chi",
+    "on": "ケツ",
+    "example": "血液型は何型ですか？"
+  },
+  {
+    "kanji": "温",
+    "kana": "おん",
+    "meaning": "warm, temperature",
+    "kun": "atata(kai), nuku",
+    "on": "オン",
+    "example": "室温を一定に保つ。"
+  },
+  {
+    "kanji": "季",
+    "kana": "き",
+    "meaning": "seasons",
+    "kun": "",
+    "on": "キ",
+    "example": "季節の変わり目は風邪をひきやすい。"
+  },
+  {
+    "kanji": "星",
+    "kana": "ほし",
+    "meaning": "star, spot, dot",
+    "kun": "hoshi",
+    "on": "セイ",
+    "example": "夜空に満天の星が見える。"
+  },
+  {
+    "kanji": "永",
+    "kana": "えい",
+    "meaning": "eternity, long, lengthy",
+    "kun": "naga(i)",
+    "on": "エイ",
+    "example": "永遠に愛し合うことを誓う。"
+  },
+  {
+    "kanji": "著",
+    "kana": "ちょ",
+    "meaning": "renowned, publish, write, author",
+    "kun": "arawa(su), ichijiru(shii)",
+    "on": "チョ、チャク",
+    "example": "彼は有名な著述家だ。"
+  },
+  {
+    "kanji": "誌",
+    "kana": "し",
+    "meaning": "document, records, magazine",
+    "kun": "",
+    "on": "シ",
+    "example": "週刊誌を買って読む。"
+  },
+  {
+    "kanji": "庫",
+    "kana": "こ",
+    "meaning": "warehouse, storehouse",
+    "kun": "kura",
+    "on": "コ、ク",
+    "example": "車庫に車を停める。"
+  },
+  {
+    "kanji": "刊",
+    "kana": "かん",
+    "meaning": "publish, carve, engrave",
+    "kun": "",
+    "on": "カン",
+    "example": "夕刊を配達する。"
+  },
+  {
+    "kanji": "像",
+    "kana": "ぞう",
+    "meaning": "statue, picture, image, figure",
+    "kun": "",
+    "on": "ゾウ",
+    "example": "想像力を働かせる。"
+  },
+  {
+    "kanji": "香",
+    "kana": "かおり",
+    "meaning": "incense, smell, perfume, fragrance",
+    "kun": "kao(ri)",
+    "on": "コウ、キョウ",
+    "example": "コーヒーの良い香りがする。"
+  },
+  {
+    "kanji": "坂",
+    "kana": "さか",
+    "meaning": "slope, incline, hill",
+    "kun": "さか",
+    "on": "ハン",
+    "example": "急な坂道を登る。"
+  },
+  {
+    "kanji": "底",
+    "kana": "そこ",
+    "meaning": "bottom, sole, depth",
+    "kun": "soko",
+    "on": "テイ",
+    "example": "心の底から感謝している。"
+  },
+  {
+    "kanji": "布",
+    "kana": "ぬの",
+    "meaning": "linen, cloth, spread, distribute",
+    "kun": "nuno, shi(ku)",
+    "on": "フ",
+    "example": "雑巾で床を拭く。"
+  },
+  {
+    "kanji": "寺",
+    "kana": "てら",
+    "meaning": "Buddhist temple",
+    "kun": "てら",
+    "on": "ジ",
+    "example": "京都には古いお寺が多い。"
+  },
+  {
+    "kanji": "宇",
+    "kana": "う",
+    "meaning": "eaves, roof, house, heaven",
+    "kun": "",
+    "on": "ウ",
+    "example": "宇宙飛行士になるのが夢だ。"
+  },
+  {
+    "kanji": "巨",
+    "kana": "きょ",
+    "meaning": "gigantic, big, large, great",
+    "kun": "",
+    "on": "キョ",
+    "example": "巨大なビルが建ち並ぶ。"
+  },
+  {
+    "kanji": "震",
+    "kana": "しん",
+    "meaning": "quake, shake, tremble, quiver",
+    "kun": "furu(u)",
+    "on": "シン",
+    "example": "地震に備えて避難訓練をする。"
+  },
+  {
+    "kanji": "希",
+    "kana": "き",
+    "meaning": "hope, beg, request, rare",
+    "kun": "mare, koinega(u)",
+    "on": "キ",
+    "example": "平和を希望する。"
+  },
+  {
+    "kanji": "触",
+    "kana": "さわ",
+    "meaning": "contact, touch, feel, announce",
+    "kun": "fu(reru), sawa(ru)",
+    "on": "ショク",
+    "example": "展示品に触れないでください。"
+  },
+  {
+    "kanji": "依",
+    "kana": "い",
+    "meaning": "reliant, depend on, consequently",
+    "kun": "yo(ru)",
+    "on": "イ、エ",
+    "example": "人に依頼する前に自分でやる。"
+  },
+  {
+    "kanji": "籍",
+    "kana": "せき",
+    "meaning": "enroll, register, membership",
+    "kun": "",
+    "on": "セキ",
+    "example": "国籍を変更する。"
+  },
+  {
+    "kanji": "汚",
+    "kana": "よご",
+    "meaning": "dirty, pollute, disgrace, defile",
+    "kun": "yogo(su), kitana(i), kega(su)",
+    "on": "オ",
+    "example": "靴が泥で汚れてしまった。"
+  },
+  {
+    "kanji": "枚",
+    "kana": "まい",
+    "meaning": "sheet of..., counter for flat objects",
+    "kun": "",
+    "on": "マイ、バイ",
+    "example": "写真を三枚撮る。"
+  },
+  {
+    "kanji": "複",
+    "kana": "ふく",
+    "meaning": "duplicate, double, compound, multiple",
+    "kun": "",
+    "on": "フク",
+    "example": "複雑な問題を整理する。"
+  }
+]

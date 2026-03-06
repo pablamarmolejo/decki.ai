@@ -141,7 +141,7 @@ const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNaviga
                 </span>
               </button>
               <button 
-                className="delete-btn" 
+                className="delete-btn modal-delete-btn" 
                 onClick={handleConfirmDelete}
                 style={{ 
                   width: '200px',

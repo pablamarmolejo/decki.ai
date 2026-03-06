@@ -1,0 +1,236 @@
+[
+  {
+    "kanji": "あるいは",
+    "kana": "あるいは",
+    "meaning": "or; either; maybe; perhaps",
+    "example": "来週、あるいは再来週に伺います。"
+  },
+  {
+    "kanji": "ばかりに",
+    "kana": "ばかりに",
+    "meaning": "simply because; on account of (negative result)",
+    "example": "油断したばかりに、事故を起こしてしまった。"
+  },
+  {
+    "kanji": "どうやら",
+    "kana": "どうやら",
+    "meaning": "possibly; apparently; seems like; barely",
+    "example": "どうやら明日は雨が降るようです。"
+  },
+  {
+    "kanji": "どうせ",
+    "kana": "どうせ",
+    "meaning": "anyhow; in any case; after all",
+    "example": "どうせ間に合わないから、ゆっくり行こう。"
+  },
+  {
+    "kanji": "再び",
+    "kana": "ふたたび",
+    "meaning": "again; once more; a second time",
+    "example": "彼らは五年後に再び再会した。"
+  },
+  {
+    "kanji": "逆に",
+    "kana": "ぎゃくに",
+    "meaning": "conversely; on the contrary; opposite",
+    "example": "親切で言ったつもりが、逆に怒らせてしまった。"
+  },
+  {
+    "kanji": "反面",
+    "kana": "はんめん",
+    "meaning": "while; although; on the other hand",
+    "example": "この薬は効果がある反面、副反応も強い。"
+  },
+  {
+    "kanji": "果たして",
+    "kana": "はたして",
+    "meaning": "as expected; sure enough; really; actually",
+    "example": "果たして、彼の話は本当なのだろうか。"
+  },
+  {
+    "kanji": "一応",
+    "kana": "いちおう",
+    "meaning": "more or less; tentatively; for the time being",
+    "example": "一応、資料には目を通しました。"
+  },
+  {
+    "kanji": "以外",
+    "kana": "いがい",
+    "meaning": "with the exception of; excluding; besides",
+    "example": "月曜日以外は毎日営業しています。"
+  },
+  {
+    "kanji": "以上に",
+    "kana": "いじょうに",
+    "meaning": "more than; beyond; exceeding",
+    "example": "今年の夏は例年以上に暑い。"
+  },
+  {
+    "kanji": "いきなり",
+    "kana": "いきなり",
+    "meaning": "abruptly; suddenly; without warning",
+    "example": "いきなり後ろから声をかけられて驚いた。"
+  },
+  {
+    "kanji": "一気に",
+    "kana": "いっきに",
+    "meaning": "in one go; all at once; immediately",
+    "example": "冷たいビールを一気に飲んだ。"
+  },
+  {
+    "kanji": "一旦",
+    "kana": "いったん",
+    "meaning": "once; briefly; temporarily",
+    "example": "一旦家に帰ってから、また出かけます。"
+  },
+  {
+    "kanji": "まだしも",
+    "kana": "まだしも",
+    "meaning": "rather; better; acceptable compared to something else",
+    "example": "一度ならまだしも、二度も遅刻するのは困る。"
+  },
+  {
+    "kanji": "全く～ない",
+    "kana": "まったく～ない",
+    "meaning": "not at all; completely not",
+    "example": "彼の言っていることは全く理解できない。"
+  },
+  {
+    "kanji": "元々",
+    "kana": "もともと",
+    "meaning": "originally; by nature; from the start",
+    "example": "ここは元々公園だった場所だ。"
+  },
+  {
+    "kanji": "なお",
+    "meaning": "still; furthermore; in addition",
+    "kana": "なお",
+    "example": "詳細は後日連絡します。なお、会費は無料です。"
+  },
+  {
+    "kanji": "恐らく",
+    "kana": "おそらく",
+    "meaning": "perhaps; likely; probably",
+    "example": "恐らく彼は今日の会議には来ないだろう。"
+  },
+  {
+    "kanji": "ろくに～ない",
+    "kana": "ろくに～ない",
+    "meaning": "not well; insufficiently; improperly",
+    "example": "忙しくて、最近ろくに寝ていない。"
+  },
+  {
+    "kanji": "再三",
+    "kana": "さいさん",
+    "meaning": "again and again; repeatedly",
+    "example": "再三注意したのに、彼はまた同じミスをした。"
+  },
+  {
+    "kanji": "幸いなことに",
+    "kana": "さいわいなことに",
+    "meaning": "fortunately; luckily; thankfully",
+    "example": "大きな事故だったが、幸いなことに怪我人はなかった。"
+  },
+  {
+    "kanji": "早速",
+    "kana": "さっそく",
+    "meaning": "at once; immediately; promptly",
+    "example": "プレゼントをもらったので、早速使ってみた。"
+  },
+  {
+    "kanji": "せっかく",
+    "kana": "せっかく",
+    "meaning": "especially; with much trouble; precious",
+    "example": "せっかく準備したのに、イベントが中止になった。"
+  },
+  {
+    "kanji": "せめて",
+    "kana": "せめて",
+    "meaning": "at least; at most",
+    "example": "せめて声だけでも聞きたい。"
+  },
+  {
+    "kanji": "次第に",
+    "kana": "しだいに",
+    "meaning": "gradually; in sequence; step by step",
+    "example": "雨が止み、空が次第に明るくなってきた。"
+  },
+  {
+    "kanji": "その上",
+    "kana": "そのうえ",
+    "meaning": "besides; in addition; furthermore",
+    "example": "この店は安くて、その上とても美味しい。"
+  },
+  {
+    "kanji": "末に",
+    "kana": "すえに",
+    "meaning": "finally; after; at the end of",
+    "example": "悩んだ末に、仕事を辞めることにした。"
+  },
+  {
+    "kanji": "少しも～ない",
+    "kana": "すこしも～ない",
+    "meaning": "not one bit; not even a little",
+    "example": "そんなことを言われても、少しも嬉しくない。"
+  },
+  {
+    "kanji": "少なくとも",
+    "kana": "すくなくとも",
+    "meaning": "at least; at the minimum",
+    "example": "この仕事には、少なくとも三日はかかる。"
+  },
+  {
+    "kanji": "直ちに",
+    "kana": "ただちに",
+    "meaning": "at once; immediately; directly",
+    "example": "火事を見つけたら、直ちに知らせてください。"
+  },
+  {
+    "kanji": "と同時に",
+    "kana": "とどうじに",
+    "meaning": "at the same time as; while; simultaneously",
+    "example": "ベルが鳴ると同時に、生徒たちが走り出した。"
+  },
+  {
+    "kanji": "とっくに",
+    "kana": "とっくに",
+    "meaning": "long ago; already",
+    "example": "宿題なら、とっくに終わっているよ。"
+  },
+  {
+    "kanji": "はもとより",
+    "kana": "はもとより",
+    "meaning": "also; let alone; from the beginning",
+    "example": "彼は英語はもとより、中国語も話せる。"
+  },
+  {
+    "kanji": "はともかく",
+    "kana": "はともかく",
+    "meaning": "anyhow; regardless; setting aside",
+    "example": "値段はともかく、デザインが気に入った。"
+  },
+  {
+    "kanji": "わずかに",
+    "kana": "わずかに",
+    "meaning": "slightly; only; barely",
+    "example": "前の車とわずかに接触してしまった。"
+  },
+  {
+    "kanji": "やがて",
+    "kana": "やがて",
+    "meaning": "before long; soon; eventually",
+    "example": "空が暗くなり、やがて雨が降り始めた。"
+  },
+  {
+    "kanji": "よほど",
+    "kana": "よほど",
+    "meaning": "very; greatly; to a large extent",
+    "example": "彼はよほどお腹が空いていたのだろう。"
+  },
+  {
+    "kanji": "要するに",
+    "kana": "ようするに",
+    "meaning": "in short; to sum up; simply put",
+    "example": "要するに、彼は協力したくないのだ。"
+  }
+]

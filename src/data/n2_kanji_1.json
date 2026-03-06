@@ -1,0 +1,802 @@
+[
+  {
+    "kanji": "党",
+    "kana": "とう",
+    "meaning": "political party, faction, clique",
+    "kun": "なかま、むら",
+    "on": "トウ",
+    "example": "彼は与党の議員として活動している。"
+  },
+  {
+    "kanji": "協",
+    "kana": "きょう",
+    "meaning": "cooperation, mutual help, agreement",
+    "kun": "",
+    "on": "キョウ",
+    "example": "住民の協力を得て、街をきれいにする。"
+  },
+  {
+    "kanji": "総",
+    "kana": "そう",
+    "meaning": "general, whole, all, gross",
+    "kun": "すべ(て)、ふさ",
+    "on": "ソウ",
+    "example": "来週、社員総会が開かれる。"
+  },
+  {
+    "kanji": "区",
+    "kana": "く",
+    "meaning": "ward, district, section",
+    "kun": "",
+    "on": "ク",
+    "example": "新宿区は東京都の行政区の一つです。"
+  },
+  {
+    "kanji": "領",
+    "kana": "りょう",
+    "meaning": "jurisdiction, dominion, territory, fief",
+    "kun": "えり",
+    "on": "リョウ",
+    "example": "領収書を忘れずにもらってください。"
+  },
+  {
+    "kanji": "県",
+    "kana": "けん",
+    "meaning": "prefecture",
+    "kun": "か(ける)",
+    "on": "ケン",
+    "example": "日本の県は全部で４３あります。"
+  },
+  {
+    "kanji": "設",
+    "kana": "せつ",
+    "meaning": "establishment, provision, set up",
+    "kun": "もう(ける)",
+    "on": "セツ",
+    "example": "新しい施設を建設する計画がある。"
+  },
+  {
+    "kanji": "保",
+    "kana": "ほ",
+    "meaning": "protect, guarantee, keep, preserve",
+    "kun": "たも(つ)",
+    "on": "ホ、ホウ",
+    "example": "健康を保持するために運動する。"
+  },
+  {
+    "kanji": "改",
+    "kana": "かい",
+    "meaning": "reformation, change, modify, inspect",
+    "kun": "あらた(める)",
+    "on": "カイ",
+    "example": "法律を改正する必要がある。"
+  },
+  {
+    "kanji": "第",
+    "kana": "だい",
+    "meaning": "ordinal number prefix, No.",
+    "kun": "",
+    "on": "ダイ",
+    "example": "第一志望の大学に合格した。"
+  },
+  {
+    "kanji": "結",
+    "kana": "けつ",
+    "meaning": "tie, bind, contract, join",
+    "kun": "むす(ぶ)、ゆ(う)",
+    "on": "ケツ",
+    "example": "ついに努力が結果を結んだ。"
+  },
+  {
+    "kanji": "派",
+    "kana": "は",
+    "meaning": "faction, group, party, sect",
+    "kun": "",
+    "on": "ハ",
+    "example": "党内にはいくつかの派閥がある。"
+  },
+  {
+    "kanji": "府",
+    "kana": "ふ",
+    "meaning": "urban prefecture, govt office, borough",
+    "kun": "",
+    "on": "フ",
+    "example": "大阪府は西日本の経済の中心だ。"
+  },
+  {
+    "kanji": "査",
+    "kana": "さ",
+    "meaning": "investigate, examine, inspect",
+    "kun": "",
+    "on": "サ",
+    "example": "原因を調査するために委員会が作られた。"
+  },
+  {
+    "kanji": "委",
+    "kana": "い",
+    "meaning": "committee, entrust to, leave to",
+    "kun": "ゆだ(ねる)",
+    "on": "イ",
+    "example": "この仕事は専門家に委託された。"
+  },
+  {
+    "kanji": "軍",
+    "kana": "ぐん",
+    "meaning": "army, force, troops, war",
+    "kun": "ikusa",
+    "on": "グン",
+    "example": "彼は元軍人としてその経験を語った。"
+  },
+  {
+    "kanji": "案",
+    "kana": "あん",
+    "meaning": "plan, suggestion, draft, thought",
+    "kun": "つくえ",
+    "on": "アン",
+    "example": "新しいプロジェクトの案を提出する。"
+  },
+  {
+    "kanji": "策",
+    "kana": "さく",
+    "meaning": "scheme, plan, policy, step",
+    "kun": "",
+    "on": "サク",
+    "example": "政府は新しい経済対策を打ち出した。"
+  },
+  {
+    "kanji": "団",
+    "kana": "だん",
+    "meaning": "group, association, body",
+    "kun": "かたま(り)、まる(い)",
+    "on": "ダン、トン",
+    "example": "団結して困難を乗り越えよう。"
+  },
+  {
+    "kanji": "各",
+    "kana": "かく",
+    "meaning": "each, every, either",
+    "kun": "おのおの",
+    "on": "カク",
+    "example": "各自、自分の荷物を持ってください。"
+  },
+  {
+    "kanji": "島",
+    "kana": "とう",
+    "meaning": "island",
+    "kun": "しま",
+    "on": "トウ",
+    "example": "夏休みに無人島でキャンプをする。"
+  },
+  {
+    "kanji": "革",
+    "kana": "かく",
+    "meaning": "leather, skin, reform, renew",
+    "kun": "かわ",
+    "on": "カク",
+    "example": "技術革新が急速に進んでいる。"
+  },
+  {
+    "kanji": "村",
+    "kana": "そん",
+    "meaning": "village, town",
+    "kun": "むら",
+    "on": "ソン",
+    "example": "この村には古い伝統が残っている。"
+  },
+  {
+    "kanji": "勢",
+    "kana": "せい",
+    "meaning": "forces, energy, military strength, power",
+    "kun": "いきお(い)",
+    "on": "セイ",
+    "example": "台風が勢力を強めながら近づいている。"
+  },
+  {
+    "kanji": "減",
+    "kana": "げん",
+    "meaning": "dwindle, decrease, reduce, decline",
+    "kun": "へ(る)",
+    "on": "ゲン",
+    "example": "体重を減らすために食事制限をする。"
+  },
+  {
+    "kanji": "再",
+    "kana": "さい",
+    "meaning": "again, twice, second time",
+    "kun": "ふたた(び)",
+    "on": "サイ、サ",
+    "example": "来週、彼と再会する予定だ。"
+  },
+  {
+    "kanji": "税",
+    "kana": "ぜい",
+    "meaning": "tax, duty",
+    "kun": "",
+    "on": "ゼイ",
+    "example": "消費税が上がると家計が厳しくなる。"
+  },
+  {
+    "kanji": "営",
+    "kana": "えい",
+    "meaning": "occupation, business, build, conduct",
+    "kun": "いとな(む)",
+    "on": "エイ",
+    "example": "このレストランは家族で経営している。"
+  },
+  {
+    "kanji": "比",
+    "kana": "hi",
+    "meaning": "compare, race, ratio, contrast",
+    "kun": "くら(べる)",
+    "on": "ヒ",
+    "example": "去年と比べるて、今年は雨が多い。"
+  },
+  {
+    "kanji": "防",
+    "kana": "ぼう",
+    "meaning": "ward off, defend, protect, resist",
+    "kun": "fuse(gu)",
+    "on": "ボウ",
+    "example": "風邪を予防するために手洗いをする。"
+  },
+  {
+    "kanji": "補",
+    "kana": "ほ",
+    "meaning": "supplement, supply, offset, compensate",
+    "kun": "おぎな(う)",
+    "on": "ホ",
+    "example": "不足している栄養をサプリで補う。"
+  },
+  {
+    "kanji": "境",
+    "kana": "きょう",
+    "meaning": "boundary, border, region, situation",
+    "kun": "さかい",
+    "on": "キョウ",
+    "example": "川が二つの県の境界になっている。"
+  },
+  {
+    "kanji": "導",
+    "kana": "どう",
+    "meaning": "guidance, leading, conduct, usher",
+    "kun": "michibi(ku)",
+    "on": "ドウ",
+    "example": "先生の指導のおかげで上達した。"
+  },
+  {
+    "kanji": "副",
+    "kana": "ふく",
+    "meaning": "vice-, assistant, duplicate, copy",
+    "kun": "",
+    "on": "フク",
+    "example": "彼はこのプロジェクトの副責任者だ。"
+  },
+  {
+    "kanji": "算",
+    "kana": "さん",
+    "meaning": "calculate, divining, number, probability",
+    "kun": "そろ",
+    "on": "サン",
+    "example": "予算を立ててから買い物をしなさい。"
+  },
+  {
+    "kanji": "輸",
+    "kana": "ゆ",
+    "meaning": "transport, send, be inferior",
+    "kun": "",
+    "on": "ユ、シュ",
+    "example": "日本は多くの車を輸出している。"
+  },
+  {
+    "kanji": "述",
+    "kana": "じゅつ",
+    "meaning": "mention, state, speak, express",
+    "kun": "no(beru)",
+    "on": "ジュツ",
+    "example": "自分の意見を率直に述べてください。"
+  },
+  {
+    "kanji": "線",
+    "kana": "せん",
+    "meaning": "line, track, route",
+    "kun": "すじ",
+    "on": "セン",
+    "example": "定規を使ってまっすぐな線を引く。"
+  },
+  {
+    "kanji": "農",
+    "kana": "のう",
+    "meaning": "agriculture, farmers",
+    "kun": "",
+    "on": "ノウ",
+    "example": "農家の人たちが一生懸命野菜を育てる。"
+  },
+  {
+    "kanji": "州",
+    "kana": "しゅう",
+    "meaning": "state, province, sandbank",
+    "kun": "す",
+    "on": "シュウ",
+    "example": "彼はカリフォルニア州の出身です。"
+  },
+  {
+    "kanji": "武",
+    "kana": "ぶ",
+    "meaning": "warrior, military, arms, chivalry",
+    "kun": "たけ(し)",
+    "on": "ブ、ム",
+    "example": "武道は精神を鍛えるのに役立つ。"
+  },
+  {
+    "kanji": "象",
+    "kana": "しょう",
+    "meaning": "elephant, pattern, image, shape",
+    "kun": "かたど(る)",
+    "on": "ショウ、ゾウ",
+    "example": "この映画は社会現象になった。"
+  },
+  {
+    "kanji": "域",
+    "kana": "いき",
+    "meaning": "range, region, limits, level",
+    "kun": "",
+    "on": "イキ",
+    "example": "この地域は雨が降りやすい。"
+  },
+  {
+    "kanji": "額",
+    "kana": "がく",
+    "meaning": "amount, sum, forehead, framed picture",
+    "kun": "ひたい",
+    "on": "ガク",
+    "example": "今月の売上額は目標を達成した。"
+  },
+  {
+    "kanji": "欧",
+    "kana": "おう",
+    "meaning": "Europe",
+    "kun": "うた(う)、は(く)",
+    "on": "オウ",
+    "example": "欧米諸国の文化を学ぶ。"
+  },
+  {
+    "kanji": "担",
+    "kana": "たん",
+    "meaning": "shouldering, carry, bear, undertake",
+    "kun": "かつ(ぐ)、にな(う)",
+    "on": "タン",
+    "example": "彼は営業の担当者として働いている。"
+  },
+  {
+    "kanji": "準",
+    "kana": "じゅん",
+    "meaning": "semi-, correspond to, imitate, level",
+    "kun": "じゅん(じる)、なぞら(える)",
+    "on": "ジュン",
+    "example": "明日のプレゼンの準備をする。"
+  },
+  {
+    "kanji": "賞",
+    "kana": "しょう",
+    "meaning": "prize, reward, praise",
+    "kun": "ほ(める)",
+    "on": "ショウ",
+    "example": "彼はその功績により賞を受賞した。"
+  },
+  {
+    "kanji": "辺",
+    "kana": "へん",
+    "meaning": "vicinity, border, side, environs",
+    "kun": "あた(り)、ほと(り)",
+    "on": "ヘン",
+    "example": "この辺りは夜になると静かだ。"
+  },
+  {
+    "kanji": "造",
+    "kana": "ぞう",
+    "meaning": "create, make, structure, build",
+    "kun": "つく(る)",
+    "on": "ゾウ",
+    "example": "造船所で大きな船が作られている。"
+  },
+  {
+    "kanji": "被",
+    "kana": "ひ",
+    "meaning": "incur, cover, shelter, wear",
+    "kun": "こうむ(る)、かぶ(る)",
+    "on": "ヒ",
+    "example": "台風により大きな被害が出た。"
+  },
+  {
+    "kanji": "技",
+    "kana": "ぎ",
+    "meaning": "skill, art, craft, ability",
+    "kun": "わざ",
+    "on": "ギ",
+    "example": "職人の素晴らしい技術に感動した。"
+  },
+  {
+    "kanji": "低",
+    "kana": "てい",
+    "meaning": "lower, short, humble",
+    "kun": "ひく(i)",
+    "on": "テイ",
+    "example": "気温が低くなって、冬の訪れを感じる。"
+  },
+  {
+    "kanji": "復",
+    "kana": "ふく",
+    "meaning": "restore, return to, revert, resume",
+    "kun": "また",
+    "on": "フク",
+    "example": "地震からの復興が進んでいる。"
+  },
+  {
+    "kanji": "移",
+    "kana": "い",
+    "meaning": "shift, move, change, drift",
+    "kun": "utsu(ru)",
+    "on": "イ",
+    "example": "来月、新しい家に移転する。"
+  },
+  {
+    "kanji": "個",
+    "kana": "こ",
+    "meaning": "individual, counter for articles",
+    "kun": "",
+    "on": "コ",
+    "example": "個人のプライバシーを尊重する。"
+  },
+  {
+    "kanji": "門",
+    "kana": "もん",
+    "meaning": "gate",
+    "kun": "かど、と",
+    "on": "モン",
+    "example": "正門の前で友達と待ち合わせる。"
+  },
+  {
+    "kanji": "課",
+    "kana": "か",
+    "meaning": "chapter, lesson, section, department",
+    "kun": "",
+    "on": "カ",
+    "example": "今日は第５課の文法を勉強する。"
+  },
+  {
+    "kanji": "脳",
+    "kana": "のう",
+    "meaning": "brain, memory, mind",
+    "kun": "のうずる",
+    "on": "ノウ",
+    "example": "睡眠は脳を休ませるために重要だ。"
+  },
+  {
+    "kanji": "極",
+    "kana": "きょく",
+    "meaning": "poles, settlement, conclusion, end",
+    "kun": "きわ(める)",
+    "on": "キョク、ゴク",
+    "example": "彼はその道を極めた達人だ。"
+  },
+  {
+    "kanji": "含",
+    "kana": "がん",
+    "meaning": "contain, include, hold in mouth",
+    "kun": "ふく(む)",
+    "on": "ガン",
+    "example": "税金を含めた総額を教えてください。"
+  },
+  {
+    "kanji": "蔵",
+    "kana": "ぞう",
+    "meaning": "storehouse, hide, possess, have",
+    "kun": "くら",
+    "on": "ゾウ",
+    "example": "冷蔵庫に飲み物が入っている。"
+  },
+  {
+    "kanji": "量",
+    "kana": "りょう",
+    "meaning": "quantity, measure, weight, amount",
+    "kun": "はか(る)",
+    "on": "リョウ",
+    "example": "食事の量を調節してダイエットする。"
+  },
+  {
+    "kanji": "型",
+    "kana": "けい",
+    "meaning": "type, model, mold",
+    "kun": "かた",
+    "on": "ケイ",
+    "example": "新しい型のスマートフォンが発売された。"
+  },
+  {
+    "kanji": "況",
+    "kana": "きょう",
+    "meaning": "condition, situation",
+    "kun": "まし(て)",
+    "on": "キョウ",
+    "example": "不況の影響で失業者が増えている。"
+  },
+  {
+    "kanji": "針",
+    "kana": "しん",
+    "meaning": "needle, pin, staple, needle",
+    "kun": "はり",
+    "on": "シン",
+    "example": "時計の針が１２時を指している。"
+  },
+  {
+    "kanji": "専",
+    "kana": "せん",
+    "meaning": "specialty, exclusive, mainly",
+    "kun": "もっぱ(ら)",
+    "on": "セン",
+    "example": "大学で専門的な知識を身につける。"
+  },
+  {
+    "kanji": "谷",
+    "kana": "こく",
+    "meaning": "valley",
+    "kun": "たに、きわ(まる)",
+    "on": "コク",
+    "example": "深い谷底をのぞき込む。"
+  },
+  {
+    "kanji": "史",
+    "kana": "し",
+    "meaning": "history, chronicle",
+    "kun": "",
+    "on": "シ",
+    "example": "彼は歴史の先生を目指している。"
+  },
+  {
+    "kanji": "階",
+    "kana": "かい",
+    "meaning": "stair, counter for story, floor",
+    "kun": "きざはし",
+    "on": "カイ",
+    "example": "３階建ての家を建てた。"
+  },
+  {
+    "kanji": "管",
+    "kana": "かん",
+    "meaning": "pipe, tube, control, jurisdiction",
+    "kun": "くだ",
+    "on": "カン",
+    "example": "健康管理に気をつける。"
+  },
+  {
+    "kanji": "兵",
+    "kana": "へい",
+    "meaning": "soldier, private, troops, army",
+    "kun": "つわもの",
+    "on": "ヘイ、ヒョウ",
+    "example": "多くの兵士が戦場に向かった。"
+  },
+  {
+    "kanji": "接",
+    "kana": "せつ",
+    "meaning": "touch, contact, adjoin, receive",
+    "kun": "つ(ぐ)",
+    "on": "セツ",
+    "example": "面接で緊張してうまく話せなかった。"
+  },
+  {
+    "kanji": "細",
+    "kana": "さい",
+    "meaning": "slender, narrow, detailed, precise",
+    "kun": "ほそ(い)、こま(かい)",
+    "on": "サイ",
+    "example": "細い道を通り抜けて公園に行く。"
+  },
+  {
+    "kanji": "効",
+    "kana": "こう",
+    "meaning": "merit, efficacy, efficiency, benefit",
+    "kun": "ki(ku)",
+    "on": "コウ",
+    "example": "この薬は頭痛に効果がある。"
+  },
+  {
+    "kanji": "丸",
+    "kana": "がん",
+    "meaning": "round, full, perfection, pill",
+    "kun": "まる、まる(い)",
+    "on": "ガン",
+    "example": "紙を丸めてゴミ箱に捨てる。"
+  },
+  {
+    "kanji": "湾",
+    "kana": "わん",
+    "meaning": "gulf, bay, inlet",
+    "kun": "いりえ",
+    "on": "ワン",
+    "example": "東京湾から見る夜景は美しい。"
+  },
+  {
+    "kanji": "録",
+    "kana": "ろく",
+    "meaning": "record",
+    "kun": "と(る)",
+    "on": "ロク",
+    "example": "会議の内容を記録する。"
+  },
+  {
+    "kanji": "省",
+    "kana": "せい",
+    "meaning": "focus, government ministry, conserve",
+    "kun": "かえり(みる)、はぶ(く)",
+    "on": "セイ、ショウ",
+    "example": "エネルギーを省く工夫をする。"
+  },
+  {
+    "kanji": "旧",
+    "kana": "きゅう",
+    "meaning": "old times, former, ex-",
+    "kun": "ふる(い)、もと",
+    "on": "キュウ",
+    "example": "旧友に会って昔話に花を咲かせる。"
+  },
+  {
+    "kanji": "橋",
+    "kana": "きょう",
+    "meaning": "bridge",
+    "kun": "はし",
+    "on": "キョウ",
+    "example": "長い橋を渡って島に行く。"
+  },
+  {
+    "kanji": "岸",
+    "kana": "がん",
+    "meaning": "beach, shore, coast",
+    "kun": "きし",
+    "on": "ガン",
+    "example": "対岸の火事として無視できない。"
+  },
+  {
+    "kanji": "周",
+    "kana": "しゅう",
+    "meaning": "circumference, circuit, lap, around",
+    "kun": "まわ(り)",
+    "on": "シュウ",
+    "example": "学校の周囲を走る。"
+  },
+  {
+    "kanji": "材",
+    "kana": "ざい",
+    "meaning": "lumber, timber, material, log",
+    "kun": "",
+    "on": "ザイ",
+    "example": "良質な木材を使って家具を作る。"
+  },
+  {
+    "kanji": "戸",
+    "kana": "こ",
+    "meaning": "door, counter for houses",
+    "kun": "と",
+    "on": "コ",
+    "example": "江戸時代の歴史に興味がある。"
+  },
+  {
+    "kanji": "央",
+    "kana": "おう",
+    "meaning": "center, middle",
+    "kun": "",
+    "on": "オウ",
+    "example": "中央のボタンを押してください。"
+  },
+  {
+    "kanji": "券",
+    "kana": "けん",
+    "meaning": "ticket, certificate, coupon",
+    "kun": "",
+    "on": "ケン",
+    "example": "乗車券を買って電車に乗る。"
+  },
+  {
+    "kanji": "編",
+    "kana": "hen",
+    "meaning": "compilation, knit, braid, edit",
+    "kun": "あ(む)",
+    "on": "ヘン",
+    "example": "新しい小説を編集する。"
+  },
+  {
+    "kanji": "捜",
+    "kana": "そう",
+    "meaning": "search, look for, locate",
+    "kun": "さが(す)",
+    "on": "ソウ",
+    "example": "警察が犯人を捜査している。"
+  },
+  {
+    "kanji": "竹",
+    "kana": "ちく",
+    "meaning": "bamboo",
+    "kun": "たけ",
+    "on": "チク",
+    "example": "竹林の中を歩くと涼しい。"
+  },
+  {
+    "kanji": "超",
+    "kana": "ちょう",
+    "meaning": "transcend, super-, ultra-, surpass",
+    "kun": "ko(eru)",
+    "on": "チョウ",
+    "example": "想像を超える素晴らしさだ。"
+  },
+  {
+    "kanji": "並",
+    "kana": "へい",
+    "meaning": "row, and, besides, ordinary",
+    "kun": "な(み)、なら(べる)",
+    "on": "ヘイ",
+    "example": "店に長蛇の列が並んでいる。"
+  },
+  {
+    "kanji": "療",
+    "kana": "りょう",
+    "meaning": "heal, cure, treatment",
+    "kun": "",
+    "on": "リョウ",
+    "example": "怪我を治療するために通院する。"
+  },
+  {
+    "kanji": "採",
+    "kana": "さい",
+    "meaning": "pick, take, fetch, employ",
+    "kun": "と(る)",
+    "on": "サイ",
+    "example": "新しい社員を採用する。"
+  },
+  {
+    "kanji": "森",
+    "kana": "しん",
+    "meaning": "forest, woods",
+    "kun": "もり",
+    "on": "シン",
+    "example": "深い森の中に迷い込んでしまった。"
+  },
+  {
+    "kanji": "競",
+    "kana": "きょう",
+    "meaning": "compete with, contest, race, bid",
+    "kun": "きそ(う)、せ(る)",
+    "on": "キョウ、ケイ",
+    "example": "ライバルと競い合って成長する。"
+  },
+  {
+    "kanji": "介",
+    "kana": "かい",
+    "meaning": "mediate, shellfish, jammed in",
+    "kun": "",
+    "on": "カイ",
+    "example": "友達を家族に紹介する。"
+  },
+  {
+    "kanji": "根",
+    "kana": "こん",
+    "meaning": "root, radical, origin",
+    "kun": "ね",
+    "on": "コン",
+    "example": "問題の根本的な原因を探る。"
+  },
+  {
+    "kanji": "販",
+    "kana": "はん",
+    "meaning": "marketing, sell, trade",
+    "kun": "",
+    "on": "ハン",
+    "example": "自動販売機でジュースを買う。"
+  },
+  {
+    "kanji": "歴",
+    "kana": "れき",
+    "meaning": "curriculum, continuation, passage of time",
+    "kun": "",
+    "on": "レキ",
+    "example": "自分の職歴を履歴書に書く。"
+  }
+]

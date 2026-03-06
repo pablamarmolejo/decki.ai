@@ -1,0 +1,482 @@
+[
+  {
+    "kanji": "高速",
+    "kana": "こうそく",
+    "meaning": "high-speed; rapid; express",
+    "example": "高速道路を使って、予定より早く着きました。"
+  },
+  {
+    "kanji": "訓練",
+    "kana": "くんれん",
+    "meaning": "training; drill; practice; discipline",
+    "example": "新しい社員は一週間の訓練を受けます。"
+  },
+  {
+    "kanji": "教科書",
+    "kana": "きょうかしょ",
+    "meaning": "textbook; coursebook; schoolbook",
+    "example": "教科書の三十ページを開いてください。"
+  },
+  {
+    "kanji": "協力",
+    "kana": "きょうりょく",
+    "meaning": "cooperation; collaboration",
+    "example": "皆さんの協力のおかげで、イベントは成功しました。"
+  },
+  {
+    "kanji": "強力",
+    "kana": "きょうりょく",
+    "meaning": "powerful; strong",
+    "example": "この接着剤は非常に強力なので注意してください。"
+  },
+  {
+    "kanji": "吸収",
+    "kana": "きゅうしゅう",
+    "meaning": "absorption; suction; attraction",
+    "example": "スポンジが水を素早く吸収する。"
+  },
+  {
+    "kanji": "急速",
+    "kana": "きゅうそく",
+    "meaning": "rapid; swift",
+    "example": "インターネットは急速に世界中へ広まった。"
+  },
+  {
+    "kanji": "真面目",
+    "kana": "まじめ",
+    "meaning": "serious; earnest; honest",
+    "example": "彼はとても真面目な学生で、一度も遅刻しません。"
+  },
+  {
+    "kanji": "真っ赤",
+    "kana": "まっか",
+    "meaning": "bright red; deep red; flushed",
+    "example": "恥ずかしくて、顔が真っ赤になった。"
+  },
+  {
+    "kanji": "万一",
+    "kana": "まんいち",
+    "meaning": "emergency; unlikely event; by some chance",
+    "example": "万一のために、傘を持って出かけましょう。"
+  },
+  {
+    "kanji": "満足",
+    "kana": "まんぞく",
+    "meaning": "satisfaction; contentment; sufficient",
+    "example": "今の仕事の内容には、とても満足しています。"
+  },
+  {
+    "kanji": "飯",
+    "kana": "めし",
+    "meaning": "cooked rice; meal",
+    "example": "仕事が終わったら、どこかに飯を食べに行こう。"
+  },
+  {
+    "kanji": "味方",
+    "kana": "みかた",
+    "meaning": "friend; ally; supporter",
+    "example": "どんな時でも、私はあなたの味方です。"
+  },
+  {
+    "kanji": "魅力",
+    "kana": "みりょく",
+    "meaning": "charm; fascination; glamour; appeal",
+    "example": "彼女の笑顔には不思議な魅力がある。"
+  },
+  {
+    "kanji": "木曜",
+    "kana": "もくよう",
+    "meaning": "Thursday",
+    "example": "毎週木曜日は、テニスの練習があります。"
+  },
+  {
+    "kanji": "半ば",
+    "kana": "なかば",
+    "meaning": "middle; half; semi; halfway",
+    "example": "八月の半ばに、一週間の夏休みをとった。"
+  },
+  {
+    "kanji": "熱心",
+    "kana": "ねっしん",
+    "meaning": "enthusiastic; eager; dedicated",
+    "example": "彼は非常に熱心に日本語を勉強している。"
+  },
+  {
+    "kanji": "日本",
+    "kana": "にほん",
+    "meaning": "Japan",
+    "example": "日本に来てから、もう三年が経ちました。"
+  },
+  {
+    "kanji": "能力",
+    "kana": "のうりょく",
+    "meaning": "ability; faculty; capacity",
+    "example": "自分の能力を最大限に発揮したい。"
+  },
+  {
+    "kanji": "入場",
+    "kana": "にゅうじょう",
+    "meaning": "entrance; admission; entering",
+    "example": "コンサート会場への入場が始まりました。"
+  },
+  {
+    "kanji": "お昼",
+    "kana": "おひる",
+    "meaning": "lunch; midday; daytime",
+    "example": "お昼を食べたら、公園を散歩しましょう。"
+  },
+  {
+    "kanji": "連続",
+    "kana": "れんぞく",
+    "meaning": "continuation; succession; series",
+    "example": "彼は三回連続でテストに合格した。"
+  },
+  {
+    "kanji": "利益",
+    "kana": "りえき",
+    "meaning": "profit; gains; benefit",
+    "example": "新製品の販売で大きな利益が出た。"
+  },
+  {
+    "kanji": "利口",
+    "kana": "りこう",
+    "meaning": "clever; intelligent; wise; bright",
+    "example": "その子は親の言うことを聞く利口な子だ。"
+  },
+  {
+    "kanji": "留学",
+    "kana": "りゅうがく",
+    "meaning": "studying abroad",
+    "example": "来年から日本に留学する予定です。"
+  },
+  {
+    "kanji": "作品",
+    "kana": "さくひん",
+    "meaning": "work of art; performance; creation",
+    "example": "美術館で彼の最新の作品を見た。"
+  },
+  {
+    "kanji": "左右",
+    "kana": "さゆう",
+    "meaning": "left and right",
+    "example": "道を渡るときは左右をよく確認してください。"
+  },
+  {
+    "kanji": "成長",
+    "kana": "せいちょう",
+    "meaning": "growth; development; becoming an adult",
+    "example": "子供の成長は本当に早いものだ。"
+  },
+  {
+    "kanji": "製品",
+    "kana": "せいひん",
+    "meaning": "manufactured goods; finished goods; product",
+    "example": "この工場では最新の電気製品を作っている。"
+  },
+  {
+    "kanji": "青年",
+    "kana": "せいねん",
+    "meaning": "youth; young man",
+    "example": "彼は正義感の強い青年だ。"
+  },
+  {
+    "kanji": "刺激",
+    "kana": "しげき",
+    "meaning": "stimulus; impetus; incentive; motivation",
+    "example": "都会の生活は刺激が多くて楽しい。"
+  },
+  {
+    "kanji": "資本",
+    "kana": "しほん",
+    "meaning": "funds; capital",
+    "example": "新しい会社を設立するための資本を集める。"
+  },
+  {
+    "kanji": "品",
+    "kana": "しな",
+    "meaning": "article; item; thing; goods",
+    "example": "デパートには良い品がたくさん並んでいる。"
+  },
+  {
+    "kanji": "身長",
+    "kana": "しんちょう",
+    "meaning": "body height; stature",
+    "example": "一年間で身長が五センチ伸びた。"
+  },
+  {
+    "kanji": "進学",
+    "kana": "しんがく",
+    "meaning": "entering a higher-level school",
+    "example": "高校を卒業したら大学に進学したい。"
+  },
+  {
+    "kanji": "支店",
+    "kana": "してん",
+    "meaning": "branch office; branch store",
+    "example": "銀行の支店で口座を作った。"
+  },
+  {
+    "kanji": "使用",
+    "kana": "しよう",
+    "meaning": "use; application; utilization",
+    "example": "館内での携帯電話の使用はご遠慮ください。"
+  },
+  {
+    "kanji": "食品",
+    "kana": "しょくひん",
+    "meaning": "food; food products",
+    "example": "健康のために、保存料のない食品を選ぶ。"
+  },
+  {
+    "kanji": "書物",
+    "kana": "しょもつ",
+    "meaning": "book; volume",
+    "example": "古い書物を整理するために図書館へ行った。"
+  },
+  {
+    "kanji": "書類",
+    "kana": "しょるい",
+    "meaning": "document; official papers",
+    "example": "会議に使う書類をコピーしておく。"
+  },
+  {
+    "kanji": "書斎",
+    "kana": "しょさい",
+    "meaning": "study; home office; reading room",
+    "example": "父は休みの日、たいてい書斎にいる。"
+  },
+  {
+    "kanji": "商売",
+    "kana": "しゅうばい",
+    "meaning": "trade; business; commerce; occupation",
+    "example": "彼は東京で衣類の商売をしている。"
+  },
+  {
+    "kanji": "奨学金",
+    "kana": "しょうがくきん",
+    "meaning": "scholarship; stipend; student loan",
+    "example": "奨学金のおかげで大学に通うことができた。"
+  },
+  {
+    "kanji": "正午",
+    "kana": "しょうご",
+    "meaning": "midday; noon",
+    "example": "正午にサイレンが鳴り響いた。"
+  },
+  {
+    "kanji": "商品",
+    "kana": "しょうひん",
+    "meaning": "commodity; goods; merchandise",
+    "example": "この商品は非常に人気があり、売り切れです。"
+  },
+  {
+    "kanji": "少女",
+    "kana": "しょうじょ",
+    "meaning": "little girl; maiden; young lady",
+    "example": "ピアノを弾いている少女は誰ですか。"
+  },
+  {
+    "kanji": "証明",
+    "kana": "しょうめい",
+    "meaning": "proof; verification; certification",
+    "example": "彼の言ったことが正しいと証明された。"
+  },
+  {
+    "kanji": "少年",
+    "kana": "しょうねん",
+    "meaning": "boy; juvenile; youth",
+    "example": "少年たちは公園でサッカーをしている。"
+  },
+  {
+    "kanji": "少々",
+    "kana": "しょうしょう",
+    "meaning": "just a minute; small quantity",
+    "example": "塩を少々加えて味を整えてください。"
+  },
+  {
+    "kanji": "招待",
+    "kana": "しょうたい",
+    "meaning": "invitation",
+    "example": "友達の結婚式に招待された。"
+  },
+  {
+    "kanji": "週",
+    "kana": "しゅう",
+    "meaning": "week",
+    "example": "一週に二回、ジムに通っている。"
+  },
+  {
+    "kanji": "集中",
+    "kana": "しゅうちゅう",
+    "meaning": "concentration; focusing; integration",
+    "example": "静かな場所で勉強に集中したい。"
+  },
+  {
+    "kanji": "集団",
+    "kana": "しゅうだん",
+    "meaning": "group; mass",
+    "example": "集団行動は得意ではありません。"
+  },
+  {
+    "kanji": "収穫",
+    "kana": "しゅうかく",
+    "meaning": "harvest; crop; fruits (of labor)",
+    "example": "秋は米の収穫の時期です。"
+  },
+  {
+    "kanji": "週間",
+    "kana": "しゅうかん",
+    "meaning": "week (duration)",
+    "example": "一週間、ずっと雨が降り続いた。"
+  },
+  {
+    "kanji": "週刊",
+    "kana": "しゅうかん",
+    "meaning": "weekly publication",
+    "example": "毎週、この週刊誌を買っている。"
+  },
+  {
+    "kanji": "収入",
+    "kana": "しゅうにゅう",
+    "meaning": "income; receipts; revenue; salary",
+    "example": "彼女は副業でかなりの収入を得ている。"
+  },
+  {
+    "kanji": "速度",
+    "kana": "そくど",
+    "meaning": "speed; velocity; pace",
+    "example": "この道は速度制限を守ってください。"
+  },
+  {
+    "kanji": "大半",
+    "kana": "たいはん",
+    "meaning": "majority; more than half; most",
+    "example": "国民の大半がその計画に反対した。"
+  },
+  {
+    "kanji": "大会",
+    "kana": "たいかい",
+    "meaning": "convention; conference; tournament",
+    "example": "来月、スピーチ大会に出場します。"
+  },
+  {
+    "kanji": "多少",
+    "kana": "たしょう",
+    "meaning": "more or less; somewhat; a little",
+    "example": "経験が多少あるので、手伝えます。"
+  },
+  {
+    "kanji": "手品",
+    "kana": "てじな",
+    "meaning": "magic trick; illusion",
+    "example": "彼はパーティーで手品を披露した。"
+  },
+  {
+    "kanji": "哲学",
+    "kana": "てつがく",
+    "meaning": "philosophy",
+    "example": "大学でギリシャ哲学を学んだ。"
+  },
+  {
+    "kanji": "徹夜",
+    "kana": "てつや",
+    "meaning": "staying up all night",
+    "example": "レポートを書くために徹夜した。"
+  },
+  {
+    "kanji": "土地",
+    "kana": "とち",
+    "meaning": "plot of land; lot; soil",
+    "example": "家を建てるための土地を探している。"
+  },
+  {
+    "kanji": "都会",
+    "kana": "とかい",
+    "meaning": "city; urban area",
+    "example": "田舎から都会に出てきて驚いた。"
+  },
+  {
+    "kanji": "図書",
+    "kana": "としょ",
+    "meaning": "books",
+    "example": "学校の図書室で静かに本を読む。"
+  },
+  {
+    "kanji": "通学",
+    "kana": "つうがく",
+    "meaning": "commuting to school; school commute",
+    "example": "自転車で一時間かけて通学している。"
+  },
+  {
+    "kanji": "運転",
+    "kana": "うんてん",
+    "meaning": "operation; driving",
+    "example": "車の運転には十分注意してください。"
+  },
+  {
+    "kanji": "悪口",
+    "kana": "わるぐち",
+    "meaning": "slander; bad-mouthing; insult",
+    "example": "人の悪口を言うのは良くないことだ。"
+  },
+  {
+    "kanji": "夜明け",
+    "kana": "よあけ",
+    "meaning": "dawn; daybreak",
+    "example": "夜明け前に山頂に着いた。"
+  },
+  {
+    "kanji": "余分",
+    "kana": "よぶん",
+    "meaning": "extra; excess; surplus",
+    "example": "多めに注文したので余分があります。"
+  },
+  {
+    "kanji": "読み",
+    "kana": "よみ",
+    "meaning": "reading (kanji); interpretation",
+    "example": "この漢字の読みを教えてください。"
+  },
+  {
+    "kanji": "夜中",
+    "kana": "よなか",
+    "meaning": "middle of the night; dead of night",
+    "example": "夜中に電話が鳴って驚いた。"
+  },
+  {
+    "kanji": "唯一",
+    "kana": "ゆいいつ",
+    "meaning": "only; sole; unique",
+    "example": "これが彼に残された唯一の希望だ。"
+  },
+  {
+    "kanji": "輸入",
+    "kana": "ゆにゅう",
+    "meaning": "import; importation",
+    "example": "日本は多くの石油を輸入している。"
+  },
+  {
+    "kanji": "輸出",
+    "kana": "ゆしゅつ",
+    "meaning": "export; exportation",
+    "example": "日本は車を世界中に輸出している。"
+  },
+  {
+    "kanji": "夕べ",
+    "kana": "ゆうべ",
+    "meaning": "evening; last night",
+    "example": "夕べは遅くまでテレビを見ていた。"
+  },
+  {
+    "kanji": "有利",
+    "kana": "ゆうり",
+    "meaning": "advantageous; favorable; profitable",
+    "example": "資格を持っていると就職に有利だ。"
+  },
+  {
+    "kanji": "全国",
+    "kana": "ぜんこく",
+    "meaning": "the whole country; nationwide",
+    "example": "そのニュースは全国に放送された。"
+  }
+]

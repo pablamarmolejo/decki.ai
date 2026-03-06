@@ -1,0 +1,500 @@
+[
+  {
+    "kanji": "明け方",
+    "kana": "あけがた",
+    "meaning": "dawn; daybreak",
+    "example": "明け方から雨が降り始めた。"
+  },
+  {
+    "kanji": "足跡",
+    "kana": "あしあと",
+    "meaning": "footprints; tracks",
+    "example": "砂浜に点々と足跡が残っている。"
+  },
+  {
+    "kanji": "売買",
+    "kana": "ばいばい",
+    "meaning": "trade; buying and selling; commerce",
+    "example": "株の売買で利益を得る。"
+  },
+  {
+    "kanji": "売店",
+    "kana": "ばいてん",
+    "meaning": "stand; stall; booth; kiosk",
+    "example": "駅の売店で雑誌を買った。"
+  },
+  {
+    "kanji": "募集",
+    "kana": "ぼしゅう",
+    "meaning": "recruitment; invitation; taking applications",
+    "example": "新しいアルバイトを募集している。"
+  },
+  {
+    "kanji": "長男",
+    "kana": "ちょうなん",
+    "meaning": "eldest son; first-born son",
+    "example": "彼は三人兄弟の長男です。"
+  },
+  {
+    "kanji": "楕円",
+    "kana": "だえん",
+    "meaning": "ellipse; oval",
+    "example": "地球の軌道は完全な円ではなく、楕円だ。"
+  },
+  {
+    "kanji": "大学院",
+    "kana": "だいがくいん",
+    "meaning": "graduate school",
+    "example": "大学を卒業した後、大学院に進む。"
+  },
+  {
+    "kanji": "出入口",
+    "kana": "でいりぐち",
+    "meaning": "exit and entrance",
+    "example": "出入口をふさがないでください。"
+  },
+  {
+    "kanji": "宴会",
+    "kana": "えんかい",
+    "meaning": "party; banquet; feast",
+    "example": "今夜、会社の宴会が開かれる。"
+  },
+  {
+    "kanji": "円周",
+    "kana": "えんしゅう",
+    "meaning": "circumference",
+    "example": "この円の円周を計算しなさい。"
+  },
+  {
+    "kanji": "遠足",
+    "kana": "えんそく",
+    "meaning": "excursion; outing; school trip",
+    "example": "明日は山へ遠足に行きます。"
+  },
+  {
+    "kanji": "父母",
+    "kana": "ふぼ",
+    "meaning": "father and mother; parents",
+    "example": "卒業式には多くの父母が出席した。"
+  },
+  {
+    "kanji": "学科",
+    "kana": "がっか",
+    "meaning": "study subject; department; course of study",
+    "example": "私は経済学科に所属している。"
+  },
+  {
+    "kanji": "学会",
+    "kana": "がっかい",
+    "meaning": "scientific society; academic conference",
+    "example": "来月、京都で医学の学会がある。"
+  },
+  {
+    "kanji": "学力",
+    "kana": "がくりょく",
+    "meaning": "scholarly ability; knowledge; academic standing",
+    "example": "この学校は学生の学力が非常に高い。"
+  },
+  {
+    "kanji": "外科",
+    "kana": "げか",
+    "meaning": "surgery; department of surgery",
+    "example": "怪我をしたので、外科へ行った。"
+  },
+  {
+    "kanji": "花火",
+    "kana": "はなび",
+    "meaning": "fireworks",
+    "example": "夏休みに友達と花火大会に行った。"
+  },
+  {
+    "kanji": "半径",
+    "kana": "はんけい",
+    "meaning": "radius",
+    "example": "半径5センチの円を描く。"
+  },
+  {
+    "kanji": "半島",
+    "kana": "はんとう",
+    "meaning": "peninsula",
+    "example": "伊豆半島は温泉で有名です。"
+  },
+  {
+    "kanji": "発売",
+    "kana": "はつばい",
+    "meaning": "sale; release; product launch",
+    "example": "新型のスマホが来週発売される。"
+  },
+  {
+    "kanji": "早口",
+    "kana": "はやぐち",
+    "meaning": "fast-talking; rapid talking",
+    "example": "彼女は早口で、聞き取るのが大変だ。"
+  },
+  {
+    "kanji": "昼寝",
+    "kana": "ひるね",
+    "meaning": "nap; siesta",
+    "example": "午後は三十分ほど昼寝をした。"
+  },
+  {
+    "kanji": "意地悪",
+    "kana": "いじわる",
+    "meaning": "malicious; ill-tempered; unkind",
+    "example": "そんな意地悪なことは言わないで。"
+  },
+  {
+    "kanji": "移転",
+    "kana": "いてん",
+    "meaning": "moving; relocation; change of address",
+    "example": "事務所が駅の近くに移転した。"
+  },
+  {
+    "kanji": "寺院",
+    "kana": "じいん",
+    "meaning": "Buddhist temple; religious building",
+    "example": "この町には古い寺院が多い。"
+  },
+  {
+    "kanji": "人文科学",
+    "kana": "じんぶんかがく",
+    "meaning": "humanities; liberal arts",
+    "example": "彼は大学で人文科学を専攻している。"
+  },
+  {
+    "kanji": "自習",
+    "kana": "jishuu",
+    "meaning": "self-study; teaching oneself",
+    "example": "先生が休みな校ので、今日は自習になった。"
+  },
+  {
+    "kanji": "時速",
+    "kana": "じそく",
+    "meaning": "speed (per hour)",
+    "example": "この車は時速百キロで走っている。"
+  },
+  {
+    "kanji": "実習",
+    "kana": "じっしゅう",
+    "meaning": "practice; training; practical exercise",
+    "example": "病院で一週間の看護実習を受ける。"
+  },
+  {
+    "kanji": "過半数",
+    "kana": "かはんすう",
+    "meaning": "majority",
+    "example": "過半数の賛成で案が可決された。"
+  },
+  {
+    "kanji": "開会",
+    "kana": "かいかい",
+    "meaning": "opening of a meeting; starting an event",
+    "example": "ただいまより、オリンピックの開会式を行います。"
+  },
+  {
+    "kanji": "会館",
+    "kana": "かいかん",
+    "meaning": "meeting hall; assembly hall",
+    "example": "市民会館でコンサートが行われた。"
+  },
+  {
+    "kanji": "回転",
+    "kana": "かいてん",
+    "meaning": "rotation; revolution; turning",
+    "example": "この椅子は回転するタイプです。"
+  },
+  {
+    "kanji": "加速",
+    "kana": "かすおく",
+    "meaning": "acceleration; speeding up",
+    "example": "車が高速道路で加速した。"
+  },
+  {
+    "kanji": "加速度",
+    "kana": "かそくど",
+    "meaning": "acceleration (physical constant)",
+    "example": "重力加速度の計算をする。"
+  },
+  {
+    "kanji": "見学",
+    "kana": "けんがく",
+    "meaning": "study by observation; field trip; tour",
+    "example": "今日は自動車工場を見学した。"
+  },
+  {
+    "kanji": "国王",
+    "kana": "こくおう",
+    "meaning": "king; queen; monarch",
+    "example": "国民は国王の死を悲しんだ。"
+  },
+  {
+    "kanji": "国立",
+    "kana": "こくりつ",
+    "meaning": "national",
+    "example": "彼女は国立大学に通っている。"
+  },
+  {
+    "kanji": "国籍",
+    "kana": "こくせき",
+    "meaning": "nationality; citizenship",
+    "example": "パスポートで国籍を確認する。"
+  },
+  {
+    "kanji": "校舎",
+    "kana": "こうしゃ",
+    "meaning": "school building; schoolhouse",
+    "example": "放課後の校舎は静かだった。"
+  },
+  {
+    "kanji": "校庭",
+    "kana": "こうてい",
+    "meaning": "schoolyard; playground; campus",
+    "example": "休み時間に子供たちが校庭で遊んでいる。"
+  },
+  {
+    "kanji": "待合室",
+    "kana": "まちあいしつ",
+    "meaning": "waiting room",
+    "example": "駅の待合室で電車を待つ。"
+  },
+  {
+    "kanji": "窓口",
+    "kana": "まどぐち",
+    "meaning": "ticket window; counter; contact point",
+    "example": "不明な点は窓口でお尋ねください。"
+  },
+  {
+    "kanji": "毎度",
+    "kana": "まいど",
+    "meaning": "each time; always; thank you for patronage",
+    "example": "毎度ありがとうございます。またお越しください。"
+  },
+  {
+    "kanji": "真っ青",
+    "kana": "まっさお",
+    "meaning": "deep blue; ghastly pale",
+    "example": "その知らせを聞いて、彼の顔は真っ青になった。"
+  },
+  {
+    "kanji": "真っ白",
+    "kana": "まっしろ",
+    "meaning": "pure white; blank",
+    "example": "山が雪で真っ白になった。"
+  },
+  {
+    "kanji": "名刺",
+    "kana": "めいし",
+    "meaning": "business card",
+    "example": "初めて会った人と名刺を交換する。"
+  },
+  {
+    "kanji": "店屋",
+    "kana": "みせや",
+    "meaning": "store; shop",
+    "example": "近所の店屋で日用品を買う。"
+  },
+  {
+    "kanji": "木材",
+    "kana": "もくざい",
+    "meaning": "lumber; timber; wood",
+    "example": "この家は質の良い木材を使っている。"
+  },
+  {
+    "kanji": "内科",
+    "kana": "ないか",
+    "meaning": "internal medicine",
+    "example": "風邪を引いたので内科を受診した。"
+  },
+  {
+    "kanji": "並木",
+    "kana": "なみき",
+    "meaning": "roadside tree; row of trees",
+    "example": "秋には銀杏の並木が美しい。"
+  },
+  {
+    "kanji": "入社",
+    "kana": "にゅうしゃ",
+    "meaning": "joining a company",
+    "example": "彼は今年の四月に入社したばかりだ。"
+  },
+  {
+    "kanji": "理科",
+    "kana": "りか",
+    "meaning": "science (school subject)",
+    "example": "私は理科の実験が大好きだ。"
+  },
+  {
+    "kanji": "領収",
+    "kana": "りょうしゅう",
+    "meaning": "receipt (of money); receiving",
+    "example": "代金を領収いたしました。"
+  },
+  {
+    "kanji": "刺身",
+    "kana": "さしみ",
+    "meaning": "sashimi; sliced raw fish",
+    "example": "新鮮なマグロを刺身にして食べた。"
+  },
+  {
+    "kanji": "青少年",
+    "kana": "せいしょうねん",
+    "meaning": "youth; young person",
+    "example": "青少年の健全な育成を目指す。"
+  },
+  {
+    "kanji": "赤道",
+    "kana": "せきどう",
+    "meaning": "equator",
+    "example": "赤道の近くの国は一年中暑い。"
+  },
+  {
+    "kanji": "社会科学",
+    "kana": "しゃかいかがく",
+    "meaning": "social science",
+    "example": "政治学は社会科学の一分野だ。"
+  },
+  {
+    "kanji": "社説",
+    "kana": "しゃせつ",
+    "meaning": "editorial; leading article",
+    "example": "毎朝、新聞の社説を読んでいる。"
+  },
+  {
+    "kanji": "司会",
+    "kana": "しかい",
+    "meaning": "master of ceremonies; host; presenter",
+    "example": "今日の会議の司会を務めます。"
+  },
+  {
+    "kanji": "新幹線",
+    "kana": "しんかんせん",
+    "meaning": "Japanese bullet train",
+    "example": "新幹線で東京から大阪まで行く。"
+  },
+  {
+    "kanji": "白髪",
+    "kana": "しらが",
+    "meaning": "white hair; grey hair",
+    "example": "父は最近、白髪が増えてきた。"
+  },
+  {
+    "kanji": "自然科学",
+    "kana": "しぜんかがく",
+    "meaning": "natural science",
+    "example": "物理学は自然科学の基礎だ。"
+  },
+  {
+    "kanji": "書店",
+    "kana": "しょてん",
+    "meaning": "bookshop; bookstore",
+    "example": "駅前の書店で新しい本を探す。"
+  },
+  {
+    "kanji": "商社",
+    "kana": "しょうしゃ",
+    "meaning": "trading company; firm",
+    "example": "彼は大手の商社に勤めている。"
+  },
+  {
+    "kanji": "商店",
+    "kana": "しょうてん",
+    "meaning": "shop; small store; business",
+    "example": "古い商店街には趣がある。"
+  },
+  {
+    "kanji": "集合",
+    "kana": "しゅうごう",
+    "meaning": "gathering; assembly; meeting",
+    "example": "明日の朝八時に駅に集合してください。"
+  },
+  {
+    "kanji": "習字",
+    "kana": "しゅうじ",
+    "meaning": "calligraphy; penmanship",
+    "example": "小学校の授業で習字を習った。"
+  },
+  {
+    "kanji": "集会",
+    "kana": "しゅうかい",
+    "meaning": "meeting; assembly; convention",
+    "example": "体育館で全校集会が開かれた。"
+  },
+  {
+    "kanji": "速力",
+    "kana": "そくりょく",
+    "meaning": "speed; velocity",
+    "example": "船は全速力で進んでいる。"
+  },
+  {
+    "kanji": "速達",
+    "kana": "そくたつ",
+    "meaning": "express; special delivery",
+    "example": "重要な書類なので速達で送った。"
+  },
+  {
+    "kanji": "足袋",
+    "kana": "たび",
+    "meaning": "Japanese split-toe socks",
+    "example": "着物を着るときは足袋を履く。"
+  },
+  {
+    "kanji": "特売",
+    "kana": "とくばい",
+    "meaning": "special sale",
+    "example": "スーパーの特売で卵を安く買った。"
+  },
+  {
+    "kanji": "透明",
+    "kana": "とうめい",
+    "meaning": "transparent; clear",
+    "example": "海の水が透明で、底まで見える。"
+  },
+  {
+    "kanji": "東洋",
+    "kana": "とうよう",
+    "meaning": "the Orient; East Asia",
+    "example": "東洋と西洋の文化を比較する。"
+  },
+  {
+    "kanji": "売れ行き",
+    "kana": "うれゆき",
+    "meaning": "sales; demand",
+    "example": "新商品の売れ行きは好調だ。"
+  },
+  {
+    "kanji": "売上",
+    "kana": "うりあげ",
+    "meaning": "amount sold; proceeds; turnover",
+    "example": "今月は売上が目標に届かなかった。"
+  },
+  {
+    "kanji": "売り切れ",
+    "kana": "うりきれ",
+    "meaning": "sold out",
+    "example": "人気のアイスクリームが売り切れだ。"
+  },
+  {
+    "kanji": "洋品店",
+    "kana": "youhinten",
+    "meaning": "Western apparel shop; boutique",
+    "example": "街角の洋品店でお洒落な帽子を見つけた。"
+  },
+  {
+    "kanji": "輸血",
+    "kana": "ゆけつ",
+    "meaning": "blood transfusion",
+    "example": "手術中に大量の輸血が必要になった。"
+  },
+  {
+    "kanji": "輸送",
+    "kana": "ゆそう",
+    "meaning": "transport; transportation",
+    "example": "物資をトラックで被災地に輸送する。"
+  },
+  {
+    "kanji": "材木",
+    "kana": "ざいもく",
+    "meaning": "lumber; timber",
+    "example": "川に材木を浮かべて運ぶ。"
+  }
+]
