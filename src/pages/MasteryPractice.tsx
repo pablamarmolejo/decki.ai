@@ -1,16 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAppContext } from '../AppContext';
 import type { Flashcard, SentencePractice } from '../types';
 import checkIcon from '../assets/ic_round-check.svg';
 import restoreIcon from '../assets/ic_round-restore.svg';
 import schoolIcon from '../assets/ic_round-school.svg';
 import autoStoriesIcon from '../assets/ic_round-auto-stories.svg';
+import deleteIcon from '../assets/ic_round-delete-outline.svg';
 
 const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNavigateToStudy }) => {
   const { decks, wordProgress, addSentence, removeSentence, currentLevel } = useAppContext();
   const [selectedWord, setSelectedWord] = useState<Flashcard | null>(null);
   const [sentence, setSentence] = useState('');
-  const [openHistoryIndex, setOpenHistoryIndex] = useState<number | null>(null);
+  const [sentenceToDelete, setSentenceToDelete] = useState<number | null>(null);
 
   // Get all learnt words for the current level
   const learntWords = decks
@@ -20,6 +21,17 @@ const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNaviga
   
   // Deduplicate words if they appear in multiple decks
   const uniqueLearntWords = Array.from(new Map(learntWords.map(w => [w.kanji || w.kana, w])).values());
+
+  useEffect(() => {
+    if (sentenceToDelete !== null) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [sentenceToDelete]);
 
   const handleWordSelect = (word: Flashcard) => {
     setSelectedWord(word);
@@ -40,10 +52,137 @@ const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNaviga
     setSentence('');
   };
 
+  const handleConfirmDelete = () => {
+    if (selectedWord && sentenceToDelete !== null) {
+      removeSentence(selectedWord.id, sentenceToDelete);
+      setSentenceToDelete(null);
+    }
+  };
+
   const progress = wordProgress.find(p => p.wordId === selectedWord?.id);
 
   return (
     <div className="mastery-practice-page-container">
+      {sentenceToDelete !== null && (
+        <div className="modal-overlay" onClick={() => setSentenceToDelete(null)}>
+          <div className="confirmation-modal" onClick={(e) => e.stopPropagation()} style={{
+            width: '571px',
+            minHeight: '193px',
+            height: 'auto',
+            flexGrow: 0,
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'space-between',
+            alignItems: 'flex-start',
+            gap: '32px',
+            padding: '32px',
+            borderRadius: '12px',
+            border: 'solid 1px #ededf0',
+            backgroundColor: '#fcfcfc',
+            boxSizing: 'border-box'
+          }}>
+            <div style={{ width: '100%' }}>
+              <div style={{
+                height: '24px',
+                alignSelf: 'stretch',
+                flexGrow: 0,
+                fontFamily: "'Noto Sans JP', sans-serif",
+                fontSize: '20px',
+                fontWeight: 'bold',
+                textAlign: 'left',
+                color: '#060543',
+                lineHeight: 'normal',
+                marginBottom: '8px'
+              }}>
+                Delete sentence?
+              </div>
+              <div style={{
+                alignSelf: 'stretch',
+                minHeight: '17px',
+                flexGrow: 0,
+                fontFamily: "'Noto Sans JP', sans-serif",
+                fontSize: '14px',
+                fontWeight: 'normal',
+                textAlign: 'left',
+                color: '#2f2f3b',
+                lineHeight: '1.4'
+              }}>
+                Are you sure you would like to delete this sentence? You won't be able to recover a sentence once deleted.
+              </div>
+            </div>
+            <div style={{ display: 'flex', gap: '16px', alignSelf: 'flex-end' }}>
+              <button 
+                className="secondary-btn modal-secondary-btn" 
+                onClick={() => setSentenceToDelete(null)}
+                style={{ 
+                  width: '200px', 
+                  height: '44px', 
+                  display: 'flex', 
+                  flexDirection: 'row', 
+                  justifyContent: 'center', 
+                  alignItems: 'center', 
+                  gap: '8px', 
+                  padding: '13px 24px', 
+                  borderRadius: '6px',
+                  backgroundColor: '#f4f4f7',
+                  border: 'none',
+                  cursor: 'pointer'
+                }}
+              >
+                <span style={{
+                  fontFamily: "'Noto Sans JP', sans-serif",
+                  fontSize: '16px',
+                  fontWeight: 'bold',
+                  textAlign: 'center',
+                  color: '#060543',
+                  lineHeight: '1'
+                }}>
+                  Cancel
+                </span>
+              </button>
+              <button 
+                className="delete-btn" 
+                onClick={handleConfirmDelete}
+                style={{ 
+                  width: '200px',
+                  height: '43px',
+                  display: 'flex',
+                  flexDirection: 'row',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  gap: '8px',
+                  padding: '12px 24px',
+                  borderRadius: '8px',
+                  backgroundColor: '#ffe6e6',
+                  border: 'none',
+                  cursor: 'pointer'
+                }}
+              >
+                <span style={{
+                  fontFamily: "'Noto Sans JP', sans-serif",
+                  fontSize: '16px',
+                  fontWeight: 'bold',
+                  textAlign: 'center',
+                  color: '#d73d3d',
+                  lineHeight: '1'
+                }}>
+                  Delete
+                </span>
+                <img 
+                  src={deleteIcon} 
+                  alt="" 
+                  style={{ 
+                    width: '20px', 
+                    height: '20px', 
+                    filter: 'brightness(0) saturate(100%) invert(34%) sepia(86%) saturate(1914%) hue-rotate(336deg) brightness(89%) contrast(91%)' // #d73d3d
+                  }} 
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       <div className="page-title-row">
         <div className="title-section-icon" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <img 
@@ -200,51 +339,14 @@ const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNaviga
                   </div>
                   <div className="history-list">
                     {progress.sentences.map((s, i) => (
-                      <div 
-                        key={i} 
-                        className="history-item" 
-                        onClick={() => setOpenHistoryIndex(openHistoryIndex === i ? null : i)}
-                        style={{ cursor: 'pointer' }}
-                      >
+                      <div key={i} className="history-item">
                         <div className="history-header">
                           <div className="history-text-content">
                             <div className="h-sentence">{s.sentence}</div>
                             <div className="h-date">{s.date}</div>
                           </div>
-                          <button className="remove-s" onClick={(e) => { e.stopPropagation(); removeSentence(selectedWord.id, i); }}>×</button>
+                          <button className="remove-s" onClick={() => setSentenceToDelete(i)}>×</button>
                         </div>
-                        
-                        <details 
-                          className="h-feedback" 
-                          open={openHistoryIndex === i}
-                          onClick={(e) => {
-                            e.preventDefault();
-                            setOpenHistoryIndex(openHistoryIndex === i ? null : i);
-                          }}
-                        >
-                          <summary>Sensei's Feedback</summary>
-                          <div className="feedback-content">
-                            {s.feedback && (
-                              <div style={{ marginBottom: '12px' }}>
-                                {s.feedback}
-                              </div>
-                            )}
-                            
-                            {s.grammar && (
-                              <div style={{ marginTop: '16px' }}>
-                                <strong>Grammar</strong>
-                                <div style={{ marginTop: '4px' }}>{s.grammar}</div>
-                              </div>
-                            )}
-
-                            {s.improvements && (
-                              <div style={{ marginTop: '16px' }}>
-                                <strong>Suggestions</strong>
-                                <div style={{ marginTop: '4px' }}>{s.improvements}</div>
-                              </div>
-                            )}
-                          </div>
-                        </details>
                       </div>
                     ))}
                   </div>

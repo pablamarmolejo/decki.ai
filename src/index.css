@@ -60,9 +60,7 @@ input, textarea, button {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 40px;
+  width: 100%;
 }
 
 .app-header-outer {
@@ -106,6 +104,11 @@ input, textarea, button {
   transition: all 0.2s;
 }
 
+.level-btn:hover {
+  background: #fcfcfc;
+  box-shadow: 0 2px 2px 0 #ededf0;
+}
+
 .level-btn.active {
   background: #fcfcfc;
   color: #5856eb;
@@ -145,15 +148,32 @@ input, textarea, button {
 
 .main-content {
   flex: 1;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.app-footer-outer {
+  width: 100%;
+  background-color: #f4f4f7;
+  border-top: 1px solid #ededf0;
 }
 
 .app-footer {
-  padding: 40px 0;
+  height: 64.7px;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
   color: var(--primary);
   font-size: 14px;
   font-weight: 500;
+  box-sizing: border-box;
 }
 
 /* Page Titles */
@@ -239,6 +259,11 @@ input, textarea, button {
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
+  transition: all 0.2s;
+}
+
+.filter-btn:hover {
+  border-color: #5856EB;
 }
 
 .filter-btn.active {
@@ -379,7 +404,6 @@ input, textarea, button {
   margin: 0;
   line-height: 1.5;
 }
-
 .create-btn-white {
   background: #FCFCFC;
   color: #5856EB;
@@ -393,7 +417,12 @@ input, textarea, button {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  margin-top: 8px;
+  transition: all 0.2s;
+}
+
+.create-btn-white:hover {
+  background-color: #F4F4F7;
+  transform: translateY(-1px);
 }
 
 .create-btn-icon {
@@ -959,7 +988,7 @@ input:checked + .slider:before {
   resize: none;
 }
 
-.generate-btn, .primary-btn, .delete-btn {
+.generate-btn, .primary-btn {
   padding: 15px;
   background: var(--primary);
   color: white;
@@ -971,11 +1000,20 @@ input:checked + .slider:before {
 }
 
 .delete-btn {
+  padding: 15px;
   background: #EF4444;
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
 }
 
 .delete-btn:hover {
-  background: #DC2626;
+  background-color: #FFD9D9 !important;
+  transform: translateY(-1px);
 }
 
 .word-pills {
@@ -998,10 +1036,15 @@ input:checked + .slider:before {
 .remove-word {
   background: none;
   border: none;
-  color: #EF4444;
+  color: #8F8E96;
   font-size: 20px;
   cursor: pointer;
+  padding: 0 4px;
   line-height: 1;
+}
+
+.remove-word:hover {
+  color: #EF4444;
 }
 
 /* Mastery Practice */
@@ -1382,6 +1425,15 @@ input:checked + .slider:before {
   transform: translateY(-1px);
 }
 
+.cancel-word-btn {
+  transition: all 0.2s;
+}
+
+.cancel-word-btn:hover {
+  background-color: #EDEDF0 !important;
+  transform: translateY(-1px);
+}
+
 .practice-feedback-container {
   height: auto;
   align-self: stretch;
@@ -1434,13 +1486,6 @@ input:checked + .slider:before {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
-}
-
-.history-item:hover {
-  transform: translateY(-2px);
-  border-color: #5856EB;
-  box-shadow: 0 8px 12px 0 #DDDDDF;
 }
 
 .history-header {

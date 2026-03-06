@@ -1,0 +1,802 @@
+[
+  {
+    "kanji": "政",
+    "kana": "せい",
+    "meaning": "politics, government, administration",
+    "kun": "まつりごと",
+    "on": "セイ",
+    "example": "彼は政治学を専攻している。"
+  },
+  {
+    "kanji": "議",
+    "kana": "ぎ",
+    "meaning": "deliberation, consultation, debate",
+    "kun": "",
+    "on": "ギ",
+    "example": "会議は三時間に及んだ。"
+  },
+  {
+    "kanji": "民",
+    "kana": "みん",
+    "meaning": "people, nation, subjects",
+    "kun": "たみ",
+    "on": "ミン",
+    "example": "民主主義を大切にする。"
+  },
+  {
+    "kanji": "連",
+    "kana": "れん",
+    "meaning": "take along, lead, join, connect",
+    "kun": "つら(なる)、つ(れる)",
+    "on": "レン",
+    "example": "週末、友達を連れて遊びに行く。"
+  },
+  {
+    "kanji": "対",
+    "kana": "たい",
+    "meaning": "opposite, even, equal, versus",
+    "kun": "",
+    "on": "タイ、ツイ",
+    "example": "反対の意見も聞くべきだ。"
+  },
+  {
+    "kanji": "部",
+    "kana": "ぶ",
+    "meaning": "section, bureau, dept, part",
+    "kun": "",
+    "on": "ブ",
+    "example": "テニス部に入部しました。"
+  },
+  {
+    "kanji": "合",
+    "kana": "ごう",
+    "meaning": "fit, suit, join, combine",
+    "kun": "あ(う)、あい",
+    "on": "ゴウ、ガ、カ",
+    "example": "答えが合っているか確認する。"
+  },
+  {
+    "kanji": "市",
+    "kana": "し",
+    "meaning": "market, city, town",
+    "kun": "いち",
+    "on": "シ",
+    "example": "市役所に書類を出す。"
+  },
+  {
+    "kanji": "内",
+    "kana": "ない",
+    "meaning": "inside, within, between, among",
+    "kun": "うち",
+    "on": "ナイ",
+    "example": "建物内は禁煙です。"
+  },
+  {
+    "kanji": "相",
+    "kana": "そう",
+    "meaning": "inter-, mutual, minister of state",
+    "kun": "あい",
+    "on": "ソウ、ショウ",
+    "example": "相談に乗ってくれてありがとう。"
+  },
+  {
+    "kanji": "定",
+    "kana": "てい",
+    "meaning": "determine, fix, establish, decide",
+    "kun": "さだ(める)",
+    "on": "テイ、ジョウ",
+    "example": "予定を確認します。"
+  },
+  {
+    "kanji": "回",
+    "kana": "かい",
+    "meaning": "-times, round, revolve",
+    "kun": "まわ(す)",
+    "on": "カイ",
+    "example": "一日に三回薬を飲む。"
+  },
+  {
+    "kanji": "選",
+    "kana": "せん",
+    "meaning": "elect, select, choose, prefer",
+    "kun": "えら(ぶ)",
+    "on": "セン",
+    "example": "新しいリーダーを選ぶ。"
+  },
+  {
+    "kanji": "米",
+    "kana": "べい",
+    "meaning": "rice, USA, meter",
+    "kun": "kome",
+    "on": "ベイ、マイ",
+    "example": "日本人は米をよく食べる。"
+  },
+  {
+    "kanji": "実",
+    "kana": "じつ",
+    "meaning": "reality, truth, fruit",
+    "kun": "み、みの(る)",
+    "on": "ジツ",
+    "example": "事実を話してください。"
+  },
+  {
+    "kanji": "関",
+    "kana": "かん",
+    "meaning": "connection, barrier, gateway, involve",
+    "kun": "せき、かか(わる)",
+    "on": "カン",
+    "example": "この事件に関係がある。"
+  },
+  {
+    "kanji": "決",
+    "kana": "けつ",
+    "meaning": "decide, fix, agree upon",
+    "kun": "き(める)",
+    "on": "ケツ",
+    "example": "明日までに決めてください。"
+  },
+  {
+    "kanji": "全",
+    "kana": "ぜん",
+    "meaning": "whole, entire, all, complete",
+    "kun": "まった(く)、すべ(て)",
+    "on": "ゼン",
+    "example": "全部でいくらですか？"
+  },
+  {
+    "kanji": "表",
+    "kana": "ひょう",
+    "meaning": "surface, table, chart, diagram",
+    "kun": "おもて、あらわ(す)",
+    "on": "ヒョウ",
+    "example": "表に名前を書いてください。"
+  },
+  {
+    "kanji": "戦",
+    "kana": "せん",
+    "meaning": "war, battle, match",
+    "kun": "いくさ、たたか(う)",
+    "on": "セン",
+    "example": "戦争は絶対に反対だ。"
+  },
+  {
+    "kanji": "経",
+    "kana": "けい",
+    "meaning": "longitude, pass thru, expire",
+    "kun": "へ(る)、た(つ)",
+    "on": "ケイ",
+    "example": "彼は経済学を教えている。"
+  },
+  {
+    "kanji": "最",
+    "kana": "さい",
+    "meaning": "utmost, most, extreme",
+    "kun": "もっと(も)",
+    "on": "サイ",
+    "example": "最近、とても忙しい。"
+  },
+  {
+    "kanji": "現",
+    "kana": "げん",
+    "meaning": "present, existing, actual",
+    "kun": "あらわ(れる)、うつ(つ)",
+    "on": "ゲン",
+    "example": "現代の若者の考え方。"
+  },
+  {
+    "kanji": "調",
+    "kana": "ちょう",
+    "meaning": "tune, tone, prepare, investigate",
+    "kun": "しら(べる)、ととの(う)",
+    "on": "チョウ",
+    "example": "詳しい情報を調べる。"
+  },
+  {
+    "kanji": "化",
+    "kana": "か",
+    "meaning": "change, take the form of, -ization",
+    "kun": "ば(ける)、ふ(ける)",
+    "on": "カ、ケ",
+    "example": "日本の文化が好きです。"
+  },
+  {
+    "kanji": "当",
+    "kana": "とう",
+    "meaning": "hit, right, appropriate",
+    "kun": "あ(たる)",
+    "on": "トウ",
+    "example": "当たり前のことをする。"
+  },
+  {
+    "kanji": "約",
+    "kana": "やく",
+    "meaning": "promise, approximately, shrink",
+    "kun": "つづ(まる)",
+    "on": "ヤク",
+    "example": "約一時間かかります。"
+  },
+  {
+    "kanji": "首",
+    "kana": "しゅ",
+    "meaning": "neck, leader",
+    "kun": "くび",
+    "on": "シュ",
+    "example": "首相が辞任を表明した。"
+  },
+  {
+    "kanji": "法",
+    "kana": "ほう",
+    "meaning": "method, law, rule, system",
+    "kun": "のり",
+    "on": "ホウ",
+    "example": "法律を守らなければならない。"
+  },
+  {
+    "kanji": "性",
+    "kana": "せい",
+    "meaning": "sex, gender, nature",
+    "kun": "",
+    "on": "セイ、ショウ",
+    "example": "女性と男性の権利。"
+  },
+  {
+    "kanji": "的",
+    "kana": "てき",
+    "meaning": "mark, target, object, -al (adjective ending)",
+    "kun": "",
+    "on": "テキ",
+    "example": "具体的な計画を立てる。"
+  },
+  {
+    "kanji": "要",
+    "kana": "よう",
+    "meaning": "need, main point, essence",
+    "kun": "い(る)、かなめ",
+    "on": "ヨウ",
+    "example": "重要な書類を失くした。"
+  },
+  {
+    "kanji": "制",
+    "kana": "せい",
+    "meaning": "system, law, rule",
+    "kun": "",
+    "on": "セイ",
+    "example": "新しい制度が始まった。"
+  },
+  {
+    "kanji": "治",
+    "kana": "じ",
+    "meaning": "reign, cure, heal, govern",
+    "kun": "おさ(める)、なお(る)",
+    "on": "ジ、チ",
+    "example": "政治家を志す。"
+  },
+  {
+    "kanji": "務",
+    "kana": "む",
+    "meaning": "task, duties, service",
+    "kun": "つと(める)",
+    "on": "ム",
+    "example": "公務員として働く。"
+  },
+  {
+    "kanji": "成",
+    "kana": "せい",
+    "meaning": "turn into, become, grow",
+    "kun": "な(る)",
+    "on": "セイ、ジョウ",
+    "example": "成功することを祈る。"
+  },
+  {
+    "kanji": "期",
+    "kana": "き",
+    "meaning": "period, time, date, term",
+    "kun": "",
+    "on": "キ、ゴ",
+    "example": "期待に応えたい。"
+  },
+  {
+    "kanji": "取",
+    "kana": "しゅ",
+    "meaning": "take, fetch, get",
+    "kun": "と(る)",
+    "on": "シュ",
+    "example": "メモを取ってください。"
+  },
+  {
+    "kanji": "都",
+    "kana": "と",
+    "meaning": "metropolis, capital",
+    "kun": "みやこ",
+    "on": "ト、ツ",
+    "example": "東京は日本の首都です。"
+  },
+  {
+    "kanji": "和",
+    "kana": "わ",
+    "meaning": "harmony, Japanese style, peace",
+    "kun": "やわ(らぐ)、なご(む)",
+    "on": "ワ、オ",
+    "example": "平和な世界を望む。"
+  },
+  {
+    "kanji": "機",
+    "kana": "き",
+    "meaning": "machine, airplane, opportunity",
+    "kun": "はた",
+    "on": "キ",
+    "example": "飛行機で移動する。"
+  },
+  {
+    "kanji": "平",
+    "kana": "へい",
+    "meaning": "even, flat, peace, calm",
+    "kun": "たい(ら)、ひら",
+    "on": "ヘイ、ビョウ",
+    "example": "平日の朝は忙しい。"
+  },
+  {
+    "kanji": "加",
+    "kana": "か",
+    "meaning": "add, addition, increase, join",
+    "kun": "くわ(える)",
+    "on": "カ",
+    "example": "会議に参加する。"
+  },
+  {
+    "kanji": "受",
+    "kana": "じゅ",
+    "meaning": "accept, undergo, answer, take",
+    "kun": "う(ける)",
+    "on": "ジュ",
+    "example": "試験を受ける。"
+  },
+  {
+    "kanji": "続",
+    "kana": "ぞく",
+    "meaning": "continue, series, sequel",
+    "kun": "つづ(く)",
+    "on": "ゾク",
+    "example": "勉強を続ける。"
+  },
+  {
+    "kanji": "進",
+    "kana": "しん",
+    "meaning": "advance, proceed, progress",
+    "kun": "すす(む)",
+    "on": "シン",
+    "example": "技術が進歩している。"
+  },
+  {
+    "kanji": "数",
+    "kana": "すう",
+    "meaning": "number, strength, fate, figures",
+    "kun": "かず、かぞ(える)",
+    "on": "スウ",
+    "example": "数学の問題を解く。"
+  },
+  {
+    "kanji": "記",
+    "kana": "き",
+    "meaning": "scribe, account, narrative, record",
+    "kun": "しる(す)",
+    "on": "キ",
+    "example": "日記を書く習慣。"
+  },
+  {
+    "kanji": "初",
+    "kana": "しょ",
+    "meaning": "first time, beginning",
+    "kun": "はじ(め)、はつ",
+    "on": "ショ",
+    "example": "初めて日本へ行く。"
+  },
+  {
+    "kanji": "指",
+    "kana": "し",
+    "meaning": "finger, point to, indicate",
+    "kun": "ゆび、さ(す)",
+    "on": "シ",
+    "example": "犯人を指さす。"
+  },
+  {
+    "kanji": "権",
+    "kana": "けん",
+    "meaning": "authority, power, rights",
+    "kun": "",
+    "on": "ケン",
+    "example": "人権を尊重する。"
+  },
+  {
+    "kanji": "支",
+    "kana": "し",
+    "meaning": "branch, support, sustain",
+    "kun": "ささ(える)",
+    "on": "シ",
+    "example": "家族が私を支えている。"
+  },
+  {
+    "kanji": "産",
+    "kana": "さん",
+    "meaning": "products, bear, give birth",
+    "kun": "う(む)、む(す)",
+    "on": "サン",
+    "example": "日本の産業について学ぶ。"
+  },
+  {
+    "kanji": "点",
+    "kana": "てん",
+    "meaning": "spot, point, mark",
+    "kun": "つ(ける)",
+    "on": "テン",
+    "example": "テストで百点を取った。"
+  },
+  {
+    "kanji": "報",
+    "kana": "ほう",
+    "meaning": "report, news, reward",
+    "kun": "むく(いる)",
+    "on": "ホウ",
+    "example": "天気予報を見る。"
+  },
+  {
+    "kanji": "済",
+    "kana": "さい",
+    "meaning": "settle, relieve, finish",
+    "kun": "す(む)",
+    "on": "サイ、セイ",
+    "example": "経済のニュースをチェックする。"
+  },
+  {
+    "kanji": "活",
+    "kana": "かつ",
+    "meaning": "living, active",
+    "kun": "",
+    "on": "カツ",
+    "example": "活動的な一日を過ごす。"
+  },
+  {
+    "kanji": "原",
+    "kana": "げん",
+    "meaning": "original, primitive, field",
+    "kun": "はら",
+    "on": "ゲン",
+    "example": "原因を調査する。"
+  },
+  {
+    "kanji": "共",
+    "kana": "きょう",
+    "meaning": "together, both, neither",
+    "kun": "とも",
+    "on": "キョウ",
+    "example": "共通の趣味を持つ。"
+  },
+  {
+    "kanji": "得",
+    "kana": "とく",
+    "meaning": "gain, get, acquire, able to",
+    "kun": "え(る)",
+    "on": "トク",
+    "example": "許可を得る。"
+  },
+  {
+    "kanji": "解",
+    "kana": "かい",
+    "meaning": "unravel, explanation, solve",
+    "kun": "と(く)、ほど(く)",
+    "on": "カイ、ゲ",
+    "example": "問題を解決する。"
+  },
+  {
+    "kanji": "交",
+    "kana": "こう",
+    "meaning": "mingle, mixing, association",
+    "kun": "まじ(わる)、ま(ぜる)",
+    "on": "コウ",
+    "example": "交通ルールを守る。"
+  },
+  {
+    "kanji": "資",
+    "kana": "し",
+    "meaning": "assets, resources, capital, data",
+    "kun": "",
+    "on": "シ",
+    "example": "資料を集める。"
+  },
+  {
+    "kanji": "予",
+    "kana": "よ",
+    "meaning": "beforehand, previous, myself",
+    "kun": "あらかじ(め)",
+    "on": "ヨ、シャ",
+    "example": "予約をお願いします。"
+  },
+  {
+    "kanji": "向",
+    "kana": "こう",
+    "meaning": "facing, beyond, toward",
+    "kun": "mu(ku), muka(i)",
+    "on": "コウ",
+    "example": "方向を間違えた。"
+  },
+  {
+    "kanji": "際",
+    "kana": "さい",
+    "meaning": "occasion, time, edge",
+    "kun": "きわ",
+    "on": "サイ",
+    "example": "国際会議が開かれる。"
+  },
+  {
+    "kanji": "勝",
+    "kana": "しょう",
+    "meaning": "victory, win, prevail",
+    "kun": "か(tsu), masa(ru)",
+    "on": "ショウ",
+    "example": "試合に勝つ。"
+  },
+  {
+    "kanji": "面",
+    "kana": "めん",
+    "meaning": "mask, face, surface, aspect",
+    "kun": "おも、おもて、つら",
+    "on": "メン",
+    "example": "面接の練習をする。"
+  },
+  {
+    "kanji": "告",
+    "kana": "こく",
+    "meaning": "revelation, inform, announce",
+    "kun": "つ(げる)",
+    "on": "コク",
+    "example": "広告を見る。"
+  },
+  {
+    "kanji": "反",
+    "kana": "はん",
+    "meaning": "anti-, opposite, reverse",
+    "kun": "そ(る)",
+    "on": "ハン",
+    "example": "反対方向の電車に乗った。"
+  },
+  {
+    "kanji": "判",
+    "kana": "はん",
+    "meaning": "judgement, signature, stamp",
+    "kun": "",
+    "on": "ハン",
+    "example": "判断に迷う。"
+  },
+  {
+    "kanji": "認",
+    "kana": "にん",
+    "meaning": "acknowledge, witness, recognize",
+    "kun": "mito(meru)",
+    "on": "ニン",
+    "example": "自分の間違いを認める。"
+  },
+  {
+    "kanji": "参",
+    "kana": "さん",
+    "meaning": "going, coming, participate",
+    "kun": "まい(る)",
+    "on": "サン",
+    "example": "参考書を買う。"
+  },
+  {
+    "kanji": "利",
+    "kana": "り",
+    "meaning": "profit, advantage, benefit",
+    "kun": "ki(ku)",
+    "on": "リ",
+    "example": "便利な生活。"
+  },
+  {
+    "kanji": "組",
+    "kana": "そ",
+    "meaning": "association, assemble, unite",
+    "kun": "く(む)、くみ",
+    "on": "ソ",
+    "example": "番組を見る。"
+  },
+  {
+    "kanji": "信",
+    "kana": "しん",
+    "meaning": "faith, truth, trust, message",
+    "kun": "",
+    "on": "シン",
+    "example": "自信を持って話す。"
+  },
+  {
+    "kanji": "在",
+    "kana": "ざい",
+    "meaning": "exist, outskirts, residing",
+    "kun": "a(る)",
+    "on": "ザイ",
+    "example": "現在は日本に住んでいる。"
+  },
+  {
+    "kanji": "件",
+    "kana": "けん",
+    "meaning": "affair, case, matter, item",
+    "kun": "くだん",
+    "on": "ケン",
+    "example": "用件を伝える。"
+  },
+  {
+    "kanji": "側",
+    "kana": "そく",
+    "meaning": "side, lean, oppose",
+    "kun": "がわ、そば",
+    "on": "ソク",
+    "example": "右側のドアが開きます。"
+  },
+  {
+    "kanji": "任",
+    "kana": "にん",
+    "meaning": "responsibility, duty, entrust",
+    "kun": "maka(seru)",
+    "on": "ニン",
+    "example": "彼に仕事を任せる。"
+  },
+  {
+    "kanji": "引",
+    "kana": "いん",
+    "meaning": "pull, tug, jerk, quote",
+    "kun": "ひ(く)",
+    "on": "イン",
+    "example": "辞書を引く。"
+  },
+  {
+    "kanji": "求",
+    "kana": "きゅう",
+    "meaning": "request, want, demand",
+    "kun": "もと(める)",
+    "on": "キュウ",
+    "example": "助けを求める。"
+  },
+  {
+    "kanji": "所",
+    "kana": "しょ",
+    "meaning": "place, extent, spot",
+    "kun": "ところ",
+    "on": "ショ",
+    "example": "近所の公園へ行く。"
+  },
+  {
+    "kanji": "次",
+    "kana": "じ",
+    "meaning": "next, order, sequence",
+    "kun": "つ(ぐ)、つぎ",
+    "on": "ジ、シ",
+    "example": "次は私の番です。"
+  },
+  {
+    "kanji": "昨",
+    "kana": "さく",
+    "meaning": "yesterday, previous",
+    "kun": "",
+    "on": "サク",
+    "example": "昨日の夜は雨だった。"
+  },
+  {
+    "kanji": "論",
+    "kana": "ろん",
+    "meaning": "argument, discourse, theory",
+    "kun": "あげつら(う)",
+    "on": "ロン",
+    "example": "論文を書く。"
+  },
+  {
+    "kanji": "官",
+    "kana": "かん",
+    "meaning": "bureaucrat, government, organ",
+    "kun": "",
+    "on": "カン",
+    "example": "警官に道を尋ねる。"
+  },
+  {
+    "kanji": "増",
+    "kana": "ぞう",
+    "meaning": "increase, add, augment",
+    "kun": "ま(す)、ふ(える)",
+    "on": "ゾウ",
+    "example": "人口が増えている。"
+  },
+  {
+    "kanji": "係",
+    "kana": "けい",
+    "meaning": "person in charge, connection",
+    "kun": "かか(る)、かかり",
+    "on": "ケイ",
+    "example": "係の人に聞いてください。"
+  },
+  {
+    "kanji": "感",
+    "kana": "かん",
+    "meaning": "emotion, feeling, sensation",
+    "kun": "",
+    "on": "カン",
+    "example": "感動して涙が出た。"
+  },
+  {
+    "kanji": "情",
+    "kana": "じょう",
+    "meaning": "feelings, emotion, passion, facts",
+    "kun": "なさ(け)",
+    "on": "ジョウ、セイ",
+    "example": "最新の情報を得る。"
+  },
+  {
+    "kanji": "投",
+    "kana": "とう",
+    "meaning": "throw, discard, invest",
+    "kun": "な(げる)",
+    "on": "トウ",
+    "example": "ボールを投げる。"
+  },
+  {
+    "kanji": "示",
+    "kana": "じ",
+    "meaning": "show, indicate, display",
+    "kun": "しめ(す)",
+    "on": "ジ、シ",
+    "example": "指示に従う。"
+  },
+  {
+    "kanji": "変",
+    "kana": "へん",
+    "meaning": "unusual, change, strange",
+    "kun": "か(わる)",
+    "on": "ヘン",
+    "example": "予定が変更になった。"
+  },
+  {
+    "kanji": "打",
+    "kana": "だ",
+    "meaning": "strike, hit, knock",
+    "kun": "う(つ)、ぶ(つ)",
+    "on": "ダ",
+    "example": "釘を打つ。"
+  },
+  {
+    "kanji": "直",
+    "kana": "ちょく",
+    "meaning": "straightaway, fix, repair, honesty",
+    "kun": "ただ(ちに)、す(ぐ)",
+    "on": "チョク、ジキ",
+    "example": "間違いを直す。"
+  },
+  {
+    "kanji": "両",
+    "kana": "りょう",
+    "meaning": "both, counter for vehicles",
+    "kun": "",
+    "on": "リョウ",
+    "example": "両親に感謝する。"
+  },
+  {
+    "kanji": "式",
+    "kana": "しき",
+    "meaning": "style, ceremony, formula, rite",
+    "kun": "",
+    "on": "シキ",
+    "example": "結婚式に出席する。"
+  },
+  {
+    "kanji": "確",
+    "kana": "かく",
+    "meaning": "assurance, firm, confirm, certain",
+    "kun": "たし(か)",
+    "on": "カク",
+    "example": "事実を確認する。"
+  },
+  {
+    "kanji": "果",
+    "kana": "か",
+    "meaning": "fruit, reward, achieve, complete",
+    "kun": "は(たす)",
+    "on": "カ",
+    "example": "努力の結果が出た。"
+  }
+]

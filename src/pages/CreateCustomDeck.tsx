@@ -282,7 +282,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
       </div>
       <div style={{ display: 'flex', gap: '12px', justifyContent: 'flex-end' }}>
         <button 
-          className="secondary-btn" 
+          className="secondary-btn cancel-word-btn" 
           onClick={() => {
             setEditingCardId(null);
             setIsAddingNew(false);
@@ -517,7 +517,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
             <h3 style={{ color: '#060543', margin: 0 }}>Flashcards ({selectedWords.length})</h3>
             {!isAddingNew && !editingCardId && (
               <button 
-                className="primary-btn" 
+                className="primary-btn add-word-btn" 
                 onClick={() => {
                   setIsAddingNew(true);
                   setCardFormData({ kanji: '', kana: '', meaning: '', example: '' });
@@ -527,10 +527,22 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
                   fontSize: '14px',
                   display: 'flex',
                   alignItems: 'center',
-                  gap: '8px'
+                  gap: '8px',
+                  backgroundColor: '#fcfcfc',
+                  border: '1px solid #5856eb',
+                  color: '#5856eb',
+                  borderRadius: '18px'
                 }}
               >
-                <img src={plusIcon} alt="" style={{ width: '18px', height: '18px', filter: 'brightness(0) invert(1)' }} />
+                <img 
+                  src={plusIcon} 
+                  alt="" 
+                  style={{ 
+                    width: '18px', 
+                    height: '18px', 
+                    filter: 'brightness(0) saturate(100%) invert(32%) sepia(94%) saturate(4529%) hue-rotate(236deg) brightness(97%) contrast(93%)' // #5856eb
+                  }} 
+                />
                 Add card
               </button>
             )}

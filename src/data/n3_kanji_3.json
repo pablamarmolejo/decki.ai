@@ -1,0 +1,802 @@
+[
+  {
+    "kanji": "値",
+    "kana": "ね / あたい",
+    "meaning": "price, cost, value",
+    "kun": "ね、 あたい",
+    "on": "チ",
+    "example": "最近、野菜の値段が上がっている。"
+  },
+  {
+    "kanji": "突",
+    "kana": "つ(く)",
+    "meaning": "stab, protruding, thrust",
+    "kun": "つ(く)",
+    "on": "トツ、カ",
+    "example": "突然、雨が降り出した。"
+  },
+  {
+    "kanji": "光",
+    "kana": "ひかり / ひか(る)",
+    "meaning": "ray, light, shine",
+    "kun": "ひか(る)、ひかり",
+    "on": "コウ",
+    "example": "窓から日光が入ってくる。"
+  },
+  {
+    "kanji": "路",
+    "kana": "みち",
+    "meaning": "path, route, road",
+    "kun": "みち",
+    "on": "ロ、ル",
+    "example": "この道路はいつも混んでいる。"
+  },
+  {
+    "kanji": "科",
+    "kana": "か",
+    "meaning": "department, course, section",
+    "kun": "",
+    "on": "カ",
+    "example": "教科書を開いてください。"
+  },
+  {
+    "kanji": "積",
+    "kana": "つ(む)",
+    "meaning": "volume, contents, pile up",
+    "kun": "つ(む)",
+    "on": "セキ",
+    "example": "雪が屋根に積もっている。"
+  },
+  {
+    "kanji": "他",
+    "kana": "ほか",
+    "meaning": "other, another",
+    "kun": "ほか",
+    "on": "タ",
+    "example": "他人と比較してはいけない。"
+  },
+  {
+    "kanji": "処",
+    "kana": "しょ",
+    "meaning": "dispose, manage, deal with",
+    "kun": "",
+    "on": "ショ",
+    "example": "ゴミを適切に処理する。"
+  },
+  {
+    "kanji": "太",
+    "kana": "ふと(い)",
+    "meaning": "plump, thick, big around",
+    "kun": "ふと(い)",
+    "on": "タイ、タ",
+    "example": "もっと太いマジックが必要だ。"
+  },
+  {
+    "kanji": "客",
+    "kana": "きゃく",
+    "meaning": "guest, visitor, customer",
+    "kun": "",
+    "on": "キャク、カク",
+    "example": "お客様を玄関で迎える。"
+  },
+  {
+    "kanji": "否",
+    "kana": "いな / いや",
+    "meaning": "negate, no, decline",
+    "kun": "いな、いや",
+    "on": "ヒ",
+    "example": "その提案を否定した。"
+  },
+  {
+    "kanji": "師",
+    "kana": "し",
+    "meaning": "expert, teacher, master",
+    "kun": "",
+    "on": "シ",
+    "example": "彼は私の恩師です。"
+  },
+  {
+    "kanji": "登",
+    "kana": "のぼ(る)",
+    "meaning": "ascend, climb up",
+    "kun": "のぼ(る)、あ(がる)",
+    "on": "トウ、ト",
+    "example": "来週、富士山に登る予定だ。"
+  },
+  {
+    "kanji": "易",
+    "kana": "やさ(しい)",
+    "meaning": "easy, ready to, simple",
+    "kun": "やさ(しい)、 やす(i)",
+    "on": "エキ、 イ",
+    "example": "貿易の仕事に興味がある。"
+  },
+  {
+    "kanji": "速",
+    "kana": "はや(い)",
+    "meaning": "quick, fast",
+    "kun": "はや(い)",
+    "on": "ソク",
+    "example": "速達で手紙を送る。"
+  },
+  {
+    "kanji": "存",
+    "kana": "そん / ぞん",
+    "meaning": "exist, be aware of",
+    "kun": "",
+    "on": "ソン、ゾン",
+    "example": "ご存知の通り、状況は厳しい。"
+  },
+  {
+    "kanji": "飛",
+    "kana": "と(ぶ)",
+    "meaning": "fly, hop",
+    "kun": "と(ぶ)",
+    "on": "ヒ",
+    "example": "飛行機で北海道へ行く。"
+  },
+  {
+    "kanji": "殺",
+    "kana": "ころ(す)",
+    "meaning": "kill, murder",
+    "kun": "ころ(す)",
+    "on": "サツ、サイ",
+    "example": "彼は殺人事件の容疑者だ。"
+  },
+  {
+    "kanji": "号",
+    "kana": "ごう",
+    "meaning": "number, item",
+    "kun": "",
+    "on": "ゴウ",
+    "example": "信号が赤に変わった。"
+  },
+  {
+    "kanji": "単",
+    "kana": "たん",
+    "meaning": "simple, single",
+    "kun": "ひとえ",
+    "on": "タン",
+    "example": "英単語を毎日覚える。"
+  },
+  {
+    "kanji": "座",
+    "kana": "すわ(る)",
+    "meaning": "squat, seat, sit",
+    "kun": "すわ(る)",
+    "on": "ザ",
+    "example": "空いている座席を探す。"
+  },
+  {
+    "kanji": "破",
+    "kana": "やぶ(る)",
+    "meaning": "rip, tear, break",
+    "kun": "やぶ(る)",
+    "on": "ハ",
+    "example": "約束を破ってはいけない。"
+  },
+  {
+    "kanji": "除",
+    "kana": "のぞ(く)",
+    "meaning": "exclude, remove",
+    "kun": "のぞ(く)",
+    "on": "ジョ、ジ",
+    "example": "掃除機をかけて部屋を綺麗にする。"
+  },
+  {
+    "kanji": "完",
+    "kana": "かん",
+    "meaning": "perfect, completion",
+    "kun": "",
+    "on": "カン",
+    "example": "ついに工事が完了した。"
+  },
+  {
+    "kanji": "降",
+    "kana": "お(りる) / ふ(る)",
+    "meaning": "descend, fall, surrender",
+    "kun": "お(りる)、 ふ(る)",
+    "on": "コウ、 ゴ",
+    "example": "次の駅で降ります。"
+  },
+  {
+    "kanji": "責",
+    "kana": "せ(める)",
+    "meaning": "blame, condemn, responsibility",
+    "kun": "せ(める)",
+    "on": "セキ",
+    "example": "自分の責任を果たす。"
+  },
+  {
+    "kanji": "捕",
+    "kana": "と(らえる)",
+    "meaning": "catch, capture",
+    "kun": "と(らえる)、つか(まえる)",
+    "on": "ホ",
+    "example": "犯人が警察に捕まった。"
+  },
+  {
+    "kanji": "危",
+    "kana": "あぶ(ない)",
+    "meaning": "dangerous, fear, uneasy",
+    "kun": "あぶ(ない)、あや(うい)",
+    "on": "キ",
+    "example": "危険な場所には近づかない。"
+  },
+  {
+    "kanji": "給",
+    "kana": "きゅう",
+    "meaning": "salary, wage, gift",
+    "kun": "たま(う)、たも(う)",
+    "on": "キュウ",
+    "example": "今月は給料が上がった。"
+  },
+  {
+    "kanji": "苦",
+    "kana": "くる(しい) / にが(い)",
+    "meaning": "suffering, bitter, pain",
+    "kun": "くる(しい)、にが(い)",
+    "on": "ク",
+    "example": "苦しい練習に耐える。"
+  },
+  {
+    "kanji": "迎",
+    "kana": "むか(える)",
+    "meaning": "welcome, meet, greet",
+    "kun": "むか(える)",
+    "on": "ゲイ",
+    "example": "空港で友人を迎える。"
+  },
+  {
+    "kanji": "園",
+    "kana": "その",
+    "meaning": "park, garden, yard",
+    "kun": "その",
+    "on": "エン",
+    "example": "公園で散歩をする。"
+  },
+  {
+    "kanji": "具",
+    "kana": "ぐ",
+    "meaning": "tool, utensil",
+    "kun": "そな(える)、つぶさ(に)",
+    "on": "グ",
+    "example": "家具を新しく買い替える。"
+  },
+  {
+    "kanji": "辞",
+    "kana": "じ",
+    "meaning": "resign, word, term",
+    "kun": "ya(meru)や(める)",
+    "on": "ジ",
+    "example": "電子辞書を使って調べる。"
+  },
+  {
+    "kanji": "因",
+    "kana": "いん",
+    "meaning": "cause, factor, depend on",
+    "kun": "よ(る)、ちな(む)",
+    "on": "イン",
+    "example": "失敗の原因を考える。"
+  },
+  {
+    "kanji": "馬",
+    "kana": "うま",
+    "meaning": "horse",
+    "kun": "うま",
+    "on": "バ",
+    "example": "馬に乗る練習をする。"
+  },
+  {
+    "kanji": "愛",
+    "kana": "あい",
+    "meaning": "love, affection",
+    "kun": "いと(しい)、まな",
+    "on": "アイ",
+    "example": "愛情を込めて育てる。"
+  },
+  {
+    "kanji": "富",
+    "kana": "とみ",
+    "meaning": "wealth, enrich, abundant",
+    "kun": "と(む)、 とみ",
+    "on": "フ、フウ",
+    "example": "富士山は日本で一番高い。"
+  },
+  {
+    "kanji": "彼",
+    "kana": "かれ",
+    "meaning": "he, him, boyfriend",
+    "kun": "かれ、 かの",
+    "on": "ヒ",
+    "example": "彼は私の親友です。"
+  },
+  {
+    "kanji": "未",
+    "kana": "み",
+    "meaning": "un-, not yet",
+    "kun": "いま(だ)、ま(だ)",
+    "on": "ミ、ビ",
+    "example": "未来の夢を語り合う。"
+  },
+  {
+    "kanji": "舞",
+    "kana": "まい / ま(う)",
+    "meaning": "dance, circle",
+    "kun": "ま(う)、まい",
+    "on": "ブ",
+    "example": "舞台の上で踊る。"
+  },
+  {
+    "kanji": "亡",
+    "kana": "な(くなる)",
+    "meaning": "deceased, dying",
+    "kun": "な(くなる)",
+    "on": "ボウ、モウ",
+    "example": "彼は去年亡くなった。"
+  },
+  {
+    "kanji": "冷",
+    "kana": "つめ(たい) / ひ(える)",
+    "meaning": "cool, cold, chill",
+    "kun": "つめ(たい)、ひ(える)、さ(める)",
+    "on": "レイ",
+    "example": "冷たい飲み物が欲しい。"
+  },
+  {
+    "kanji": "適",
+    "kana": "てき",
+    "meaning": "suitable, occasional, rare",
+    "kun": "kana(u)かな(う)",
+    "on": "テキ",
+    "example": "自分に適切な仕事を選ぶ。"
+  },
+  {
+    "kanji": "婦",
+    "kana": "ふ",
+    "meaning": "lady, woman, wife",
+    "kun": "yomeよめ",
+    "on": "フ",
+    "example": "主婦として家事をこなす。"
+  },
+  {
+    "kanji": "寄",
+    "kana": "よ(る)",
+    "meaning": "draw near, gather",
+    "kun": "よ(る)",
+    "on": "キ",
+    "example": "帰りにコンビニに寄る。"
+  },
+  {
+    "kanji": "込",
+    "kana": "こ(む)",
+    "meaning": "crowded, mixture",
+    "kun": "こ(む)",
+    "on": "",
+    "example": "このバスはとても込んでいる。"
+  },
+  {
+    "kanji": "顔",
+    "kana": "かお",
+    "meaning": "face, expression",
+    "kun": "かお",
+    "on": "ガン",
+    "example": "洗顔フォームを買う。"
+  },
+  {
+    "kanji": "類",
+    "kana": "るい",
+    "meaning": "sort, kind, variety",
+    "kun": "tagu(i)たぐ(い)",
+    "on": "ルイ",
+    "example": "書類を整理する。"
+  },
+  {
+    "kanji": "余",
+    "kana": "あま(る)",
+    "meaning": "too much, surplus",
+    "kun": "あま(る)",
+    "on": "ヨ",
+    "example": "時間が余ったら休憩しよう。"
+  },
+  {
+    "kanji": "王",
+    "kana": "おう",
+    "meaning": "king, rule",
+    "kun": "",
+    "on": "オウ",
+    "example": "王様の命令は絶対だ。"
+  },
+  {
+    "kanji": "返",
+    "kana": "かえ(す)",
+    "meaning": "return, answer",
+    "kun": "かえ(す)",
+    "on": "ヘン",
+    "example": "借りた本を返す。"
+  },
+  {
+    "kanji": "妻",
+    "kana": "つま",
+    "meaning": "wife, spouse",
+    "kun": "つま",
+    "on": "サイ",
+    "example": "妻と一緒に買い物に行く。"
+  },
+  {
+    "kanji": "背",
+    "kana": "せ / せい",
+    "meaning": "stature, height, back",
+    "kun": "せ、せい",
+    "on": "ハイ",
+    "example": "彼は背が高い。"
+  },
+  {
+    "kanji": "熱",
+    "kana": "ねつ / あつ(い)",
+    "meaning": "heat, fever, passion",
+    "kun": "あつ(い)",
+    "on": "ネツ",
+    "example": "風邪をひいて熱がある。"
+  },
+  {
+    "kanji": "宿",
+    "kana": "やど",
+    "meaning": "inn, lodging, home",
+    "kun": "やど",
+    "on": "シュク",
+    "example": "宿題を忘れてしまった。"
+  },
+  {
+    "kanji": "薬",
+    "kana": "くすり",
+    "meaning": "medicine, chemical",
+    "kun": "くすり",
+    "on": "ヤク",
+    "example": "食後に薬を飲む。"
+  },
+  {
+    "kanji": "険",
+    "kana": "けわ(しい)",
+    "meaning": "precipitous, inaccessible, sharp",
+    "kun": "けわ(しい)",
+    "on": "ケン",
+    "example": "険しい道を登り続ける。"
+  },
+  {
+    "kanji": "頼",
+    "kana": "たの(む)",
+    "meaning": "trust, request, rely",
+    "kun": "tano(mu), tayo(ru)たの(む)、 たよ(る)",
+    "on": "ライ",
+    "example": "信頼できる友人だ。"
+  },
+  {
+    "kanji": "覚",
+    "kana": "おぼ(える)",
+    "meaning": "memorize, learn, remember",
+    "kun": "obo(eru), sa(masu)おぼ(える)、 さ(ます)",
+    "on": "カク",
+    "example": "昨日のことは覚えていない。"
+  },
+  {
+    "kanji": "船",
+    "kana": "ふね",
+    "meaning": "ship, boat",
+    "kun": "ふね、ふな",
+    "on": "セン",
+    "example": "船で世界一周をする。"
+  },
+  {
+    "kanji": "途",
+    "kana": "と",
+    "meaning": "route, way, road",
+    "kun": "michiみち",
+    "on": "ト",
+    "example": "帰る途中で雨が降った。"
+  },
+  {
+    "kanji": "許",
+    "kana": "ゆる(す)",
+    "meaning": "permit, approve",
+    "kun": "ゆる(す)",
+    "on": "キョ",
+    "example": "許可証を提示する。"
+  },
+  {
+    "kanji": "抜",
+    "kana": "ぬ(く)",
+    "meaning": "slip out, extract, remove",
+    "kun": "nu(ku)ぬ(く)",
+    "on": "バツ",
+    "example": "ワインの栓を抜く。"
+  },
+  {
+    "kanji": "便",
+    "kana": "べん / びん",
+    "meaning": "convenience, facility, mail",
+    "kun": "tayo(ri)たよ(り)",
+    "on": "ベン、 ビン",
+    "example": "駅の近くは便利だ。"
+  },
+  {
+    "kanji": "留",
+    "kana": "と(まる)",
+    "meaning": "detain, fasten, stop",
+    "kun": "と(まる)、 todo(meru)と(まる)、 とど(める)",
+    "on": "リュウ、 ル",
+    "example": "日本に留学する。"
+  },
+  {
+    "kanji": "罪",
+    "kana": "つみ",
+    "meaning": "guilt, sin, crime",
+    "kun": "つみ",
+    "on": "ザイ",
+    "example": "彼は無実の罪を着せられた。"
+  },
+  {
+    "kanji": "努",
+    "kana": "ど",
+    "meaning": "toil, diligent",
+    "kun": "tsuto(meru)つと(める)",
+    "on": "ド",
+    "example": "合格を目指して努力する。"
+  },
+  {
+    "kanji": "精",
+    "kana": "せい",
+    "meaning": "refined, energy, spirit",
+    "kun": "shira(geru)しら(げる)",
+    "on": "セイ、ショウ",
+    "example": "精一杯頑張ります。"
+  },
+  {
+    "kanji": "散",
+    "kana": "ち(る)",
+    "meaning": "scatter, disperse",
+    "kun": "ち(る)、ばら(ける)",
+    "on": "サン",
+    "example": "桜の花が散っている。"
+  },
+  {
+    "kanji": "静",
+    "kana": "しず(か)",
+    "meaning": "quiet, peaceful",
+    "kun": "しず(か)",
+    "on": "セイ、ジョウ",
+    "example": "静かな場所で本を読む。"
+  },
+  {
+    "kanji": "婚",
+    "kana": "こん",
+    "meaning": "marriage",
+    "kun": "",
+    "on": "コン",
+    "example": "結婚式に招待された。"
+  },
+  {
+    "kanji": "喜",
+    "kana": "よろこ(ぶ)",
+    "meaning": "rejoice, take pleasure in",
+    "kun": "よろこ(ぶ)",
+    "on": "キ",
+    "example": "プレゼントを喜んでくれた。"
+  },
+  {
+    "kanji": "浮",
+    "kana": "う(かぶ)",
+    "meaning": "float, rise to surface",
+    "kun": "う(かぶ)",
+    "on": "フ",
+    "example": "いいアイデアが浮かんだ。"
+  },
+  {
+    "kanji": "絶",
+    "kana": "ぜつ",
+    "meaning": "discontinue, unparalleled, absolute",
+    "kun": "ta(eru)た(える)",
+    "on": "ゼツ",
+    "example": "絶対に諦めない。"
+  },
+  {
+    "kanji": "幸",
+    "kana": "しあわ(せ) / さいわ(い)",
+    "meaning": "happiness, blessing, fortune",
+    "kun": "さいわ(い)、さち、 しあわ(せ)",
+    "on": "コウ",
+    "example": "幸せな家庭を築く。"
+  },
+  {
+    "kanji": "押",
+    "kana": "お(す)",
+    "meaning": "push, seal",
+    "kun": "お(す)",
+    "on": "オウ",
+    "example": "ボタンを押してください。"
+  },
+  {
+    "kanji": "倒",
+    "kana": "たお(れる)",
+    "meaning": "fall, collapse, overthrow",
+    "kun": "たお(れる)",
+    "on": "トウ",
+    "example": "強風で木が倒れた。"
+  },
+  {
+    "kanji": "等",
+    "kana": "ひと(しい) / など",
+    "meaning": "etc., equality, same",
+    "kun": "ひと(しい)、など",
+    "on": "トウ",
+    "example": "一等賞をもらった。"
+  },
+  {
+    "kanji": "老",
+    "kana": "お(いる) / ふ(ける)",
+    "meaning": "old, elderly",
+    "kun": "お(いる)、ふ(ける)",
+    "on": "ロウ",
+    "example": "老人を大切にする。"
+  },
+  {
+    "kanji": "曲",
+    "kana": "きょく / ま(がる)",
+    "meaning": "bend, music, melody",
+    "kun": "ま(がる)",
+    "on": "キョク",
+    "example": "好きな曲を聴く。"
+  },
+  {
+    "kanji": "払",
+    "kana": "はら(う)",
+    "meaning": "pay, brush off",
+    "kun": "はら(u)",
+    "on": "",
+    "example": "レジで代金を払う。"
+  },
+  {
+    "kanji": "庭",
+    "kana": "にわ",
+    "meaning": "courtyard, garden, yard",
+    "kun": "niwaにわ",
+    "on": "テイ",
+    "example": "庭で花を育てる。"
+  },
+  {
+    "kanji": "徒",
+    "kana": "と",
+    "meaning": "junior, follower, futility",
+    "kun": "いたずら、 あだ",
+    "on": "ト",
+    "example": "彼はその学校の生徒だ。"
+  },
+  {
+    "kanji": "勤",
+    "kana": "つと(める)",
+    "meaning": "diligence, serve, work",
+    "kun": "つと(める)",
+    "on": "キン、ゴン",
+    "example": "市役所に勤務している。"
+  },
+  {
+    "kanji": "遅",
+    "kana": "おそ(い) / おく(れる)",
+    "meaning": "slow, late",
+    "kun": "おく(れる)、 おそ(い)",
+    "on": "チ",
+    "example": "電車が10分遅れた。"
+  },
+  {
+    "kanji": "居",
+    "kana": "い(る)",
+    "meaning": "reside, to be, exist",
+    "kun": "い(る)、お(る)",
+    "on": "キョ、コ",
+    "example": "居間でテレビを見る。"
+  },
+  {
+    "kanji": "雑",
+    "kana": "ざつ",
+    "meaning": "miscellaneous, messy",
+    "kun": "maji(ru)まじ(る)",
+    "on": "ザツ、ゾウ",
+    "example": "雑誌を読むのが趣味だ。"
+  },
+  {
+    "kanji": "招",
+    "kana": "まね(く)",
+    "meaning": "invite, summon, engage",
+    "kun": "まね(く)",
+    "on": "ショウ",
+    "example": "誕生日会に招かれた。"
+  },
+  {
+    "kanji": "困",
+    "kana": "こま(る)",
+    "meaning": "quandary, distressed",
+    "kun": "こま(る)",
+    "on": "コン",
+    "example": "道に迷って困っている。"
+  },
+  {
+    "kanji": "欠",
+    "kana": "か(ける)",
+    "meaning": "lack, gap, deficiency",
+    "kun": "か(ける)",
+    "on": "ケツ、ケン",
+    "example": "会議を欠席する。"
+  },
+  {
+    "kanji": "更",
+    "kana": "さら(に)",
+    "meaning": "renew, renovate, again",
+    "kun": "さら(に)、ふ(ける)",
+    "on": "コウ",
+    "example": "深夜更けまで勉強した。"
+  },
+  {
+    "kanji": "刻",
+    "kana": "きざ(む)",
+    "meaning": "engrave, cut fine, chop",
+    "kun": "きざ(む)",
+    "on": "コク",
+    "example": "時刻を確認する。"
+  },
+  {
+    "kanji": "賛",
+    "kana": "さん",
+    "meaning": "approve, praise",
+    "kun": "",
+    "on": "サン",
+    "example": "その意見に賛成だ。"
+  },
+  {
+    "kanji": "抱",
+    "kana": "だ(く) / かか(える)",
+    "meaning": "embrace, hug, hold",
+    "kun": "だ(く)、いだ(く)、かか(える)",
+    "on": "ホウ",
+    "example": "大きな荷物を抱える。"
+  },
+  {
+    "kanji": "犯",
+    "kana": "おか(す)",
+    "meaning": "crime, sin, offense",
+    "kun": "おか(す)",
+    "on": "ハン",
+    "example": "犯罪を防ぐ対策をする。"
+  },
+  {
+    "kanji": "恐",
+    "kana": "おそ(れる) / こわ(い)",
+    "meaning": "fear, dread",
+    "kun": "おそ(れる)、こわ(い)",
+    "on": "キョウ",
+    "example": "失敗を恐れてはいけない。"
+  },
+  {
+    "kanji": "息",
+    "kana": "いき",
+    "meaning": "breath, son, interest",
+    "kun": "ikiいき",
+    "on": "ムス、ソク",
+    "example": "ため息をつく。"
+  },
+  {
+    "kanji": "遠",
+    "kana": "とお(い)",
+    "meaning": "distant, far",
+    "kun": "too(i)とお(い)",
+    "on": "エン、オン",
+    "example": "遠足を楽しみにしている。"
+  },
+  {
+    "kanji": "戻",
+    "kana": "もど(る)",
+    "meaning": "return, revert, go back",
+    "kun": "modo(ru)もど(る)",
+    "on": "レイ",
+    "example": "すぐに戻ります。"
+  }
+]
