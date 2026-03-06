@@ -1340,7 +1340,47 @@ input:checked + .slider:before {
   transition: all 0.2s;
 }
 
-.submit-btn:hover { background-color: #0a095a; }
+.submit-btn:hover { 
+  background-color: #0a095a; 
+  transform: translateY(-1px);
+}
+
+.congrats-mastery-btn {
+  background-color: #060543;
+  transition: all 0.2s;
+}
+
+.congrats-mastery-btn:hover {
+  background-color: #0a095a;
+  transform: translateY(-1px);
+}
+
+.modal-primary-btn {
+  transition: all 0.2s;
+}
+
+.modal-primary-btn:hover {
+  background-color: #0a095a !important;
+  transform: translateY(-1px);
+}
+
+.modal-secondary-btn {
+  transition: all 0.2s;
+}
+
+.modal-secondary-btn:hover {
+  background-color: #EDEDF0 !important;
+  transform: translateY(-1px);
+}
+
+.add-word-btn {
+  transition: all 0.2s;
+}
+
+.add-word-btn:hover {
+  background-color: #F4F4F7 !important;
+  transform: translateY(-1px);
+}
 
 .practice-feedback-container {
   height: auto;

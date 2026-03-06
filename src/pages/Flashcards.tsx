@@ -204,7 +204,7 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
                   </span>
                 </button>
                 <button 
-                  className="primary-btn" 
+                  className="primary-btn congrats-mastery-btn" 
                   onClick={onNavigateToMastery}
                   style={{ 
                     width: '200px', 
@@ -216,7 +216,6 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
                     gap: '8px', 
                     padding: '13px 24px', 
                     borderRadius: '8px',
-                    backgroundColor: '#060543',
                     border: 'none',
                     cursor: 'pointer'
                   }}

@@ -172,14 +172,14 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
       onBack();
       setConfirmAction(null);
     } else if (confirmAction.type === 'unsaved') {
-      handleCreateOrUpdateDeck(); // This will also call onBack() on success
+      handleCreateOrUpdateDeck();
       setConfirmAction(null);
     }
   };
 
-  const handleCancelAction = () => {
-    if (confirmAction?.type === 'unsaved') {
-      onBack(); // "Leave anyways"
+  const handleCancelAction = (fromButton = false) => {
+    if (confirmAction?.type === 'unsaved' && fromButton) {
+      onBack();
     }
     setConfirmAction(null);
   };
@@ -315,7 +315,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
           </span>
         </button>
         <button 
-          className="primary-btn" 
+          className="primary-btn add-word-btn" 
           onClick={() => handleSaveCard(editingCardId || undefined)}
           style={{ 
             width: '200px', 
@@ -348,10 +348,12 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
     </div>
   );
 
+  const isSaveDisabled = !deckName.trim() || selectedWords.length === 0;
+
   return (
     <div className="sensei-ai-view">
       {confirmAction && (
-        <div className="modal-overlay" onClick={handleCancelAction}>
+        <div className="modal-overlay" onClick={() => handleCancelAction(false)}>
           <div className="confirmation-modal" onClick={(e) => e.stopPropagation()} style={{
             width: '571px',
             minHeight: '193px',
@@ -399,8 +401,8 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
             </div>
             <div style={{ display: 'flex', gap: '16px', alignSelf: 'flex-end' }}>
               <button 
-                className="secondary-btn" 
-                onClick={handleCancelAction}
+                className="secondary-btn modal-secondary-btn" 
+                onClick={() => handleCancelAction(true)}
                 style={{ 
                   width: '200px', 
                   height: '44px', 
@@ -428,7 +430,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
                 </span>
               </button>
               <button 
-                className="primary-btn" 
+                className="primary-btn modal-primary-btn" 
                 onClick={handleConfirmAction}
                 style={{ 
                   width: '200px',
@@ -637,7 +639,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
             </button>
           )}
           <button 
-            className="primary-btn" 
+            className={`primary-btn ${isSaveDisabled ? '' : 'modal-primary-btn'}`} 
             onClick={handleCreateOrUpdateDeck} 
             style={{ 
               width: '200px', 
@@ -650,8 +652,8 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
               gap: '8px', 
               padding: '13px 24px', 
               borderRadius: '8px',
-              cursor: (!deckName.trim() || selectedWords.length === 0) ? 'not-allowed' : 'pointer',
-              backgroundColor: (!deckName.trim() || selectedWords.length === 0) ? '#f4f4f7' : undefined,
+              cursor: isSaveDisabled ? 'not-allowed' : 'pointer',
+              backgroundColor: isSaveDisabled ? '#f4f4f7' : '#060543',
               border: 'none'
             }}
           >
@@ -661,7 +663,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
               fontSize: '16px',
               fontWeight: 'bold',
               textAlign: 'center',
-              color: (!deckName.trim() || selectedWords.length === 0) ? '#8f8e96' : '#fcfcfc',
+              color: isSaveDisabled ? '#8f8e96' : '#fcfcfc',
               lineHeight: '1'
             }}>
               {editingDeckId ? 'Save changes' : 'Save deck'}
