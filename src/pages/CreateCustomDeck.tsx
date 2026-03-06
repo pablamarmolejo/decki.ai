@@ -341,7 +341,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
             color: '#5856eb',
             lineHeight: '1'
           }}>
-            {editingCardId ? 'Update word' : 'Add word'}
+            {editingCardId ? 'Update card' : 'Add card'}
           </span>
         </button>
       </div>

@@ -248,7 +248,9 @@ const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNaviga
                     onClick={() => handleWordSelect(word)}
                   >
                     <div className="word-item-content">
-                      <div className="word-item-meaning">{word.meaning}</div>
+                      <div className="word-item-meaning">
+                        {word.meaning.split(';').slice(0, 2).join(';')}
+                      </div>
                       <div className="word-item-main-row">
                         <div className="word-item-main">{word.kanji || word.kana}</div>
                         <div className="word-item-reading">{word.kana}</div>
@@ -324,7 +326,7 @@ const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNaviga
                     />
                     <div className="action-row">
                       <button className="submit-btn" onClick={handleSubmit} disabled={!sentence.trim()}>
-                        Add to history
+                        Add sentence
                       </button>
                     </div>
                   </div>
