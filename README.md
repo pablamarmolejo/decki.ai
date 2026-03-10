@@ -1,6 +1,6 @@
-# React + TypeScript + Vite
+# decki.ai
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+decki.ai is a Japanese language learning tool that uses AI to help you learn kanji and vocabulary.
 
 Currently, two official plugins are available:
 
