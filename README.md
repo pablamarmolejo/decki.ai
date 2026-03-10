@@ -1,6 +1,6 @@
-# decki.ai
+# decki.ai - Flashcard tool for Japanese language learning
 
-decki.ai is a Japanese language learning tool that uses AI to help you learn kanji and vocabulary.
+decki.ai is a Japanese language learning tool designed to help students move from passive input to active output generation. Instead of just memorizing words, students practice creating sentences with the vocabulary they learn, enabling a more effective and practical way of mastering the language.
 
 Currently, two official plugins are available:
 
