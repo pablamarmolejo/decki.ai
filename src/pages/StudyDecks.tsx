@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useAppContext } from '../AppContext';
 import type { DeckType } from '../types';
-import autoAwesomeIcon from '../assets/ic_round-auto-awesome.svg';
 import editIcon from '../assets/ic_round-edit.svg';
 import styleIcon from '../assets/ic_round-style.svg';
 

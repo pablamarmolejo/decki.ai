@@ -6,7 +6,6 @@ import rightArrow from '../assets/ic_round-keyboard-arrow-right.svg';
 import checkIcon from '../assets/ic_round-check.svg';
 import restoreIcon from '../assets/ic_round-restore.svg';
 import refreshIcon from '../assets/ic_round-refresh.svg';
-import schoolIcon from '../assets/ic_round-school.svg';
 import eventsIcon from '../assets/ic_round-emoji-events.svg';
 import confetti from 'canvas-confetti';
 

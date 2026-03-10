@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useAppContext } from '../AppContext';
-import type { Deck, Flashcard, Level } from '../types';
+import type { Deck, Flashcard } from '../types';
 import leftArrow from '../assets/ic_round-keyboard-arrow-left.svg';
 import plusIcon from '../assets/ic_round-plus.svg';
 import autoStoriesIcon from '../assets/ic_round-auto-stories.svg';
@@ -220,7 +220,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
     onBack();
   };
 
-  const renderCardForm = (id?: string) => (
+  const renderCardForm = () => (
     <div className="add-card-section inline-form" style={{ 
       background: '#fcfcfc', 
       padding: '24px', 
@@ -589,7 +589,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
               selectedWords.map(word => (
                 <React.Fragment key={word.id}>
                   {editingCardId === word.id ? (
-                    renderCardForm(word.id)
+                    renderCardForm()
                   ) : (
                     <div className="word-pill" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', padding: '16px', background: 'white', borderRadius: '12px', border: '1px solid #ededf0', marginBottom: '12px', boxSizing: 'border-box' }}>
                       <div style={{ textAlign: 'left' }}>

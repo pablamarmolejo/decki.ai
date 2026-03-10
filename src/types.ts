@@ -13,6 +13,7 @@ export interface Flashcard {
   on?: string;
   example: string;
   state: FlashcardState;
+  type?: string;
 }
 
 export interface Deck {
