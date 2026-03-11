@@ -84,8 +84,29 @@ input, textarea, button {
   align-items: center;
 }
 
+.header-level-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.current-level-display {
+  width: 22px;
+  height: 19px;
+  flex-grow: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #5856eb;
+}
+
 .select-level-btn {
-  width: 54px;
+  width: 117px;
   height: 43px;
   flex-grow: 0;
   display: flex;
@@ -93,20 +114,22 @@ input, textarea, button {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding: 12px 0;
+  padding: 12px 16px;
   border-radius: 8px;
   box-shadow: 0 2px 2px 0 #ededf0;
   background-color: #fcfcfc;
   border: 1px solid #ededf0;
   color: #060543;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .select-level-btn:hover {
-  background-color: #f4f4f7;
+  background-color: #fcfcfc;
+  border: 1px solid #5856eb;
+  color: #5856eb;
   transform: translateY(-1px);
 }
 
@@ -115,41 +138,50 @@ input, textarea, button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: calc(100vh - 204px); /* Approximate footer and padding */
-  padding: 40px 20px;
+  justify-content: space-between;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.level-selection-header {
+  width: 100%;
+  max-width: 1200px;
+  padding: 31px 40px;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 .level-selection-content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   max-width: 600px;
   width: 100%;
+  flex: 1;
+  margin-bottom: 64px;
 }
 
-.level-selection-logo {
-  margin-bottom: 24px;
-}
-
-.level-selection-logo img {
-  height: 48px;
-}
-
-.welcome-heading {
-  font-size: 32px;
-  font-weight: 800;
-  color: #060543;
-  margin-bottom: 48px;
+.level-selection-main-heading {
+  height: auto;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
   text-align: center;
+  color: #060543;
+  margin: 0 0 32px 0;
 }
 
 .level-selection-container {
-  background-color: #FCFCFC;
-  padding: 40px;
-  border-radius: 24px;
-  border: 1px solid #EDEDF0;
-  box-shadow: 0 8px 16px 0 rgba(237, 237, 240, 0.5);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -171,29 +203,38 @@ input, textarea, button {
 }
 
 .level-btn-large {
-  width: 64px;
-  height: 64px;
+  width: 94px;
+  height: 94px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 12px;
+  border-radius: 16px;
   border: 1px solid #EDEDF0;
   background-color: #FCFCFC;
+  box-shadow: 0 6px 8px 0 rgba(237, 237, 240, 0.5);
   color: #060543;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
   cursor: pointer;
-  transition: all 0.2s;
+  position: relative;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .level-btn-large:hover {
-  background-color: #f4f4f7;
+  transform: translateY(-1px);
+  border-color: #5856EB;
+  box-shadow: 0 6px 8px 0 #DDDDDF;
 }
 
 .level-btn-large.active {
   background-color: #060543;
   color: #FCFCFC;
   border-color: #060543;
+}
+
+.level-btn-large.active:hover {
+  background-color: #0a095a;
+  transform: translateY(-1px);
 }
 
 .section-selector {
@@ -226,14 +267,30 @@ input, textarea, button {
   font-weight: 700;
   border-bottom-color: #5856eb;
 }
-
 .main-content {
   flex: 1;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 40px;
-  box-sizing: border-box;
+  padding-bottom: 40px;
+}
+
+.level-selection-page .main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.level-selection-page .app-footer {
+  margin-top: auto;
+  width: 100%;
+  flex-shrink: 0;
 }
 
 .app-footer-outer {

@@ -15,9 +15,12 @@ const Header: React.FC<HeaderProps> = ({ onNavigateToLevelSelection }) => {
         <div className="logo">
           <img src={logoFull} alt="decki.ai" className="logo-full" />
         </div>
-        <button className="select-level-btn" onClick={onNavigateToLevelSelection}>
-          {currentLevel}
-        </button>
+        <div className="header-level-container">
+          <span className="current-level-display">{currentLevel}</span>
+          <button className="select-level-btn" onClick={onNavigateToLevelSelection}>
+            Select level
+          </button>
+        </div>
       </header>
     </div>
   );

@@ -2,6 +2,7 @@ import React from 'react';
 import { useAppContext } from '../AppContext';
 import type { Level } from '../types';
 import logoFull from '../assets/logo-full.svg';
+import logoIconXl from '../assets/logo-icon-xl.svg';
 
 interface LevelSelectionProps {
   onLevelSelected: () => void;
@@ -17,16 +18,15 @@ const LevelSelection: React.FC<LevelSelectionProps> = ({ onLevelSelected }) => {
   };
 
   return (
-    <div className="level-selection-page">
+    <>
+      <div className="level-selection-header">
+        <img src={logoFull} alt="decki.ai" className="logo-full" />
+      </div>
+      
       <div className="level-selection-content">
-        <div className="level-selection-logo">
-          <img src={logoFull} alt="decki.ai" />
-        </div>
-        
-        <h1 className="welcome-heading">Welcome to decki.ai</h1>
+        <h1 className="level-selection-main-heading">Select a level</h1>
         
         <div className="level-selection-container">
-          <h2 className="select-level-heading">Select your level</h2>
           <div className="level-selector-large">
             {levels.map((level) => (
               <button
@@ -40,7 +40,7 @@ const LevelSelection: React.FC<LevelSelectionProps> = ({ onLevelSelected }) => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

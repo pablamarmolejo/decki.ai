@@ -68,7 +68,7 @@ const App: React.FC = () => {
               onNavigateToLevelSelection={() => setCurrentPage('LEVEL_SELECTION')}
             />
           )}
-          <div className={isMinimalistMode ? 'minimalist-mode-container' : 'app-container'}>
+          <div className={isLevelSelection ? 'level-selection-page' : isMinimalistMode ? 'minimalist-mode-container' : 'app-container'}>
             <main className="main-content">
               {!isMinimalistMode && !isLevelSelection && (
                 <div className="section-selector">
@@ -89,10 +89,10 @@ const App: React.FC = () => {
                 </div>
               )}
               {renderPage()}
-            </main>
-            {!isMinimalistMode && <Footer />}
-            {toast && <div className="toast-notification">{toast}</div>}
-          </div>
+              </main>
+              {!isMinimalistMode && <Footer />}
+              {toast && <div className="toast-notification">{toast}</div>}
+              </div>
         </>
       </AppProvider>
     );
