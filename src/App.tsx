@@ -89,10 +89,10 @@ const App: React.FC = () => {
                 </div>
               )}
               {renderPage()}
-              </main>
-              {!isMinimalistMode && <Footer />}
-              {toast && <div className="toast-notification">{toast}</div>}
-              </div>
+            </main>
+            {toast && <div className="toast-notification">{toast}</div>}
+          </div>
+          {!isMinimalistMode && <Footer />}
         </>
       </AppProvider>
     );

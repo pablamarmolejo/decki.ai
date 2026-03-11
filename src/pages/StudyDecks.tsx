@@ -49,8 +49,10 @@ const StudyDecks: React.FC<StudyDecksProps> = ({ onNavigateToCreate, onNavigateT
             <div className="banner-icon-container">
               <img src={plusIcon} alt="" />
             </div>
-            <h3>Create custom decks</h3>
-            <p>Build and customise your decks to fit your own study needs.</p>
+            <div className="banner-text-content">
+              <h3>Create custom decks</h3>
+              <p>Build and customise your decks to fit your own study needs.</p>
+            </div>
           </div>
           {filteredDecks.map((deck) => {
             const totalCards = deck.cards.length;

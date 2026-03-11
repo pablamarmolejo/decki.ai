@@ -61,6 +61,7 @@ input, textarea, button {
   flex-direction: column;
   min-height: 100vh;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .app-header-outer {
@@ -147,7 +148,7 @@ input, textarea, button {
 .level-selection-header {
   width: 100%;
   max-width: 1200px;
-  padding: 31px 40px;
+  padding: 31px 24px;
   display: flex;
   justify-content: flex-start;
   box-sizing: border-box;
@@ -272,7 +273,8 @@ input, textarea, button {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding-bottom: 40px;
+  padding: 0 40px 40px;
+  box-sizing: border-box;
 }
 
 .level-selection-page .main-content {
@@ -298,7 +300,6 @@ input, textarea, button {
   background-color: #f4f4f7;
   border-top: 1px solid #ededf0;
 }
-
 .app-footer {
   height: 64.7px;
   max-width: 1200px;
@@ -307,11 +308,9 @@ input, textarea, button {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
+  padding: 0 24px;
   color: var(--primary);
   font-size: 14px;
-  font-weight: 500;
-  box-sizing: border-box;
 }
 
 /* Page Titles */
@@ -1364,7 +1363,8 @@ input:checked + .slider:before {
 }
 
 .word-item-content {
-  height: 83px;
+  height: auto;
+  min-height: 83px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -1375,19 +1375,19 @@ input:checked + .slider:before {
 }
 
 .word-item-meaning {
-  width: auto;
-  min-width: 50px;
+  width: 207px;
+  height: auto;
+  min-height: 19px;
   flex-grow: 0;
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 12px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  letter-spacing: 1.8px;
+  letter-spacing: normal;
   text-align: left;
-  color: #060543;
-  text-transform: uppercase;
+  color: #151283;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1492,7 +1492,8 @@ input:checked + .slider:before {
 }
 
 .selected-word-info {
-  height: 56px;
+  height: auto;
+  min-height: 56px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -1500,6 +1501,14 @@ input:checked + .slider:before {
   align-items: flex-start;
   gap: 8px;
   padding: 0;
+}
+
+.selected-word-info .word-item-meaning {
+  width: 100%;
+  height: auto;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
 }
 
 .selected-word-main-row {
@@ -1996,24 +2005,58 @@ input:checked + .slider:before {
 
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
-  .app-container,
   .app-header,
-  .app-footer,
   .main-content {
-    padding-left: 16px !important;
-    padding-right: 16px !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+
+  .level-selection-header {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+
+  .logo-full {
+    transform: scale(0.9);
+    transform-origin: left center;
+  }
+
+  .level-selection-main-heading {
+    font-size: 24px;
   }
 
   .app-header {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     gap: 16px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    height: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    height: 67px;
+    box-sizing: border-box;
   }
 
   .select-level-btn {
-    width: 100%;
+    width: auto;
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  .page-title-row {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: auto;
+    gap: 16px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+
+  .page-title-text {
+    font-size: 20px;
+  }
+
+  .page-subtitle-text {
+    font-size: 14px;
   }
 
   .level-selector-large {
@@ -2027,16 +2070,21 @@ input:checked + .slider:before {
     font-size: 16px;
   }
 
+  .study-decks-page {
+    padding-top: 24px;
+  }
+
   .study-decks-title-row {
     flex-direction: column;
     align-items: flex-start !important;
-    gap: 16px;
+    gap: 24px;
+    margin-bottom: 0;
   }
 
   .decks-filter {
     width: 100%;
     overflow-x: auto;
-    padding-bottom: 8px;
+    padding-bottom: 16px;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -2048,14 +2096,50 @@ input:checked + .slider:before {
     grid-template-columns: 1fr;
   }
 
+  .deck-card {
+    padding: 32px 32px 32px 28px;
+  }
+
+  .deck-header {
+    margin-bottom: 0;
+  }
+
+  .deck-card-info {
+    margin-bottom: 24px;
+  }
+
+  .deck-name {
+    font-size: 24px;
+  }
+
   .create-banner {
-    padding: 32px 20px;
-    text-align: center;
-    align-items: center;
+    padding: 24px 20px;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    gap: 16px;
+  }
+
+  .banner-icon-container {
+    margin-bottom: 0;
+    margin-top: 4px;
   }
 
   .create-banner h3 {
-    font-size: 20px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .create-banner p {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .banner-text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
   }
 
   .create-btn-white {
@@ -2063,12 +2147,155 @@ input:checked + .slider:before {
     box-sizing: border-box;
   }
 
-  .app-footer {
+  /* Flashcards Responsive */
+  .flashcards-mode-view {
+    padding: 0 !important;
+    gap: 32px;
+    height: calc(100vh - 120px);
+    display: flex;
     flex-direction: column;
-    height: auto;
-    padding-top: 24px;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .flashcards-mode-header {
+    margin-bottom: auto;
+    padding: 24px 32px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+  }
+
+  .flashcards-header-actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
+  .flashcards-main-container {
+    gap: 0;
+    margin: auto 0;
+  }
+
+  .flashcard-state-actions {
+    margin-top: auto;
     padding-bottom: 24px;
+  }
+
+  .nav-arrow-btn {
+    padding: 2px;
+  }
+
+  .flashcard-item {
+    width: 100%;
+    max-width: 100%;
+    height: 400px;
+  }
+
+  .card-kanji-display {
+    font-size: 48px;
+  }
+
+  .card-back-face {
+    padding: 24px !important;
+  }
+
+  .flashcard-state-actions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     gap: 16px;
-    text-align: center;
+    padding: 0 24px;
+    box-sizing: border-box;
+  }
+
+  .state-btn.review,
+  .state-btn.learnt {
+    width: auto;
+    flex: 1;
+    padding: 12px 32px;
+    font-size: 0; /* Hide text */
+  }
+
+  .state-btn.review .btn-icon,
+  .state-btn.learnt .btn-icon {
+    margin: 0;
+    width: 24px;
+    height: 24px;
+  }
+
+  .state-buttons {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  /* Mastery Practice Responsive */
+  .mastery-practice-content {
+    padding: 20px 0;
+  }
+
+  .mastery-practice-main {
+    flex-direction: column;
+  }
+
+  .mastery-practice-page-container {
+    padding-top: 24px;
+  }
+
+  .mastery-practice-page {
+    flex-direction: column;
+    padding-top: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .learnt-words-sidebar {
+    width: 100%;
+    min-height: auto;
+    box-sizing: border-box;
+  }
+
+  .practice-column {
+    width: 100%;
+    min-width: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-sizing: border-box;
+  }
+
+  .practice-area {
+    padding: 24px;
+    gap: 24px;
+  }
+
+  .writing-section {
+    padding: 0;
+  }
+
+  .assist-btn,
+  .submit-btn {
+    width: 100%;
+  }
+
+  .action-row {
+    flex-direction: column;
+  }
+
+  .app-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 16px 24px;
+    gap: 16px;
+  }
+
+  .copyright {
+    font-size: 12px;
   }
 }
