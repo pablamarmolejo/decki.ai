@@ -7,6 +7,7 @@ import checkIcon from '../assets/ic_round-check.svg';
 import restoreIcon from '../assets/ic_round-restore.svg';
 import refreshIcon from '../assets/ic_round-refresh.svg';
 import eventsIcon from '../assets/ic_round-emoji-events.svg';
+import clearIcon from '../assets/ic_round-clear.svg';
 import confetti from 'canvas-confetti';
 
 interface FlashcardsProps {
@@ -241,20 +242,22 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
   return (
     <div className="flashcards-mode-view">
       <div className="flashcards-mode-header">
-        <button className="text-link-btn back-btn" disabled={isTransitioning} onClick={onBack}>
-          <img src={leftArrow} alt="" className="link-icon" />
-          Back to decks
+        <button className="close-deck-btn" disabled={isTransitioning} onClick={onBack}>
+          <img src={clearIcon} alt="Close" />
         </button>
-        <button className="text-link-btn start-over-btn" disabled={isTransitioning} onClick={handleReset}>
-          <img src={refreshIcon} alt="" className="link-icon" />
-          Start over
-        </button>
-        <div className="shuffle-toggle">
-          <label className="switch">
-            <input type="checkbox" disabled={isTransitioning} checked={isShuffled} onChange={toggleShuffle} />
-            <span className="slider round"></span>
-          </label>
-          <span className="shuffle-label">Shuffle</span>
+        
+        <div className="flashcards-header-actions">
+          <button className="text-link-btn start-over-btn" disabled={isTransitioning} onClick={handleReset}>
+            <img src={refreshIcon} alt="" className="link-icon" />
+            Start over
+          </button>
+          <div className="shuffle-toggle">
+            <label className="switch">
+              <input type="checkbox" disabled={isTransitioning} checked={isShuffled} onChange={toggleShuffle} />
+              <span className="slider round"></span>
+            </label>
+            <span className="shuffle-label">Shuffle</span>
+          </div>
         </div>
       </div>
 
@@ -268,7 +271,7 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
             <div className="card-face card-front-face">
               {(currentCard?.state === 'learnt' || currentCard?.state === 'review') && (
                 <div className={`card-state-badge ${currentCard.state} ${isTransitioning ? 'pop' : ''}`}>
-                  {currentCard.state === 'learnt' ? 'Learnt' : 'Review'}
+                  {currentCard.state === 'learnt' ? 'I know this' : 'Still learning'}
                 </div>
               )}
               {currentCard?.type && <div className="card-word-type">{currentCard.type}</div>}
@@ -285,7 +288,7 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
             <div className="card-face card-back-face">
               {(currentCard?.state === 'learnt' || currentCard?.state === 'review') && (
                 <div className={`card-state-badge ${currentCard.state} ${isTransitioning ? 'pop' : ''}`}>
-                  {currentCard.state === 'learnt' ? 'Learnt' : 'Review'}
+                  {currentCard.state === 'learnt' ? 'I know this' : 'Still learning'}
                 </div>
               )}
               
@@ -322,11 +325,11 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
 
       <div className="flashcard-state-actions">
         <button className="state-btn review" disabled={isTransitioning} onClick={() => handleSetState('review')}>
-          Review
+          Still learning
           <img src={restoreIcon} alt="" className="btn-icon" />
         </button>
         <button className="state-btn learnt" disabled={isTransitioning} onClick={() => handleSetState('learnt')}>
-          Learnt
+          I know this
           <img src={checkIcon} alt="" className="btn-icon" />
         </button>
       </div>

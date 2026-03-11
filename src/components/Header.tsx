@@ -1,20 +1,13 @@
 import React from 'react';
 import { useAppContext } from '../AppContext';
-import type { Level } from '../types';
 import logoFull from '../assets/logo-full.svg';
 
 interface HeaderProps {
-  onNavigateToStudy: () => void;
+  onNavigateToLevelSelection: () => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ onNavigateToStudy }) => {
-  const { currentLevel, setCurrentLevel } = useAppContext();
-  const levels: Level[] = ['N5', 'N4', 'N3', 'N2', 'N1'];
-
-  const handleLevelClick = (level: Level) => {
-    setCurrentLevel(level);
-    onNavigateToStudy();
-  };
+const Header: React.FC<HeaderProps> = ({ onNavigateToLevelSelection }) => {
+  const { currentLevel } = useAppContext();
 
   return (
     <div className="app-header-outer">
@@ -22,17 +15,9 @@ const Header: React.FC<HeaderProps> = ({ onNavigateToStudy }) => {
         <div className="logo">
           <img src={logoFull} alt="decki.ai" className="logo-full" />
         </div>
-        <div className="level-selector">
-          {levels.map((level) => (
-            <button
-              key={level}
-              className={`level-btn ${currentLevel === level ? 'active' : ''}`}
-              onClick={() => handleLevelClick(level)}
-            >
-              {level}
-            </button>
-          ))}
-        </div>
+        <button className="select-level-btn" onClick={onNavigateToLevelSelection}>
+          {currentLevel}
+        </button>
       </header>
     </div>
   );

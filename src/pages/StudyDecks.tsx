@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useAppContext } from '../AppContext';
 import type { DeckType } from '../types';
 import editIcon from '../assets/ic_round-edit.svg';
-import styleIcon from '../assets/ic_round-style.svg';
+import plusIcon from '../assets/ic_round-plus.svg';
 
 interface StudyDecksProps {
   onNavigateToCreate: () => void;
@@ -41,6 +41,17 @@ const StudyDecks: React.FC<StudyDecksProps> = ({ onNavigateToCreate, onNavigateT
 
       <div className="study-decks-content">
         <div className="decks-grid">
+          <div 
+            className="create-banner" 
+            onClick={onNavigateToCreate}
+            style={filteredDecks.length === 0 ? { height: '243px' } : {}}
+          >
+            <div className="banner-icon-container">
+              <img src={plusIcon} alt="" />
+            </div>
+            <h3>Create custom decks</h3>
+            <p>Build and customise your decks to fit your own study needs.</p>
+          </div>
           {filteredDecks.map((deck) => {
             const totalCards = deck.cards.length;
             const learntCards = deck.cards.filter(c => c.state === 'learnt').length;
@@ -86,24 +97,6 @@ const StudyDecks: React.FC<StudyDecksProps> = ({ onNavigateToCreate, onNavigateT
               </div>
             );
           })}
-        </div>
-
-        <div className="create-banner">
-          <img 
-            src={styleIcon} 
-            alt="" 
-            style={{ 
-              width: '53px', 
-              height: '54.9px', 
-              margin: '0',
-              filter: 'brightness(0) saturate(100%) invert(32%) sepia(94%) saturate(4529%) hue-rotate(236deg) brightness(97%) contrast(93%)' // #5856eb
-            }} 
-          />
-          <h3>Create your own custom deck</h3>
-          <p>Add your own words and sentences to practice at your own pace.</p>
-          <button className="create-btn-white" onClick={onNavigateToCreate}>
-            <span>Create custom deck</span>
-          </button>
         </div>
       </div>
     </div>
