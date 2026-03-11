@@ -2,7 +2,6 @@ import React from 'react';
 import { useAppContext } from '../AppContext';
 import type { Level } from '../types';
 import logoFull from '../assets/logo-full.svg';
-import logoIconXl from '../assets/logo-icon-xl.svg';
 
 interface LevelSelectionProps {
   onLevelSelected: () => void;
