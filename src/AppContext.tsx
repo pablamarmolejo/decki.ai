@@ -353,36 +353,46 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     // Load from local storage if available
     const savedDecks = localStorage.getItem('decki-decks');
     if (savedDecks) {
-      const parsedDecks = JSON.parse(savedDecks) as Deck[];
-      
-      // We want to preserve the default decks from JSON but merge them with saved state (to keep 'learnt' flags)
-      // And also keep custom decks created by user.
-      
-      const customDecks = parsedDecks.filter(d => d.type === 'custom');
-      
-      const finalDecks = initialDecks.map(defaultDeck => {
-        const savedDefault = parsedDecks.find(pd => pd.id === defaultDeck.id);
-        if (savedDefault) {
-          // Sync card states
-          return {
-            ...defaultDeck,
-            cards: defaultDeck.cards.map(card => {
-              const savedCard = savedDefault.cards.find(sc => sc.kanji === card.kanji && sc.kana === card.kana);
-              return savedCard ? { ...card, state: savedCard.state } : card;
-            })
-          };
-        }
-        return defaultDeck;
-      });
+      try {
+        const parsedDecks = JSON.parse(savedDecks) as Deck[];
+        
+        // We want to preserve the default decks from JSON but merge them with saved state (to keep 'learnt' flags)
+        // And also keep custom decks created by user.
+        
+        const customDecks = parsedDecks.filter(d => d.type === 'custom');
+        
+        const finalDecks = initialDecks.map(defaultDeck => {
+          const savedDefault = parsedDecks.find(pd => pd.id === defaultDeck.id);
+          if (savedDefault) {
+            // Sync card states
+            return {
+              ...defaultDeck,
+              cards: defaultDeck.cards.map(card => {
+                const savedCard = savedDefault.cards.find(sc => sc.kanji === card.kanji && sc.kana === card.kana);
+                return savedCard ? { ...card, state: savedCard.state } : card;
+              })
+            };
+          }
+          return defaultDeck;
+        });
 
-      setDecks([...finalDecks, ...customDecks]);
+        setDecks([...finalDecks, ...customDecks]);
+      } catch (e) {
+        console.error("Failed to parse decks from localStorage", e);
+        setDecks(initialDecks);
+      }
     } else {
       setDecks(initialDecks);
     }
 
     const savedProgress = localStorage.getItem('decki-progress');
     if (savedProgress) {
-      setWordProgress(JSON.parse(savedProgress));
+      try {
+        setWordProgress(JSON.parse(savedProgress));
+      } catch (e) {
+        console.error("Failed to parse progress from localStorage", e);
+        setWordProgress([]);
+      }
     }
   }, []);
 

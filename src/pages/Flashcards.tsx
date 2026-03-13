@@ -33,9 +33,23 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
       setCurrentIndex(0);
       setIsFlipped(false);
     }
-  }, [deckId]);
+  }, [deckId, deck]);
 
-  if (!deck) return <div>Deck not found</div>;
+  const allLearnt = shuffledCards.length > 0 && shuffledCards.every(c => c.state === 'learnt');
+  const isKanjiDeck = deck?.type === 'default' && deck?.name.toLowerCase().includes('kanji');
+
+  React.useEffect(() => {
+    if (allLearnt && !isTransitioning) {
+      confetti({
+        particleCount: 150,
+        spread: 70,
+        origin: { y: 0.6 },
+        colors: ['#ff0000', '#ffd700', '#228b22', '#0000ff', '#ff69b4', '#800080', '#ffa500']
+      });
+    }
+  }, [allLearnt, isTransitioning]);
+
+  if (!deck) return <div className="flashcards-mode-view">Deck not found</div>;
 
   const currentCard = shuffledCards[currentIndex];
   const totalCards = shuffledCards.length;
@@ -107,20 +121,6 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
     setCurrentIndex(0);
     setIsFlipped(false);
   };
-
-  const allLearnt = shuffledCards.length > 0 && shuffledCards.every(c => c.state === 'learnt');
-  const isKanjiDeck = deck.type === 'default' && deck.name.toLowerCase().includes('kanji');
-
-  React.useEffect(() => {
-    if (allLearnt && !isTransitioning) {
-      confetti({
-        particleCount: 150,
-        spread: 70,
-        origin: { y: 0.6 },
-        colors: ['#ff0000', '#ffd700', '#228b22', '#0000ff', '#ff69b4', '#800080', '#ffa500']
-      });
-    }
-  }, [allLearnt, isTransitioning]);
 
   if (allLearnt && !isTransitioning) {
     return (
@@ -228,7 +228,7 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
                     color: '#fcfcfc',
                     lineHeight: '1'
                   }}>
-                    Mastery practice
+                    Practice
                   </span>
                 </button>
               </div>

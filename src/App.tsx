@@ -47,6 +47,13 @@ const App: React.FC = () => {
     if (container) container.scrollTop = 0;
   }, [currentPage]);
 
+  // Safety redirect: If on FLASHCARDS but no deck selected, go to STUDY_DECKS
+  React.useEffect(() => {
+    if (currentPage === 'FLASHCARDS' && !selectedDeckId) {
+      setCurrentPage('STUDY_DECKS');
+    }
+  }, [currentPage, selectedDeckId]);
+
   const showToast = (message: string) => {
     setToast(message);
     setTimeout(() => setToast(null), 3000);
@@ -99,13 +106,13 @@ const App: React.FC = () => {
                       className={`section-btn ${['STUDY_DECKS', 'FLASHCARDS', 'CREATE_CUSTOM_DECK'].includes(currentPage) ? 'active' : ''}`}
                       onClick={() => setCurrentPage('STUDY_DECKS')}
                     >
-                      Study decks
+                      Decks
                     </button>
                     <button
                       className={`section-btn ${currentPage === 'MASTERY_PRACTICE' ? 'active' : ''}`}
                       onClick={() => setCurrentPage('MASTERY_PRACTICE')}
                     >
-                      Mastery practice
+                      Practice
                     </button>
                   </div>
                 </div>

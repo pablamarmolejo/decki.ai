@@ -145,10 +145,10 @@ input, textarea, button {
   align-items: center;
   justify-content: space-between;
   height: 100vh;
+  width: 100%;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-y: auto;
 }
-
 .level-selection-header {
   width: 100%;
   max-width: 1200px;
@@ -352,7 +352,7 @@ input, textarea, button {
 }
 
 .mastery-icon {
-  background-image: url('./assets/ic_round-auto-fix-high.svg');
+  background-image: url('./assets/ic_round-edit-note.svg');
 }
 
 .title-content {
@@ -2020,6 +2020,10 @@ input:checked + .slider:before {
   display: none;
 }
 
+.mobile-nav-container {
+  display: none;
+}
+
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
   .section-selector {
@@ -2031,6 +2035,7 @@ input:checked + .slider:before {
   }
 
   .mobile-nav-container {
+    display: block;
     position: fixed;
     bottom: 0;
     left: 0;

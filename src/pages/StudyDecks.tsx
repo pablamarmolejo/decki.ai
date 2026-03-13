@@ -28,7 +28,7 @@ const StudyDecks: React.FC<StudyDecksProps> = ({ onNavigateToCreate, onNavigateT
         <div className="page-title-row">
           <div className="title-section-icon study-decks-icon"></div>
           <div className="title-content">
-            <h2 className="page-title-text">Study decks</h2>
+            <h2 className="page-title-text">Decks</h2>
             <p className="page-subtitle-text">Review your vocabulary and kanji collections</p>
           </div>
         </div>
@@ -50,7 +50,7 @@ const StudyDecks: React.FC<StudyDecksProps> = ({ onNavigateToCreate, onNavigateT
               <img src={plusIcon} alt="" />
             </div>
             <div className="banner-text-content">
-              <h3>Create custom decks</h3>
+              <h3>Create your own decks</h3>
               <p>Build and customise your decks to fit your own study needs.</p>
             </div>
           </div>

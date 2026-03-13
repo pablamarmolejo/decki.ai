@@ -3,7 +3,7 @@ import { useAppContext } from '../AppContext';
 import type { Flashcard, SentencePractice } from '../types';
 import checkIcon from '../assets/ic_round-check.svg';
 import restoreIcon from '../assets/ic_round-restore.svg';
-import schoolIcon from '../assets/ic_round-school.svg';
+import editNoteIcon from '../assets/ic_round-edit-note.svg';
 import autoStoriesIcon from '../assets/ic_round-auto-stories.svg';
 import deleteIcon from '../assets/ic_round-delete-outline.svg';
 import backIcon from '../assets/ic_round-keyboard-arrow-left.svg';
@@ -202,7 +202,7 @@ const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNaviga
       <div className="page-title-row">
         <div className="title-section-icon" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <img 
-            src={schoolIcon} 
+            src={editNoteIcon} 
             alt="" 
             style={{ 
               width: '26px', 
@@ -212,18 +212,18 @@ const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNaviga
           />
         </div>
         <div className="title-content">
-          <h2 className="page-title-text">Mastery practice</h2>
-          <p className="page-subtitle-text">Practice your learnt words by creating sentences</p>
+          <h2 className="page-title-text">Practice</h2>
+          <p className="page-subtitle-text">Practice the words you know by creating your own sentences</p>
         </div>
       </div>
 
       <div className="mastery-practice-page">
         {showSidebar && (
           <div className="learnt-words-sidebar">
-            <h3 className="sidebar-title">Learnt words ({uniqueLearntWords.length})</h3>
+            <h3 className="sidebar-title">Words ({uniqueLearntWords.length})</h3>
             {uniqueLearntWords.length === 0 ? (
               <div className="empty-state" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px', padding: '40px 20px', textAlign: 'center' }}>
-                <p style={{ color: '#8F8E96', margin: 0 }}>No words learnt yet. Go to Study Decks to start learning!</p>
+                <p style={{ color: '#8F8E96', margin: 0 }}>No words learnt yet. Go to Decks to start learning!</p>
                 <button 
                   onClick={onNavigateToStudy}
                   style={{ 
@@ -250,7 +250,7 @@ const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNaviga
                     color: '#4F46E5',
                     lineHeight: '1'
                   }}>
-                    Go to Study Decks
+                    Go to Decks
                   </span>
                 </button>
               </div>
