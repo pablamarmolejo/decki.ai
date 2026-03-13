@@ -207,7 +207,7 @@ const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNaviga
             style={{ 
               width: '26px', 
               height: '26px',
-              filter: 'brightness(0) saturate(100%) invert(32%) sepia(94%) saturate(4529%) hue-rotate(236deg) brightness(97%) contrast(93%)' // #5856eb
+              filter: 'brightness(0) saturate(100%) invert(26%) sepia(89%) saturate(5943%) hue-rotate(238deg) brightness(92%) contrast(98%)' // #4F46E5
             }} 
           />
         </div>
@@ -237,8 +237,8 @@ const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNaviga
                     padding: '13px 24px', 
                     borderRadius: '8px',
                     backgroundColor: '#fcfcfc',
-                    border: '1px solid #5856eb',
-                    color: '#5856eb',
+                    border: '1px solid #4F46E5',
+                    color: '#4F46E5',
                     cursor: 'pointer'
                   }}
                 >
@@ -247,7 +247,7 @@ const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNaviga
                     fontSize: '16px',
                     fontWeight: 'bold',
                     textAlign: 'center',
-                    color: '#5856eb',
+                    color: '#4F46E5',
                     lineHeight: '1'
                   }}>
                     Go to Study Decks

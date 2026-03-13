@@ -64,9 +64,17 @@ interface AppContextType {
 const AppContext = createContext<AppContextType | undefined>(undefined);
 
 export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [currentLevel, setCurrentLevel] = useState<Level>('N5');
+  const [currentLevel, setCurrentLevel] = useState<Level>(() => {
+    const saved = localStorage.getItem('decki-current-level');
+    const levels: Level[] = ['N5', 'N4', 'N3', 'N2', 'N1'];
+    return (saved && levels.includes(saved as Level)) ? (saved as Level) : 'N5';
+  });
   const [decks, setDecks] = useState<Deck[]>([]);
   const [wordProgress, setWordProgress] = useState<WordProgress[]>([]);
+
+  useEffect(() => {
+    localStorage.setItem('decki-current-level', currentLevel);
+  }, [currentLevel]);
 
   useEffect(() => {
     // Helper to format deck name from parts

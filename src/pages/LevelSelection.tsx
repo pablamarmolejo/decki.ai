@@ -2,6 +2,7 @@ import React from 'react';
 import { useAppContext } from '../AppContext';
 import type { Level } from '../types';
 import logoFull from '../assets/logo-full.svg';
+import logoMobile from '../assets/favicon.svg';
 
 interface LevelSelectionProps {
   onLevelSelected: () => void;
@@ -20,6 +21,7 @@ const LevelSelection: React.FC<LevelSelectionProps> = ({ onLevelSelected }) => {
     <>
       <div className="level-selection-header">
         <img src={logoFull} alt="decki.ai" className="logo-full" />
+        <img src={logoMobile} alt="decki.ai" className="logo-mobile" />
       </div>
       
       <div className="level-selection-content">

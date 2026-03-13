@@ -1,6 +1,7 @@
 import React from 'react';
 import { useAppContext } from '../AppContext';
 import logoFull from '../assets/logo-full.svg';
+import logoMobile from '../assets/favicon.svg';
 
 interface HeaderProps {
   onNavigateToLevelSelection: () => void;
@@ -14,6 +15,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigateToLevelSelection }) => {
       <header className="app-header">
         <div className="logo">
           <img src={logoFull} alt="decki.ai" className="logo-full" />
+          <img src={logoMobile} alt="decki.ai" className="logo-mobile" />
         </div>
         <div className="header-level-container">
           <span className="current-level-display">{currentLevel}</span>

@@ -225,13 +225,13 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
       background: '#fcfcfc', 
       padding: '24px', 
       borderRadius: '12px', 
-      border: '1px solid #5856EB',
+      border: '1px solid #4F46E5',
       marginBottom: '12px',
       boxShadow: '0 6px 12px 0 rgba(88, 86, 235, 0.1)',
       width: '100%',
       boxSizing: 'border-box'
     }}>
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '16px' }}>
+      <div className="card-form-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '16px' }}>
         <div className="input-group">
           <div className="field-label">Word (kanji) *</div>
           <input 
@@ -280,7 +280,41 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
           }}
         />
       </div>
-      <div style={{ display: 'flex', gap: '12px', justifyContent: 'flex-end' }}>
+      <div className="card-form-actions" style={{ 
+        display: 'flex', 
+        gap: '12px', 
+        justifyContent: 'flex-end',
+        flexDirection: 'row-reverse'
+      }}>
+        <button 
+          className="primary-btn add-word-btn" 
+          onClick={() => handleSaveCard(editingCardId || undefined)}
+          style={{ 
+            height: '44px', 
+            display: 'flex', 
+            flexDirection: 'row', 
+            justifyContent: 'center', 
+            alignItems: 'center', 
+            gap: '8px', 
+            padding: '13px 24px', 
+            borderRadius: '8px',
+            backgroundColor: '#fcfcfc',
+            border: '1px solid #4F46E5',
+            color: '#4F46E5',
+            cursor: 'pointer'
+          }}
+        >
+          <span style={{
+            fontFamily: "'Noto Sans JP', sans-serif",
+            fontSize: '16px',
+            fontWeight: 'bold',
+            textAlign: 'center',
+            color: '#4F46E5',
+            lineHeight: '1'
+          }}>
+            {editingCardId ? 'Update card' : 'Add card'}
+          </span>
+        </button>
         <button 
           className="secondary-btn cancel-word-btn" 
           onClick={() => {
@@ -289,7 +323,6 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
             setCardFormData({ kanji: '', kana: '', meaning: '', example: '' });
           }}
           style={{ 
-            width: '200px', 
             height: '44px', 
             display: 'flex', 
             flexDirection: 'row', 
@@ -314,36 +347,6 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
             Cancel
           </span>
         </button>
-        <button 
-          className="primary-btn add-word-btn" 
-          onClick={() => handleSaveCard(editingCardId || undefined)}
-          style={{ 
-            width: '200px', 
-            height: '44px', 
-            display: 'flex', 
-            flexDirection: 'row', 
-            justifyContent: 'center', 
-            alignItems: 'center', 
-            gap: '8px', 
-            padding: '13px 24px', 
-            borderRadius: '8px',
-            backgroundColor: '#fcfcfc',
-            border: '1px solid #5856eb',
-            color: '#5856eb',
-            cursor: 'pointer'
-          }}
-        >
-          <span style={{
-            fontFamily: "'Noto Sans JP', sans-serif",
-            fontSize: '16px',
-            fontWeight: 'bold',
-            textAlign: 'center',
-            color: '#5856eb',
-            lineHeight: '1'
-          }}>
-            {editingCardId ? 'Update card' : 'Add card'}
-          </span>
-        </button>
       </div>
     </div>
   );
@@ -355,7 +358,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
       {confirmAction && (
         <div className="modal-overlay" onClick={() => handleCancelAction(false)}>
           <div className="confirmation-modal" onClick={(e) => e.stopPropagation()} style={{
-            width: '571px',
+            width: 'min(571px, 90vw)',
             minHeight: '193px',
             height: 'auto',
             flexGrow: 0,
@@ -372,7 +375,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
           }}>
             <div style={{ width: '100%' }}>
               <div style={{
-                height: '24px',
+                height: 'auto',
                 alignSelf: 'stretch',
                 flexGrow: 0,
                 fontFamily: "'Noto Sans JP', sans-serif",
@@ -399,41 +402,18 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
                 {confirmAction.subheading}
               </div>
             </div>
-            <div style={{ display: 'flex', gap: '16px', alignSelf: 'flex-end' }}>
-              <button 
-                className="secondary-btn modal-secondary-btn" 
-                onClick={() => handleCancelAction(true)}
-                style={{ 
-                  width: '200px', 
-                  height: '44px', 
-                  display: 'flex', 
-                  flexDirection: 'row', 
-                  justifyContent: 'center', 
-                  alignItems: 'center', 
-                  gap: '8px', 
-                  padding: '13px 24px', 
-                  borderRadius: '6px',
-                  backgroundColor: '#f4f4f7',
-                  border: 'none',
-                  cursor: 'pointer'
-                }}
-              >
-                <span style={{
-                  fontFamily: "'Noto Sans JP', sans-serif",
-                  fontSize: '16px',
-                  fontWeight: 'bold',
-                  textAlign: 'center',
-                  color: '#060543',
-                  lineHeight: '1'
-                }}>
-                  {confirmAction.cancelText}
-                </span>
-              </button>
+            <div className="modal-button-container" style={{ 
+              display: 'flex', 
+              gap: '16px', 
+              alignSelf: 'flex-end',
+              width: '100%',
+              justifyContent: 'flex-end',
+              flexDirection: confirmAction.type === 'unsaved' ? 'row-reverse' : 'row'
+            }}>
               <button 
                 className={`primary-btn ${confirmAction.type === 'unsaved' ? 'modal-primary-btn' : 'modal-delete-btn'}`} 
                 onClick={handleConfirmAction}
                 style={{ 
-                  width: '200px',
                   height: '44px',
                   display: 'flex',
                   flexDirection: 'row',
@@ -444,7 +424,8 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
                   borderRadius: '8px',
                   backgroundColor: (confirmAction.type === 'unsaved' ? '#060543' : '#ffe6e6'),
                   border: 'none',
-                  cursor: 'pointer'
+                  cursor: 'pointer',
+                  minWidth: '160px'
                 }}
               >
                 <span style={{
@@ -469,6 +450,35 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
                   />
                 )}
               </button>
+              <button 
+                className="secondary-btn modal-secondary-btn" 
+                onClick={() => handleCancelAction(true)}
+                style={{ 
+                  height: '44px', 
+                  display: 'flex', 
+                  flexDirection: 'row', 
+                  justifyContent: 'center', 
+                  alignItems: 'center', 
+                  gap: '8px', 
+                  padding: '13px 24px', 
+                  borderRadius: '6px',
+                  backgroundColor: '#f4f4f7',
+                  border: 'none',
+                  cursor: 'pointer',
+                  minWidth: '160px'
+                }}
+              >
+                <span style={{
+                  fontFamily: "'Noto Sans JP', sans-serif",
+                  fontSize: '16px',
+                  fontWeight: 'bold',
+                  textAlign: 'center',
+                  color: '#060543',
+                  lineHeight: '1'
+                }}>
+                  {confirmAction.cancelText}
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -488,10 +498,19 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
           fontWeight: 'bold', 
           textAlign: 'left', 
           color: '#060543',
-          margin: '0 0 32px 0'
+          margin: '0 0 8px 0'
         }}>
-          {editingDeckId ? 'Edit custom deck' : 'Create custom deck'}
+          {editingDeckId ? 'Edit custom deck' : 'Create your own decks'}
         </h2>
+        <p style={{
+          fontFamily: "'Noto Sans JP', sans-serif",
+          fontSize: '16px',
+          color: '#8F8E96',
+          margin: '0 0 32px 0',
+          fontWeight: '500'
+        }}>
+          Build custom decks that suit your study needs
+        </p>
         
         <div className="deck-name-input" style={{ marginBottom: '32px' }}>
           <div className="field-label">Deck name</div>
@@ -499,7 +518,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
             type="text" 
             value={deckName} 
             onChange={(e) => setDeckName(e.target.value)} 
-            placeholder="Enter deck name (e.g., My Favorite Verbs)"
+            placeholder="Give a name to your deck"
             style={{ 
               width: '100%', 
               padding: '16px', 
@@ -529,8 +548,8 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
                   alignItems: 'center',
                   gap: '8px',
                   backgroundColor: '#fcfcfc',
-                  border: '1px solid #5856eb',
-                  color: '#5856eb',
+                  border: '1px solid #4F46E5',
+                  color: '#4F46E5',
                   borderRadius: '18px'
                 }}
               >
@@ -540,7 +559,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
                   style={{ 
                     width: '18px', 
                     height: '18px', 
-                    filter: 'brightness(0) saturate(100%) invert(32%) sepia(94%) saturate(4529%) hue-rotate(236deg) brightness(97%) contrast(93%)' // #5856eb
+                    filter: 'brightness(0) saturate(100%) invert(26%) sepia(89%) saturate(5943%) hue-rotate(238deg) brightness(92%) contrast(98%)' // #4F46E5
                   }} 
                 />
                 Add card
@@ -597,7 +616,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
                         <div style={{ color: '#494850' }}>{word.meaning}</div>
                       </div>
                       <div style={{ display: 'flex', gap: '8px' }}>
-                        <button className="text-link-btn" onClick={() => startEditing(word)} style={{ color: '#5856EB' }}>Edit</button>
+                        <button className="text-link-btn" onClick={() => startEditing(word)} style={{ color: '#4F46E5' }}>Edit</button>
                         <button className="remove-word" onClick={() => confirmDeleteWord(word.id)}>×</button>
                       </div>
                     </div>
@@ -615,7 +634,6 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
               onClick={confirmDeleteDeck} 
               style={{ 
                 marginRight: 'auto',
-                width: '200px',
                 height: '43px',
                 display: 'flex',
                 flexDirection: 'row',
@@ -651,10 +669,9 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
             </button>
           )}
           <button 
-            className={`primary-btn ${isSaveDisabled ? '' : 'modal-primary-btn'}`} 
+            className={`primary-btn save-deck-btn ${isSaveDisabled ? '' : 'modal-primary-btn'}`} 
             onClick={handleCreateOrUpdateDeck} 
             style={{ 
-              width: '200px', 
               height: '44px', 
               flexGrow: 0, 
               display: 'flex', 

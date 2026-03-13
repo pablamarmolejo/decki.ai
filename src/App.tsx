@@ -7,15 +7,37 @@ import CreateCustomDeck from './pages/CreateCustomDeck';
 import Flashcards from './pages/Flashcards';
 import LevelSelection from './pages/LevelSelection';
 import { AppProvider } from './AppContext';
+import icDecks from './assets/ic_round-style.svg';
+import icPractice from './assets/ic_round-edit-note.svg';
+import icPlus from './assets/ic_round-plus.svg';
 import './index.css';
 
 type Page = 'STUDY_DECKS' | 'MASTERY_PRACTICE' | 'CREATE_CUSTOM_DECK' | 'FLASHCARDS' | 'LEVEL_SELECTION';
 
 const App: React.FC = () => {
-  const [currentPage, setCurrentPage] = useState<Page>('LEVEL_SELECTION');
-  const [selectedDeckId, setSelectedDeckId] = useState<string | null>(null);
-  const [editingDeckId, setEditingDeckId] = useState<string | null>(null);
+  const [currentPage, setCurrentPage] = useState<Page>(() => {
+    const saved = localStorage.getItem('decki-current-page');
+    const pages: Page[] = ['STUDY_DECKS', 'MASTERY_PRACTICE', 'CREATE_CUSTOM_DECK', 'FLASHCARDS', 'LEVEL_SELECTION'];
+    return (saved && pages.includes(saved as Page)) ? (saved as Page) : 'LEVEL_SELECTION';
+  });
+  const [selectedDeckId, setSelectedDeckId] = useState<string | null>(() => localStorage.getItem('decki-selected-deck-id'));
+  const [editingDeckId, setEditingDeckId] = useState<string | null>(() => localStorage.getItem('decki-editing-deck-id'));
   const [toast, setToast] = useState<string | null>(null);
+
+  // Persistence effects
+  React.useEffect(() => {
+    localStorage.setItem('decki-current-page', currentPage);
+  }, [currentPage]);
+
+  React.useEffect(() => {
+    if (selectedDeckId) localStorage.setItem('decki-selected-deck-id', selectedDeckId);
+    else localStorage.removeItem('decki-selected-deck-id');
+  }, [selectedDeckId]);
+
+  React.useEffect(() => {
+    if (editingDeckId) localStorage.setItem('decki-editing-deck-id', editingDeckId);
+    else localStorage.removeItem('decki-editing-deck-id');
+  }, [editingDeckId]);
 
   // Scroll to top on page change
   React.useEffect(() => {
@@ -91,8 +113,38 @@ const App: React.FC = () => {
               {renderPage()}
             </main>
             {toast && <div className="toast-notification">{toast}</div>}
+            {isLevelSelection && <Footer />}
           </div>
-          {!isMinimalistMode && <Footer />}
+          {!isMinimalistMode && !isLevelSelection && (
+            <div className="mobile-nav-container">
+              {currentPage === 'STUDY_DECKS' && (
+                <button 
+                  className="mobile-create-fab"
+                  onClick={() => { setEditingDeckId(null); setCurrentPage('CREATE_CUSTOM_DECK'); }}
+                  aria-label="Create custom deck"
+                >
+                  <img src={icPlus} alt="" className="mobile-create-icon" />
+                </button>
+              )}
+              <div className="mobile-bottom-nav">
+                <button
+                  className={`mobile-nav-item ${['STUDY_DECKS', 'FLASHCARDS', 'CREATE_CUSTOM_DECK'].includes(currentPage) ? 'active' : ''}`}
+                  onClick={() => setCurrentPage('STUDY_DECKS')}
+                >
+                  <img src={icDecks} alt="Decks" className="mobile-nav-icon" />
+                  <span>Decks</span>
+                </button>
+                <button
+                  className={`mobile-nav-item ${currentPage === 'MASTERY_PRACTICE' ? 'active' : ''}`}
+                  onClick={() => setCurrentPage('MASTERY_PRACTICE')}
+                >
+                  <img src={icPractice} alt="Practice" className="mobile-nav-icon" />
+                  <span>Practice</span>
+                </button>
+              </div>
+            </div>
+          )}
+          {!isMinimalistMode && !isLevelSelection && <Footer />}
         </>
       </AppProvider>
     );
