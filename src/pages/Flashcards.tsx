@@ -33,7 +33,7 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
       setCurrentIndex(0);
       setIsFlipped(false);
     }
-  }, [deckId, deck]);
+  }, [deckId]);
 
   const allLearnt = shuffledCards.length > 0 && shuffledCards.every(c => c.state === 'learnt');
   const isKanjiDeck = deck?.type === 'default' && deck?.name.toLowerCase().includes('kanji');
@@ -79,21 +79,13 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
 
     // Wait 600ms before moving to the next card
     setTimeout(() => {
-      if (state === 'learnt') {
-        // Find next non-learnt card
-        const nextIndex = updatedCards.findIndex((c, i) => i > currentIndex && c.state !== 'learnt');
-        if (nextIndex !== -1) {
-          setCurrentIndex(nextIndex);
-        } else {
-          // If no non-learnt cards after, check from beginning
-          const firstNonLearnt = updatedCards.findIndex((c) => c.state !== 'learnt');
-          if (firstNonLearnt !== -1) {
-            setCurrentIndex(firstNonLearnt);
-          }
-        }
+      // Move to the next sequential card
+      if (currentIndex < totalCards - 1) {
+        setCurrentIndex(prev => prev + 1);
       } else {
-        // For 'review' state, just go to the next card
-        setCurrentIndex((prev) => (prev + 1) % totalCards);
+        // If it was the last card, cycle back to the first one
+        // Note: The 'allLearnt' check will trigger if appropriate
+        setCurrentIndex(0);
       }
       setIsFlipped(false);
       setIsTransitioning(false);
