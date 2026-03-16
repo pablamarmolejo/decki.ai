@@ -19,21 +19,32 @@ interface FlashcardsProps {
 const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMastery }) => {
   const { decks, updateFlashcardState, resetDeck } = useAppContext();
   const deck = decks.find(d => d.id === deckId);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(() => {
+    const saved = localStorage.getItem(`decki-flashcard-index-${deckId}`);
+    return saved ? parseInt(saved, 10) : 0;
+  });
   const [isFlipped, setIsFlipped] = useState(false);
   const [isShuffled, setIsShuffled] = useState(false);
-  const [shuffledCards, setShuffledCards] = useState<Flashcard[]>([]);
+  const [shuffledCards, setShuffledCards] = useState<Flashcard[]>(deck?.cards || []);
   const [isTransitioning, setIsTransitioning] = useState(false);
+
+  // Persistence effect for current index
+  React.useEffect(() => {
+    localStorage.setItem(`decki-flashcard-index-${deckId}`, currentIndex.toString());
+  }, [currentIndex, deckId]);
 
   // Initialize and sync cards when deck changes
   React.useEffect(() => {
-    if (deck) {
+    if (deck && shuffledCards.length === 0) {
       setShuffledCards(deck.cards);
       setIsShuffled(false);
-      setCurrentIndex(0);
+      // Only reset index if it was somehow invalid
+      if (currentIndex >= deck.cards.length) {
+        setCurrentIndex(0);
+      }
       setIsFlipped(false);
     }
-  }, [deckId]);
+  }, [deckId, deck, shuffledCards.length]);
 
   const allLearnt = shuffledCards.length > 0 && shuffledCards.every(c => c.state === 'learnt');
   const isKanjiDeck = deck?.type === 'default' && deck?.name.toLowerCase().includes('kanji');
