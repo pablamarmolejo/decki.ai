@@ -122,7 +122,7 @@ const App: React.FC = () => {
             {toast && <div className="toast-notification">{toast}</div>}
             {isLevelSelection && <Footer />}
           </div>
-          {!isMinimalistMode && !isLevelSelection && (
+          {!isLevelSelection && (
             <div className="mobile-nav-container">
               {currentPage === 'STUDY_DECKS' && (
                 <button 

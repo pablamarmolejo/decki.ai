@@ -39,18 +39,20 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
       setShuffledCards(deck.cards);
       setIsShuffled(false);
       // Only reset index if it was somehow invalid
-      if (currentIndex >= deck.cards.length) {
+      if (currentIndex >= deck.cards.length + 1) {
         setCurrentIndex(0);
       }
       setIsFlipped(false);
     }
-  }, [deckId, deck, shuffledCards.length]);
+  }, [deckId, deck, shuffledCards.length, currentIndex]);
 
   const allLearnt = shuffledCards.length > 0 && shuffledCards.every(c => c.state === 'learnt');
   const isKanjiDeck = deck?.type === 'default' && deck?.name.toLowerCase().includes('kanji');
+  const totalSlots = allLearnt ? shuffledCards.length + 1 : shuffledCards.length;
+  const isCompletionSlot = allLearnt && currentIndex === shuffledCards.length;
 
   React.useEffect(() => {
-    if (allLearnt && !isTransitioning) {
+    if (allLearnt && !isTransitioning && currentIndex === shuffledCards.length) {
       confetti({
         particleCount: 150,
         spread: 70,
@@ -58,46 +60,61 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
         colors: ['#ff0000', '#ffd700', '#228b22', '#0000ff', '#ff69b4', '#800080', '#ffa500']
       });
     }
-  }, [allLearnt, isTransitioning]);
+  }, [allLearnt, isTransitioning, currentIndex, shuffledCards.length]);
 
   if (!deck) return <div className="flashcards-mode-view">Deck not found</div>;
 
   const currentCard = shuffledCards[currentIndex];
-  const totalCards = shuffledCards.length;
 
   const handleNext = () => {
-    if (totalCards === 0 || isTransitioning) return;
+    if (totalSlots === 0 || isTransitioning) return;
     setIsFlipped(false);
-    setCurrentIndex((prev) => (prev + 1) % totalCards);
+    setCurrentIndex((prev) => (prev + 1) % totalSlots);
   };
 
   const handlePrev = () => {
-    if (totalCards === 0 || isTransitioning) return;
+    if (totalSlots === 0 || isTransitioning) return;
     setIsFlipped(false);
-    setCurrentIndex((prev) => (prev - 1 + totalCards) % totalCards);
+    setCurrentIndex((prev) => (prev - 1 + totalSlots) % totalSlots);
   };
 
   const handleSetState = (state: FlashcardState) => {
-    if (!currentCard || isTransitioning) return;
+    if (!currentCard || isTransitioning || isCompletionSlot) return;
     
     setIsTransitioning(true);
-    updateFlashcardState(deckId, currentCard.id, state);
     
-    // Update local state to reflect change immediately so the badge shows up
+    // Toggle state logic: if clicking the same state, remove it
+    const finalState = currentCard.state === state ? 'to-be-learnt' : state;
+    updateFlashcardState(deckId, currentCard.id, finalState);
+    
     const updatedCards = [...shuffledCards];
-    updatedCards[currentIndex] = { ...currentCard, state };
+    updatedCards[currentIndex] = { ...currentCard, state: finalState };
     setShuffledCards(updatedCards);
 
-    // Wait 600ms before moving to the next card
+    const isNowAllLearnt = updatedCards.every(c => c.state === 'learnt');
+
     setTimeout(() => {
-      // Move to the next sequential card
-      if (currentIndex < totalCards - 1) {
-        setCurrentIndex(prev => prev + 1);
+      if (isNowAllLearnt) {
+        // Automatically move to completion slot
+        setCurrentIndex(updatedCards.length);
+      } else if (finalState === 'learnt') {
+        // Find next card that isn't learnt yet
+        // Search forward
+        let nextIndex = updatedCards.findIndex((c, i) => i > currentIndex && c.state !== 'learnt');
+        
+        // If not found forward, search from the beginning
+        if (nextIndex === -1) {
+          nextIndex = updatedCards.findIndex((c) => c.state !== 'learnt');
+        }
+
+        if (nextIndex !== -1) {
+          setCurrentIndex(nextIndex);
+        }
       } else {
-        // If it was the last card, cycle back to the first one
-        // Note: The 'allLearnt' check will trigger if appropriate
-        setCurrentIndex(0);
+        // If we just marked it as 'review' or removed state, just move to the next card normally
+        setCurrentIndex((prev) => (prev + 1) % updatedCards.length);
       }
+      
       setIsFlipped(false);
       setIsTransitioning(false);
     }, 600);
@@ -125,18 +142,37 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
     setIsFlipped(false);
   };
 
-  if (allLearnt && !isTransitioning) {
-    return (
-      <div className="flashcards-mode-view">
-        <div className="flashcards-mode-header">
-          <button className="text-link-btn back-btn" onClick={onBack}>
-            <img src={leftArrow} alt="" className="link-icon" />
-            Back to decks
+  return (
+    <div className="flashcards-mode-view">
+      <div className="flashcards-mode-header">
+        <button className="close-deck-btn" disabled={isTransitioning} onClick={onBack}>
+          <img src={clearIcon} alt="Close" />
+        </button>
+        
+        <div className="flashcards-header-actions">
+          <button className="text-link-btn start-over-btn" disabled={isTransitioning} onClick={handleReset}>
+            <img src={refreshIcon} alt="" className="link-icon" />
+            Start over
           </button>
+          {!allLearnt && (
+            <div className="shuffle-toggle">
+              <label className="switch">
+                <input type="checkbox" disabled={isTransitioning} checked={isShuffled} onChange={toggleShuffle} />
+                <span className="slider round"></span>
+              </label>
+              <span className="shuffle-label">Shuffle</span>
+            </div>
+          )}
         </div>
+      </div>
 
-        <div className="flashcards-main-container">
-          <div className="flashcard-item">
+      <div className="flashcards-main-container">
+        <button className="nav-arrow-btn left" disabled={isTransitioning} onClick={handlePrev}>
+          <img src={leftArrow} alt="Previous" />
+        </button>
+        
+        <div className={`flashcard-item ${isFlipped ? 'flipped' : ''} ${isTransitioning ? 'transitioning' : ''} ${isCompletionSlot ? 'completion-card' : ''}`}>
+          {isCompletionSlot ? (
             <div className="card-face" style={{ 
               justifyContent: 'center', 
               alignItems: 'center', 
@@ -159,14 +195,12 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
                 fontFamily: "'Noto Sans JP', sans-serif",
                 fontSize: '24px',
                 fontWeight: 'bold',
-                color: '#060543',
-                textAlign: 'left'
+                color: '#060543'
               }}>
                 Well done!
               </div>
               <div style={{
                 width: '247px',
-                height: '17px',
                 flexGrow: 0,
                 fontFamily: "'Noto Sans JP', sans-serif",
                 fontSize: '14px',
@@ -176,12 +210,38 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
               }}>
                 Great, you have completed this deck!
               </div>
-              <div style={{ display: 'flex', gap: '16px', marginTop: '16px' }}>
+              <div className="congrats-actions" style={{ display: 'flex', gap: '16px', marginTop: '16px' }}>
+                <button 
+                  className="primary-btn congrats-mastery-btn" 
+                  onClick={onNavigateToMastery}
+                  style={{ 
+                    height: '44px', 
+                    display: 'flex', 
+                    flexDirection: 'row', 
+                    justifyContent: 'center', 
+                    alignItems: 'center', 
+                    gap: '8px', 
+                    padding: '13px 24px', 
+                    borderRadius: '8px',
+                    border: 'none',
+                    cursor: 'pointer'
+                  }}
+                >
+                  <span style={{
+                    fontFamily: "'Noto Sans JP', sans-serif",
+                    fontSize: '16px',
+                    fontWeight: 'bold',
+                    textAlign: 'center',
+                    color: '#fcfcfc',
+                    lineHeight: '1'
+                  }}>
+                    Practice
+                  </span>
+                </button>
                 <button 
                   className="secondary-btn" 
                   onClick={handleReset}
                   style={{ 
-                    width: '200px', 
                     height: '44px', 
                     display: 'flex', 
                     flexDirection: 'row', 
@@ -206,119 +266,59 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
                     Restart deck
                   </span>
                 </button>
-                <button 
-                  className="primary-btn congrats-mastery-btn" 
-                  onClick={onNavigateToMastery}
-                  style={{ 
-                    width: '200px', 
-                    height: '44px', 
-                    display: 'flex', 
-                    flexDirection: 'row', 
-                    justifyContent: 'center', 
-                    alignItems: 'center', 
-                    gap: '8px', 
-                    padding: '13px 24px', 
-                    borderRadius: '8px',
-                    border: 'none',
-                    cursor: 'pointer'
-                  }}
-                >
-                  <span style={{
-                    fontFamily: "'Noto Sans JP', sans-serif",
-                    fontSize: '16px',
-                    fontWeight: 'bold',
-                    textAlign: 'center',
-                    color: '#fcfcfc',
-                    lineHeight: '1'
-                  }}>
-                    Practice
-                  </span>
-                </button>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  return (
-    <div className="flashcards-mode-view">
-      <div className="flashcards-mode-header">
-        <button className="close-deck-btn" disabled={isTransitioning} onClick={onBack}>
-          <img src={clearIcon} alt="Close" />
-        </button>
-        
-        <div className="flashcards-header-actions">
-          <button className="text-link-btn start-over-btn" disabled={isTransitioning} onClick={handleReset}>
-            <img src={refreshIcon} alt="" className="link-icon" />
-            Start over
-          </button>
-          <div className="shuffle-toggle">
-            <label className="switch">
-              <input type="checkbox" disabled={isTransitioning} checked={isShuffled} onChange={toggleShuffle} />
-              <span className="slider round"></span>
-            </label>
-            <span className="shuffle-label">Shuffle</span>
-          </div>
-        </div>
-      </div>
-
-      <div className="flashcards-main-container">
-        <button className="nav-arrow-btn left" disabled={isTransitioning} onClick={handlePrev}>
-          <img src={leftArrow} alt="Previous" />
-        </button>
-        
-        <div className={`flashcard-item ${isFlipped ? 'flipped' : ''} ${isTransitioning ? 'transitioning' : ''}`}>
-          <div className="card-content-wrapper" onClick={() => !isTransitioning && setIsFlipped(!isFlipped)}>
-            <div className="card-face card-front-face">
-              {(currentCard?.state === 'learnt' || currentCard?.state === 'review') && (
-                <div className={`card-state-badge ${currentCard.state} ${isTransitioning ? 'pop' : ''}`}>
-                  {currentCard.state === 'learnt' ? 'I know this' : 'Still learning'}
-                </div>
-              )}
-              {currentCard?.type && <div className="card-word-type">{currentCard.type}</div>}
-              
-              {currentCard?.kanji ? (
-                <>
-                  <div className="card-kanji-display">{currentCard.kanji}</div>
-                  <div className="card-kana-display">{currentCard.kana}</div>
-                </>
-              ) : (
-                <div className="card-kanji-display">{currentCard?.kana}</div>
-              )}
-            </div>
-            <div className="card-face card-back-face">
-              {(currentCard?.state === 'learnt' || currentCard?.state === 'review') && (
-                <div className={`card-state-badge ${currentCard.state} ${isTransitioning ? 'pop' : ''}`}>
-                  {currentCard.state === 'learnt' ? 'I know this' : 'Still learning'}
-                </div>
-              )}
-              
-              <div className="card-back-section">
-                <div className="section-label">MEANING</div>
-                <div className="card-meaning-display">{currentCard?.meaning}</div>
-              </div>
-
-              {isKanjiDeck && (
-                <>
-                  <div className="card-back-section">
-                    <div className="section-label">KUN-READING</div>
-                    <div className="card-detail">{currentCard?.kun || '-'}</div>
+          ) : (
+            <div className="card-content-wrapper" onClick={() => !isTransitioning && setIsFlipped(!isFlipped)}>
+              <div className="card-face card-front-face">
+                {(currentCard?.state === 'learnt' || currentCard?.state === 'review') && (
+                  <div className={`card-state-badge ${currentCard.state} ${isTransitioning ? 'pop' : ''}`}>
+                    {currentCard.state === 'learnt' ? 'I know this' : 'Still learning'}
                   </div>
-                  <div className="card-back-section">
-                    <div className="section-label">ON-READING</div>
-                    <div className="card-detail">{currentCard?.on || '-'}</div>
+                )}
+                {currentCard?.type && <div className="card-word-type">{currentCard.type}</div>}
+                
+                {currentCard?.kanji ? (
+                  <>
+                    <div className="card-kanji-display">{currentCard.kanji}</div>
+                    <div className="card-kana-display">{currentCard.kana}</div>
+                  </>
+                ) : (
+                  <div className="card-kanji-display">{currentCard?.kana}</div>
+                )}
+              </div>
+              <div className="card-face card-back-face">
+                {(currentCard?.state === 'learnt' || currentCard?.state === 'review') && (
+                  <div className={`card-state-badge ${currentCard.state} ${isTransitioning ? 'pop' : ''}`}>
+                    {currentCard.state === 'learnt' ? 'I know this' : 'Still learning'}
                   </div>
-                </>
-              )}
+                )}
+                
+                <div className="card-back-section">
+                  <div className="section-label">MEANING</div>
+                  <div className="card-meaning-display">{currentCard?.meaning}</div>
+                </div>
 
-              <div className="card-back-section example-section">
-                <div className="section-label">EXAMPLE</div>
-                <div className="card-example-display">{currentCard?.example}</div>
+                {isKanjiDeck && (
+                  <>
+                    <div className="card-back-section">
+                      <div className="section-label">KUN-READING</div>
+                      <div className="card-detail">{currentCard?.kun || '-'}</div>
+                    </div>
+                    <div className="card-back-section">
+                      <div className="section-label">ON-READING</div>
+                      <div className="card-detail">{currentCard?.on || '-'}</div>
+                    </div>
+                  </>
+                )}
+
+                <div className="card-back-section example-section">
+                  <div className="section-label">EXAMPLE</div>
+                  <div className="card-example-display">{currentCard?.example}</div>
+                </div>
               </div>
             </div>
-          </div>
+          )}
         </div>
 
         <button className="nav-arrow-btn right" disabled={isTransitioning} onClick={handleNext}>
@@ -326,16 +326,18 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
         </button>
       </div>
 
-      <div className="flashcard-state-actions">
-        <button className="state-btn review" disabled={isTransitioning} onClick={() => handleSetState('review')}>
-          Still learning
-          <img src={restoreIcon} alt="" className="btn-icon" />
-        </button>
-        <button className="state-btn learnt" disabled={isTransitioning} onClick={() => handleSetState('learnt')}>
-          I know this
-          <img src={checkIcon} alt="" className="btn-icon" />
-        </button>
-      </div>
+      {!isCompletionSlot && (
+        <div className="flashcard-state-actions">
+          <button className="state-btn review" disabled={isTransitioning} onClick={() => handleSetState('review')}>
+            Still learning
+            <img src={restoreIcon} alt="" className="btn-icon" />
+          </button>
+          <button className="state-btn learnt" disabled={isTransitioning} onClick={() => handleSetState('learnt')}>
+            I know this
+            <img src={checkIcon} alt="" className="btn-icon" />
+          </button>
+        </div>
+      )}
     </div>
   );
 };
