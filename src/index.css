@@ -2339,6 +2339,13 @@ input:checked + .slider:before {
 
   .card-back-face {
     padding: 24px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-state-badge {
+    position: absolute !important;
   }
 
   .flashcard-state-actions {
