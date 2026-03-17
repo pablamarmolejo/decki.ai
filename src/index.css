@@ -2091,7 +2091,7 @@ input:checked + .slider:before {
   }
 
   .minimalist-mode-container {
-    padding-top: 24px !important;
+    padding: 24px 0 0 0 !important;
   }
 
   .mobile-nav-item {
@@ -2278,11 +2278,12 @@ input:checked + .slider:before {
   /* Flashcards Responsive */
   .flashcards-mode-view {
     padding: 0 8px !important;
-    gap: 24px;
-    min-height: 100vh;
+    gap: 8px;
+    height: calc(100vh - 24px);
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    overflow: hidden;
   }
 
   .flashcards-mode-header {
@@ -2293,6 +2294,7 @@ input:checked + .slider:before {
     gap: 16px;
     align-items: flex-start;
     width: 100%;
+    flex-shrink: 0;
   }
 
   .flashcards-header-actions {
@@ -2304,12 +2306,10 @@ input:checked + .slider:before {
 
   .flashcards-main-container {
     gap: 0;
-    margin: auto 0;
-  }
-
-  .flashcard-state-actions {
-    margin-top: auto;
-    padding-bottom: 24px;
+    margin: 0;
+    flex: 1;
+    display: flex;
+    align-items: center;
   }
 
   .nav-arrow-btn {
@@ -2328,7 +2328,7 @@ input:checked + .slider:before {
   .flashcard-item {
     width: 100%;
     max-width: 100%;
-    height: 400px;
+    height: min(400px, 55vh);
     flex: 1;
     min-width: 0;
   }
@@ -2342,12 +2342,14 @@ input:checked + .slider:before {
   }
 
   .flashcard-state-actions {
+    margin-top: 16px;
+    padding: 0 24px 16px;
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 16px;
-    padding: 0 24px;
     box-sizing: border-box;
+    flex-shrink: 0;
   }
 
   .state-btn.review,
