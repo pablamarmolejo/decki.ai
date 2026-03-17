@@ -333,12 +333,13 @@ const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNaviga
                 <div className="practice-area">
                   <div className="writing-section">
                     <div className="practice-header-row">
+                      <div className="field-label">Word</div>
                       <div className="selected-word-info">
-                        <div className="word-item-meaning">{selectedWord.meaning}</div>
                         <div className="selected-word-main-row">
                           <div className="word-item-main">{selectedWord.kanji || selectedWord.kana}</div>
                           <div className="word-item-reading">{selectedWord.kana}</div>
                         </div>
+                        <div className="word-item-meaning">{selectedWord.meaning}</div>
                       </div>
                     </div>
 

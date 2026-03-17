@@ -1172,7 +1172,6 @@ input:checked + .slider:before {
 }
 
 .field-label {
-  height: 14px;
   align-self: stretch;
   flex-grow: 0;
   font-family: 'Noto Sans JP', sans-serif;
@@ -1185,7 +1184,6 @@ input:checked + .slider:before {
   text-align: left;
   color: #060543;
   text-transform: uppercase;
-  margin-bottom: 0;
 }
 
 .sentence-input textarea {
@@ -1496,22 +1494,23 @@ input:checked + .slider:before {
 .practice-header-row {
   width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: flex-start;
-  gap: 24px;
+  gap: 16px;
 }
-
 .selected-word-info {
-  height: auto;
-  min-height: 56px;
-  flex-grow: 1;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 8px;
-  padding: 0;
+  padding: 16px;
+  border-radius: 12px;
+  border: solid 1px #ededf0;
+  background-color: #fcfcfc;
+  box-sizing: border-box;
 }
 
 .selected-word-info .word-item-meaning {
