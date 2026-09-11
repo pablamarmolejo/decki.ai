@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import type { Level, Deck, FlashcardState, SentencePractice, WordProgress } from './types';
+import type { Level, Deck, Flashcard, FlashcardState, SentencePractice, WordProgress } from './types';
+import { applyManualStatus, applyQuizScore } from './srs';
 
 // Default Decks Data
 import n5Kanji from './data/n5_kanji.json';
@@ -52,6 +53,7 @@ interface AppContextType {
   decks: Deck[];
   setDecks: React.Dispatch<React.SetStateAction<Deck[]>>;
   updateFlashcardState: (deckId: string, cardId: string, newState: FlashcardState) => void;
+  recordQuizResult: (deckId: string, cardId: string, score: 0 | 1 | 2 | 3) => void;
   resetDeck: (deckId: string) => void;
   deleteDeck: (deckId: string) => void;
   addCustomDeck: (deck: Deck) => void;
@@ -350,6 +352,17 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       },
     ];
 
+    const withSrsDefaults = (card: Flashcard) => ({
+      srs_interval: 0,
+      srs_ease_factor: 2.5,
+      srs_repetitions: 0,
+      last_reviewed_at: null,
+      next_review_due: null,
+      user_status_override: null,
+      ...card,
+    });
+    const deckWithSrsDefaults = (deck: Deck): Deck => ({ ...deck, cards: deck.cards.map(withSrsDefaults) });
+
     // Load from local storage if available
     const savedDecks = localStorage.getItem('decki-decks');
     if (savedDecks) {
@@ -369,20 +382,20 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
               ...defaultDeck,
               cards: defaultDeck.cards.map(card => {
                 const savedCard = savedDefault.cards.find(sc => sc.kanji === card.kanji && sc.kana === card.kana);
-                return savedCard ? { ...card, state: savedCard.state } : card;
+                return savedCard ? { ...card, ...savedCard, id: card.id, kanji: card.kanji, kana: card.kana, meaning: card.meaning, example: card.example } : card;
               })
             };
           }
           return defaultDeck;
         });
 
-        setDecks([...finalDecks, ...customDecks]);
+        setDecks([...finalDecks, ...customDecks].map(deckWithSrsDefaults));
       } catch (e) {
         console.error("Failed to parse decks from localStorage", e);
-        setDecks(initialDecks);
+        setDecks(initialDecks.map(deckWithSrsDefaults));
       }
     } else {
-      setDecks(initialDecks);
+      setDecks(initialDecks.map(deckWithSrsDefaults));
     }
 
     const savedProgress = localStorage.getItem('decki-progress');
@@ -413,12 +426,19 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
           ? {
               ...deck,
               cards: deck.cards.map((card) =>
-                card.id === cardId ? { ...card, state: newState } : card
+                card.id === cardId ? applyManualStatus(card, newState) : card
               ),
             }
           : deck
       )
     );
+  };
+
+  const recordQuizResult = (deckId: string, cardId: string, score: 0 | 1 | 2 | 3) => {
+    setDecks((prev) => prev.map((deck) => deck.id === deckId ? {
+      ...deck,
+      cards: deck.cards.map((card) => card.id === cardId ? applyQuizScore(card, score) : card),
+    } : deck));
   };
 
   const resetDeck = (deckId: string) => {
@@ -483,6 +503,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         decks,
         setDecks,
         updateFlashcardState,
+        recordQuizResult,
         resetDeck,
         deleteDeck,
         addCustomDeck,

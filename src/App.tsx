@@ -3,26 +3,38 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import StudyDecks from './pages/StudyDecks';
 import MasteryPractice from './pages/MasteryPractice';
+import Quiz from './pages/Quiz';
 import CreateCustomDeck from './pages/CreateCustomDeck';
 import Flashcards from './pages/Flashcards';
 import LevelSelection from './pages/LevelSelection';
 import { AppProvider } from './AppContext';
 import icDecks from './assets/ic_round-style.svg';
 import icPractice from './assets/ic_round-edit-note.svg';
+import icQuiz from './assets/ic_round-school.svg';
 import icPlus from './assets/ic_round-plus.svg';
 import './index.css';
 
-type Page = 'STUDY_DECKS' | 'MASTERY_PRACTICE' | 'CREATE_CUSTOM_DECK' | 'FLASHCARDS' | 'LEVEL_SELECTION';
+type Page = 'STUDY_DECKS' | 'QUIZ' | 'MASTERY_PRACTICE' | 'CREATE_CUSTOM_DECK' | 'FLASHCARDS' | 'LEVEL_SELECTION';
 
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<Page>(() => {
     const saved = localStorage.getItem('decki-current-page');
-    const pages: Page[] = ['STUDY_DECKS', 'MASTERY_PRACTICE', 'CREATE_CUSTOM_DECK', 'FLASHCARDS', 'LEVEL_SELECTION'];
+    const pages: Page[] = ['STUDY_DECKS', 'QUIZ', 'MASTERY_PRACTICE', 'CREATE_CUSTOM_DECK', 'FLASHCARDS', 'LEVEL_SELECTION'];
     return (saved && pages.includes(saved as Page)) ? (saved as Page) : 'LEVEL_SELECTION';
   });
   const [selectedDeckId, setSelectedDeckId] = useState<string | null>(() => localStorage.getItem('decki-selected-deck-id'));
   const [editingDeckId, setEditingDeckId] = useState<string | null>(() => localStorage.getItem('decki-editing-deck-id'));
   const [toast, setToast] = useState<string | null>(null);
+  const [quizSessionActive, setQuizSessionActive] = useState(false);
+  const [quizExitRequest, setQuizExitRequest] = useState(0);
+
+  const navigateToQuiz = () => {
+    if (currentPage === 'QUIZ' && quizSessionActive) {
+      setQuizExitRequest((value) => value + 1);
+      return;
+    }
+    setCurrentPage('QUIZ');
+  };
 
   // Persistence effects
   React.useEffect(() => {
@@ -77,6 +89,8 @@ const App: React.FC = () => {
         return <StudyDecks onNavigateToCreate={() => { setEditingDeckId(null); setCurrentPage('CREATE_CUSTOM_DECK'); }} onNavigateToDeck={navigateToDeck} onEditDeck={handleEditDeck} />;
       case 'MASTERY_PRACTICE':
         return <MasteryPractice onNavigateToStudy={() => setCurrentPage('STUDY_DECKS')} />;
+      case 'QUIZ':
+        return <Quiz onSessionChange={setQuizSessionActive} exitRequest={quizExitRequest} />;
       case 'CREATE_CUSTOM_DECK':
         return <CreateCustomDeck onBack={() => setCurrentPage('STUDY_DECKS')} editingDeckId={editingDeckId} showToast={showToast} />;
       case 'FLASHCARDS':
@@ -109,6 +123,12 @@ const App: React.FC = () => {
                       Decks
                     </button>
                     <button
+                      className={`section-btn ${currentPage === 'QUIZ' ? 'active' : ''}`}
+                      onClick={navigateToQuiz}
+                    >
+                      Quiz
+                    </button>
+                    <button
                       className={`section-btn ${currentPage === 'MASTERY_PRACTICE' ? 'active' : ''}`}
                       onClick={() => setCurrentPage('MASTERY_PRACTICE')}
                     >
@@ -122,7 +142,7 @@ const App: React.FC = () => {
             {toast && <div className="toast-notification">{toast}</div>}
             {isLevelSelection && <Footer />}
           </div>
-          {['STUDY_DECKS', 'MASTERY_PRACTICE'].includes(currentPage) && (
+          {['STUDY_DECKS', 'QUIZ', 'MASTERY_PRACTICE'].includes(currentPage) && (
             <div className="mobile-nav-container">
               {currentPage === 'STUDY_DECKS' && (
                 <button 
@@ -140,6 +160,13 @@ const App: React.FC = () => {
                 >
                   <img src={icDecks} alt="Decks" className="mobile-nav-icon" />
                   <span>Decks</span>
+                </button>
+                <button
+                  className={`mobile-nav-item ${currentPage === 'QUIZ' ? 'active' : ''}`}
+                  onClick={navigateToQuiz}
+                >
+                  <img src={icQuiz} alt="Quiz" className="mobile-nav-icon" />
+                  <span>Quiz</span>
                 </button>
                 <button
                   className={`mobile-nav-item ${currentPage === 'MASTERY_PRACTICE' ? 'active' : ''}`}
