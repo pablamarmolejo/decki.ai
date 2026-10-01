@@ -1,18 +1,20 @@
 import React, { useState } from 'react';
 import { useAppContext } from '../AppContext';
-import type { DeckType } from '../types';
+import type { Deck, DeckType, DeckStudySettings } from '../types';
+import DeckSetupModal from '../components/DeckSetupModal';
 import editIcon from '../assets/ic_round-edit.svg';
 import plusIcon from '../assets/ic_round-plus.svg';
 
 interface StudyDecksProps {
   onNavigateToCreate: () => void;
-  onNavigateToDeck: (deckId: string) => void;
+  onNavigateToDeck: (deckId: string, settings: DeckStudySettings) => void;
   onEditDeck: (deckId: string) => void;
 }
 
 const StudyDecks: React.FC<StudyDecksProps> = ({ onNavigateToCreate, onNavigateToDeck, onEditDeck }) => {
   const { currentLevel, decks } = useAppContext();
   const [filter, setFilter] = useState<DeckType | 'all'>('all');
+  const [selectedDeckForSetup, setSelectedDeckForSetup] = useState<Deck | null>(null);
 
   const levelDecks = decks.filter(deck => deck.level === currentLevel);
   const filteredDecks = levelDecks.filter(deck => {
@@ -67,7 +69,7 @@ const StudyDecks: React.FC<StudyDecksProps> = ({ onNavigateToCreate, onNavigateT
             ].join(' ');
 
             return (
-              <div key={deck.id} className={cardClassName} onClick={() => onNavigateToDeck(deck.id)}>
+              <div key={deck.id} className={cardClassName} onClick={() => setSelectedDeckForSetup(deck)}>
                 <div className="deck-header">
                   <div className="deck-label">
                     {deck.type === 'custom' ? 'CUSTOM DECK' : deck.level}
@@ -101,6 +103,17 @@ const StudyDecks: React.FC<StudyDecksProps> = ({ onNavigateToCreate, onNavigateT
           })}
         </div>
       </div>
+
+      {selectedDeckForSetup && (
+        <DeckSetupModal
+          deck={selectedDeckForSetup}
+          onClose={() => setSelectedDeckForSetup(null)}
+          onStart={(settings) => {
+            onNavigateToDeck(selectedDeckForSetup.id, settings);
+            setSelectedDeckForSetup(null);
+          }}
+        />
+      )}
     </div>
   );
 };

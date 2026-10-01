@@ -2687,4 +2687,219 @@ input:checked + .slider:before {
     padding-right: 12px !important;
     box-sizing: border-box !important;
   }
+
+  .deck-setup-actions {
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+
+  .deck-setup-actions button {
+    width: 100% !important;
+  }
 }
+
+/* Deck Setup Modal & Card Customizations */
+.deck-setup-modal {
+  width: min(500px, calc(100vw - 32px));
+  max-height: calc(100vh - 40px);
+  overflow: auto;
+  background: #fcfcfc;
+  border-radius: 12px;
+  padding: 32px;
+  box-sizing: border-box;
+  box-shadow: 0 12px 40px rgba(6, 5, 67, 0.2);
+}
+
+.deck-setup-modal h2 {
+  margin: 0 0 6px;
+  color: #060543;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.deck-setup-modal > p {
+  color: #6e6d76;
+  margin: 0 0 24px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 14px;
+}
+
+.deck-setup-toggle-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid #ededf0;
+  margin-bottom: 16px;
+}
+
+.deck-setup-label {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #060543;
+}
+
+.deck-setup-section-heading {
+  display: block;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #060543;
+  margin: 18px 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.deck-setup-check {
+  display: flex !important;
+  gap: 10px;
+  align-items: center;
+  margin: 10px 0 !important;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #2f2f3b;
+  cursor: pointer;
+  user-select: none;
+}
+
+.deck-setup-check input {
+  accent-color: #4f46e5;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.deck-setup-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.deck-setup-modal .secondary-btn.modal-secondary-btn {
+  flex: 1;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 24px;
+  border-radius: 8px;
+  background-color: #f4f4f7;
+  border: none;
+  cursor: pointer;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(6, 5, 67);
+  line-height: 1;
+}
+
+.deck-setup-modal .primary-btn.modal-primary-btn {
+  flex: 1;
+  min-width: 160px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 24px;
+  border-radius: 8px;
+  background-color: rgb(6, 5, 67);
+  border: none;
+  cursor: pointer;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(252, 252, 252);
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+.card-meaning-front-display {
+  width: auto;
+  min-width: 48px;
+  height: auto;
+  flex-grow: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #494850;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Flashcard Keyboard Shortcuts Legend */
+.flashcards-shortcuts-legend {
+  position: fixed;
+  top: 20px;
+  right: 28px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 100;
+  pointer-events: none;
+}
+
+.shortcut-chip {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.shortcut-key {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 11px;
+  font-weight: 600;
+  color: #494850;
+  background-color: #f4f4f7;
+  border: 1px solid #dcdce0;
+  border-bottom: 2px solid #ceced4;
+  border-radius: 4px;
+  padding: 3px 6px;
+  line-height: 1;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.shortcut-action {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #8e8d96;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .flashcards-shortcuts-legend {
+    display: none !important;
+  }
+}
+
+.card-counter {
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #4F46E5;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  user-select: none;
+}
+
+
+

@@ -1,53 +1,51 @@
 import React, { useState } from 'react';
 import { useAppContext } from '../AppContext';
-import type { Flashcard, FlashcardState } from '../types';
+import type { Flashcard, FlashcardState, DeckStudySettings } from '../types';
+import { DEFAULT_DECK_STUDY_SETTINGS } from '../types';
 import leftArrow from '../assets/ic_round-keyboard-arrow-left.svg';
 import rightArrow from '../assets/ic_round-keyboard-arrow-right.svg';
 import checkIcon from '../assets/ic_round-check.svg';
 import restoreIcon from '../assets/ic_round-restore.svg';
-import refreshIcon from '../assets/ic_round-refresh.svg';
 import eventsIcon from '../assets/ic_round-emoji-events.svg';
 import clearIcon from '../assets/ic_round-clear.svg';
 import confetti from 'canvas-confetti';
 
 interface FlashcardsProps {
   deckId: string;
+  settings?: DeckStudySettings;
   onBack: () => void;
   onNavigateToMastery: () => void;
 }
 
-const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMastery }) => {
-  const { decks, updateFlashcardState, resetDeck } = useAppContext();
+const Flashcards: React.FC<FlashcardsProps> = ({ deckId, settings, onBack, onNavigateToMastery }) => {
+  const { decks, updateFlashcardState } = useAppContext();
   const deck = decks.find(d => d.id === deckId);
-  const [currentIndex, setCurrentIndex] = useState(() => {
-    const saved = localStorage.getItem(`decki-flashcard-index-${deckId}`);
-    return saved ? parseInt(saved, 10) : 0;
-  });
+  const studySettings = settings || DEFAULT_DECK_STUDY_SETTINGS;
+
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
-  const [isShuffled, setIsShuffled] = useState(false);
-  const [shuffledCards, setShuffledCards] = useState<Flashcard[]>(deck?.cards || []);
+  const [shuffledCards, setShuffledCards] = useState<Flashcard[]>(() => {
+    if (!deck) return [];
+    return studySettings.shuffle
+      ? [...deck.cards].sort(() => Math.random() - 0.5)
+      : [...deck.cards];
+  });
   const [isTransitioning, setIsTransitioning] = useState(false);
 
-  // Persistence effect for current index
+  // Sync and reset cards when deckId or settings change
   React.useEffect(() => {
-    localStorage.setItem(`decki-flashcard-index-${deckId}`, currentIndex.toString());
-  }, [currentIndex, deckId]);
-
-  // Initialize and sync cards when deck changes
-  React.useEffect(() => {
-    if (deck && shuffledCards.length === 0) {
-      setShuffledCards(deck.cards);
-      setIsShuffled(false);
-      // Only reset index if it was somehow invalid
-      if (currentIndex >= deck.cards.length + 1) {
-        setCurrentIndex(0);
-      }
+    if (deck) {
+      const cards = studySettings.shuffle
+        ? [...deck.cards].sort(() => Math.random() - 0.5)
+        : [...deck.cards];
+      setShuffledCards(cards);
+      setCurrentIndex(0);
       setIsFlipped(false);
     }
-  }, [deckId, deck, shuffledCards.length, currentIndex]);
+  }, [deckId, settings]);
 
   const allLearnt = shuffledCards.length > 0 && shuffledCards.every(c => c.state === 'learnt');
-  const isKanjiDeck = deck?.type === 'default' && deck?.name.toLowerCase().includes('kanji');
+  const isKanjiDeck = Boolean(deck?.type === 'default' && deck?.name.toLowerCase().includes('kanji'));
   const totalSlots = allLearnt ? shuffledCards.length + 1 : shuffledCards.length;
   const isCompletionSlot = allLearnt && currentIndex === shuffledCards.length;
 
@@ -62,7 +60,16 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
     }
   }, [allLearnt, isTransitioning, currentIndex, shuffledCards.length]);
 
-  if (!deck) return <div className="flashcards-mode-view">Deck not found</div>;
+  // All refs and their update effects must come before any early return
+  const handlersRef = React.useRef({
+    handleNext: () => {},
+    handlePrev: () => {},
+    handleSetState: (_state: FlashcardState) => {},
+    setIsFlipped,
+    onBack,
+    isTransitioning,
+    isCompletionSlot,
+  });
 
   const currentCard = shuffledCards[currentIndex];
 
@@ -98,15 +105,12 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
         // Automatically move to completion slot
         setCurrentIndex(updatedCards.length);
       } else if (finalState === 'learnt') {
-        // Find next card that isn't learnt yet
-        // Search forward
+        // Find next card that isn't learnt yet — search forward
         let nextIndex = updatedCards.findIndex((c, i) => i > currentIndex && c.state !== 'learnt');
-        
         // If not found forward, search from the beginning
         if (nextIndex === -1) {
           nextIndex = updatedCards.findIndex((c) => c.state !== 'learnt');
         }
-
         if (nextIndex !== -1) {
           setCurrentIndex(nextIndex);
         }
@@ -120,50 +124,102 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
     }, 600);
   };
 
-  const toggleShuffle = () => {
-    if (isTransitioning) return;
-    const nextShuffled = !isShuffled;
-    setIsShuffled(nextShuffled);
-    if (nextShuffled) {
-      setShuffledCards([...shuffledCards].sort(() => Math.random() - 0.5));
-    } else {
-      setShuffledCards(deck.cards);
-    }
-    setCurrentIndex(0);
-    setIsFlipped(false);
-  };
+  // Keep ref in sync with latest handlers/state so the keydown listener always uses fresh values
+  React.useEffect(() => {
+    handlersRef.current = {
+      handleNext,
+      handlePrev,
+      handleSetState,
+      setIsFlipped,
+      onBack,
+      isTransitioning,
+      isCompletionSlot,
+    };
+  });
 
-  const handleReset = () => {
-    if (isTransitioning) return;
-    resetDeck(deckId);
-    setIsShuffled(false);
-    setShuffledCards(deck.cards.map(c => ({ ...c, state: 'to-be-learnt' })));
-    setCurrentIndex(0);
-    setIsFlipped(false);
-  };
+  React.useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable)) {
+        return;
+      }
+
+      const { onBack, isTransitioning, isCompletionSlot, handleNext, handlePrev, handleSetState, setIsFlipped } = handlersRef.current;
+
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        onBack();
+        return;
+      }
+
+      if (isTransitioning) return;
+
+      if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        handleNext();
+      } else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        handlePrev();
+      } else if (e.code === 'Space' || e.key === ' ') {
+        e.preventDefault();
+        if (!isCompletionSlot) {
+          setIsFlipped((prev) => !prev);
+        }
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        if (!isCompletionSlot) {
+          handleSetState('learnt');
+        }
+      } else if (e.key === 'Backspace') {
+        e.preventDefault();
+        if (!isCompletionSlot) {
+          handleSetState('review');
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
+
+  if (!deck) return <div className="flashcards-mode-view">Deck not found</div>;
+
+  const isKanjiCard = Boolean(currentCard?.kun || currentCard?.on || isKanjiDeck);
 
   return (
     <div className="flashcards-mode-view">
+      {!isCompletionSlot && (
+        <div className="flashcards-shortcuts-legend">
+          <div className="shortcut-chip">
+            <kbd className="shortcut-key">Left</kbd>
+            <kbd className="shortcut-key">Right</kbd>
+            <span className="shortcut-action">Navigate</span>
+          </div>
+          <div className="shortcut-chip">
+            <kbd className="shortcut-key">Space</kbd>
+            <span className="shortcut-action">Flip</span>
+          </div>
+          <div className="shortcut-chip">
+            <kbd className="shortcut-key">Enter</kbd>
+            <span className="shortcut-action">Learnt</span>
+          </div>
+          <div className="shortcut-chip">
+            <kbd className="shortcut-key">Backspace</kbd>
+            <span className="shortcut-action">Still learning</span>
+          </div>
+          <div className="shortcut-chip">
+            <kbd className="shortcut-key">Esc</kbd>
+            <span className="shortcut-action">Close</span>
+          </div>
+        </div>
+      )}
+
       <div className="flashcards-mode-header">
         <button className="close-deck-btn" disabled={isTransitioning} onClick={onBack}>
           <img src={clearIcon} alt="Close" />
         </button>
-        
-        <div className="flashcards-header-actions">
-          <button className="text-link-btn start-over-btn" disabled={isTransitioning} onClick={handleReset}>
-            <img src={refreshIcon} alt="" className="link-icon" />
-            Start over
-          </button>
-          {!allLearnt && (
-            <div className="shuffle-toggle">
-              <label className="switch">
-                <input type="checkbox" disabled={isTransitioning} checked={isShuffled} onChange={toggleShuffle} />
-                <span className="slider round"></span>
-              </label>
-              <span className="shuffle-label">Shuffle</span>
-            </div>
-          )}
-        </div>
       </div>
 
       <div className="flashcards-main-container">
@@ -240,7 +296,7 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
                 </button>
                 <button 
                   className="secondary-btn" 
-                  onClick={handleReset}
+                  onClick={onBack}
                   style={{ 
                     height: '44px', 
                     display: 'flex', 
@@ -249,7 +305,7 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
                     alignItems: 'center', 
                     gap: '8px', 
                     padding: '13px 24px', 
-                    borderRadius: '6px',
+                    borderRadius: '8px',
                     backgroundColor: '#f4f4f7',
                     border: 'none',
                     cursor: 'pointer'
@@ -263,7 +319,7 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
                     color: '#060543',
                     lineHeight: '1'
                   }}>
-                    Restart deck
+                    Back to decks
                   </span>
                 </button>
               </div>
@@ -271,6 +327,9 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
           ) : (
             <div className="card-content-wrapper" onClick={() => !isTransitioning && setIsFlipped(!isFlipped)}>
               <div className="card-face card-front-face">
+                <div className="card-counter">
+                  {currentIndex + 1}/{shuffledCards.length}
+                </div>
                 {(currentCard?.state === 'learnt' || currentCard?.state === 'review') && (
                   <div className={`card-state-badge ${currentCard.state} ${isTransitioning ? 'pop' : ''}`}>
                     {currentCard.state === 'learnt' ? 'I know this' : 'Still learning'}
@@ -281,10 +340,20 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
                 {currentCard?.kanji ? (
                   <>
                     <div className="card-kanji-display">{currentCard.kanji}</div>
-                    <div className="card-kana-display">{currentCard.kana}</div>
+                    {studySettings.frontKana && currentCard.kana && (
+                      <div className="card-kana-display">{currentCard.kana}</div>
+                    )}
+                    {studySettings.frontMeaning && currentCard.meaning && (
+                      <div className="card-meaning-front-display">{currentCard.meaning}</div>
+                    )}
                   </>
                 ) : (
-                  <div className="card-kanji-display">{currentCard?.kana}</div>
+                  <>
+                    <div className="card-kanji-display">{currentCard?.kana}</div>
+                    {studySettings.frontMeaning && currentCard?.meaning && (
+                      <div className="card-meaning-front-display">{currentCard.meaning}</div>
+                    )}
+                  </>
                 )}
               </div>
               <div className="card-face card-back-face">
@@ -294,28 +363,41 @@ const Flashcards: React.FC<FlashcardsProps> = ({ deckId, onBack, onNavigateToMas
                   </div>
                 )}
                 
-                <div className="card-back-section">
-                  <div className="section-label">MEANING</div>
-                  <div className="card-meaning-display">{currentCard?.meaning}</div>
-                </div>
-
-                {isKanjiDeck && (
-                  <>
-                    <div className="card-back-section">
-                      <div className="section-label">KUN-READING</div>
-                      <div className="card-detail">{currentCard?.kun || '-'}</div>
-                    </div>
-                    <div className="card-back-section">
-                      <div className="section-label">ON-READING</div>
-                      <div className="card-detail">{currentCard?.on || '-'}</div>
-                    </div>
-                  </>
+                {studySettings.backMeaning && currentCard?.meaning && (
+                  <div className="card-back-section">
+                    <div className="section-label">MEANING</div>
+                    <div className="card-meaning-display">{currentCard.meaning}</div>
+                  </div>
                 )}
 
-                <div className="card-back-section example-section">
-                  <div className="section-label">EXAMPLE</div>
-                  <div className="card-example-display">{currentCard?.example}</div>
-                </div>
+                {studySettings.backKana && (
+                  isKanjiCard ? (
+                    <>
+                      <div className="card-back-section">
+                        <div className="section-label">KUN-READING</div>
+                        <div className="card-detail">{currentCard?.kun || '-'}</div>
+                      </div>
+                      <div className="card-back-section">
+                        <div className="section-label">ON-READING</div>
+                        <div className="card-detail">{currentCard?.on || '-'}</div>
+                      </div>
+                    </>
+                  ) : (
+                    currentCard?.kana ? (
+                      <div className="card-back-section">
+                        <div className="section-label">READING</div>
+                        <div className="card-detail">{currentCard.kana}</div>
+                      </div>
+                    ) : null
+                  )
+                )}
+
+                {currentCard?.example && (
+                  <div className="card-back-section example-section">
+                    <div className="section-label">EXAMPLE</div>
+                    <div className="card-example-display">{currentCard.example}</div>
+                  </div>
+                )}
               </div>
             </div>
           )}

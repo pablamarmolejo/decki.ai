@@ -47,3 +47,20 @@ export interface WordProgress {
   sentences: SentencePractice[];
   usedInPractice: boolean;
 }
+
+export interface DeckStudySettings {
+  shuffle: boolean;
+  frontKana: boolean;
+  frontMeaning: boolean;
+  backKana: boolean;
+  backMeaning: boolean;
+}
+
+export const DEFAULT_DECK_STUDY_SETTINGS: DeckStudySettings = {
+  shuffle: true,
+  frontKana: true,
+  frontMeaning: false,
+  backKana: false,
+  backMeaning: true,
+};
+

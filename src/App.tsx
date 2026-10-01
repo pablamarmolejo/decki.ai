@@ -8,6 +8,8 @@ import CreateCustomDeck from './pages/CreateCustomDeck';
 import Flashcards from './pages/Flashcards';
 import LevelSelection from './pages/LevelSelection';
 import { AppProvider } from './AppContext';
+import type { DeckStudySettings } from './types';
+import { DEFAULT_DECK_STUDY_SETTINGS } from './types';
 import icDecks from './assets/ic_round-style.svg';
 import icPractice from './assets/ic_round-edit-note.svg';
 import icQuiz from './assets/ic_round-school.svg';
@@ -23,6 +25,10 @@ const App: React.FC = () => {
     return (saved && pages.includes(saved as Page)) ? (saved as Page) : 'LEVEL_SELECTION';
   });
   const [selectedDeckId, setSelectedDeckId] = useState<string | null>(() => localStorage.getItem('decki-selected-deck-id'));
+  const [deckStudySettings, setDeckStudySettings] = useState<DeckStudySettings>(() => {
+    const saved = localStorage.getItem('decki-study-settings');
+    return saved ? JSON.parse(saved) : DEFAULT_DECK_STUDY_SETTINGS;
+  });
   const [editingDeckId, setEditingDeckId] = useState<string | null>(() => localStorage.getItem('decki-editing-deck-id'));
   const [toast, setToast] = useState<string | null>(null);
   const [quizSessionActive, setQuizSessionActive] = useState(false);
@@ -71,7 +77,10 @@ const App: React.FC = () => {
     setTimeout(() => setToast(null), 3000);
   };
 
-  const navigateToDeck = (deckId: string) => {
+  const navigateToDeck = (deckId: string, settings?: DeckStudySettings) => {
+    const appliedSettings = settings || DEFAULT_DECK_STUDY_SETTINGS;
+    setDeckStudySettings(appliedSettings);
+    localStorage.setItem('decki-study-settings', JSON.stringify(appliedSettings));
     setSelectedDeckId(deckId);
     setCurrentPage('FLASHCARDS');
   };
@@ -94,7 +103,14 @@ const App: React.FC = () => {
       case 'CREATE_CUSTOM_DECK':
         return <CreateCustomDeck onBack={() => setCurrentPage('STUDY_DECKS')} editingDeckId={editingDeckId} showToast={showToast} />;
       case 'FLASHCARDS':
-        return selectedDeckId ? <Flashcards deckId={selectedDeckId} onBack={() => setCurrentPage('STUDY_DECKS')} onNavigateToMastery={() => setCurrentPage('MASTERY_PRACTICE')} /> : null;
+        return selectedDeckId ? (
+          <Flashcards
+            deckId={selectedDeckId}
+            settings={deckStudySettings}
+            onBack={() => setCurrentPage('STUDY_DECKS')}
+            onNavigateToMastery={() => setCurrentPage('MASTERY_PRACTICE')}
+          />
+        ) : null;
       default:
         return <StudyDecks onNavigateToCreate={() => { setEditingDeckId(null); setCurrentPage('CREATE_CUSTOM_DECK'); }} onNavigateToDeck={navigateToDeck} onEditDeck={handleEditDeck} />;
     }
