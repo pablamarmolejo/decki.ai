@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useAppContext } from '../AppContext';
 import type { Flashcard, SentencePractice } from '../types';
 import checkIcon from '../assets/ic_round-check.svg';
@@ -8,8 +9,9 @@ import autoStoriesIcon from '../assets/ic_round-auto-stories.svg';
 import deleteIcon from '../assets/ic_round-delete-outline.svg';
 import backIcon from '../assets/ic_round-keyboard-arrow-left.svg';
 
-const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNavigateToStudy }) => {
+const MasteryPractice: React.FC = () => {
   const { decks, wordProgress, addSentence, removeSentence, currentLevel } = useAppContext();
+  const navigate = useNavigate();
   const [selectedWord, setSelectedWord] = useState<Flashcard | null>(null);
   const [sentence, setSentence] = useState('');
   const [sentenceToDelete, setSentenceToDelete] = useState<number | null>(null);
@@ -225,7 +227,7 @@ const MasteryPractice: React.FC<{ onNavigateToStudy: () => void }> = ({ onNaviga
               <div className="empty-state" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px', padding: '40px 20px', textAlign: 'center' }}>
                 <p style={{ color: '#8F8E96', margin: 0 }}>No words learnt yet. Go to Decks to start learning!</p>
                 <button 
-                  onClick={onNavigateToStudy}
+                  onClick={() => navigate('/decks')}
                   style={{ 
                     width: '200px', 
                     height: '44px', 

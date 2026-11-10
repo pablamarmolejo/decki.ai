@@ -1,18 +1,14 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useAppContext } from '../AppContext';
-import type { Deck, DeckType, DeckStudySettings } from '../types';
+import type { Deck, DeckType } from '../types';
 import DeckSetupModal from '../components/DeckSetupModal';
 import editIcon from '../assets/ic_round-edit.svg';
 import plusIcon from '../assets/ic_round-plus.svg';
 
-interface StudyDecksProps {
-  onNavigateToCreate: () => void;
-  onNavigateToDeck: (deckId: string, settings: DeckStudySettings) => void;
-  onEditDeck: (deckId: string) => void;
-}
-
-const StudyDecks: React.FC<StudyDecksProps> = ({ onNavigateToCreate, onNavigateToDeck, onEditDeck }) => {
+const StudyDecks: React.FC = () => {
   const { currentLevel, decks } = useAppContext();
+  const navigate = useNavigate();
   const [filter, setFilter] = useState<DeckType | 'all'>('all');
   const [selectedDeckForSetup, setSelectedDeckForSetup] = useState<Deck | null>(null);
 
@@ -45,7 +41,7 @@ const StudyDecks: React.FC<StudyDecksProps> = ({ onNavigateToCreate, onNavigateT
         <div className="decks-grid">
           <div 
             className="create-banner" 
-            onClick={onNavigateToCreate}
+            onClick={() => navigate('/decks/new')}
             style={filteredDecks.length === 0 ? { height: '243px' } : {}}
           >
             <div className="banner-icon-container">
@@ -79,7 +75,7 @@ const StudyDecks: React.FC<StudyDecksProps> = ({ onNavigateToCreate, onNavigateT
                       className="edit-deck-btn"
                       onClick={(e) => {
                         e.stopPropagation();
-                        onEditDeck(deck.id);
+                        navigate(`/decks/${deck.id}/edit`);
                       }}
                       aria-label="Edit deck"
                     >
@@ -109,7 +105,7 @@ const StudyDecks: React.FC<StudyDecksProps> = ({ onNavigateToCreate, onNavigateT
           deck={selectedDeckForSetup}
           onClose={() => setSelectedDeckForSetup(null)}
           onStart={(settings) => {
-            onNavigateToDeck(selectedDeckForSetup.id, settings);
+            navigate(`/decks/${selectedDeckForSetup.id}`, { state: { settings } });
             setSelectedDeckForSetup(null);
           }}
         />

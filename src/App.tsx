@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { BrowserRouter, Routes, Route, Navigate, NavLink, useNavigate, useLocation, useParams } from 'react-router-dom';
+import { AppProvider } from './AppContext';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import StudyDecks from './pages/StudyDecks';
@@ -7,197 +9,249 @@ import Quiz from './pages/Quiz';
 import CreateCustomDeck from './pages/CreateCustomDeck';
 import Flashcards from './pages/Flashcards';
 import LevelSelection from './pages/LevelSelection';
-import { AppProvider } from './AppContext';
-import type { DeckStudySettings } from './types';
-import { DEFAULT_DECK_STUDY_SETTINGS } from './types';
+import NotFound from './pages/NotFound';
 import icDecks from './assets/ic_round-style.svg';
 import icPractice from './assets/ic_round-edit-note.svg';
 import icQuiz from './assets/ic_round-school.svg';
 import icPlus from './assets/ic_round-plus.svg';
 import './index.css';
 
-type Page = 'STUDY_DECKS' | 'QUIZ' | 'MASTERY_PRACTICE' | 'CREATE_CUSTOM_DECK' | 'FLASHCARDS' | 'LEVEL_SELECTION';
+// ─── Toast context ──────────────────────────────────────────────────────────
+const ToastContext = React.createContext<(msg: string) => void>(() => {});
+export const useToast = () => React.useContext(ToastContext);
 
-const App: React.FC = () => {
-  const [currentPage, setCurrentPage] = useState<Page>(() => {
-    const saved = localStorage.getItem('decki-current-page');
-    const pages: Page[] = ['STUDY_DECKS', 'QUIZ', 'MASTERY_PRACTICE', 'CREATE_CUSTOM_DECK', 'FLASHCARDS', 'LEVEL_SELECTION'];
-    return (saved && pages.includes(saved as Page)) ? (saved as Page) : 'LEVEL_SELECTION';
-  });
-  const [selectedDeckId, setSelectedDeckId] = useState<string | null>(() => localStorage.getItem('decki-selected-deck-id'));
-  const [deckStudySettings, setDeckStudySettings] = useState<DeckStudySettings>(() => {
-    const saved = localStorage.getItem('decki-study-settings');
-    return saved ? JSON.parse(saved) : DEFAULT_DECK_STUDY_SETTINGS;
-  });
-  const [editingDeckId, setEditingDeckId] = useState<string | null>(() => localStorage.getItem('decki-editing-deck-id'));
-  const [toast, setToast] = useState<string | null>(null);
-  const [quizSessionActive, setQuizSessionActive] = useState(false);
-  const [quizExitRequest, setQuizExitRequest] = useState(0);
+// ─── Shell layout (header + section nav + footer) ───────────────────────────
+const Shell: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [toast, setToast] = React.useState<string | null>(null);
 
-  const navigateToQuiz = () => {
-    if (currentPage === 'QUIZ' && quizSessionActive) {
-      setQuizExitRequest((value) => value + 1);
-      return;
-    }
-    setCurrentPage('QUIZ');
-  };
-
-  // Persistence effects
-  React.useEffect(() => {
-    localStorage.setItem('decki-current-page', currentPage);
-  }, [currentPage]);
-
-  React.useEffect(() => {
-    if (selectedDeckId) localStorage.setItem('decki-selected-deck-id', selectedDeckId);
-    else localStorage.removeItem('decki-selected-deck-id');
-  }, [selectedDeckId]);
-
-  React.useEffect(() => {
-    if (editingDeckId) localStorage.setItem('decki-editing-deck-id', editingDeckId);
-    else localStorage.removeItem('decki-editing-deck-id');
-  }, [editingDeckId]);
-
-  // Scroll to top on page change
-  React.useEffect(() => {
-    window.scrollTo(0, 0);
-    // Also reset minimalist container scroll if it exists
-    const container = document.querySelector('.minimalist-mode-container');
-    if (container) container.scrollTop = 0;
-  }, [currentPage]);
-
-  // Safety redirect: If on FLASHCARDS but no deck selected, go to STUDY_DECKS
-  React.useEffect(() => {
-    if (currentPage === 'FLASHCARDS' && !selectedDeckId) {
-      setCurrentPage('STUDY_DECKS');
-    }
-  }, [currentPage, selectedDeckId]);
-
-  const showToast = (message: string) => {
+  const showToast = React.useCallback((message: string) => {
     setToast(message);
     setTimeout(() => setToast(null), 3000);
-  };
+  }, []);
 
-  const navigateToDeck = (deckId: string, settings?: DeckStudySettings) => {
-    const appliedSettings = settings || DEFAULT_DECK_STUDY_SETTINGS;
-    setDeckStudySettings(appliedSettings);
-    localStorage.setItem('decki-study-settings', JSON.stringify(appliedSettings));
-    setSelectedDeckId(deckId);
-    setCurrentPage('FLASHCARDS');
-  };
+  const isDecksActive = location.pathname.startsWith('/decks');
+  const isQuizActive = location.pathname.startsWith('/quiz');
+  const isPracticeActive = location.pathname === '/practice';
 
-  const handleEditDeck = (deckId: string) => {
-    setEditingDeckId(deckId);
-    setCurrentPage('CREATE_CUSTOM_DECK');
-  };
-
-  const renderPage = () => {
-    switch (currentPage) {
-      case 'LEVEL_SELECTION':
-        return <LevelSelection onLevelSelected={() => setCurrentPage('STUDY_DECKS')} />;
-      case 'STUDY_DECKS':
-        return <StudyDecks onNavigateToCreate={() => { setEditingDeckId(null); setCurrentPage('CREATE_CUSTOM_DECK'); }} onNavigateToDeck={navigateToDeck} onEditDeck={handleEditDeck} />;
-      case 'MASTERY_PRACTICE':
-        return <MasteryPractice onNavigateToStudy={() => setCurrentPage('STUDY_DECKS')} />;
-      case 'QUIZ':
-        return <Quiz onSessionChange={setQuizSessionActive} exitRequest={quizExitRequest} />;
-      case 'CREATE_CUSTOM_DECK':
-        return <CreateCustomDeck onBack={() => setCurrentPage('STUDY_DECKS')} editingDeckId={editingDeckId} showToast={showToast} />;
-      case 'FLASHCARDS':
-        return selectedDeckId ? (
-          <Flashcards
-            deckId={selectedDeckId}
-            settings={deckStudySettings}
-            onBack={() => setCurrentPage('STUDY_DECKS')}
-            onNavigateToMastery={() => setCurrentPage('MASTERY_PRACTICE')}
-          />
-        ) : null;
-      default:
-        return <StudyDecks onNavigateToCreate={() => { setEditingDeckId(null); setCurrentPage('CREATE_CUSTOM_DECK'); }} onNavigateToDeck={navigateToDeck} onEditDeck={handleEditDeck} />;
-    }
-  };
-
-    const isMinimalistMode = ['FLASHCARDS', 'CREATE_CUSTOM_DECK'].includes(currentPage);
-    const isLevelSelection = currentPage === 'LEVEL_SELECTION';
-  
-    return (
-      <AppProvider>
-        <>
-          {!isMinimalistMode && !isLevelSelection && (
-            <Header 
-              onNavigateToLevelSelection={() => setCurrentPage('LEVEL_SELECTION')}
-            />
-          )}
-          <div className={isLevelSelection ? 'level-selection-page' : isMinimalistMode ? 'minimalist-mode-container' : 'app-container'}>
-            <main className="main-content">
-              {!isMinimalistMode && !isLevelSelection && (
-                <div className="section-selector">
-                  <div className="section-nav-pill">
-                    <button
-                      className={`section-btn ${['STUDY_DECKS', 'FLASHCARDS', 'CREATE_CUSTOM_DECK'].includes(currentPage) ? 'active' : ''}`}
-                      onClick={() => setCurrentPage('STUDY_DECKS')}
-                    >
-                      Decks
-                    </button>
-                    <button
-                      className={`section-btn ${currentPage === 'QUIZ' ? 'active' : ''}`}
-                      onClick={navigateToQuiz}
-                    >
-                      Quiz
-                    </button>
-                    <button
-                      className={`section-btn ${currentPage === 'MASTERY_PRACTICE' ? 'active' : ''}`}
-                      onClick={() => setCurrentPage('MASTERY_PRACTICE')}
-                    >
-                      Practice
-                    </button>
-                  </div>
-                </div>
-              )}
-              {renderPage()}
-            </main>
-            {toast && <div className="toast-notification">{toast}</div>}
-            {isLevelSelection && <Footer />}
-          </div>
-          {['STUDY_DECKS', 'QUIZ', 'MASTERY_PRACTICE'].includes(currentPage) && (
-            <div className="mobile-nav-container">
-              {currentPage === 'STUDY_DECKS' && (
-                <button 
-                  className="mobile-create-fab"
-                  onClick={() => { setEditingDeckId(null); setCurrentPage('CREATE_CUSTOM_DECK'); }}
-                  aria-label="Create custom deck"
-                >
-                  <img src={icPlus} alt="" className="mobile-create-icon" />
-                </button>
-              )}
-              <div className="mobile-bottom-nav">
-                <button
-                  className={`mobile-nav-item ${['STUDY_DECKS', 'FLASHCARDS', 'CREATE_CUSTOM_DECK'].includes(currentPage) ? 'active' : ''}`}
-                  onClick={() => setCurrentPage('STUDY_DECKS')}
-                >
-                  <img src={icDecks} alt="Decks" className="mobile-nav-icon" />
-                  <span>Decks</span>
-                </button>
-                <button
-                  className={`mobile-nav-item ${currentPage === 'QUIZ' ? 'active' : ''}`}
-                  onClick={navigateToQuiz}
-                >
-                  <img src={icQuiz} alt="Quiz" className="mobile-nav-icon" />
-                  <span>Quiz</span>
-                </button>
-                <button
-                  className={`mobile-nav-item ${currentPage === 'MASTERY_PRACTICE' ? 'active' : ''}`}
-                  onClick={() => setCurrentPage('MASTERY_PRACTICE')}
-                >
-                  <img src={icPractice} alt="Practice" className="mobile-nav-icon" />
-                  <span>Practice</span>
-                </button>
-              </div>
+  return (
+    <ToastContext.Provider value={showToast}>
+      <Header onNavigateToLevelSelection={() => navigate('/level')} />
+      <div className="app-container">
+        <main className="main-content">
+          <div className="section-selector">
+            <div className="section-nav-pill">
+              <NavLink
+                to="/decks"
+                className={() => `section-btn${isDecksActive ? ' active' : ''}`}
+              >
+                Decks
+              </NavLink>
+              <NavLink
+                to="/quiz"
+                className={() => `section-btn${isQuizActive ? ' active' : ''}`}
+              >
+                Quiz
+              </NavLink>
+              <NavLink
+                to="/practice"
+                className={() => `section-btn${isPracticeActive ? ' active' : ''}`}
+              >
+                Practice
+              </NavLink>
             </div>
-          )}
-          {!isMinimalistMode && !isLevelSelection && <Footer />}
-        </>
-      </AppProvider>
-    );
-  };
+          </div>
+          {children}
+        </main>
+        {toast && <div className="toast-notification">{toast}</div>}
+        <Footer />
+      </div>
+      {/* Mobile bottom nav */}
+      <div className="mobile-nav-container">
+        {isDecksActive && location.pathname === '/decks' && (
+          <button
+            className="mobile-create-fab"
+            onClick={() => navigate('/decks/new')}
+            aria-label="Create custom deck"
+          >
+            <img src={icPlus} alt="" className="mobile-create-icon" />
+          </button>
+        )}
+        <div className="mobile-bottom-nav">
+          <button
+            className={`mobile-nav-item${isDecksActive ? ' active' : ''}`}
+            onClick={() => navigate('/decks')}
+          >
+            <img src={icDecks} alt="Decks" className="mobile-nav-icon" />
+            <span>Decks</span>
+          </button>
+          <button
+            className={`mobile-nav-item${isQuizActive ? ' active' : ''}`}
+            onClick={() => navigate('/quiz')}
+          >
+            <img src={icQuiz} alt="Quiz" className="mobile-nav-icon" />
+            <span>Quiz</span>
+          </button>
+          <button
+            className={`mobile-nav-item${isPracticeActive ? ' active' : ''}`}
+            onClick={() => navigate('/practice')}
+          >
+            <img src={icPractice} alt="Practice" className="mobile-nav-icon" />
+            <span>Practice</span>
+          </button>
+        </div>
+      </div>
+    </ToastContext.Provider>
+  );
+};
+
+// ─── Minimalist layout (no nav — used for flashcards & create deck) ──────────
+const MinimalistShell: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const [toast, setToast] = React.useState<string | null>(null);
+
+  const showToast = React.useCallback((message: string) => {
+    setToast(message);
+    setTimeout(() => setToast(null), 3000);
+  }, []);
+
+  return (
+    <ToastContext.Provider value={showToast}>
+      <div className="minimalist-mode-container">
+        <main className="main-content">
+          {children}
+        </main>
+        {toast && <div className="toast-notification">{toast}</div>}
+      </div>
+    </ToastContext.Provider>
+  );
+};
+
+// ─── Level selection layout ──────────────────────────────────────────────────
+const LevelShell: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+  <div className="level-selection-page">
+    <main className="main-content">{children}</main>
+    <Footer />
+  </div>
+);
+
+// ─── Root redirect: first-time users go to /level, returning users to /decks ─
+const RootRedirect: React.FC = () => {
+  const hasLevel = Boolean(localStorage.getItem('decki-current-level'));
+  return <Navigate to={hasLevel ? '/decks' : '/level'} replace />;
+};
+
+// ─── Route wrapper: reads :deckId and passes settings from router state ───────
+const FlashcardsRoute: React.FC = () => {
+  const { deckId } = useParams<{ deckId: string }>();
+  const location = useLocation();
+  const navigate = useNavigate();
+  const settings = (location.state as { settings?: unknown } | null)?.settings as Parameters<typeof Flashcards>[0]['settings'];
+
+  if (!deckId) return <Navigate to="/decks" replace />;
+
+  return (
+    <Flashcards
+      deckId={deckId}
+      settings={settings}
+      onBack={() => navigate('/decks')}
+      onNavigateToMastery={() => navigate('/practice')}
+    />
+  );
+};
+
+// ─── Route wrapper: reads :deckId for edit mode ───────────────────────────────
+const CreateCustomDeckEdit: React.FC = () => {
+  const { deckId } = useParams<{ deckId: string }>();
+  if (!deckId) return <Navigate to="/decks" replace />;
+  return <CreateCustomDeck editingDeckId={deckId} />;
+};
+
+// ─── App ─────────────────────────────────────────────────────────────────────
+const App: React.FC = () => (
+  <AppProvider>
+    <BrowserRouter basename="/decki.ai">
+      <Routes>
+        {/* Root — smart redirect */}
+        <Route path="/" element={<RootRedirect />} />
+
+        {/* Level selection — full-page layout */}
+        <Route
+          path="/level"
+          element={
+            <LevelShell>
+              <LevelSelection />
+            </LevelShell>
+          }
+        />
+
+        {/* Main app shell — shared header + section nav + footer */}
+        <Route
+          path="/decks"
+          element={
+            <Shell>
+              <StudyDecks />
+            </Shell>
+          }
+        />
+        <Route
+          path="/quiz"
+          element={
+            <Shell>
+              <Quiz />
+            </Shell>
+          }
+        />
+        <Route
+          path="/practice"
+          element={
+            <Shell>
+              <MasteryPractice />
+            </Shell>
+          }
+        />
+
+        {/* Minimalist shell — no header/nav */}
+        <Route
+          path="/decks/new"
+          element={
+            <MinimalistShell>
+              <CreateCustomDeck editingDeckId={null} />
+            </MinimalistShell>
+          }
+        />
+        <Route
+          path="/decks/:deckId/edit"
+          element={
+            <MinimalistShell>
+              <CreateCustomDeckEdit />
+            </MinimalistShell>
+          }
+        />
+        <Route
+          path="/decks/:deckId"
+          element={
+            <MinimalistShell>
+              <FlashcardsRoute />
+            </MinimalistShell>
+          }
+        />
+
+        {/* Quiz active session — minimalist layout */}
+        <Route
+          path="/quiz/session"
+          element={
+            <MinimalistShell>
+              <Quiz sessionMode />
+            </MinimalistShell>
+          }
+        />
+
+        {/* 404 catch-all */}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
+  </AppProvider>
+);
 
 export default App;

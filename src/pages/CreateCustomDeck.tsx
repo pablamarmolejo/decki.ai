@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useAppContext } from '../AppContext';
+import { useToast } from '../App';
 import type { Deck, Flashcard } from '../types';
 import leftArrow from '../assets/ic_round-keyboard-arrow-left.svg';
 import plusIcon from '../assets/ic_round-plus.svg';
@@ -7,9 +9,7 @@ import deleteIcon from '../assets/ic_round-delete-outline.svg';
 import dragIcon from '../assets/ic_round-drag-indicator.svg';
 
 interface CreateCustomDeckProps {
-  onBack: () => void;
   editingDeckId: string | null;
-  showToast: (message: string) => void;
 }
 
 interface ConfirmAction {
@@ -21,8 +21,10 @@ interface ConfirmAction {
   cancelText?: string;
 }
 
-const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeckId, showToast }) => {
+const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ editingDeckId }) => {
   const { currentLevel, addCustomDeck, updateCustomDeck, deleteDeck, decks } = useAppContext();
+  const navigate = useNavigate();
+  const showToast = useToast();
   const [deckName, setDeckName] = useState('');
   const [selectedWords, setSelectedWords] = useState<Flashcard[]>([]);
   const [confirmAction, setConfirmAction] = useState<ConfirmAction | null>(null);
@@ -244,7 +246,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
         cancelText: 'Leave anyways'
       });
     } else {
-      onBack();
+      navigate('/decks');
     }
   };
 
@@ -259,7 +261,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
     } else if (confirmAction.type === 'deck' && editingDeckId) {
       deleteDeck(editingDeckId);
       showToast('Deck deleted.');
-      onBack();
+      navigate('/decks');
       setConfirmAction(null);
     } else if (confirmAction.type === 'unsaved') {
       handleCreateOrUpdateDeck();
@@ -269,7 +271,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
 
   const handleCancelAction = (fromButton = false) => {
     if (confirmAction?.type === 'unsaved' && fromButton) {
-      onBack();
+      navigate('/decks');
     }
     setConfirmAction(null);
   };
@@ -307,7 +309,7 @@ const CreateCustomDeck: React.FC<CreateCustomDeckProps> = ({ onBack, editingDeck
       showToast('Deck created successfully!');
     }
     
-    onBack();
+    navigate('/decks');
   };
 
   const isSaveDisabled = !deckName.trim() || selectedWords.length === 0;

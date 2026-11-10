@@ -1,20 +1,18 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useAppContext } from '../AppContext';
 import type { Level } from '../types';
 import logoFull from '../assets/logo-full.svg';
 import logoMobile from '../assets/favicon.svg';
 
-interface LevelSelectionProps {
-  onLevelSelected: () => void;
-}
-
-const LevelSelection: React.FC<LevelSelectionProps> = ({ onLevelSelected }) => {
+const LevelSelection: React.FC = () => {
   const { currentLevel, setCurrentLevel } = useAppContext();
+  const navigate = useNavigate();
   const levels: Level[] = ['N5', 'N4', 'N3', 'N2', 'N1'];
 
   const handleLevelClick = (level: Level) => {
     setCurrentLevel(level);
-    onLevelSelected();
+    navigate('/decks');
   };
 
   return (
