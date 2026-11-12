@@ -4,13 +4,16 @@
     <meta charset="utf-8" />
     <title>decki.ai</title>
     <script>
-      // Single-Page App GitHub Pages redirect trick.
-      // Encodes the full path as a query param and redirects to index.html,
-      // which restores the route before the app starts.
+      // Keep GitHub Pages project-site routes under the repository base path.
+      // index.html restores this route before React Router starts.
       var l = window.location;
+      var base = '/decki.ai';
+      var route = l.pathname.startsWith(base + '/')
+        ? l.pathname.slice(base.length)
+        : '/';
       l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        '/?p=' + encodeURIComponent(l.pathname.replace(/^\/[^/]+/, '') + l.search + l.hash)
+        l.protocol + '//' + l.host + base + '/?p=' +
+        encodeURIComponent(route + l.search)
       );
     </script>
   </head>
